@@ -62,6 +62,15 @@ const Navbar = () => {
           </div>
         </div>
       </li>
+      <li>
+        <Link
+          href="/blog"
+          className="font-semibold px-5  cursor-pointer hover:bg-[#c52326] py-3 rounded-lg hover:text-[#fff] "
+        >
+          Blog
+        </Link>
+      </li>
+
       {/* <li>
         <Link
           href="/#testimonials"
@@ -88,7 +97,7 @@ const Navbar = () => {
           {menuItems}
         </ul>
         <button className=" bg-[#c52326] text-white px-12 py-3 rounded-lg shadow-lg shadow-red-500/50">
-          Contact us
+          <Link href={"/contactUs"}>Contact us</Link>
         </button>
 
         <button onClick={() => setOpen(!open)} className="block lg:hidden ">
@@ -101,8 +110,8 @@ const Navbar = () => {
       </nav>
 
       {open ? (
-        <div className="bg-[#666A7B] text-[#f4f7f2] rounded w-60   py-7 z-100 fixed">
-          <ul className=" lg:hidden flex flex-col items-start gap-5 ">
+        <div className="bg-[#191c20] text-[#fff] rounded w-full  text-center py-7 z-10  fixed">
+          <ul className=" lg:hidden flex flex-col items-center gap-5 ">
             {menuItems}
           </ul>
         </div>

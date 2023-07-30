@@ -45,12 +45,21 @@ export default function Services() {
     <>
       <div className="lg:px-16 px-4  py-20 bg-[#191c20]">
         {/* <h1>Our Service</h1> */}
-        <p className="lg:text-3xl text-[#c52326] text-2xl font-bold text-center py-1 ">
+        <div className="max-w-xl sm:text-center py-10 md:mx-auto">
+          <h3 className="text-[#c52326] text-3xl font-semibold sm:text-4xl ">
+            Our Services
+          </h3>
+          <p className="mt-3 text-white">
+            Whatever your game, we bring the ammo!
+          </p>
+        </div>
+
+        {/* <p className="lg:text-3xl text-[#c52326] text-2xl font-bold text-center py-1 ">
           OUR SERVICES
         </p>
         <p className="lg:text-2xl text-2xl border-b  text-center pb-3">
           INDIA&apos;S PREMIER GAMING PR & MARKETING CONSULTANCY
-        </p>
+        </p> */}
         <div className="grid gap-5 lg:grid-cols-5 pt-5">
           {posts.map((items, key) => (
             <div

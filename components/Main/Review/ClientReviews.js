@@ -1,34 +1,125 @@
-import React from 'react'
+import React from "react";
 
-    const testimonials = [
-      {
-        avatar: "https://api.uifaces.co/our-content/donated/xZ4wg2Xj.jpg",
-        name: "Martin escobar",
-        title: "Founder of meta",
-        quote:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et est hendrerit, porta nunc vitae.",
-      },
-      {
-        avatar: "https://randomuser.me/api/portraits/men/46.jpg",
-        name: "Simon andrew",
-        title: "Software engineer",
-        quote:
-          "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.",
-      },
-      {
-        avatar: "https://randomuser.me/api/portraits/men/86.jpg",
-        name: "Micheal worin",
-        title: "Product designer",
-        quote:
-          "There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain.",
-      },
-    ];
-const Testimonial = () => {
+const testimonials = [
+  {
+    avatar: "https://api.uifaces.co/our-content/donated/xZ4wg2Xj.jpg",
+    name: "Martin escobar",
+    title: "Founder of meta",
+    quote:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et est hendrerit, porta nunc vitae.",
+  },
+  {
+    avatar: "https://api.uifaces.co/our-content/donated/xZ4wg2Xj.jpg",
+    name: "Martin escobar",
+    title: "Founder of meta",
+    quote:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et est hendrerit, porta nunc vitae.",
+  },
+  {
+    avatar: "https://api.uifaces.co/our-content/donated/xZ4wg2Xj.jpg",
+    name: "Martin escobar",
+    title: "Founder of meta",
+    quote:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et est hendrerit, porta nunc vitae.",
+  },
+  {
+    avatar: "https://api.uifaces.co/our-content/donated/xZ4wg2Xj.jpg",
+    name: "Martin escobar",
+    title: "Founder of meta",
+    quote:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et est hendrerit, porta nunc vitae.",
+  },
+  {
+    avatar: "https://api.uifaces.co/our-content/donated/xZ4wg2Xj.jpg",
+    name: "Martin escobar",
+    title: "Founder of meta",
+    quote:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et est hendrerit, porta nunc vitae.",
+  },
+  {
+    avatar: "https://api.uifaces.co/our-content/donated/xZ4wg2Xj.jpg",
+    name: "Martin escobar",
+    title: "Founder of meta",
+    quote:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et est hendrerit, porta nunc vitae.",
+  },
+  {
+    avatar: "https://api.uifaces.co/our-content/donated/xZ4wg2Xj.jpg",
+    name: "Martin escobar",
+    title: "Founder of meta",
+    quote:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et est hendrerit, porta nunc vitae.",
+  },
+  {
+    avatar: "https://api.uifaces.co/our-content/donated/xZ4wg2Xj.jpg",
+    name: "Martin escobar",
+    title: "Founder of meta",
+    quote:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et est hendrerit, porta nunc vitae.",
+  },
+  {
+    avatar: "https://api.uifaces.co/our-content/donated/xZ4wg2Xj.jpg",
+    name: "Martin escobar",
+    title: "Founder of meta",
+    quote:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et est hendrerit, porta nunc vitae.",
+  },
+  {
+    avatar: "https://api.uifaces.co/our-content/donated/xZ4wg2Xj.jpg",
+    name: "Martin escobar",
+    title: "Founder of meta",
+    quote:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et est hendrerit, porta nunc vitae.",
+  },
+  {
+    avatar: "https://api.uifaces.co/our-content/donated/xZ4wg2Xj.jpg",
+    name: "Martin escobar",
+    title: "Founder of meta",
+    quote:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et est hendrerit, porta nunc vitae.",
+  },
+  {
+    avatar: "https://api.uifaces.co/our-content/donated/xZ4wg2Xj.jpg",
+    name: "Martin escobar",
+    title: "Founder of meta",
+    quote:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et est hendrerit, porta nunc vitae.",
+  },
+  {
+    avatar: "https://api.uifaces.co/our-content/donated/xZ4wg2Xj.jpg",
+    name: "Martin escobar",
+    title: "Founder of meta",
+    quote:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et est hendrerit, porta nunc vitae.",
+  },
+  {
+    avatar: "https://api.uifaces.co/our-content/donated/xZ4wg2Xj.jpg",
+    name: "Martin escobar",
+    title: "Founder of meta",
+    quote:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et est hendrerit, porta nunc vitae.",
+  },
+  {
+    avatar: "https://randomuser.me/api/portraits/men/46.jpg",
+    name: "Simon andrew",
+    title: "Software engineer",
+    quote:
+      "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.",
+  },
+  {
+    avatar: "https://randomuser.me/api/portraits/men/86.jpg",
+    name: "Micheal worin",
+    title: "Product designer",
+    quote:
+      "There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain.",
+  },
+];
+const Testimonials = () => {
   return (
     <section className="relative py-20 bg-[#14161a]">
       <div className="relative z-10 max-w-screen-xl mx-auto px-4 md:px-8">
         <div className="max-w-xl sm:text-center md:mx-auto">
-          <h3 className="text-[#c52326] text-3xl font-semibold sm:text-4xl">
+          <h3 className="text-white text-3xl font-semibold sm:text-4xl">
             Hear from our customers
           </h3>
           <p className="mt-3 text-white">
@@ -79,20 +170,20 @@ const Testimonial = () => {
             ))}
           </ul>
         </div>
-              <div className='text-center'>
-                  
-              <button className='text-[#c52326] bg-white rounded-lg px-4 py-3 mt-10'>Readmore Review</button>
-      </div>
+        <div className="text-center">
+          <button className="text-[#fff] bg-[#c52326] rounded-lg px-4 py-3 mt-10">
+            Readmore Review
+          </button>
+        </div>
       </div>
       <div
         className="absolute top-0 w-full h-[350px]"
         style={{
-          background:
-            "linear-gradient(152.92deg, rgba(192, 132, 252, 0.2) 4.54%, rgba(232, 121, 249, 0.17) 34.2%, rgba(192, 132, 252, 0.1) 77.55%)",
+          backgroundColor: "#c52326",
         }}
       ></div>
     </section>
   );
-}
+};
 
-export default Testimonial
+export default Testimonials;

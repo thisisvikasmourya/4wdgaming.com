@@ -1,16 +1,16 @@
 import React from 'react'
 import Image from "next/image";
-import client1 from "../../public/images/client2.png";
-import client2 from "../../public/images/Add-a-heading-15.png";
-import client3 from "../../public/images/Add-a-heading-13-1.png";
-import client4 from "../../public/images/halaplay-1.png";
-import client5 from "../../public/images/evenbet.png";
-import client6 from "../../public/images/sportskeeda.png";
-import client7 from "../../public/images/Untitled-design-88.png";
-import client8 from "../../public/images/Untitled-design-93.png";
-import client9 from "../../public/images/Yudiz-Solutions-Limited-Logo.png";
-import client10 from "../../public/images/wcc.png";
-import client11 from "../../public/images/trinity.png";
+import client1 from "../../../public/images/client2.png";
+import client2 from "../../../public/images/Add-a-heading-15.png";
+// import client3 from "../../public/images/Add-a-heading-13-1.png";
+import client4 from "../../../public/images/halaplay-1.png";
+import client5 from "../../../public/images/evenbet.png";
+import client6 from "../../../public/images/sportskeeda.png";
+import client7 from "../../../public/images/Untitled-design-88.png";
+import client8 from "../../../public/images/Untitled-design-93.png";
+import client9 from "../../../public/images/Yudiz-Solutions-Limited-Logo.png";
+import client10 from "../../../public/images/wcc.png";
+import client11 from "../../../public/images/trinity.png";
 
 const ClientReview = () => {
   return (
