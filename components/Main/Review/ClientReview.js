@@ -15,7 +15,7 @@ import client11 from "../../../public/images/trinity.png";
 const ClientReview = () => {
   return (
     <div>
-      <div className="py-20 bg-[#14161a]">
+      <div className="py-20 bg-[#14161a] " id="client" data-aos="zoom-in">
         <div className="max-w-screen-xl mx-auto px-4 md:px-8">
           <div className="max-w-xl mx-auto text-center">
             <h3 className="text-[#c52326] text-3xl font-semibold sm:text-4xl">
@@ -31,42 +31,84 @@ const ClientReview = () => {
             <ul className="inline-grid grid-cols-2 gap-x-10 gap-y-6 md:gap-x-16 md:grid-cols-3 lg:grid-cols-4">
               {/* LOGO 1 */}
               <li>
-                <Image src={client1} alt="client1" width={200} height={100} />
+                <Image
+                  src={client1}
+                  alt="client1"
+                  className="rounded-lg"
+                  width={200}
+                  height={100}
+                />
               </li>
 
               {/* LOGO 2 */}
               <li>
-                <Image src={client2} alt="client1" width={200} height={100} />
+                <Image
+                  src={client2}
+                  className="rounded-lg"
+                  alt="client1"
+                  width={200}
+                  height={100}
+                />
               </li>
 
               {/* LOGO 3 */}
-              <li>
+              <li className="bg-white rounded-lg">
                 <Image src={client10} alt="client1" width={200} height={100} />
               </li>
 
               {/* LOGO 4 */}
-              <li>
-                <Image src={client4} alt="client1" width={200} height={100} />
+              <li className="bg-white">
+                <Image
+                  src={client4}
+                  alt="client1"
+                  className="rounded-lg"
+                  width={200}
+                  height={100}
+                />
               </li>
 
               {/* LOGO 5 */}
               <li>
-                <Image src={client5} alt="client1" width={200} height={100} />
+                <Image
+                  src={client5}
+                  alt="client1"
+                  className="rounded-lg"
+                  width={200}
+                  height={100}
+                />
               </li>
 
               {/* LOGO 6 */}
               <li>
-                <Image src={client6} alt="client1" width={200} height={100} />
+                <Image
+                  src={client6}
+                  alt="client1"
+                  className="rounded-lg"
+                  width={200}
+                  height={100}
+                />
               </li>
 
               {/* LOGO 7 */}
               <li>
-                <Image src={client7} alt="client1" width={200} height={100} />
+                <Image
+                  src={client7}
+                  alt="client1"
+                  className="rounded-lg"
+                  width={200}
+                  height={100}
+                />
               </li>
 
               {/* LOGO 8 */}
               <li>
-                <Image src={client8} alt="client1" width={200} height={100} />
+                <Image
+                  src={client8}
+                  alt="client1"
+                  className="rounded-lg"
+                  width={200}
+                  height={100}
+                />
               </li>
             </ul>
           </div>

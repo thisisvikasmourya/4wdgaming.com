@@ -26,7 +26,7 @@ import React from 'react'
     ];
 const Testimonial = () => {
   return (
-    <section className="relative py-20 bg-[#14161a]">
+    <section className="relative py-20 bg-[#14161a]" data-aos="zoom-in">
       <div className="relative z-10 max-w-screen-xl mx-auto px-4 md:px-8">
         <div className="max-w-xl sm:text-center md:mx-auto">
           <h3 className="text-white text-3xl font-semibold sm:text-4xl">
@@ -82,9 +82,7 @@ const Testimonial = () => {
         </div>
         <div className="text-center">
           <button className="text-[#fff] bg-[#c52326] rounded-lg px-4 py-3 mt-10">
-            <Link href={ "/clientReview" }>
-            Readmore Review
-            </Link>
+            <Link href={"/clientReview"}>Readmore Review</Link>
           </button>
         </div>
       </div>

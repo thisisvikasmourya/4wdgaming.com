@@ -43,10 +43,13 @@ export default function Services() {
   ];
   return (
     <>
-      <div className="lg:px-16 px-4  py-20 bg-[#191c20]">
+      <div className="lg:px-16 px-4  py-20 bg-[#191c20]" data-aos="zoom-in">
         {/* <h1>Our Service</h1> */}
         <div className="max-w-xl sm:text-center py-10 md:mx-auto">
-          <h3 className="text-[#c52326] text-3xl font-semibold sm:text-4xl ">
+          <h3
+            className="text-[#c52326] text-3xl font-semibold sm:text-4xl "
+            data-aos="flip-up"
+          >
             Our Services
           </h3>
           <p className="mt-3 text-white">
@@ -63,7 +66,7 @@ export default function Services() {
         <div className="grid gap-5 lg:grid-cols-5 pt-5">
           {posts.map((items, key) => (
             <div
-              className="w-full rounded-lg shadow-md lg:max-w-sm bg-[#1a1a1a]"
+              className="w-full rounded-lg shadow-md lg:max-w-sm bg-[#1a1a1a] hover:bg-[#191c20]"
               key={key}
             >
               <Image
@@ -75,9 +78,11 @@ export default function Services() {
                 <h4 className="text-xl font-semibold text-[#c52326]">
                   {items.title}
                 </h4>
-                <p className="mb-2 leading-normal">{items.content}</p>
+                <p className="mb-2 leading-normal text-[16px]">
+                  {items.content}
+                </p>
                 <Link
-                  className="px-4 py-2 text-sm text-blue-100 bg-[#c52326] rounded shadow"
+                  className="px-4 py-2 text-sm text-blue-100 bg-[#c52326]  rounded shadow"
                   href={items.link}
                 >
                   Read more

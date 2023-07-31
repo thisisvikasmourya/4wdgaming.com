@@ -6,6 +6,7 @@ import logo from "../../public/images/Logo.png";
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
+  
 
   const menuItems = (
     <>
@@ -55,9 +56,9 @@ const Navbar = () => {
         <div className="dropdown">
           <button className="dropbtn">Our Work</button>
           <div className="dropdown-content">
-            <a href="#">Advisory Council Members</a>
+            <a href={"/advisory-council-members"}>Advisory Council Members</a>
             <a href="#">Case Studies</a>
-            <a href="#">Clients</a>
+            <a href={"#client"}>Clients</a>
             <a href="#">4WD Gaming in News</a>
           </div>
         </div>

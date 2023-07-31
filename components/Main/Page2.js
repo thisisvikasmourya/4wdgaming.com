@@ -2,7 +2,7 @@ import React from "react";
 
 const Page2 = () => {
   return (
-    <div className="lg:px-4 px-1 	bg-[#191c20] " id="page2">
+    <div className="lg:px-4 px-1 	bg-[#191c20] " id="page2" data-aos="zoom-in">
       <div className="lg:px-32 sm:px-2 bg-[#17191d] rounded-lg py-20  ">
         {/* <h1 className="text-center tracking-wider">WE ENVISION WITH A MISSION</h1> */}
         <p className="lg:text-3xl text-[#c52326] text-2xl font-bold text-center py-1 ">
