@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import React, { useState } from "react";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
+import { RiMenu4Line } from "react-icons/ri";
 import logo from "../../public/images/Logo.png";
 
 const Navbar = () => {
@@ -92,22 +93,24 @@ const Navbar = () => {
         id="home"
       >
         {/* <h2 className="text-2xl font-bold cursor-pointer">DentFirst</h2> */}
-        <Image src={logo} alt={"this is logo"} width={100} height={50} />
+        <Image src={logo} alt={"this is logo"} width={80} height={50} />
 
         <ul className="hidden lg:flex  lg:flex-row items-center gap-4 ">
           {menuItems}
         </ul>
-        <button className=" bg-[#c52326] text-white px-12 py-3 rounded-lg shadow-lg shadow-red-500/50">
-          <Link href={"/contactUs"}>Contact us</Link>
-        </button>
-
-        <button onClick={() => setOpen(!open)} className="block lg:hidden ">
-          {!open ? (
-            <AiOutlineMenu className="text-3xl" />
-          ) : (
-            <AiOutlineClose className="text-3xl" />
-          )}
-        </button>
+        <div className="flex">
+          <button className=" bg-[#c52326] text-white px-5 py-3 rounded-lg shadow-lg shadow-red-500/50">
+            <Link href={"/contactUs"}>Contact us</Link>
+          </button>
+          &nbsp;
+          <button onClick={() => setOpen(!open)} className="block lg:hidden ">
+            {!open ? (
+              <RiMenu4Line className="text-3xl" />
+            ) : (
+              <AiOutlineClose className="text-3xl" />
+            )}
+          </button>
+        </div>
       </nav>
 
       {open ? (

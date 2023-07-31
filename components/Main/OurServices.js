@@ -47,7 +47,7 @@ export default function Services() {
         {/* <h1>Our Service</h1> */}
         <div className="max-w-xl sm:text-center py-10 md:mx-auto">
           <h3
-            className="text-[#c52326] text-3xl font-semibold sm:text-4xl "
+            className="text-[#c52326] text-3xl font-semibold sm:text-4xl text-center "
             data-aos="flip-up"
           >
             Our Services
@@ -67,6 +67,8 @@ export default function Services() {
           {posts.map((items, key) => (
             <div
               className="w-full rounded-lg shadow-md lg:max-w-sm bg-[#1a1a1a] hover:bg-[#191c20]"
+              data-aos="fade-up"
+              data-aos-duration="2000"
               key={key}
             >
               <Image
