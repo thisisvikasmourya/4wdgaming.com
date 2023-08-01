@@ -3,7 +3,7 @@ import Link from "next/link";
 import React, { useState } from "react";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 import { RiMenu4Line } from "react-icons/ri";
-import logo from "../../public/images/Logo.png";
+import logo from "../../public/images/4WD.png";
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
@@ -15,7 +15,7 @@ const Navbar = () => {
         <Link
           href="/"
           onClick={() => setOpen(!open)}
-          className="font-semibold px-5  cursor-pointer hover:bg-[#c52326] py-3 rounded-lg hover:text-[#fff] "
+          className=" px-5  cursor-pointer hover:bg-[#c52326] py-3 rounded-lg hover:text-[#fff] "
         >
           Home
         </Link>
@@ -68,7 +68,7 @@ const Navbar = () => {
       <li>
         <Link
           href="/blog"
-          className="font-semibold px-5  cursor-pointer hover:bg-[#c52326] py-3 rounded-lg hover:text-[#fff] "
+          className=" px-5  cursor-pointer hover:bg-[#c52326] py-3 rounded-lg hover:text-[#fff] "
         >
           Blog
         </Link>
@@ -77,7 +77,7 @@ const Navbar = () => {
       {/* <li>
         <Link
           href="/#testimonials"
-          className="font-semibold px-5 py-3.5 cursor-pointer hover:text-[#fff] hover:bg-[#c52326]"
+          className=" px-5 py-3.5 cursor-pointer hover:text-[#fff] hover:bg-[#c52326]"
         >
           Contact Us
         </Link>
@@ -93,8 +93,10 @@ const Navbar = () => {
         className=" flex items-center justify-between py-6 lg:px-20 px-4 bg-[#191c20]"
         id="home"
       >
-        {/* <h2 className="text-2xl font-bold cursor-pointer">DentFirst</h2> */}
+        {/* <h2 className="text-2xl font-bold cursor-pointer">DentFirst</h2> */ }
+        <Link href={"/"}>
         <Image src={logo} alt={"this is logo"} width={80} height={50} />
+        </Link>
 
         <ul className="hidden lg:flex  lg:flex-row items-center gap-4 ">
           {menuItems}

@@ -1,9 +1,18 @@
 import React from "react";
-
+import bg from '../../public/images/mmm.png'
 const Page2 = () => {
   return (
-    <div className="lg:px-4 px-1 	bg-[#191c20] " id="page2">
-      <div className="lg:px-32 sm:px-2 bg-[#17191d] rounded-lg py-20  ">
+    <div
+      className="lg:px-4 px-1 bg-[#17191d] "
+      id="page2"
+      // style={{
+      //   backgroundImage: `url(${ bg.src })`,
+      //   backgroundSize:"cover",
+      //   width: "100%",
+      //   height: "100%",
+      // }}
+    >
+      <div className="lg:px-32 sm:px-2  rounded-lg py-20  bg-[#14161a] ">
         {/* <h1 className="text-center tracking-wider">WE ENVISION WITH A MISSION</h1> */}
         <p className="lg:text-3xl text-[#c52326] text-2xl font-bold text-center py-1 ">
           WELCOME TO 4WD GAMING:
@@ -15,10 +24,7 @@ const Page2 = () => {
           {/* Whatever your game, we bring the ammo! */}
         </p>
         <div className="grid lg:grid-cols-3 grid-cols-1 gap-4 p-4 py-10 ">
-          <div
-            className="p-4 pr-8    text-[16px]"
-            data-aos="zoom-in"
-          >
+          <div className="p-4 pr-8    text-[16px]" data-aos="zoom-in">
             Years of experience in the Indian gaming space with Sharmilee Daru
             PR give us an early mover advantage. It’s the kind of advantage your
             brand should make the most of. Like in a game of Age of Empires, we

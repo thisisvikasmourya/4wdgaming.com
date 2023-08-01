@@ -27,7 +27,7 @@ import React from 'react'
     ];
 const Testimonial = () => {
   return (
-    <section className="relative py-20 bg-[#14161a]" data-aos="zoom-in">
+    <section className="relative py-20 bg-[#17191d]" data-aos="zoom-in">
       <div className="relative z-10 max-w-screen-xl mx-auto px-4 md:px-8">
         <div className="max-w-xl sm:text-center md:mx-auto">
           <h3 className="text-white text-3xl font-semibold sm:text-4xl">
@@ -42,7 +42,10 @@ const Testimonial = () => {
         <div className="mt-12">
           <ul className="grid items-center gap-6 sm:grid-cols-2 lg:grid-cols-3">
             {testimonials.map((item, idx) => (
-              <li key={idx} className="bg-white rounded-xl border shadow-md">
+              <li
+                key={idx}
+                className="bg-[#47494d] rounded-xl border shadow-md"
+              >
                 <div className="p-4">
                   <svg
                     className="w-9 h-9 text-gray-300"
@@ -58,7 +61,7 @@ const Testimonial = () => {
                 </div>
                 <figure>
                   <blockquote>
-                    <p className="text-gray-800 text-lg font-semibold px-4 py-1">
+                    <p className="text-white text-lg font-semibold px-4 py-1">
                       {item.quote}
                     </p>
                   </blockquote>

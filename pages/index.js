@@ -11,6 +11,7 @@ import Services from "@/components/Main/OurServices";
 import ClientReview from "@/components/Main/Review/ClientReview";
 // import Clients from "@/components/Main/Clients";
 import Testimonial from "@/components/Main/Review/Testimonial";
+import AdvisoryCouncil from "@/components/Main/AdvisoryCouncil";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -31,7 +32,8 @@ export default function Home() {
         <Testimonial/>
         {/* <HomeDefault /> */ }
         <ClientReview/>
-        {/* <Clients/> */}
+        {/* <Clients/> */ }
+        <AdvisoryCouncil/>
       </main>
     </>
   );

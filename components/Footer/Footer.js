@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from "../../public/images/Logo.png";
+import logo from "../../public/images/4wdlogo.jpg";
 import Image from 'next/image';
 // import {AiOutlineInstagram} from "react-icons/ai"
 import {
@@ -109,10 +109,10 @@ const Footer = () =>
               </div>
             </form> */}
           </div>
-          <div className="flex-1 mt-10 space-y-6 items-center justify-between sm:flex md:space-y-0 md:mt-0">
+          <div className="flex-1 mt-10 space-y-6  justify-between sm:flex md:space-y-0 md:mt-0">
             {footerNavs.map((item, idx) => (
               <ul className="space-y-4" key={idx}>
-                <h4 className="text-[#c52326] font-medium">{item.label}</h4>
+                <h2 className="text-[#c52326] text-[#18px] font-bold">{item.label}</h2>
                 {item.items.map((el, idx) => (
                   <li key={idx}>
                     <a

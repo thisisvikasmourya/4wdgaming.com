@@ -16,7 +16,13 @@ const CaseStudy = () => {
 
       <div className="flex lg:flex-row flex-col gap-6 p-4 py-16 lg:px-32 px-4 bg-[#191C20]">
         <div>
-          <Image src={About} alt="hello" width={500} height={500} />
+          <Image
+            src={About}
+            alt="hello"
+            width={500}
+            height={500}
+            className="rounded-lg"
+          />
         </div>
         <div>
           <p className="py-1 text-xl text-[#c52326]">
@@ -69,7 +75,13 @@ const CaseStudy = () => {
       </div>
       <div className="flex lg:flex-row flex-col gap-6 p-4 py-16 lg:px-32 px-4 bg-[#191C20]">
         <div>
-          <Image src={About3} alt="hello" width={500} height={500} />
+          <Image
+            src={About3}
+            alt="hello"
+            width={500}
+            height={500}
+            className="rounded-lg"
+          />
         </div>
         <div>
           <p className="py-1 text-xl text-[#c52326]">Yudiz Solutions Ltd</p>
@@ -105,7 +117,13 @@ const CaseStudy = () => {
       </div>
       <div className="flex lg:flex-row flex-col gap-6 p-4 py-16 lg:px-32 px-4 bg-[#191C20]">
         <div>
-          <Image src={About4} alt="hello" width={500} height={500} />
+          <Image
+            src={About4}
+            alt="hello"
+            width={500}
+            height={500}
+            className="rounded-lg"
+          />
         </div>
         <div>
           <p className="py-1 text-xl text-[#c52326] ">
@@ -164,7 +182,13 @@ const CaseStudy = () => {
       </div>
       <div className="flex lg:flex-row flex-col gap-6 p-4 py-16 lg:px-32 px-4 bg-[#191C20]">
         <div>
-          <Image src={About2} alt="hello" width={500} height={500} />
+          <Image
+            src={About2}
+            alt="hello"
+            width={500}
+            height={500}
+            className="rounded-lg"
+          />
         </div>
         <div>
           <p className="py-1 text-xl text-[#c52326]">

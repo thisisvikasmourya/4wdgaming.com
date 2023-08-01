@@ -6,6 +6,7 @@ import cont from "../../public/images/content.jpg";
 import str from "../../public/images/0x0.jpg";
 import Image from "next/image";
 import Link from "next/link";
+import {HiArrowLongRight} from "react-icons/hi"
 
 export default function Services() {
   const posts = [
@@ -43,7 +44,7 @@ export default function Services() {
   ];
   return (
     <>
-      <div className="lg:px-16 px-4  py-20 bg-[#191c20]" data-aos="zoom-in">
+      <div className="lg:px-16 px-4  py-20 bg-[#17191d]" data-aos="zoom-in">
         {/* <h1>Our Service</h1> */}
         <div className="max-w-xl sm:text-center py-10 md:mx-auto">
           <h3
@@ -52,7 +53,7 @@ export default function Services() {
           >
             Our Services
           </h3>
-          <p className="mt-3 text-white">
+          <p className="mt-3 text-white text-center">
             Whatever your game, we bring the ammo!
           </p>
         </div>
@@ -66,13 +67,12 @@ export default function Services() {
         <div className="grid gap-5 lg:grid-cols-5 pt-5">
           {posts.map((items, key) => (
             <div
-              className="w-full rounded-lg shadow-md lg:max-w-sm bg-[#1a1a1a] hover:bg-[#191c20]"
-              data-aos="fade-up"
+              className="w-full rounded-lg shadow-md lg:max-w-sm bg-[#14161a] "
               data-aos-duration="2000"
               key={key}
             >
               <Image
-                className="object-cover w-full h-48"
+                className="object-cover w-full rounded-lg h-48"
                 src={items.img}
                 alt="image"
               />
@@ -84,10 +84,10 @@ export default function Services() {
                   {items.content}
                 </p>
                 <Link
-                  className="px-4 py-2 text-sm text-blue-100 bg-[#c52326]  rounded shadow"
+                  className=" text-sm text-blue-100  rounded shadow underline-offset-4"
                   href={items.link}
                 >
-                  Read more
+                  Read more...
                 </Link>
               </div>
             </div>

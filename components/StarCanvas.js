@@ -85,7 +85,7 @@ export default function StarsCanvas() {
       <canvas ref={canvasRef} id="stars" />
       <div className="center-text ">
         <div className="text-center py-32">
-          <h1 className="lg:text-6xl md:text-6xl text-5xl font-bold ">
+          <h1 className="lg:text-6xl md:text-6xl text-5xl font-bold hover:text-[#c52326]">
             <Typewriter
               options={{
                 strings: [
@@ -113,7 +113,7 @@ export default function StarsCanvas() {
               }}
             />
           </h1>
-          <h2 className="text-2xl py-8">
+          <h2 className="text-2xl py-8 hover:text-[#c52326]">
             Whatever your game, we bring the ammo!
           </h2>
           <button>

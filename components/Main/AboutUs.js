@@ -16,7 +16,7 @@ const AboutUs = () => {
         width={200}
         height={200}
       /> */}
-      <div className="grid lg:grid-cols-2 grid-cols-1 gap-4 p-4  bg-[#191C20] py-10 lg:px-32 px-4">
+      <div className="grid lg:grid-cols-2 grid-cols-1 gap-6 p-4  bg-[#191C20] py-10 lg:px-32 px-4">
         <div>
           <p className="text-[#c52326] font-semibold text-lg">
             We’re brand builders

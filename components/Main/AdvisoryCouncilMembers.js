@@ -14,7 +14,7 @@ const AdvisoryCouncilMembers = () => {
 
           <div className="grid lg:grid-cols-2 grid-cols-1 gap-6 p-4 py-10 lg:px-32 px-4 bg-[#191C20] justify-center">
             <div>
-              <Image src={jay} alt="hello" />
+              <Image src={jay} alt="hello" className="rounded-lg" />
             </div>
 
             <div>
@@ -37,7 +37,7 @@ const AdvisoryCouncilMembers = () => {
           </div>
           <div className="grid lg:grid-cols-2 grid-cols-1 gap-4 p-4 py-10 lg:px-32 px-4 bg-[#191C20] ">
             <div>
-              <Image src={vamsi} alt="hello" />
+              <Image src={vamsi} alt="hello" className="rounded-lg" />
             </div>
 
             <div>

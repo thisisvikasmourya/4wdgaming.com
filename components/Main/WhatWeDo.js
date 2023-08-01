@@ -14,7 +14,7 @@ const WhatWeDo = () => {
 
           <div className="grid lg:grid-cols-2 grid-cols-1 gap-4 p-4 py-10 lg:px-32 px-4 bg-[#191C20]">
             <div>
-              <Image src={About1} alt="hello" />
+              <Image src={About1} alt="hello" className="rounded-lg" />
             </div>
 
             <div>
@@ -56,7 +56,7 @@ const WhatWeDo = () => {
 
           <div className="grid lg:grid-cols-2 grid-cols-1 gap-4 p-4 py-10 lg:px-32 px-4 bg-[#191C20]">
             <div>
-              <Image src={About2} alt="hello" />
+              <Image src={About2} alt="hello" className="rounded-lg" />
             </div>
 
             <div>

@@ -13,7 +13,7 @@ const CreatorsandInfluencers = () => {
 
       <div className="grid lg:grid-cols-2 grid-cols-1 gap-6 p-4 py-16 lg:px-32 px-4 bg-[#191C20]">
         <div>
-          <Image src={About} alt="hello" layout="" />
+          <Image src={About} alt="hello" layout="" className="rounded-lg" />
         </div>
         <p>
           Content is king! We work with some of the top gaming content creators
