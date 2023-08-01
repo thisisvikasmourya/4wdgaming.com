@@ -4,24 +4,25 @@ import React from 'react'
     const testimonials = [
       {
         avatar: "https://api.uifaces.co/our-content/donated/xZ4wg2Xj.jpg",
-        name: "Martin escobar",
-        title: "Founder of meta",
+        name: "Nitish Mittersain - MD and Founder",
+        title: "Nazara Technologies Ltd.",
         quote:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et est hendrerit, porta nunc vitae.",
+          "The right communication has been key to Nazara’s continuous success. SD built up Nazara’s PR and communication from ground up. They have helped create the company’s current perception, and hence are instrumental to Nazara’s growth story.",
       },
       {
-        avatar: "https://randomuser.me/api/portraits/men/46.jpg",
-        name: "Simon andrew",
-        title: "Software engineer",
+        avatar: "https://api.uifaces.co/our-content/donated/xZ4wg2Xj.jpg",
+        name: "Jaya Chahar - Founder & CEO, JCDC Sports Pvt. Ltd. Deepak Chahar - Co-Founder & Brand Ambassador",
+        title: "Trade Fantasy Gaming (TFG)",
         quote:
-          "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.",
+          "Our objective for the launch was to create awareness for TFG to be seen as a serious business in the business circles as well as the cricketer community. We successfully achieved this and much more awareness with the right messaging through PR. ",
       },
+
       {
-        avatar: "https://randomuser.me/api/portraits/men/86.jpg",
-        name: "Micheal worin",
-        title: "Product designer",
+        avatar: "https://api.uifaces.co/our-content/donated/xZ4wg2Xj.jpg",
+        name: "Gregory Gettinger - Founder & CEO",
+        title: "VR Motion Learning GmbH & Co KG",
         quote:
-          "There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain.",
+          "We had a wonderful overall experience: The team is professional, responsive, on-time and understands the requirements of international markets. We fully recommend this agency",
       },
     ];
 const Testimonial = () => {

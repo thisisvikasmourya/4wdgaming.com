@@ -3,115 +3,76 @@ import React from "react";
 const testimonials = [
   {
     avatar: "https://api.uifaces.co/our-content/donated/xZ4wg2Xj.jpg",
-    name: "Martin escobar",
-    title: "Founder of meta",
+    name: "Nitish Mittersain - MD and Founder",
+    title: "Nazara Technologies Ltd.",
     quote:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et est hendrerit, porta nunc vitae.",
+      "The right communication has been key to Nazara’s continuous success. SD built up Nazara’s PR and communication from ground up. They have helped create the company’s current perception, and hence are instrumental to Nazara’s growth story.",
   },
   {
     avatar: "https://api.uifaces.co/our-content/donated/xZ4wg2Xj.jpg",
-    name: "Martin escobar",
-    title: "Founder of meta",
+    name: "Jaya Chahar - Founder & CEO, JCDC Sports Pvt. Ltd. Deepak Chahar - Co-Founder & Brand Ambassador",
+    title: "Trade Fantasy Gaming (TFG)",
     quote:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et est hendrerit, porta nunc vitae.",
+      "Our objective for the launch was to create awareness for TFG to be seen as a serious business in the business circles as well as the cricketer community. We successfully achieved this and much more awareness with the right messaging through PR. ",
+  },
+
+  {
+    avatar: "https://api.uifaces.co/our-content/donated/xZ4wg2Xj.jpg",
+    name: "Gregory Gettinger - Founder & CEO",
+    title: "VR Motion Learning GmbH & Co KG",
+    quote:
+      "We had a wonderful overall experience: The team is professional, responsive, on-time and understands the requirements of international markets. We fully recommend this agency",
+  },
+
+  {
+    avatar: "https://api.uifaces.co/our-content/donated/xZ4wg2Xj.jpg",
+    name: "Ekaterina Giganova - Head of PR and Events",
+    title: "EvenBet Gaming",
+    quote:
+      "We have received an incomparable online media reach promoting our new gaming offer for Asia with the help of 4WD Gaming. I appreciate prompt communication at every stage, attention to detail, and an eye for the best publishing opportunities that Sharmilee’s team has demonstrated while working on our project. Thanks to their work, we were able to deliver a clear offer message and improve our image as one of the leading gaming software vendors in India.",
   },
   {
     avatar: "https://api.uifaces.co/our-content/donated/xZ4wg2Xj.jpg",
-    name: "Martin escobar",
-    title: "Founder of meta",
+    name: "Arvind Sivdas - Co-Founder and CEO",
+    title: "Supercric",
     quote:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et est hendrerit, porta nunc vitae.",
+      "We worked with 4WD & Sharmilee for the launch of a new product, and they handled the entire activity like absolute ‘Task Masters’. They made the launch happen, despite the disparate individuals they needed to work with, including a foreign investor, the company and the product while bearing in mind perspectives of each party respectively. They always stand firm and deliver, come what may. From managing client requirements to getting in alignment within the team,.....",
+  },
+  //  they always aim to deliver a valuable brand. Working with the 4WD team is an absolute pleasure. They understand the requirement, if required iterate multiple times till the messaging is clear before taking it to the market. We think of 4WD as strategic partners with very sharp execution ability.
+  {
+    avatar: "https://api.uifaces.co/our-content/donated/xZ4wg2Xj.jpg",
+    name: "Abhishek Aggarwal - Co-Founder & CEO",
+    title: "Trinity Gaming India",
+    quote:
+      "As a young agency, we were unfamiliar with PR and the kind of media support we would need for the brand. While it took a little time to navigate the space, we are glad to have managed to gain recognition as key industry players. 4WD Gaming has provided continuous guidance, coaching and brand direction to our management, enabling Trinity Gaming to emerge as forerunners in the industry through regular features in top media, speakership opportunities, and awards.",
   },
   {
     avatar: "https://api.uifaces.co/our-content/donated/xZ4wg2Xj.jpg",
-    name: "Martin escobar",
-    title: "Founder of meta",
+    name: "Manish Agarwal - CEO",
+    title: "Nazara Technologies Ltd.",
     quote:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et est hendrerit, porta nunc vitae.",
+      "At Nazara Technologies, we wanted to build our communication and brand messaging at a time when gaming as an industry was at a very nascent stage in terms of media buzz and subsequent coverage. However, drawing from Sharmilee Daru's rich experience, precise communication strategies and execution, they navigated the space with absolute finesse and created the exact perception for a gaming brand we wanted. Their work in the gaming PR space is not only pioneering for Nazara, but the industry as a whole.",
   },
   {
     avatar: "https://api.uifaces.co/our-content/donated/xZ4wg2Xj.jpg",
-    name: "Martin escobar",
-    title: "Founder of meta",
+    name: "Pontus Lemberg - Director and Co-Founder",
+    title: "Nordanvind Investments Limited",
     quote:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et est hendrerit, porta nunc vitae.",
+      "The Indian media space was absolutely new to us when we launched our flagship product in the country. 4WD Gaming's understanding of the space, strategic planning, aggressive outreach and on-point execution helped us navigate the space seamlessly. The trust we put in them resulted in the brand’s successful launch and its surge to an unexpected level, given SD’s good strategic direction.",
   },
   {
     avatar: "https://api.uifaces.co/our-content/donated/xZ4wg2Xj.jpg",
-    name: "Martin escobar",
-    title: "Founder of meta",
+    name: "Manoj Thakur - Managing Partner",
+    title: "Hornbill Capital Advisers LLP",
     quote:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et est hendrerit, porta nunc vitae.",
+      "I met Sharmilee when we invested in Nazara Technologies in early 2021.found Sharmilee and her team to be very professional and responsive. Theymanaged the entire PR process around the investment extremely efficiently.Not only was the press coverage extensive but also the television coverage on a leading TV channel was impactful. Sharmilee is quite an expert in public relations and handling media effectively. She thinks strategically and helps you position the company or product in the right manner.",
   },
   {
     avatar: "https://api.uifaces.co/our-content/donated/xZ4wg2Xj.jpg",
-    name: "Martin escobar",
-    title: "Founder of meta",
+    name: "P.R. Rajendran - Co-founder and CEO",
+    title: "Next Wave Multimedia Pvt. Ltd.",
     quote:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et est hendrerit, porta nunc vitae.",
-  },
-  {
-    avatar: "https://api.uifaces.co/our-content/donated/xZ4wg2Xj.jpg",
-    name: "Martin escobar",
-    title: "Founder of meta",
-    quote:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et est hendrerit, porta nunc vitae.",
-  },
-  {
-    avatar: "https://api.uifaces.co/our-content/donated/xZ4wg2Xj.jpg",
-    name: "Martin escobar",
-    title: "Founder of meta",
-    quote:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et est hendrerit, porta nunc vitae.",
-  },
-  {
-    avatar: "https://api.uifaces.co/our-content/donated/xZ4wg2Xj.jpg",
-    name: "Martin escobar",
-    title: "Founder of meta",
-    quote:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et est hendrerit, porta nunc vitae.",
-  },
-  {
-    avatar: "https://api.uifaces.co/our-content/donated/xZ4wg2Xj.jpg",
-    name: "Martin escobar",
-    title: "Founder of meta",
-    quote:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et est hendrerit, porta nunc vitae.",
-  },
-  {
-    avatar: "https://api.uifaces.co/our-content/donated/xZ4wg2Xj.jpg",
-    name: "Martin escobar",
-    title: "Founder of meta",
-    quote:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et est hendrerit, porta nunc vitae.",
-  },
-  {
-    avatar: "https://api.uifaces.co/our-content/donated/xZ4wg2Xj.jpg",
-    name: "Martin escobar",
-    title: "Founder of meta",
-    quote:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et est hendrerit, porta nunc vitae.",
-  },
-  {
-    avatar: "https://api.uifaces.co/our-content/donated/xZ4wg2Xj.jpg",
-    name: "Martin escobar",
-    title: "Founder of meta",
-    quote:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et est hendrerit, porta nunc vitae.",
-  },
-  {
-    avatar: "https://randomuser.me/api/portraits/men/46.jpg",
-    name: "Simon andrew",
-    title: "Software engineer",
-    quote:
-      "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.",
-  },
-  {
-    avatar: "https://randomuser.me/api/portraits/men/86.jpg",
-    name: "Micheal worin",
-    title: "Product designer",
-    quote:
-      "There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain.",
+      "SD’s consistent communication ensured the brand got its due identity as the leading mobile cricket game in the world.",
   },
 ];
 const Testimonials = () => {
@@ -171,9 +132,9 @@ const Testimonials = () => {
           </ul>
         </div>
         <div className="text-center">
-          <button className="text-[#fff] bg-[#c52326] rounded-lg px-4 py-3 mt-10">
+          {/* <button className="text-[#fff] bg-[#c52326] rounded-lg px-4 py-3 mt-10">
             Readmore Review
-          </button>
+          </button> */}
         </div>
       </div>
       <div

@@ -58,7 +58,7 @@ const Navbar = () => {
           <button className="dropbtn">Our Work</button>
           <div className="dropdown-content">
             <a href={"/advisory-council-members"}>Advisory Council Members</a>
-            <a href="#">Case Studies</a>
+            <a href={ "/case-study" }>Case Studies</a>
             <a href={"#client"}>Clients</a>
             <a href="#">4WD Gaming in News</a>
           </div>
@@ -114,7 +114,7 @@ const Navbar = () => {
       </nav>
 
       {open ? (
-        <div className="bg-[#191c20] text-[#fff] rounded w-full  text-center py-7 z-10  fixed">
+        <div className="bg-[#191c20] text-[#fff] rounded w-full   py-7 z-10  fixed">
           <ul className=" lg:hidden flex flex-col items-center gap-5 ">
             {menuItems}
           </ul>
