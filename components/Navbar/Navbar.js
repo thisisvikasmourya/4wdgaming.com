@@ -14,6 +14,7 @@ const Navbar = () => {
       <li>
         <Link
           href="/"
+          onClick={() => setOpen(!open)}
           className="font-semibold px-5  cursor-pointer hover:bg-[#c52326] py-3 rounded-lg hover:text-[#fff] "
         >
           Home
@@ -21,8 +22,8 @@ const Navbar = () => {
       </li>
 
       <li>
-        <div className="dropdown">
-          <button className="dropbtn">About Us</button>
+        <div className="dropdown" >
+          <button className="dropbtn" >About Us</button>
           <div className="dropdown-content">
             <Link href="/about-us">About Company</Link>
             <Link href="/about-founder">About the Founder</Link>
@@ -58,7 +59,7 @@ const Navbar = () => {
           <button className="dropbtn">Our Work</button>
           <div className="dropdown-content">
             <a href={"/advisory-council-members"}>Advisory Council Members</a>
-            <a href={ "/case-study" }>Case Studies</a>
+            <a href={"/case-study"}>Case Studies</a>
             <a href={"#client"}>Clients</a>
             <a href="#">4WD Gaming in News</a>
           </div>
