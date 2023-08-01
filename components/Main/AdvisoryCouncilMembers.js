@@ -6,14 +6,22 @@ const AdvisoryCouncilMembers = () => {
     return (
       <>
         <div>
-          <div className="grid lg:grid-cols-2 grid-cols-1 gap-4 p-4 py-10">
+          <div className="content bg-[#17191d] py-16 lg:px-32 px-4">
+            <h1 className=" outline text-center lg:text-9xl md:text-6xl text-4xl text-[#fff] outline-4 font-semibold">
+              Advisory Council Members
+            </h1>
+          </div>
+
+          <div className="grid lg:grid-cols-2 grid-cols-1 gap-6 p-4 py-10 lg:px-32 px-4 bg-[#191C20] justify-center">
             <div>
               <Image src={jay} alt="hello" />
             </div>
 
             <div>
-              <p> Jay Sayta</p>
-              <p>Technology and gaming lawyer in India</p>
+              <p className="text-[#c52326] text-xl "> Jay Sayta</p>
+              <p className="text-[#c52326] text-xl ">
+                Technology and gaming lawyer in India
+              </p>
               <p>
                 Jay Sayta is a technology and gaming lawyer in India. He is well
                 known in the media fraternity and is an expert on gaming laws.
@@ -27,14 +35,16 @@ const AdvisoryCouncilMembers = () => {
               </p>
             </div>
           </div>
-          <div className="grid lg:grid-cols-2 grid-cols-1 gap-4 p-4 py-10">
+          <div className="grid lg:grid-cols-2 grid-cols-1 gap-4 p-4 py-10 lg:px-32 px-4 bg-[#191C20] ">
             <div>
               <Image src={vamsi} alt="hello" />
             </div>
 
             <div>
-              <p>Vamsi Talasila</p>
-              <p>Gaming Technology and Digital Marketing</p>
+              <p className="text-[#c52326] text-xl ">Vamsi Talasila</p>
+              <p className="text-[#c52326] text-xl">
+                Gaming Technology and Digital Marketing
+              </p>
               <p>
                 Vamsi Talasila is a veteran and dynamic technology leader with
                 two decades of experience in building technology for gaming,

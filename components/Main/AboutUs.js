@@ -3,10 +3,10 @@ import React from "react";
 import About from "../../public/images/4wdlogo.jpg";
 const AboutUs = () => {
   return (
-    <div className="lg:px-32 px-4 ">
-      <div className="content">
+    <div className="">
+      <div className="content bg-[#17191d] py-16 lg:px-32 px-4">
         <h1 className=" outline text-center lg:text-9xl md:text-6xl text-4xl text-[#fff] outline-4 font-semibold">
-         About 4WD Gaming
+          About 4WD Gaming
         </h1>
       </div>
       {/* <Image
@@ -16,7 +16,7 @@ const AboutUs = () => {
         width={200}
         height={200}
       /> */}
-      <div>
+      <div className="grid lg:grid-cols-2 grid-cols-1 gap-4 p-4  bg-[#191C20] py-10 lg:px-32 px-4">
         <div>
           <p className="text-[#c52326] font-semibold text-lg">
             We’re brand builders

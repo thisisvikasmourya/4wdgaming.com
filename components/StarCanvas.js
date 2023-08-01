@@ -1,5 +1,6 @@
 import { useEffect, useRef } from "react";
 import {BsArrowDownCircle} from "react-icons/bs"
+import Typewriter from "typewriter-effect";
 
 export default function StarsCanvas() {
   const canvasRef = useRef();
@@ -82,11 +83,29 @@ export default function StarsCanvas() {
   return (
     <>
       <canvas ref={canvasRef} id="stars" />
-      <div className="center-text px-20">
+      <div className="center-text ">
         <div className="text-center py-32">
-          <h1 className="lg:text-8xl md:text-6xl text-5xl font-bold ">
-            Creating the <br />{" "}
-            <span className="font-normal text-[#c52326] ">future</span> of Web
+          <h1 className="lg:text-6xl md:text-6xl text-5xl font-bold ">
+            <Typewriter
+              options={{
+                strings: ["Public Relations","Strategy & Marketing","Content & CopyWriting","Creators & Influencers","Digital Gaming Events"],
+                autoStart: true,
+                loop: true, // Set the loop option to true for infinite repeating
+                deleteSpeed: 200, // Adjust the delete speed
+              }}
+              onInit={(typewriter) => {
+                typewriter
+                  .callFunction(() => {
+                    console.log("String typed out!");
+                  })
+                  .pauseFor(1000)
+                  .deleteAll()
+                  .callFunction(() => {
+                    console.log("All strings were deleted");
+                  })
+                  .start();
+              }}
+            />
           </h1>
           <h2 className="text-2xl py-8">
             Helping businesses go online and grow biggerwith high-techweb
@@ -126,7 +145,7 @@ export default function StarsCanvas() {
           bottom: 5%;
           left: 50%;
           transform: translateX(-50%);
-          width: 150px;
+          width: 0px;
           color: white;
           font-family: sans-serif;
           text-align: right;

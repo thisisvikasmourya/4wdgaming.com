@@ -6,8 +6,13 @@ const WhatWeDo = () => {
     return (
       <>
         <div>
-          <h1>What We Do</h1>
-          <div className="grid lg:grid-cols-2 grid-cols-1 gap-4 p-4 py-10">
+          <div className="content bg-[#17191d] py-16 lg:px-32 px-4">
+            <h1 className=" outline text-center lg:text-9xl md:text-6xl text-4xl text-[#fff] outline-4 font-semibold">
+              What We Do
+            </h1>
+          </div>
+
+          <div className="grid lg:grid-cols-2 grid-cols-1 gap-4 p-4 py-10 lg:px-32 px-4 bg-[#191C20]">
             <div>
               <Image src={About1} alt="hello" />
             </div>
@@ -43,8 +48,13 @@ const WhatWeDo = () => {
           </div>
         </div>
         <div>
-          <h1>How We Do</h1>
-          <div className="grid lg:grid-cols-2 grid-cols-1 gap-4 p-4 py-10">
+          <div className="content bg-[#17191d] py-16 lg:px-32 px-4 ">
+            <h1 className=" outline text-center lg:text-9xl md:text-6xl text-4xl text-[#fff] outline-4 font-semibold">
+              How We Do It
+            </h1>
+          </div>
+
+          <div className="grid lg:grid-cols-2 grid-cols-1 gap-4 p-4 py-10 lg:px-32 px-4 bg-[#191C20]">
             <div>
               <Image src={About2} alt="hello" />
             </div>
@@ -74,7 +84,6 @@ const WhatWeDo = () => {
                 This approach’s success is well reflected in our clientele and
                 their success stories, to which we have been instrumental.
               </p>
-             
             </div>
           </div>
         </div>

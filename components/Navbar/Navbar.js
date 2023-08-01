@@ -40,7 +40,7 @@ const Navbar = () => {
             <Link href="/services/strategy-and-marketing">
               Strategy And Marketing
             </Link>
-            <Link href="/services/content-and-copywriting">
+            <Link href="/services/content-and-writing">
               Content and Copywriting
             </Link>
             <Link href="/services/public-relations">Public Relations</Link>

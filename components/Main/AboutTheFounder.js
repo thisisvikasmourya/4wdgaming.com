@@ -6,10 +6,14 @@ import About from "../../public/images/owner.jpg";
 const AboutTheFounder = () => {
   return (
     <div>
-      <h1>About The Founder</h1>
-      <div className="grid lg:grid-cols-2 grid-cols-1 gap-4 p-4 py-10">
+      <div className="content bg-[#17191d] py-16 lg:px-32 px-4">
+        <h1 className=" outline text-center lg:text-9xl md:text-6xl text-4xl text-[#fff] outline-4 font-semibold">
+          About the Founder
+        </h1>
+      </div>
+      <div className="grid lg:grid-cols-2 grid-cols-1 gap-6 p-4 py-10 lg:px-32 px-4 bg-[#191C20]">
         <div>
-          <Image src={About} alt="hello" />
+          <Image src={About} alt="hello" layout=''  />
         </div>
 
         <div>
@@ -33,7 +37,7 @@ const AboutTheFounder = () => {
           </p>
         </div>
       </div>
-      <div>
+      <div className="py-10 lg:px-32 px-4 bg-[#191C20]">
         <p>
           Managing the communication mandate for Nazara Technologies Ltd.
           somehow, allowed Sharmilee Daru to set the path for the gaming PR

@@ -4,8 +4,7 @@ import React from "react";
 const digitalgamingevents = () => {
   return (
     <div>
-          <h1>Hello i am there </h1>
-          <DigitalGamingEvents/>
+      <DigitalGamingEvents />
     </div>
   );
 };
