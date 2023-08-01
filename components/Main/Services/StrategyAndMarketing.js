@@ -17,23 +17,30 @@ const StrategyAndMarketing = () => {
         </div>
 
         <p>
-          At 4WD Gaming, we’re specialists. We don’t just do just media and PR,
-          we’re great at it! We have direct access to leading journalists and
-          influencers in India and across the world. We make sure your message
-          is heard – exactly what you want to say, turn it into exactly what
-          your target audience wants to hear. To achieve this, we will also
-          conduct media training which ensures that the communications with the
-          media persons are clear and no information is shared which can
-          jeopardize the business. Selecting the right media outlets,
-          journalists are just the tip of the iceberg. Results are shown via the
-          quality stories, interviews, opinionated articles by the company. With
-          a strong foothold in the gaming media space, we believe no
-          communication is complete without the appropriate strategy. Apart from
-          strategizing media content, the other ways of building thought
-          leadership will be via conferences, webinars and conclave, awards, and
-          recognition. From corporate communication service offerings to brand
-          building and perception and reputation management to crisis
-          communication. We do it all.
+          Like in any game, at 4WD, we believe in strategizing. We work with
+          gamers to figure out your goals and build you a strategy. We like to
+          plan complete, customized campaigns that will give you great results.
+          If you want to win, take us on your team.
+        </p>
+        <p>
+          Additionally, we are differentiating ourselves from others as we will
+          assist and advise the promoters on business strategy and
+          communication-related plans and programs basis current developments.
+          We will work closely with the company and management to understand the
+          needs and objectives basis positioning to create the desired brand
+          perception in turn enabling us to implement and achieve brand
+          recognition in the crowded market.
+        </p>
+        <p>
+          Devising a PR strategy for the brand to understand company direction,
+          approach, and outreach so as to create long-term recall, is the first
+          step. On the basis of that, we understand the targeted cohort and then
+          select the channels and messages which need to be disseminated.
+        </p>
+        <p>
+          Apart from strategizing, we manage all functions of digital marketing.
+          Including Social Media Marketing (SMM), SEO, SEM, analytics,
+          performance marketing. We take care of it all!
         </p>
       </div>
     </div>

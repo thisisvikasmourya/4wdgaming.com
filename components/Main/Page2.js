@@ -12,11 +12,11 @@ const Page2 = () => {
           INDIA&apos;S PREMIER GAMING PR & MARKETING CONSULTANCY
         </p>
         <p className="lg:text-3xl text-2xl font-semibold text-center border-b border-gray-300 pb-5 ">
-          Whatever your game, we bring the ammo!
+          {/* Whatever your game, we bring the ammo! */}
         </p>
         <div className="grid lg:grid-cols-3 grid-cols-1 gap-4 p-4 py-10 ">
           <div
-            className="p-4 pr-8   border-gray-500 text-[16px]"
+            className="p-4 pr-8    text-[16px]"
             data-aos="zoom-in"
           >
             Years of experience in the Indian gaming space with Sharmilee Daru
@@ -26,7 +26,7 @@ const Page2 = () => {
             The experience that came with it is unparalleled.
           </div>
           <div
-            className="p-4 pl-8 border-l border-gray-500 text-[16px]"
+            className="p-4 pl-8  border-gray-500 text-[16px]"
             data-aos="zoom-in"
           >
             We’re specialists, we’ve left our markers all over the Indian gaming
@@ -34,7 +34,7 @@ const Page2 = () => {
             consultants, who know how to lead trends while setting our own.
           </div>
           <div
-            className="p-4 pl-8 border-l border-gray-500 text-[16px]"
+            className="p-4 pl-8  border-gray-500 text-[16px]"
             data-aos="zoom-in"
           >
             We love to build brands and we love our brands – if anything

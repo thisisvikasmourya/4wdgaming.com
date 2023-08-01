@@ -88,7 +88,13 @@ export default function StarsCanvas() {
           <h1 className="lg:text-6xl md:text-6xl text-5xl font-bold ">
             <Typewriter
               options={{
-                strings: ["Public Relations","Strategy & Marketing","Content & CopyWriting","Creators & Influencers","Digital Gaming Events"],
+                strings: [
+                  "Public Relations",
+                  "Strategy & Marketing",
+                  "Content & CopyWriting",
+                  "Creators & Influencers",
+                  "Digital Gaming Events",
+                ],
                 autoStart: true,
                 loop: true, // Set the loop option to true for infinite repeating
                 deleteSpeed: 200, // Adjust the delete speed
@@ -108,8 +114,7 @@ export default function StarsCanvas() {
             />
           </h1>
           <h2 className="text-2xl py-8">
-            Helping businesses go online and grow biggerwith high-techweb
-            applications.
+            Whatever your game, we bring the ammo!
           </h2>
           <button>
             <a className="text-5xl text-[#fff] animatedd " href="#page2">

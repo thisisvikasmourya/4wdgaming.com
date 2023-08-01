@@ -92,8 +92,7 @@ const Footer = () =>
             <div className="max-w-xs">
               <Image src={logo} alt="Logo" className="w-32" />
               <p className="leading-relaxed mt-2 text-[15px] text-white">
-                Lorem Ipsum has been the industrys standard dummy text ever
-                since the 1500s.
+                LET&apos;S BRING TOMORROW CLOSER
               </p>
             </div>
             {/* <form onSubmit={(e) => e.preventDefault()}>
@@ -130,7 +129,7 @@ const Footer = () =>
         </div>
         <div className="mt-8 py-6 border-t items-center justify-between sm:flex">
           <div className="mt-4 sm:mt-0">
-            &copy; 2023 4wdGaming.com  All rights reserved.
+            &copy; Sharmilee Daru 2023. All Rights Reserved .
           </div>
           <div className="mt-6 sm:mt-0">
             <ul className="flex items-center space-x-4">
