@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from "../../public/images/4wdlogo.jpg";
+import logo from "../../public/images/4WD.png";
 import Image from 'next/image';
 // import {AiOutlineInstagram} from "react-icons/ai"
 import {
@@ -16,15 +16,15 @@ const Footer = () =>
           label: "About Us",
           items: [
             {
-              href: "javascript:void()",
+              href: "/about-founder",
               name: "About the Founder",
             },
             {
-              href: "javascript:void()",
+              href: "/about-us",
               name: "About Company",
             },
             {
-              href: "javascript:void()",
+              href: "/what-we-do-and-how-we-do",
               name: "What We Do & How We Do It",
             },
             {
@@ -37,43 +37,42 @@ const Footer = () =>
           label: "Case Study",
           items: [
             {
-              href: "javascript:void()",
+              href: "/case-study",
               name: "Nazara Technologies",
             },
             {
-              href: "javascript:void()",
+              href: "/case-study",
               name: "World Cricket ChampionShip",
             },
-          
+
             {
-              href: "javascript:void()",
+              href: "/case-study",
               name: "World Cricket ChampionShip",
             },
-          
+
             {
-              href: "javascript:void()",
+              href: "/case-study",
               name: "World Cricket ChampionShip",
             },
-          
           ],
         },
         {
           label: "Services",
           items: [
             {
-              href: "javascript:void()",
+              href: "/services/public-relations",
               name: "Public Relations",
             },
             {
-              href: "javascript:void()",
+              href: "/services/strategy-and-marketing",
               name: "Strategy & Marketing",
             },
             {
-              href: "javascript:void()",
+              href: "content-and-writing",
               name: "Content & CopyWriting",
             },
             {
-              href: "javascript:void()",
+              href: "",
               name: "Creator & Influencers",
             },
             {

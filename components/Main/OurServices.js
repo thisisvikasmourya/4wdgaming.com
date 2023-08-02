@@ -41,6 +41,37 @@ export default function Services() {
       content: "Your events will be the talk of the gaming community",
       link: "/services/public-relations",
     },
+    {
+      title: "Strategy and Marketing",
+      img: str,
+      content: "Like in any game, at 4WD, we believe in strategizing.",
+      link: "/services/public-relations",
+    },
+    {
+      title: "Public Relations",
+      img: Pr,
+      content: "At 4WD Gaming, we're PR and gaming specialists",
+      link: "/services/public-relations",
+    },
+    {
+      title: "Content and Copywriting",
+      img: cont,
+      content: "Like in gaming, we prefer to create a world for you.",
+      link: "/services/public-relations",
+    },
+    {
+      title: "Creators and Influencers",
+      img: web,
+      content: "We work with some of the top gaming content creators and ...",
+      link: "/services/public-relations",
+    },
+
+    {
+      title: "Digital Gaming Events",
+      img: esp,
+      content: "Your events will be the talk of the gaming community",
+      link: "/services/public-relations",
+    },
   ];
   return (
     <>

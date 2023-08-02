@@ -22,8 +22,8 @@ const Navbar = () => {
       </li>
 
       <li>
-        <div className="dropdown" >
-          <button className="dropbtn" >About Us</button>
+        <div className="dropdown">
+          <button className="dropbtn">About Us</button>
           <div className="dropdown-content">
             <Link href="/about-us">About Company</Link>
             <Link href="/about-founder">About the Founder</Link>
@@ -35,22 +35,41 @@ const Navbar = () => {
         </div>
       </li>
       <li>
-        <div className="dropdown">
+        <div className="dropdown ">
           <button className="dropbtn">Services</button>
           <div className="dropdown-content">
-            <Link href="/services/strategy-and-marketing">
-              Strategy And Marketing
-            </Link>
-            <Link href="/services/content-and-writing">
-              Content and Copywriting
-            </Link>
-            <Link href="/services/public-relations">Public Relations</Link>
-            <Link href="/services/digital-gaming-events">
-              Digital Gaming Events
-            </Link>
-            <Link href="/services/creator-and-influencers">
-              Creators and Influencers
-            </Link>
+            <div>
+              <Link href="/services/strategy-and-marketing">
+                Strategy And Marketing
+              </Link>
+              <Link href="/services/content-and-writing">
+                Content and Copywriting
+              </Link>
+              <Link href="/services/public-relations">Public Relations</Link>
+              <Link href="/services/digital-gaming-events">
+                Digital Gaming Events
+              </Link>
+              <Link href="/services/creator-and-influencers">
+                Creators and Influencers
+              </Link>
+            </div>
+            <div>
+              <Link href="/services/crisis-communication">
+                Crisis Communication
+              </Link>
+              <Link href="/services/data-driven-pr-insight">
+                Data Driven PR-Insights
+              </Link>
+              <Link href="/services/esports-tournament-organization">
+                Esports Tournament Organization
+              </Link>
+              <Link href="/services/gaming-product-launches">
+                Gaming Product Launches
+              </Link>
+              <Link href="/services/international-pr-expansion">
+                International PrExpansion
+              </Link>
+            </div>
           </div>
         </div>
       </li>

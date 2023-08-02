@@ -1,5 +1,5 @@
 import { useEffect, useRef } from "react";
-import {BsArrowDownCircle} from "react-icons/bs"
+import { BsArrowDownCircle } from "react-icons/bs";
 import Typewriter from "typewriter-effect";
 
 export default function StarsCanvas() {
@@ -85,15 +85,22 @@ export default function StarsCanvas() {
       <canvas ref={canvasRef} id="stars" />
       <div className="center-text ">
         <div className="text-center py-32">
-          <h1 className="lg:text-6xl md:text-6xl text-5xl font-bold hover:text-[#c52326]">
+          <h1 className="lg:text-6xl md:text-6xl text-5xl font-bold hover:text-[#] mb-4">
+            4WD GAMING
+          </h1>
+          {/* <h1 className="lg:text-4xl md:text-3xl text-5xl font-bold hover:text-[#]"></h1> */}
+          <h1 className="lg:text-6xl md:text-6xl text-5xl font-bold text-[#c52326] py-4">
             <Typewriter
               options={{
                 strings: [
-                  "Public Relations",
-                  "Strategy & Marketing",
-                  "Content & CopyWriting",
-                  "Creators & Influencers",
-                  "Digital Gaming Events",
+                  // "Public Relations",
+                  // "Strategy & Marketing",
+                  // "Content & CopyWriting",
+                  // "Creators & Influencers",
+                  // "Digital Gaming Events",
+                  "Gaming PR",
+                  "Web3 Gaming PR",
+                  "Esports PR Consultancy",
                 ],
                 autoStart: true,
                 loop: true, // Set the loop option to true for infinite repeating

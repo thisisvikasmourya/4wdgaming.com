@@ -1,18 +1,20 @@
 import React from "react";
-import bg from '../../public/images/mmm.png'
+import bg from '../../public/images/bgg.jpg'
+// import ClientScroll from "./Review/ClientScroll";
 const Page2 = () => {
   return (
     <div
-      className="lg:px-4 px-1 bg-[#17191d] "
+      className="lg:px-4 px-1 bg-[#191c20] "
       id="page2"
       // style={{
-      //   backgroundImage: `url(${ bg.src })`,
-      //   backgroundSize:"cover",
+      //   backgroundImage: `url(${bg.src})`,
+      //   backgroundSize: "cover",
       //   width: "100%",
       //   height: "100%",
       // }}
     >
-      <div className="lg:px-32 sm:px-2  rounded-lg py-20  bg-[#14161a] ">
+      {/* <ClientScroll/> */}
+      <div className="lg:px-32 sm:px-2  rounded-lg py-20 bg-[#191c20]  ">
         {/* <h1 className="text-center tracking-wider">WE ENVISION WITH A MISSION</h1> */}
         <p className="lg:text-3xl text-[#c52326] text-2xl font-bold text-center py-1 ">
           WELCOME TO 4WD GAMING:
@@ -23,30 +25,43 @@ const Page2 = () => {
         <p className="lg:text-3xl text-2xl font-semibold text-center border-b border-gray-300 pb-5 ">
           {/* Whatever your game, we bring the ammo! */}
         </p>
-        <div className="grid lg:grid-cols-3 grid-cols-1 gap-4 p-4 py-10 ">
-          <div className="p-4 pr-8    text-[16px]" data-aos="zoom-in">
-            Years of experience in the Indian gaming space with Sharmilee Daru
-            PR give us an early mover advantage. It’s the kind of advantage your
-            brand should make the most of. Like in a game of Age of Empires, we
-            helped to cultivate and nurture the barren land of gaming in India.
-            The experience that came with it is unparalleled.
+        <div className="grid lg:grid-cols-2 grid-cols-1 gap-4 p-4 py-10 ">
+          <div className="p-4    text-[16px]" data-aos="zoom-in">
+            <p className="text-[#c52326] font-semibold text-lg">
+              We’re brand builders
+            </p>
+            At 4WD GAMING, we are more than just a gaming PR agency. We are
+            brand builders who understand the power of a strong brand in
+            attracting organic media and PR. Our approach is simple but
+            effective - we sit with you, plan, consult, and watch the magic
+            happen! Listening to our clients and prioritizing ethics guide our
+            every move. Working with us gives you an undeniable advantage, like
+            using a secret code to gain a helicopter in a medieval battle. Our
+            strength lies in our ability to listen and solve your challenges.
           </div>
-          <div
+          {/* <div
             className="p-4 pl-8  border-gray-500 text-[16px]"
             data-aos="zoom-in"
           >
             We’re specialists, we’ve left our markers all over the Indian gaming
             space as if it were a PUBG map. We’re trendsetters. The kind of
             consultants, who know how to lead trends while setting our own.
-          </div>
+          </div> */}
           <div
-            className="p-4 pl-8  border-gray-500 text-[16px]"
+            className="p-4   border-gray-500 text-[16px]"
             data-aos="zoom-in"
           >
-            We love to build brands and we love our brands – if anything
-            unfounded is said about you, we’ll jump in with you and bring the
-            ammo. Bring us your problems and sit with us for some free initial
-            suggestions and coffee!
+            <p className="text-[#c52326] font-semibold text-lg">
+              We’re pioneers
+            </p>
+            We take pride in being pioneers in the gaming space. As the first
+            ones here, we carved the path for the gaming PR ecosystem in India.
+            Our journey as early adopters and proponents of gaming PR has
+            witnessed the industry&apos;s evolution, from skill-based real money
+            gaming to Web3 and blockchain gaming. We are part of every
+            conversation that shapes the gaming landscape, fully understanding
+            the niche, dynamic, and continuously evolving gaming industry of
+            India.{" "}
           </div>
         </div>
       </div>

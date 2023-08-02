@@ -1,14 +1,13 @@
-import ContentandCopywriting from "@/components/Main/Services/ContentandCopywriting";
-import React from "react";
+import React from 'react'
 import Head from "next/head";
-
-const contentandwriting = () => {
+import EsportsTournament from '@/components/Main/Services/EsportsTournament';
+const esportstournamentorganization = () => {
   return (
     <div>
       <Head>
         <title>
           {" "}
-          Content and Copywriting - Engage Your Audience with Compelling Stories
+          Esports Tournament Organization - Level Up Your Gaming Events
         </title>
         <meta
           name="description"
@@ -17,9 +16,9 @@ const contentandwriting = () => {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <ContentandCopywriting />
+      <EsportsTournament />
     </div>
   );
-};
+}
 
-export default contentandwriting;
+export default esportstournamentorganization

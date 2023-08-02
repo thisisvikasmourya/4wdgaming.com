@@ -8,10 +8,11 @@ import Page2 from "@/components/Main/Page2";
 import Services from "@/components/Main/OurServices";
 // import OurClients from "@/components/Main/OurClient";
 // import Testimonial from "@/components/Main/testimonial";
-import ClientReview from "@/components/Main/Review/ClientReview";
+// import ClientReview from "@/components/Main/Review/ClientReview";
 // import Clients from "@/components/Main/Clients";
 import Testimonial from "@/components/Main/Review/Testimonial";
 import AdvisoryCouncil from "@/components/Main/AdvisoryCouncil";
+import ClientScroll from "@/components/Main/Review/ClientScroll";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -25,15 +26,16 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <StarsCanvas/>
+        <StarsCanvas />
+        <ClientScroll/>
         <Page2 />
         <Services />
         {/* <OurClients /> */}
         <Testimonial/>
         {/* <HomeDefault /> */ }
-        <ClientReview/>
+        {/* <ClientReview/> */}
         {/* <Clients/> */ }
-        <AdvisoryCouncil/>
+        {/* <AdvisoryCouncil/> */}
       </main>
     </>
   );

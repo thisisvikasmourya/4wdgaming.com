@@ -1,14 +1,14 @@
-import ContentandCopywriting from "@/components/Main/Services/ContentandCopywriting";
-import React from "react";
+import React from 'react'
 import Head from "next/head";
-
-const contentandwriting = () => {
+import DataDrivenPrInsights from '@/components/Main/Services/DataDrivenPrInsights';
+const datadrivenprinsight = () => {
   return (
     <div>
       <Head>
         <title>
           {" "}
-          Content and Copywriting - Engage Your Audience with Compelling Stories
+          Data-driven PR Insights - Unlocking the Power of Analytics in Gaming
+          PR{" "}
         </title>
         <meta
           name="description"
@@ -17,9 +17,9 @@ const contentandwriting = () => {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <ContentandCopywriting />
+      <DataDrivenPrInsights />
     </div>
   );
-};
+}
 
-export default contentandwriting;
+export default datadrivenprinsight

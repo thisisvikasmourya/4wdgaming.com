@@ -1,14 +1,15 @@
-import ContentandCopywriting from "@/components/Main/Services/ContentandCopywriting";
-import React from "react";
+import React from 'react'
 import Head from "next/head";
+import InternationalPrExpansion from '@/components/Main/Services/InternationalPrExpansion';
 
-const contentandwriting = () => {
+const internationalprexpansion = () => {
   return (
     <div>
       <Head>
         <title>
           {" "}
-          Content and Copywriting - Engage Your Audience with Compelling Stories
+          International PR Expansion - Unlocking Global Opportunities for Gaming
+          Brands
         </title>
         <meta
           name="description"
@@ -17,9 +18,9 @@ const contentandwriting = () => {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <ContentandCopywriting />
+      <InternationalPrExpansion />
     </div>
   );
-};
+}
 
-export default contentandwriting;
+export default internationalprexpansion

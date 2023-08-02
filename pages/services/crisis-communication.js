@@ -1,8 +1,7 @@
-import ContentandCopywriting from "@/components/Main/Services/ContentandCopywriting";
-import React from "react";
+import React from 'react'
 import Head from "next/head";
-
-const contentandwriting = () => {
+import CrisisCommunication from '@/components/Main/Services/CrisisCommunication';
+const crisiscommunication = () => {
   return (
     <div>
       <Head>
@@ -16,10 +15,10 @@ const contentandwriting = () => {
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
-      </Head>
-      <ContentandCopywriting />
+          </Head>
+          <CrisisCommunication/>
     </div>
   );
-};
+}
 
-export default contentandwriting;
+export default crisiscommunication
