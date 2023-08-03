@@ -37,22 +37,22 @@ const Footer = () =>
           label: "Case Study",
           items: [
             {
-              href: "/case-study",
+              href: "/case-study/nazara",
               name: "Nazara Technologies",
             },
             {
-              href: "/case-study",
+              href: "/case-study/wcc",
               name: "World Cricket ChampionShip",
             },
 
             {
-              href: "/case-study",
-              name: "World Cricket ChampionShip",
+              href: "/case-study/yudiz",
+              name: "Yudiz solutions",
             },
 
             {
-              href: "/case-study",
-              name: "World Cricket ChampionShip",
+              href: "/case-study/tfg",
+              name: "Trade fanstay Game",
             },
           ],
         },
@@ -68,15 +68,15 @@ const Footer = () =>
               name: "Strategy & Marketing",
             },
             {
-              href: "content-and-writing",
+              href: "/services/content-and-writing",
               name: "Content & CopyWriting",
             },
             {
-              href: "",
+              href: "/services/creator-and-influencers",
               name: "Creator & Influencers",
             },
             {
-              href: "javascript:void()",
+              href: "/services/digital-gaming-events",
               name: "Digital Gaming Events",
             },
           ],

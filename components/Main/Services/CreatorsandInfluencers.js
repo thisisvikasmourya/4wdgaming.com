@@ -5,7 +5,10 @@ import About from "../../../public/images/HOW.jpg";
 const CreatorsandInfluencers = () =>
 {
   const data2 = [
-    
+    {
+      title: "Engaging and Authentic Content:",
+      cont: "Authenticity is key in the gaming world. Our collaborations with gaming influencers ensure that your brand is promoted in an engaging and genuine manner, resonating with their audience on a personal level.",
+    },
     {
       title: "Connecting with Your Community:",
       cont: "Creators and influencers are an essential link between your brand and the gaming community. Through their content, they foster a sense of belonging and connection, drawing gamers closer to your brand.",
@@ -44,10 +47,7 @@ const CreatorsandInfluencers = () =>
       title: "Expanding Your Audience Reach:",
       cont: "Our strategic partnerships with top gaming influencers allow your brand to tap into a wider audience. Reach out to potential gamers who may not have discovered your brand otherwise.",
     },
-    {
-      title: "Engaging and Authentic Content:",
-      cont: "Authenticity is key in the gaming world. Our collaborations with gaming influencers ensure that your brand is promoted in an engaging and genuine manner, resonating with their audience on a personal level.",
-    },
+  
   ];
   return (
     <div>
@@ -57,7 +57,7 @@ const CreatorsandInfluencers = () =>
         </h1>
       </div>
 
-      <div className="grid lg:grid-cols-2 grid-cols-1 gap-6 p-4 py-10 lg:px-32 px-4 bg-[#191C20]">
+      <div className="grid lg:grid-cols-2 grid-cols-1 gap-6  pt-10 lg:px-32 px-4 bg-[#191C20]">
         <div>
           <Image src={About} alt="hello" layout="" className="rounded-lg" />
         </div>

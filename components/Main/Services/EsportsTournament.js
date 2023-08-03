@@ -4,7 +4,10 @@ import About from "../../../public/images/webs.png";
 
 const EsportsTournament = () => {
   const data2 = [
-   
+    {
+      title: "Tailored Tournament Formats:",
+      cont: "Every gaming community is unique, and we understand the importance of tailoring tournament formats to suit the preferences and skill levels of players. Our flexible approach ensures maximum participation and excitement.",
+    },
     {
       title: "Top-notch Production Value:",
       cont: "Spectators crave excitement, and we deliver it through high-quality production value. Our esports tournament organization includes professional broadcasting, engaging commentary, and captivating visuals.",
@@ -51,10 +54,7 @@ const EsportsTournament = () => {
       title: "Thrilling Live Tournaments:",
       cont: "For live events, we orchestrate thrilling esports tournaments that captivate participants and spectators alike. From venue selection to event logistics, we handle every detail to create unforgettable experiences.",
     },
-    {
-      title: "Tailored Tournament Formats:",
-      cont: "Every gaming community is unique, and we understand the importance of tailoring tournament formats to suit the preferences and skill levels of players. Our flexible approach ensures maximum participation and excitement.",
-    },
+ 
   ];
   return (
     <div>
@@ -64,7 +64,7 @@ const EsportsTournament = () => {
         </h1>
       </div>
 
-      <div className="grid lg:grid-cols-2 grid-cols-1 gap-6 p-4 py-10 lg:px-32 px-4 bg-[#191C20]">
+      <div className="grid lg:grid-cols-2 grid-cols-1 gap-6 pt-10 lg:px-32 px-4 bg-[#191C20]">
         <div>
           <Image src={About} alt="hello" layout="" className="rounded-lg" />
         </div>
@@ -83,7 +83,7 @@ const EsportsTournament = () => {
           ))}
         </div>
       </div>
-      <div className="p-4 grid lg:grid-cols-2 grid-cols-1 gap-2 lg:px-32 px-4 bg-[#191C20]">
+      <div className="p-4 grid lg:grid-cols-2 grid-cols-1 gap-1 lg:px-32 px-4 bg-[#191C20]">
         {data2.map((items, key) => (
           <div key={key}>
             <p className="text-[#c52326] text-xl">{items.title}</p>

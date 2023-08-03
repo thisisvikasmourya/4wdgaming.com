@@ -1,6 +1,10 @@
 import Image from "next/image";
 import React from "react";
 import About from "../../public/images/4wdlogo.jpg";
+import vamsi from "../../public/images/Vamsi-Krishna-Talasila-1-1024x936.jpg";
+import jay from "../../public/images/Jay-Sayta-3-1-2.jpg";
+import About2 from "../../public/images/owner.jpg";
+
 const AboutUs = () => {
   return (
     <div className="">
@@ -16,12 +20,13 @@ const AboutUs = () => {
         width={200}
         height={200}
       /> */}
+
       <div className="grid lg:grid-cols-2 grid-cols-1 gap-6 p-4  bg-[#191C20] py-10 lg:px-32 px-4">
         <div>
           <p className="text-[#c52326] font-semibold text-lg">
             We’re brand builders
           </p>
-          <p className="text-[16px]">
+          <p className="text-[16px] text-white">
             At 4WD GAMING, we are more than just a gaming PR agency. We are
             brand builders who understand the power of a strong brand in
             attracting organic media and PR. Our approach is simple but
@@ -34,7 +39,7 @@ const AboutUs = () => {
         </div>
         <div>
           <p className="text-[#c52326] font-semibold text-lg">We’re pioneers</p>
-          <p className="text-[16px]">
+          <p className="text-[16px] text-white">
             We take pride in being pioneers in the gaming space. As the first
             ones here, we carved the path for the gaming PR ecosystem in India.
             Our journey as early adopters and proponents of gaming PR has
@@ -44,19 +49,12 @@ const AboutUs = () => {
             the niche, dynamic, and continuously evolving gaming industry of
             India.
           </p>
-          {/* <p className="text-[16px]">
-            From the ongoing battle for regulation and skill-based real money
-            gaming or Web3 and the growing potential for esports and content
-            creation, we’re a part of every conversation. We understand the
-            niche, unique, continuously evolving, and extremely dynamic gaming
-            industry of India.
-          </p> */}
         </div>
         <div>
           <p className="text-[#c52326] font-semibold text-lg">
             We understand gaming
           </p>
-          <p className="text-[16px]">
+          <p className="text-[16px] text-white">
             Gaming is our domain, and we understand it profoundly. With years of
             experience in building communication strategies for Nazara
             Technologies Limited and a diverse range of Indian and global gaming
@@ -65,19 +63,12 @@ const AboutUs = () => {
             gamified education, Web3, or blockchain, 4WD stands as a leading
             name in the Indian gaming ecosystem.
           </p>
-          {/* <p className="text-[16px]">
-            With experience in multiple genres of gaming be it fantasy sports,
-            esports, game development, publishing, sports & esports media,
-            gamified education, Web3 & blockchain, real money gaming among
-            others, 4WD has anchored its position as a leading name in the
-            Indian gaming ecosystem.
-          </p> */}
         </div>
         <div>
-          <p className="text-[#c52326] font-semibold text-lg">
+          <p className="text-[#c52326] font-semibold text-lg ">
             We’re forward-thinking
           </p>
-          <p className="text-[16px]">
+          <p className="text-[16px] text-white">
             Our forward-thinking approach sets us apart. As early entrants in
             this nascent space, we understand the ecosystem, anticipate
             challenges, and predict industry trends. We&apos;re excited to share
@@ -86,19 +77,12 @@ const AboutUs = () => {
             embrace the latest trends to keep our clients at the forefront of
             the gaming industry.
           </p>
-          {/* <p className="text-[16px]">
-            These are exciting times and we look forward to sharing our
-            expertise with Indian and international gaming brands, helping them
-            successfully crossover into the mainstream. We’re ahead of the curve
-            and always ready to adapt and embrace the latest trends in this
-            space.
-          </p> */}
         </div>
         <div>
           <p className="text-[#c52326] font-semibold text-lg">
             We don’t just do PR
           </p>
-          <p className="text-[16px]">
+          <p className="text-[16px] text-white">
             Though PR is our forte, we&apos;re more than that. We&apos;re
             marketers, brand planners, and reputation managers. From designing
             to execution, we&apos;ve led Nazara through their public listing
@@ -107,24 +91,12 @@ const AboutUs = () => {
             align your publicity and marketing with your PR objectives. Let us
             tackle your challenges and provide solutions.
           </p>
-          {/* <p className="text-[16px]">
-            All the way from design to execution while managing reputation, we
-            successfully led Nazara through their public listing process to
-            become India’s first listed gaming company.
-          </p>
-          <p className="text-[16px]">
-            Meet us for coffee and give us the opportunity to have a
-            conversation about your goals and what needs to be done to achieve
-            them. Does your publicity and marketing match your PR goals and
-            objectives? Does it match up to your metrics? Is there recall, the
-            desired perception, imagery? Let us answer them!
-          </p> */}
         </div>
         <div>
           <p className="text-[#c52326] font-semibold text-lg">
             Our gaming brands:
           </p>
-          <p className="text-[16px]">
+          <p className="text-[16px] text-white">
             Our gaming portfolio includes major brands and IPs like Nextwave
             Multimedia, Evenbet Gaming, HalaPlay, Trinity Gaming India,
             Nordanvind Investments Ltd., and more. The founder, Sharmilee Daru,
@@ -133,13 +105,139 @@ const AboutUs = () => {
             we assure guidance, training, and strategic direction that creates
             successful brands.
           </p>
-          {/* <p className="text-[16px]">
-            These are exciting times and we look forward to sharing our
-            expertise with Indian and international gaming brands, helping them
-            successfully crossover into the mainstream. We’re ahead of the curve
-            and always ready to adapt and embrace the latest trends in this
-            space.
-          </p> */}
+        </div>
+      </div>
+      <div className="content bg-[#17191d] py-16 lg:px-32 px-4">
+        <h1 className=" outline text-center lg:text-9xl md:text-6xl text-4xl text-[#fff] outline-4 font-semibold">
+          About the Founder
+        </h1>
+      </div>
+
+      <div className="grid lg:grid-cols-2 grid-cols-1 gap-6 p-4 py-10 lg:px-32 px-4 bg-[#191C20]">
+        <div>
+          <Image src={About2} alt="hello" layout="" className="rounded-lg" />
+        </div>
+
+        <div>
+          <p className="text-xl text-[#c52326]">Sharmilee Daru</p>
+          <p className="text-lg text-[#c52326]">Founder, 4WD Gaming</p>
+          <p className="py-2 text-white">
+            An alumnus of St. Xaviers’ College, Mumbai and a post graduate from
+            the Xavier’s Institute of Communication, Mumbai, Sharmilee Daru is
+            one of the pioneers of focused and curated, successful communication
+            for gaming solutions in the country and is one of the most noted
+            names in the space.
+          </p>
+          <p className="py-2 text-white">
+            With a proven track record in establishing gaming as a formidable
+            niche in the media, Sharmilee Daru, branched out to etch more
+            success stories. She recently launched 4WD Gaming, the first of its
+            kind specialised gaming PR and marketing consultancy in the country
+            for Indian and international brands. She believes in the seamless
+            merger of gaming into the Indian mainstream ecosystem while enabling
+            sectoral growth.
+          </p>
+          <p className="text-white">
+            Managing the communication mandate for Nazara Technologies Ltd.
+            somehow, allowed Sharmilee Daru to set the path for the gaming PR
+            ecosystem in the country. She has been instrumental to Nazara’s
+            growth story. Starting the corporate communication department for a
+            gaming company seemed farfetched at the time in March 2016.
+            Architecting plans and strong execution, while managing reputation,
+            she saw the company through the public listing process. Today, it
+            stands as India’s only listed online skill-based gaming firm
+            enabling her to be among the pioneers for gaming communication in
+            the country.
+          </p>
+        </div>
+      </div>
+      <div className=" lg:px-32 px-4 bg-[#191C20] text-white">
+        <p className="py-2">
+          Being among the early adopter and proponent of gaming communication,
+          she has seen the industry evolve. Be it the ongoing battle for
+          regulation and skill based real money gaming or the introduction of
+          Web3 among other trends setting in, she has an advantage having
+          managed all gaming categories. Be it the fantasy sports space,
+          esports, sports media space, gamified learning, real money or the
+          casual gaming space, she has managed to gain a strong foothold in the
+          Indian gaming ecosystem.
+        </p>
+        <p className="py-2">
+          With more than two decades of experience in the communication space,
+          Sharmilee Daru has been instrumental in creating successful brands by
+          providing guidance, training and strategic direction. From consulting
+          with big names of the industry like RIL and HUL to emerging gaming
+          start-ups, her experience as a communication advisor with a sharp eye
+          for detail and strong domain knowledge has culminated into the
+          inception of 4WD Gaming.
+        </p>
+        <p className="py-2">
+          When she is not working, she loves to spend her time horse riding,
+          swimming or simply at the gym.
+        </p>
+      </div>
+      <div>
+        <div className="content bg-[#17191d] py-16 lg:px-32 px-4">
+          <h1 className=" outline text-center lg:text-9xl md:text-6xl text-4xl text-[#fff] outline-4 font-semibold">
+            Advisory Council Members
+          </h1>
+        </div>
+
+        <div className="grid lg:grid-cols-2 grid-cols-1 gap-6 p-4 py-10 lg:px-32 px-4 bg-[#191C20] justify-center">
+          <div>
+            <Image src={jay} alt="hello" className="rounded-lg" />
+          </div>
+
+          <div>
+            <p className="text-[#c52326] text-xl "> Jay Sayta</p>
+            <p className="text-[#c52326] text-xl ">
+              Technology and gaming lawyer in India
+            </p>
+            <p className="text-white">
+              Jay Sayta is a technology and gaming lawyer in India. He is well
+              known in the media fraternity and is an expert on gaming laws. He
+              has contributed through research and written extensively on
+              gambling and betting laws. He has spoken on the issues of gaming
+              legislation at various key industry forums and bodies like the
+              Indian Merchants’ Chambers (IMC), Confederation of Indian Industry
+              (CII), Federation of Indian Chambers of Commerce and Industry
+              (FICCI), ICE Totally Gaming, All India Gaming Federation (AIGF)
+              among others.
+            </p>
+          </div>
+        </div>
+        <div className="grid lg:grid-cols-2 grid-cols-1 gap-4 p-4 py-10 lg:px-32 px-4 bg-[#191C20] ">
+          <div>
+            <Image src={vamsi} alt="hello" className="rounded-lg" />
+          </div>
+
+          <div className="text-white">
+            <p className="text-[#c52326] text-xl ">Vamsi Talasila</p>
+            <p className="text-[#c52326] text-xl">
+              Gaming Technology and Digital Marketing
+            </p>
+            <p>
+              Vamsi Talasila is a veteran and dynamic technology leader with two
+              decades of experience in building technology for gaming, esports,
+              and sports domains. He is an expert in converting various business
+              problems into feasible technology solutions. For nearly a decade
+              at Nazara Technologies Ltd., he led technology transformation
+              initiatives across multiple lines of businesses and functions
+              facilitating growth and rapid expansion of the company’s gaming
+              services globally, enabling it to become India’s first listed
+              gaming company.
+            </p>
+            <p>
+              Vamsi has worked with new-age technology strategies and solutions
+              across gaming verticals like subscription, freemium games, real
+              money games, fantasy sports, and betting games along with
+              performance marketing, analytics, and loyalty programs. He is also
+              known for having built large consumer platforms and solutions
+              catering to millions of subscribers, addressing critical factors
+              like scalability, availability, security, analytics, and consumer
+              experience.
+            </p>
+          </div>
         </div>
       </div>
     </div>

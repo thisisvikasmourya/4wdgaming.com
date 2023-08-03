@@ -57,7 +57,7 @@ const PricingPage = () =>
             <h3 className="text-[#c52326] text-3xl font-semibold sm:text-4xl">
               Pricing for all sizes
             </h3>
-            <div className="mt-3 max-w-xl">
+            <div className="mt-3 max-w-xl text-white">
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
                 efficitur consequat nunc.
@@ -85,9 +85,7 @@ const PricingPage = () =>
                   </span>
                   <div className="text-[#c52326] text-3xl font-semibold">
                     ${item.price}{" "}
-                    <span className="text-xl text-white font-normal">
-                      /mo
-                    </span>
+                    <span className="text-xl text-white font-normal">/mo</span>
                   </div>
                   <p>{item.desc}</p>
                   <button className="px-3 py-3 rounded-lg w-full  text-sm duration-150 text-white bg-[#c52326] hover:bg-indigo-500 active:bg-[#c52326]">
@@ -99,7 +97,10 @@ const PricingPage = () =>
                     <p>Features</p>
                   </li>
                   {item.features.map((featureItem, idx) => (
-                    <li key={idx} className="flex text-white items-center gap-5">
+                    <li
+                      key={idx}
+                      className="flex text-white items-center gap-5"
+                    >
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         className="h-5 w-5 text-[#c52326]"

@@ -4,10 +4,7 @@ import About from "../../../public/images/content.jpg";
 
 const DigitalGamingEvents = () => {
   const data2 = [
-    {
-      title: "Professional Event Execution:",
-      cont: "Our experienced team handles every aspect of event execution, from planning and logistics to promotion and coordination, ensuring a seamless and memorable experience for all attendees.",
-    },
+   
     {
       title: "Tailored to Your Brand:",
       cont: "We understand that each gaming brand has a unique identity. Our team tailors gaming events to align with your brand's values and image, creating a cohesive and impactful experience for your audience.",
@@ -54,6 +51,10 @@ const DigitalGamingEvents = () => {
       title: "Live Gaming Extravaganzas:",
       cont: "For an electrifying experience, we orchestrate live gaming events that bring enthusiasts together under one roof. From LAN parties to grand championships, we ensure seamless event management and an exhilarating atmosphere.",
     },
+    {
+      title: "Professional Event Execution:",
+      cont: "Our experienced team handles every aspect of event execution, from planning and logistics to promotion and coordination, ensuring a seamless and memorable experience for all attendees.",
+    },
   ];
   return (
     <div>
@@ -63,7 +64,7 @@ const DigitalGamingEvents = () => {
         </h1>
       </div>
 
-      <div className="grid lg:grid-cols-2 grid-cols-1 gap-6 p-4 py-10 lg:px-32 px-4 bg-[#191C20]">
+      <div className="grid lg:grid-cols-2 grid-cols-1 gap-6  pt-10 lg:px-32 px-4 bg-[#191C20]">
         <div>
           <Image src={About} alt="hello" layout="" className="rounded-lg" />
         </div>

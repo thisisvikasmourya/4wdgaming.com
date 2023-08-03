@@ -4,7 +4,7 @@ import React from 'react'
 const advisorycouncilmembers = () => {
   return (
     <div>
-      <AdvisoryCouncilMembers/>
+      {/* <AdvisoryCouncilMembers/> */}
     </div>
   )
 }

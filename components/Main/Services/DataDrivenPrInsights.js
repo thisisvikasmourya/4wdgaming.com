@@ -4,7 +4,10 @@ import About from "../../../public/images/webs.png";
 
 const DataDrivenPrInsights = () => {
   const data2 = [
-   
+    {
+      title: "Competitor Benchmarking:",
+      cont: "Knowing your competition is vital in the gaming industry. We perform competitor benchmarking to compare your PR efforts with industry peers, enabling you to stay ahead in the competitive gaming landscape.",
+    },
     {
       title: "Audience Segmentation:",
       cont: "Understanding your target audience is fundamental to PR success. Our data-driven insights help in audience segmentation, allowing you to tailor your messages and engagements to resonate with different player segments.",
@@ -43,10 +46,7 @@ const DataDrivenPrInsights = () => {
       title: "Measure PR Campaign Success:",
       cont: "With data-driven PR insights, you can precisely measure the success of your PR campaigns. We track key performance indicators (KPIs) to evaluate the effectiveness of each campaign, providing you with real-time data to gauge performance.",
     },
-    {
-      title: "Competitor Benchmarking:",
-      cont: "Knowing your competition is vital in the gaming industry. We perform competitor benchmarking to compare your PR efforts with industry peers, enabling you to stay ahead in the competitive gaming landscape.",
-    },
+ 
   ];
   return (
     <div>
@@ -56,7 +56,7 @@ const DataDrivenPrInsights = () => {
         </h1>
       </div>
 
-      <div className="grid lg:grid-cols-2 grid-cols-1 gap-6 p-4 py-10 lg:px-32 px-4 bg-[#191C20]">
+      <div className="grid lg:grid-cols-2 grid-cols-1 gap-6  pt-10 lg:px-32 px-4 bg-[#191C20]">
         <div>
           <Image src={About} alt="hello" layout="" className="rounded-lg" />
         </div>

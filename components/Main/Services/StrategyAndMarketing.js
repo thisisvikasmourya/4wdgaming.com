@@ -54,7 +54,7 @@ const StrategyAndMarketing = () =>
         </h1>
       </div>
 
-      <div className="grid lg:grid-cols-2 grid-cols-1 gap-6 p-4 py-4 pt-6 lg:px-32 px-4 bg-[#191C20]">
+      <div className="grid lg:grid-cols-2 grid-cols-1 gap-6  pt-10 lg:px-32 px-4 bg-[#191C20]">
         <div>
           <Image
             src={About}

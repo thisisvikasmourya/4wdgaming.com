@@ -75,9 +75,9 @@ const Navbar = () => {
         <div className="dropdown">
           <button className="dropbtn">Our Work</button>
           <div className="dropdown-content">
-            <Link href={"/advisory-council-members"}>
+            {/* <Link href={"/advisory-council-members"}>
               Advisory Council Members
-            </Link>
+            </Link> */}
             {/* <Link href={"/case-study"}>Case Studies</Link> */}
             <Link href={"#client"}>Clients</Link>
             <Link href="#">4WD Gaming in News</Link>
@@ -146,7 +146,7 @@ const Navbar = () => {
       </nav>
 
       {open ? (
-        <div className="bg-[#191c20] text-[#fff] rounded w-full text-center   py-7 z-10  fixed">
+        <div className="bg-[#191c20] text-[#fff] rounded w-full text-center z-10  fixed">
           <ul className=" lg:hidden flex flex-col items-center gap-5 ">
             <li>
               <Link
@@ -164,9 +164,6 @@ const Navbar = () => {
                 <div className="dropdown-content">
                   <Link href="/about-us" onClick={() => setOpen(false)}>
                     About Company
-                  </Link>
-                  <Link href="/about-founder" onClick={() => setOpen(false)}>
-                    About the Founder
                   </Link>
                   <Link
                     href="/what-we-do-and-how-we-do"
@@ -258,12 +255,12 @@ const Navbar = () => {
               <div className="dropdown">
                 <button className="dropbtn">Our Work</button>
                 <div className="dropdown-content">
-                  <Link
+                  {/* <Link
                     href={"/advisory-council-members"}
                     onClick={() => setOpen(false)}
                   >
                     Advisory Council Members
-                  </Link>
+                  </Link> */}
                   <Link href={"#client"} onClick={() => setOpen(false)}>
                     Clients
                   </Link>

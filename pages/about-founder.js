@@ -4,7 +4,7 @@ import React from 'react'
 const aboutfounder = () => {
   return (
     <div>
-      <AboutTheFounder/>
+      {/* <AboutTheFounder/> */}
     </div>
   )
 }

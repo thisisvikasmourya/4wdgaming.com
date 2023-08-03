@@ -29,9 +29,9 @@ export default function Home() {
       </Head>
       <main>
         <StarsCanvas />
-        <ClientScroll/>
         <Page2 />
         <Services />
+        <ClientScroll/>
         {/* <OurClients /> */}
         <Testimonial/>
         <WhyChooseUs />
