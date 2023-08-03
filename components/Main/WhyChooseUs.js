@@ -21,19 +21,19 @@ const WhyChooseUs = () => {
           <Image src={object} alt="hello" className="rounded-xl " width={600} />
         </div>
         <div>
-          <p className="py-1">
+          <p className="py-1 text-white">
             As pioneers of focused gaming PR, we&apos;ve set the trend for
             gaming coverage. We brought gaming news to mainstream media and made
             it a legitimate area of interest. Working closely with our clients,
             we ensure comprehensive coverage in every possible space.
           </p>
-          <p className="py-1">
+          <p className="py-1 text-white">
             With exceptional visibility for our gaming brands, we anchor their
             position as innovative leaders in the media space. Join us on an
             exciting journey where we propel your brand to the forefront of the
             gaming world with unmatched expertise and passion.
           </p>
-          <p className="py-1">
+          <p className="py-1 text-white">
             We made way for gaming news when it was too niche for mainstream
             media to cover. Faced with multiple challenges initially, as India
             was still an emerging gaming market, our aggressive push for gaming

@@ -71,7 +71,7 @@ const DigitalGamingEvents = () => {
           {data.map((items, key) => (
             <div key={key}>
               <p className="text-[#c52326] text-xl">{items.title}</p>
-              <p className="py-1"> {items.cont}</p>
+              <p className="py-1 text-white"> {items.cont}</p>
             </div>
           ))}
         </div>
@@ -80,7 +80,7 @@ const DigitalGamingEvents = () => {
         {data2.map((items, key) => (
           <div key={key}>
             <p className="text-[#c52326] text-xl">{items.title}</p>
-            <p className="py-1"> {items.cont}</p>
+            <p className="py-1 text-white"> {items.cont}</p>
           </div>
         ))}
       </div>

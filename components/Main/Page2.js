@@ -25,7 +25,7 @@ const Page2 = () => {
         <p className="lg:text-3xl text-2xl font-semibold text-center border-b border-gray-300 pb-5 ">
           {/* Whatever your game, we bring the ammo! */}
         </p>
-        <div className="grid lg:grid-cols-2 grid-cols-1 gap-4 p-4 py-10 ">
+        <div className="grid lg:grid-cols-2 grid-cols-1 gap-4 p-4 py-10 text-white">
           <div className="p-4    text-[16px]" data-aos="zoom-in">
             <p className="text-[#c52326] font-semibold text-lg">
               We’re brand builders
@@ -48,7 +48,7 @@ const Page2 = () => {
             consultants, who know how to lead trends while setting our own.
           </div> */}
           <div
-            className="p-4   border-gray-500 text-[16px]"
+            className="p-4   border-gray-500 text-[16px] text-white"
             data-aos="zoom-in"
           >
             <p className="text-[#c52326] font-semibold text-lg">

@@ -115,7 +115,7 @@ export default function Services() {
                 <h4 className="text-xl font-semibold text-[#c52326]">
                   {items.title}
                 </h4>
-                <p className="mb-2 leading-normal text-[16px]">
+                <p className="mb-2 leading-normal text-white text-[16px]">
                   {items.content}
                 </p>
                 <Link

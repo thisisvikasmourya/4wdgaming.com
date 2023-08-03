@@ -147,7 +147,7 @@ const CaseStudy = () => {
             Trade Fantasy Game (TFG)
           </p>
           {/* <p>Hands-on Nazara – India’s first Gaming IPO</p> */}
-          <p className="py-1">
+          <p className="py-1 text-white">
             Trade Fantasy Game (TFG), a premier fantasy platform set to compete
             with industry giants like Dream 11, My 11 circle, and My Fab 11, had
             a powerful ace up its sleeve - Indian International Cricketer Deepak
@@ -155,14 +155,14 @@ const CaseStudy = () => {
             and entrepreneur, 4WD GAMING eagerly embraced the challenge of
             spearheading the PR campaign for TFG&apos;s grand launch.
           </p>
-          <p className="py-1">
+          <p className="py-1 text-white">
             Our primary objective was to create awareness for TFG in the highly
             competitive fantasy gaming space and among cricket enthusiasts.
             Through strategic planning, we emphasized the brand&apos;s vision,
             ambitions, and unique product offerings, ensuring the right
             messaging reached the target audience through effective PR channels.
           </p>
-          <p className="py-1">
+          <p className="py-1 text-white">
             The launch had an additional challenge - introducing Jaya Chahar as
             the CEO and official spokesperson for TFG, taking the business
             forward. With a calculated approach, we secured interviews featuring
@@ -171,7 +171,7 @@ const CaseStudy = () => {
             strategic move aimed to build her publicity and prominence as the
             voice of the brand.
           </p>
-          <p className="py-1">
+          <p className="py-1 text-white">
             To maximize reach, we executed a multi-launch strategy, targeting
             geographies across the country, including Tier 2 and Tier 3 cities
             with a substantial fantasy gaming audience. Our efforts paid off as
@@ -181,7 +181,7 @@ const CaseStudy = () => {
             gaming media coverage. The response was phenomenal, with the brand
             witnessing 50,000 sign-ups within the initial weeks.
           </p>
-          <p className="py-1">
+          <p className="py-1 text-white">
             As proactive advisors, 4WD GAMING ensured TFG&apos;s brand
             reputation remained unscathed during unforeseen situations. We
             provided guidance and training to the spokesperson, positioning TFG
@@ -189,7 +189,7 @@ const CaseStudy = () => {
             industry stories and television features, particularly around
             decisions from MeitY.
           </p>
-          <p className="py-1">
+          <p className="py-1 text-white">
             Though a relatively early entrant, TFG has swiftly carved its niche,
             standing tall among leading fantasy platforms, thanks to its share
             of voice in the media and resonating presence in the gaming

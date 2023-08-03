@@ -17,7 +17,7 @@ const WhatWeDo = () => {
               <Image src={About1} alt="hello" className="rounded-lg" />
             </div>
 
-            <div>
+            <div className="text-white">
               <p>
                 At 4WD GAMING, we challenge the norms of traditional agencies.
                 Instead, we focus on brand objectives and goals. Our approach
@@ -44,15 +44,10 @@ const WhatWeDo = () => {
 
           <div className="flex lg:flex-row  flex-col gap-4 p-4 py-10 lg:px-32 px-4 bg-[#191C20]">
             <div>
-              <Image
-                src={About2}
-                alt="hello"
-                className="rounded-lg"
-                
-              />
+              <Image src={About2} alt="hello" className="rounded-lg" />
             </div>
 
-            <div>
+            <div className="text-white">
               <p>
                 We devise a &quot;PR-Hack&quot; to define a company&apos;s
                 direction, approach, and objectives. Through rigorous industry

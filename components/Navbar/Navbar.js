@@ -13,7 +13,7 @@ const Navbar = () => {
       <li>
         <Link
           href="/"
-          className=" px-5  cursor-pointer hover:bg-[#c52326] py-3 rounded-lg hover:text-[#fff] "
+          className=" px-5 text-white  cursor-pointer hover:bg-[#c52326] py-3 rounded-lg hover:text-[#fff] "
         >
           Home
         </Link>
@@ -75,7 +75,9 @@ const Navbar = () => {
         <div className="dropdown">
           <button className="dropbtn">Our Work</button>
           <div className="dropdown-content">
-            <Link href={"/advisory-council-members"}>Advisory Council Members</Link>
+            <Link href={"/advisory-council-members"}>
+              Advisory Council Members
+            </Link>
             {/* <Link href={"/case-study"}>Case Studies</Link> */}
             <Link href={"#client"}>Clients</Link>
             <Link href="#">4WD Gaming in News</Link>
@@ -104,7 +106,7 @@ const Navbar = () => {
       <li>
         <Link
           href="/blog"
-          className=" px-5  cursor-pointer hover:bg-[#c52326] py-3 rounded-lg hover:text-[#fff] "
+          className=" px-5 text-white  cursor-pointer hover:bg-[#c52326] py-3 rounded-lg hover:text-[#fff] "
         >
           Blog
         </Link>
@@ -150,7 +152,7 @@ const Navbar = () => {
               <Link
                 href="/"
                 onClick={() => setOpen(false)}
-                className=" px-5  cursor-pointer hover:bg-[#c52326] py-3 rounded-lg hover:text-[#fff] "
+                className=" px-5 text-white  cursor-pointer hover:bg-[#c52326] py-3 rounded-lg hover:text-[#fff] "
               >
                 Home
               </Link>
@@ -275,10 +277,16 @@ const Navbar = () => {
               <div className="dropdown">
                 <button className="dropbtn">Case Study</button>
                 <div className="dropdown-content">
-                  <Link href={"/case-study/nazara"} onClick={() => setOpen(false)}>
+                  <Link
+                    href={"/case-study/nazara"}
+                    onClick={() => setOpen(false)}
+                  >
                     Nazara Technologies
                   </Link>
-                  <Link href={"/case-study/yudiz"} onClick={() => setOpen(false)}>
+                  <Link
+                    href={"/case-study/yudiz"}
+                    onClick={() => setOpen(false)}
+                  >
                     Yudiz Solutions
                   </Link>
                   <Link href={"/case-study/tfg"} onClick={() => setOpen(false)}>
@@ -294,7 +302,7 @@ const Navbar = () => {
               <Link
                 href="/blog"
                 onClick={() => setOpen(false)}
-                className=" px-5  cursor-pointer hover:bg-[#c52326] py-3 rounded-lg hover:text-[#fff] "
+                className=" px-5 text-white cursor-pointer hover:bg-[#c52326] py-3 rounded-lg hover:text-[#fff] "
               >
                 Blog
               </Link>

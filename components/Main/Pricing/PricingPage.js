@@ -99,7 +99,7 @@ const PricingPage = () =>
                     <p>Features</p>
                   </li>
                   {item.features.map((featureItem, idx) => (
-                    <li key={idx} className="flex items-center gap-5">
+                    <li key={idx} className="flex text-white items-center gap-5">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         className="h-5 w-5 text-[#c52326]"

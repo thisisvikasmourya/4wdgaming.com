@@ -62,7 +62,7 @@ const CreatorsandInfluencers = () =>
           <Image src={About} alt="hello" layout="" className="rounded-lg" />
         </div>
         <div>
-          <p className="py-1">
+          <p className="py-1 text-white">
             Are you ready to take your gaming brand to the next level? At 4WD
             Gaming, we are not just any PR agency; we are brand builders who
             understand the immense power of a strong brand in attracting organic
@@ -72,7 +72,7 @@ const CreatorsandInfluencers = () =>
           {data.map((items, key) => (
             <div key={key}>
               <p className="text-[#c52326] text-xl">{items.title}</p>
-              <p className="py-1"> {items.cont}</p>
+              <p className="py-1 text-white"> {items.cont}</p>
             </div>
           ))}
         </div>
@@ -81,7 +81,7 @@ const CreatorsandInfluencers = () =>
         {data2.map((items, key) => (
           <div key={key}>
             <p className="text-[#c52326] text-xl">{items.title}</p>
-            <p className="py-1"> {items.cont}</p>
+            <p className="py-1 text-white"> {items.cont}</p>
           </div>
         ))}
       </div>
