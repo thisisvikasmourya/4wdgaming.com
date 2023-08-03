@@ -85,7 +85,7 @@ const Testimonial = () => {
           </ul>
         </div>
         <div className="text-center">
-          <button className="text-[#fff] bg-[#c52326] rounded-lg px-4 py-3 mt-10">
+          <button className="text-[#fff] bg-[#c52326] hover:bg-[#47494d] rounded-lg px-4 py-3 mt-10">
             <Link href={"/clientReview"}>Readmore Review</Link>
           </button>
         </div>

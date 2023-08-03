@@ -1,16 +1,45 @@
-import React from 'react'
+import React from "react";
 import logo from "../../public/images/Logo.png";
 import Image from "next/image";
+import { useState } from "react";
 
+const ContactUs = () => {
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [message, setMessage] = useState("");
+  const [phone, setPhone] = useState("");
+  // const [submitted, setSubmitted] = useState(false);
 
-const ContactUs = () =>
-{
-        const servicesItems = [
-          "Mobile development",
-          "UI/UX Design",
-          "web development",
-          "SEO",
-        ];
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    console.log("Sending");
+    
+    let data = {
+      name,
+      email,
+      phone,
+      message,
+    };
+
+    fetch("/api/contact", {
+      method: "POST",
+      headers: {
+        Accept: "application/json, text/plain, */*",
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(data),
+    }).then((res) => {
+      console.log("Response received");
+      if (res.status === 200) {
+        console.log("Response succeeded!");
+        // setSubmitted(true);
+        setName("");
+        setEmail("");
+        setPhone("");
+        setBody("");
+      }
+    });
+  };
 
   return (
     <div>
@@ -80,43 +109,54 @@ const ContactUs = () =>
                 <input
                   type="text"
                   required
+                  placeholder="Full Name"
                   className="w-full mt-2 px-3 py-2 text-gray-500 bg-transparent outline-none border focus:border-gray-800 shadow-sm rounded-lg"
+                  onChange={(e) => {
+                    setName(e.target.value);
+                  }}
                 />
               </div>
               <div>
                 <label className="font-medium text-white">Email</label>
                 <input
                   type="email"
+                  placeholder="Email"
                   required
                   className="w-full mt-2 px-3 py-2 text-gray-500 bg-transparent outline-none border focus:border-gray-800 shadow-sm rounded-lg"
+                  onChange={(e) => {
+                    setEmail(e.target.value);
+                  }}
                 />
               </div>
               <div>
                 <label className="font-medium text-white">Phone number</label>
-                <div className="relative mt-2">
-                  <div className="absolute inset-y-0 left-3 my-auto h-6 flex items-center border-r pr-2">
-                    <select className="text-sm bg-transparent outline-none rounded-lg h-full">
-                      <option>US</option>
-                      <option>ES</option>
-                      <option>MR</option>
-                    </select>
-                  </div>
+              
                   <input
                     type="number"
-                    placeholder="+1 (555) 000-000"
+                    placeholder="+91  00000-00000"
                     required
-                    className="w-full pl-[4.5rem] pr-3 py-2 appearance-none bg-transparent outline-none border focus:border-gray-800 shadow-sm rounded-lg"
+                    onChange={(e) => {
+                      setPhone(e.target.value);
+                    }}
+                    className="w-full pl-2 pr-3 py-2 appearance-none bg-transparent outline-none border focus:border-gray-800 shadow-sm rounded-lg"
                   />
                 </div>
-              </div>
+            
               <div>
                 <label className="font-medium text-white">Message</label>
                 <textarea
                   required
+                  placeholder="Message"
+                  onChange={(e) => {
+                    setMessage(e.target.value);
+                  }}
                   className="w-full mt-2 h-36 px-3 py-2 resize-none appearance-none bg-transparent outline-none border focus:border-gray-800 shadow-sm rounded-lg"
                 ></textarea>
               </div>
-              <button className="w-full px-4 py-2 text-white font-medium bg-gray-800 hover:bg-gray-700 active:bg-gray-900 rounded-lg duration-150">
+              <button
+                onClick={handleSubmit}
+                className="w-full px-4 py-2 text-white font-medium bg-[#c52326] hover:bg-gray-700 active:bg-gray-900 rounded-lg duration-150"
+              >
                 Submit
               </button>
             </form>
@@ -125,6 +165,6 @@ const ContactUs = () =>
       </main>
     </div>
   );
-}
+};
 
-export default ContactUs
+export default ContactUs;

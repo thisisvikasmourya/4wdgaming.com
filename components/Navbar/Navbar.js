@@ -323,10 +323,14 @@ const Navbar = () => {
               </Link>
             </li>
           </ul>
-          <br/>
-          <button className=" bg-[#c52326] text-white items-center px-5 py-3 rounded-lg shadow-lg shadow-red-500/50">
-            <Link href={"/contactUs"}>Contact us</Link>
-          </button>
+          <br />
+
+          <Link
+            className=" bg-[#c52326] text-white items-center px-5 py-3 rounded-lg shadow-lg shadow-red-500/50"
+            href={"/contactUs"}
+          >
+            Contact us
+          </Link>
         </div>
       ) : (
         ""
