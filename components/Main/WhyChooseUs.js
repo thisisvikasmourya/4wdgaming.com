@@ -16,7 +16,7 @@ const WhyChooseUs = () => {
           Whatever your game, we bring the ammo!
         </p>
       </div>
-      <div className="flex lg:flex-rowbflex-col py-2 gap-6 ">
+      <div className="flex lg:flex-row flex-col py-2 gap-6 ">
         <div>
           <Image src={object} alt="hello" className="rounded-xl " width={600} />
         </div>
