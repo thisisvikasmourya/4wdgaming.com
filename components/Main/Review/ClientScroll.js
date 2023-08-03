@@ -26,6 +26,7 @@ const ClientScroll = () => {
               width={200}
               height={100}
             />
+            &nbsp;&nbsp;&nbsp;&nbsp;
           </li>
           <li className="marquee-item">
             {" "}
@@ -46,7 +47,9 @@ const ClientScroll = () => {
               width={200}
               height={100}
             />
+          &nbsp;&nbsp;&nbsp;&nbsp;
           </li> */}
+          &nbsp;&nbsp;&nbsp;&nbsp;
           <li className="marquee-item">
             {" "}
             <Image
@@ -56,6 +59,7 @@ const ClientScroll = () => {
               width={180}
               height={100}
             />
+            &nbsp;&nbsp;&nbsp;&nbsp;
           </li>
           <li className="marquee-item">
             {" "}
@@ -66,6 +70,7 @@ const ClientScroll = () => {
               width={180}
               height={90}
             />
+            &nbsp;&nbsp;&nbsp;&nbsp;
           </li>
           <li className="marquee-item">
             {" "}
@@ -76,6 +81,7 @@ const ClientScroll = () => {
               width={180}
               height={100}
             />
+            &nbsp;&nbsp;&nbsp;&nbsp;
           </li>
           <li className="marquee-item">
             {" "}
@@ -86,6 +92,7 @@ const ClientScroll = () => {
               width={180}
               height={100}
             />
+            &nbsp;&nbsp;&nbsp;&nbsp;
           </li>
           <li className="marquee-item">
             {" "}
@@ -96,6 +103,7 @@ const ClientScroll = () => {
               width={160}
               height={90}
             />
+            &nbsp;&nbsp;&nbsp;&nbsp;
           </li>
           <li className="marquee-item">
             {" "}
@@ -106,6 +114,7 @@ const ClientScroll = () => {
               width={180}
               height={100}
             />
+            &nbsp;&nbsp;&nbsp;&nbsp;
           </li>
           <li className="marquee-item">
             {" "}

@@ -105,6 +105,15 @@ const Navbar = () => {
       </li>
       <li>
         <Link
+          href="/pricing-page"
+          onClick={() => setOpen(false)}
+          className=" px-5 text-white cursor-pointer hover:bg-[#c52326] py-3 rounded-lg hover:text-[#fff] "
+        >
+          Pricing
+        </Link>
+      </li>
+      <li>
+        <Link
           href="/blog"
           className=" px-5 text-white  cursor-pointer hover:bg-[#c52326] py-3 rounded-lg hover:text-[#fff] "
         >
@@ -146,8 +155,8 @@ const Navbar = () => {
       </nav>
 
       {open ? (
-        <div className="bg-[#191c20] text-[#fff] rounded w-full text-center z-10  fixed">
-          <ul className=" lg:hidden flex flex-col items-center gap-5 ">
+        <div className="bg-[#191c20] text-[#fff] rounded w-full text-center z-10 mb-5 fixed">
+          <ul className=" lg:hidden flex flex-col items-center gap-5  ">
             <li>
               <Link
                 href="/"
@@ -294,6 +303,15 @@ const Navbar = () => {
                   </Link>
                 </div>
               </div>
+            </li>
+            <li>
+              <Link
+                href="/pricing-page"
+                onClick={() => setOpen(false)}
+                className=" px-5 text-white cursor-pointer hover:bg-[#c52326] py-3 rounded-lg hover:text-[#fff] "
+              >
+                Pricing
+              </Link>
             </li>
             <li>
               <Link

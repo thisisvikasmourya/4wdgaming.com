@@ -30,10 +30,10 @@ const Testimonial = () => {
     <section className="relative py-20 bg-[#17191d]" data-aos="zoom-in">
       <div className="relative z-10 max-w-screen-xl mx-auto px-4 md:px-8">
         <div className="max-w-xl sm:text-center md:mx-auto">
-          <h3 className="text-white text-3xl font-semibold sm:text-4xl">
+          <h3 className="text-white text-center text-3xl font-semibold sm:text-4xl">
             Hear from our customers
           </h3>
-          <p className="mt-3 text-white">
+          <p className="mt-3 text-white text-center">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et est
             hendrerit, porta nunc vitae, gravida justo. Nunc fermentum magna
             lorem, euismod volutpat arcu volutpat et.

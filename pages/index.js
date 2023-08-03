@@ -32,10 +32,9 @@ export default function Home() {
         <Page2 />
         <Services />
         <ClientScroll/>
-        {/* <OurClients /> */}
         <Testimonial/>
         <WhyChooseUs />
-        <PricingPage/>
+      
       </main>
     </>
   );

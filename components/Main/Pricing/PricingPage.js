@@ -88,7 +88,7 @@ const PricingPage = () =>
                     <span className="text-xl text-white font-normal">/mo</span>
                   </div>
                   <p>{item.desc}</p>
-                  <button className="px-3 py-3 rounded-lg w-full  text-sm duration-150 text-white bg-[#c52326] hover:bg-indigo-500 active:bg-[#c52326]">
+                  <button className="px-3 py-3 rounded-lg w-full  text-sm duration-150 text-white bg-[#c52326] hover:bg-[#c52426] active:bg-[#c52326]">
                     Get Started
                   </button>
                 </div>
