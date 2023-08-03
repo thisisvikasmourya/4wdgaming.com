@@ -76,9 +76,28 @@ const Navbar = () => {
           <button className="dropbtn">Our Work</button>
           <div className="dropdown-content">
             <a href={"/advisory-council-members"}>Advisory Council Members</a>
-            <a href={"/case-study"}>Case Studies</a>
+            {/* <a href={"/case-study"}>Case Studies</a> */}
             <a href={"#client"}>Clients</a>
             <a href="#">4WD Gaming in News</a>
+          </div>
+        </div>
+      </li>
+      <li>
+        <div className="dropdown">
+          <button className="dropbtn">Case Study</button>
+          <div className="dropdown-content">
+            <a href={"/case-study/nazara"} onClick={() => setOpen(false)}>
+              Nazara Technologies
+            </a>
+            <a href={"/case-study/yudiz"} onClick={() => setOpen(false)}>
+              Yudiz Solutions
+            </a>
+            <a href={"/case-study/tfg"} onClick={() => setOpen(false)}>
+              Trade Fantasy Game
+            </a>
+            <a href="/case-study/wcc" onClick={() => setOpen(false)}>
+              World Cricket Championship
+            </a>
           </div>
         </div>
       </li>
@@ -243,14 +262,30 @@ const Navbar = () => {
                   >
                     Advisory Council Members
                   </a>
-                  <a href={"/case-study"} onClick={() => setOpen(false)}>
-                    Case Studies
-                  </a>
                   <a href={"#client"} onClick={() => setOpen(false)}>
                     Clients
                   </a>
                   <a href="#" onClick={() => setOpen(false)}>
                     4WD Gaming in News
+                  </a>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div className="dropdown">
+                <button className="dropbtn">Case Study</button>
+                <div className="dropdown-content">
+                  <a href={"/case-study/nazara"} onClick={() => setOpen(false)}>
+                    Nazara Technologies
+                  </a>
+                  <a href={"/case-study/yudiz"} onClick={() => setOpen(false)}>
+                    Yudiz Solutions
+                  </a>
+                  <a href={"/case-study/tfg"} onClick={() => setOpen(false)}>
+                    Trade Fantasy Game
+                  </a>
+                  <a href="/case-study/wcc" onClick={() => setOpen(false)}>
+                    World Cricket Championship
                   </a>
                 </div>
               </div>
