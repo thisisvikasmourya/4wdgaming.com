@@ -13,7 +13,7 @@ export default function (req, res) {
     secure: true,
   });
   const mailData = {
-    from: "4wdgaming@gmail.com",
+    from: "Vikasmourya053@gmail.com",
     to: "arjun.reddy@sharmileedaru.com",
     subject: `Message From ${req.body.name}`,
     text: req.body.message + " | Sent from: " + req.body.email,
