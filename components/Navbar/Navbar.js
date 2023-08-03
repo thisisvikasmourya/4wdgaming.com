@@ -24,7 +24,7 @@ const Navbar = () => {
           <button className="dropbtn">About Us</button>
           <div className="dropdown-content">
             <Link href="/about-us">About Company</Link>
-            <Link href="/about-founder">About the Founder</Link>
+            {/* <Link href="/about-founder">About the Founder</Link> */}
             <Link href="/what-we-do-and-how-we-do">
               What we do & How we do it
             </Link>
