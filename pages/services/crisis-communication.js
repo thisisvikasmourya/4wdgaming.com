@@ -7,7 +7,7 @@ const crisiscommunication = () => {
       <Head>
         <title>
           {" "}
-          Content and Copywriting - Engage Your Audience with Compelling Stories
+          Crisis Communications - Navigating Turbulent Waters with Expertise
         </title>
         <meta
           name="description"
@@ -15,8 +15,8 @@ const crisiscommunication = () => {
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
-          </Head>
-          <CrisisCommunication/>
+      </Head>
+      <CrisisCommunication />
     </div>
   );
 }

@@ -40,7 +40,7 @@ export default function Blog ()  {
 
   return (
     <section className="  md:px-8 bg-[#14161a]">
-      <div className="px-32">
+      <div className="lg:px-32 px-4">
         <div className="text-center">
           <h1 className="text-3xl text-[#c52326] font-semibold py-3">Blog</h1>
           <p className="mt-3 text-white">

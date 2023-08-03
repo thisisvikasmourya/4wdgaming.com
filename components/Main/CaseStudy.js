@@ -14,7 +14,7 @@ const CaseStudy = () => {
         </h1>
       </div>
 
-      <div className="flex lg:flex-row flex-col gap-6 p-4 py-16 lg:px-32 px-4 bg-[#191C20]">
+      <div className="flex lg:flex-row flex-col gap-6 p-4 py-5 lg:px-32 px-4 bg-[#191C20]">
         <div>
           <Image
             src={About}
@@ -30,99 +30,116 @@ const CaseStudy = () => {
           </p>
           <p>Hands-on Nazara – India’s first Gaming IPO</p>
           <p className="py-1">
-            We started working with the company since 2016 with one aim – to
-            create perception of Nazara being the leading gaming company in the
-            country.
+            When 4WD GAMING, India&apos;s premier gaming PR, Web3 gaming PR, and
+            Esports PR consultancy, partnered with Nazara Technologies Ltd., a
+            leading gaming company, in 2016, our mission was clear - to
+            establish Nazara as the foremost gaming brand in India and attract
+            investors and funding through strategic PR initiatives.
           </p>
           <p className="py-1">
-            The primary role was to attract investors and funding for the
-            company with the right messaging throughout the media space.
+            Our hands-on approach to PR began with a focused PR program
+            targeting bi-monthly coverage in leading Indian business newspapers
+            and publications, including Economic Times, Mint, YourStory, Inc42,
+            and even the prestigious Times of India. By strategically crafting
+            news features, industry stories, and management profiling, we
+            ensured Nazara&apos;s consistent presence in the media space,
+            captivating the attention of potential investors.
           </p>
           <p className="py-1">
-            SD devised a focused PR program to target bi-monthly coverage in
-            leading Indian business newspapers and publications like Economic
-            Times, Mint, YourStory, Inc42 and even the largest mainstream
-            newspaper of India, Times of India. With consistent coverage, in
-            just 2 years’ time, Nazara managed 3 investors including known names
-            like IIFL and Rakesh Jhunjhunwala.
+            As pioneers in gaming PR, we were committed to showcasing
+            Nazara&apos;s potential to the gaming industry. With dedicated
+            efforts, we attracted investments from renowned names like IIFL and
+            Rakesh Jhunjhunwala within just two years.
           </p>
           <p className="py-1">
-            News features, industry stories, management profiling in various
-            columns and entrepreneurial magazines were carried out. The company
-            and its management featured in practically every print publication
-            on the key target list in addition to top online news blogs and
-            shows and interviews in top TV channels.
+            Our strategic PR initiatives expanded beyond print publications to
+            encompass top online news blogs, TV channels, and interviews,
+            amplifying Nazara&apos;s brand reach across diverse media platforms.
           </p>
           <p className="py-1">
-            The consistent push of well curated, specific communication played a
-            big role for Nazara’s positioning, as it attracted 2 more sizable
-            investments over the course of next 3 years and ultimately became
-            the first Indian gaming company to open for public offering (IPO) in
-            March, 2021. The testimony to its success is further proved by the
-            fact that after a successful launch, the IPO was subscribed 175
-            times in 3 days.
+            The seamless execution of well-curated communication played a
+            pivotal role in enhancing Nazara&apos;s perception as a gaming
+            leader, leading to two more substantial investments over the next
+            three years. This positioning culminated in a groundbreaking
+            achievement - Nazara became the first Indian gaming company to go
+            public with its highly successful Initial Public Offering (IPO) in
+            March 2021. The response was phenomenal, with the IPO being
+            subscribed 175 times in a mere three days.
           </p>
           <p className="py-1">
-            The advisory, over the years, had ensured the company and
-            management’s presence among investors, at notable thought leadership
-            events, in addition to bagging recognitions with big media banners.
+            Our strategic advisory further elevated Nazara&apos;s prominence
+            through participation in notable thought leadership events, securing
+            media recognitions, and positioning the company for continued
+            growth.
           </p>
           <p className="py-1">
-            We are proud to have been instrumental in contributing to Nazara’s
-            growth story today.
+            As gaming specialists with a deep understanding of the Indian gaming
+            ecosystem, our dedication and expertise have contributed
+            significantly to Nazara&apos;s remarkable growth story, firmly
+            establishing them as a trailblazer in the gaming industry.
           </p>
         </div>
       </div>
-      <div className="flex lg:flex-row flex-col gap-6 p-4 py-16 lg:px-32 px-4 bg-[#191C20]">
+      <div className="flex lg:flex-row flex-col gap-6 p-4 py-5 lg:px-32 px-4 bg-[#191C20]">
         <div>
           <Image
             src={About3}
             alt="hello"
-            width={500}
+            width={390}
             height={500}
             className="rounded-lg"
           />
         </div>
         <div>
-          <p className="py-1 text-xl text-[#c52326]">Yudiz Solutions Ltd</p>
+          <p className="py-1 text-xl text-[#c52326]">
+            Yudiz Solutions Ltd. - A Groundbreaking IPO in the Converging Tech
+            Landscape
+          </p>
           {/* <p>Hands-on Nazara – India’s first Gaming IPO</p> */}
           <p className="py-1">
-            Yudiz Solutions Ltd was a lesser-known entity in the constantly
-            emerging and competitive tech market. Their aim was to launch their
-            IPO in a couple of months and build awareness of their brand and
-            plans going ahead.
+            Yudiz Solutions Ltd., a lesser-known yet dynamic tech entity, sought
+            to make a mark in the constantly evolving and competitive tech
+            landscape. With the aspiration to launch their IPO within a few
+            months, Yudiz aimed to build brand awareness and unveil their
+            strategic plans for the future.
           </p>
           <p className="py-1">
-            This was an excellent opportunity after having handled the Nazara
-            Technologies IPO. This is the first IPO with the combined presence
-            in the blockchain, AI and gaming and the second in the gaming space
-            after Nazara Technologies IPO.
+            For 4WD GAMING, the opportunity to work on this project was
+            exhilarating, especially after successfully handling the Nazara
+            Technologies IPO - the first in the gaming space. Yudiz&apos;s IPO
+            was unique, combining elements of blockchain, AI, and gaming, making
+            it a landmark event in the tech industry.
           </p>
           <p className="py-1">
-            As part of our PR plans, we strategically started with reworking the
-            brand positioning and creating brand awareness, publicity, and
-            attention towards the company in the media with the aim to bring out
-            credibility and market readiness for the upcoming IPO.
+            Our PR strategy began by reworking Yudiz&apos;s brand positioning to
+            create strong brand awareness and garner attention from the media.
+            Our goal was to establish credibility and showcase market readiness
+            for the upcoming IPO.
           </p>
           <p className="py-1">
-            Sharing of profiles and establishing key relationships in the media,
-            with their constant presence in top business publications like FE,
-            Mint, and including TV and blogs among other investor-specific
-            media. With regular features and impactful thought leadership
-            opportunities across the country alongside other industry experts,
-            we managed a strong presence for the company as a leading tech brand
-            in the country.
+            We strategically shared profiles and established key relationships
+            with top-tier media outlets, including prominent business
+            publications like FE and Mint, along with TV and blogs catering to
+            investor-specific audiences. Regular features and impactful thought
+            leadership opportunities were meticulously curated, positioning
+            Yudiz as a leading tech brand in the country.
+          </p>
+          <p className="py-1">
+            With a constant presence alongside industry experts, Yudiz Solutions
+            Ltd. captured the attention of the media, investors, and tech
+            enthusiasts alike. The resounding success of their IPO launch became
+            a testament to our effective PR initiatives.
           </p>
         </div>
       </div>
-      <div className="flex lg:flex-row flex-col gap-6 p-4 py-16 lg:px-32 px-4 bg-[#191C20]">
+      <div className="flex lg:flex-row flex-col gap-6 p-4 py-5 lg:px-32 px-4 bg-[#191C20]">
         <div>
           <Image
             src={About4}
             alt="hello"
             width={500}
             height={500}
-            className="rounded-lg"
+            className="rounded-lg bg-white"
           />
         </div>
         <div>
@@ -131,89 +148,105 @@ const CaseStudy = () => {
           </p>
           {/* <p>Hands-on Nazara – India’s first Gaming IPO</p> */}
           <p className="py-1">
-            Indian International Cricketer Deepak Chahar was all set to launch
-            his premier fantasy platform to take on leading players like Dream
-            11, My 11 circle, My Fab 11, among others. With the strategy of
-            showcasing Deepak Chahar as a brand ambassador and entrepreneur, we
-            took on the challenge of spearheading the PR campaign for the
-            launch.
+            Trade Fantasy Game (TFG), a premier fantasy platform set to compete
+            with industry giants like Dream 11, My 11 circle, and My Fab 11, had
+            a powerful ace up its sleeve - Indian International Cricketer Deepak
+            Chahar. Tasked with showcasing Deepak Chahar as the brand ambassador
+            and entrepreneur, 4WD GAMING eagerly embraced the challenge of
+            spearheading the PR campaign for TFG&apos;s grand launch.
           </p>
           <p className="py-1">
-            The objective for the launch was to create awareness for TFG (Trade
-            Fantasy Game) in the fantasy space and the cricketer community. We
-            successfully achieved this by planning the right positioning and
-            product understanding, the vision and ambitions of TFG. This helped
-            us in putting across the right messaging through PR.
+            Our primary objective was to create awareness for TFG in the highly
+            competitive fantasy gaming space and among cricket enthusiasts.
+            Through strategic planning, we emphasized the brand&apos;s vision,
+            ambitions, and unique product offerings, ensuring the right
+            messaging reached the target audience through effective PR channels.
           </p>
           <p className="py-1">
-            The challenge was to not only to introduce Deepak Chahar but also
-            Jaya Chahar who was going to be the CEO and take the business
-            forward and play the official spokesperson for the brand. We managed
-            interviews featuring Jaya Chahar in key business publications
-            including print in ET, Moneycontrol, Inc 42 and top games of skill
-            publications. This was with the strategic thought to build publicity
-            and prominence as the spokesperson going forward in the business
-            space.
+            The launch had an additional challenge - introducing Jaya Chahar as
+            the CEO and official spokesperson for TFG, taking the business
+            forward. With a calculated approach, we secured interviews featuring
+            Jaya Chahar in prominent business publications like ET,
+            Moneycontrol, Inc 42, and leading games of skill publications. This
+            strategic move aimed to build her publicity and prominence as the
+            voice of the brand.
           </p>
           <p className="py-1">
-            A multi-launch strategy with geographies across the country was
-            undertaken considering the larger audience base for fantasy games in
-            Tier 2, Tier 3 cities. Media output was excellent as the TFG launch
-            announcement reached not only the metropolitan cities of the country
-            but also most of the tier 2 and 3 cities with the best business
-            papers, key language media and gaming media covering the news. The
-            brand managed to get 50 k sign-ups within the first few weeks
-            itself.
+            To maximize reach, we executed a multi-launch strategy, targeting
+            geographies across the country, including Tier 2 and Tier 3 cities
+            with a substantial fantasy gaming audience. Our efforts paid off as
+            TFG&apos;s launch announcement echoed not only in metropolitan
+            cities but also reached a vast audience in Tier 2 and 3 cities
+            through top business papers, key language media, and dedicated
+            gaming media coverage. The response was phenomenal, with the brand
+            witnessing 50,000 sign-ups within the initial weeks.
           </p>
           <p className="py-1">
-            4WD Gaming was proactive to provide the best advice at times of
-            unforeseen situations ensuring brand reputation and positive
-            publicity along with guidance and training to the spokesperson. We
-            also placed TFG amongst market leaders and developed brand
-            visibility in key industry stories and television around decisions
-            from MeitY.
+            As proactive advisors, 4WD GAMING ensured TFG&apos;s brand
+            reputation remained unscathed during unforeseen situations. We
+            provided guidance and training to the spokesperson, positioning TFG
+            among market leaders and enhancing its brand visibility through key
+            industry stories and television features, particularly around
+            decisions from MeitY.
           </p>
           <p className="py-1">
-            TFG, while still an early entrant, has now managed to mark its
-            presence and at par with other leading fantasy platforms given its
-            share of voice in the media.
+            Though a relatively early entrant, TFG has swiftly carved its niche,
+            standing tall among leading fantasy platforms, thanks to its share
+            of voice in the media and resonating presence in the gaming
+            community.
           </p>
         </div>
       </div>
-      <div className="flex lg:flex-row flex-col gap-6 p-4 py-16 lg:px-32 px-4 bg-[#191C20]">
+      <div className="flex lg:flex-row flex-col gap-6 p-4 py-5 lg:px-32 px-4 bg-[#191C20]">
         <div>
           <Image
             src={About2}
             alt="hello"
-            width={500}
+            width={350}
             height={500}
-            className="rounded-lg"
+            className="rounded-lg bg-white"
           />
         </div>
         <div>
           <p className="py-1 text-xl text-[#c52326]">
-            World Cricket Championship
+            World Cricket Championship - From Gamer&apos;s Favorite to Global
+            Sensation
           </p>
           {/* <p>Hands-on Nazara – India’s first Gaming IPO</p> */}
           <p className="py-1">
-            Developed by Chennai based Nextwave Multimedia Pvt. Ltd., the World
-            Cricket Championship series is one of the most popular mobile
-            cricket gaming franchise in the world. Spanning across multiple
-            editions and unique features, this game has the biggest user base
-            and a favorite with cricket fans all over the world.
+            World Cricket Championship, the highly acclaimed mobile cricket
+            gaming franchise developed by Nextwave Multimedia Pvt. Ltd.,
+            captured the hearts of gamers worldwide with its multiple editions
+            and unique features. Despite its massive user base and popularity
+            among cricket enthusiasts, the brand&apos;s presence was primarily
+            limited to gaming circles.
           </p>
           <p className="py-1">
-            However, it was majorly known to the gamers and not the general
-            milieu or the media. When Sharmilee Daru PR took over the mandate
-            for the brand and IP, the scenario changed, for good. With repeated,
-            meaningful messaging, the brand’s perception was established in the
-            media and overall space to what it rightly deserved – as The Largest
-            Mobile Cricket Game in the world.
+            When Sharmilee Daru PR assumed the mandate for the brand and its
+            intellectual property, a transformational journey commenced. By
+            crafting repeated and impactful messaging, we steered the
+            brand&apos;s perception in the media and beyond, rightfully
+            positioning it as The Largest Mobile Cricket Game in the world.
           </p>
           <p className="py-1">
-            The studio, it’s spokesperson and the product quickly grabbed
-            eyeballs all around and still enjoys the spot in the media as one of
-            India’s top game development studio and IP built in the country.
+            Through strategic PR initiatives, the studio, its spokesperson, and
+            the product itself garnered widespread attention, captivating
+            audiences across the globe. The brand&apos;s reputation soared,
+            solidifying its place as one of India&apos;s most prominent game
+            development studios and an exceptional IP crafted within the
+            country.
+          </p>
+          <p className="py-1">
+            With compelling media coverage and meaningful engagements, World
+            Cricket Championship secured its spot in the media landscape,
+            admired as a global sensation cherished by cricket enthusiasts and
+            gaming aficionados alike.
+          </p>
+          <p className="py-1">
+            The case study showcases how 4WD GAMING&apos;s strategic PR efforts
+            successfully elevated World Cricket Championship from a beloved
+            gaming franchise among gamers to a global sensation, recognized as
+            the largest mobile cricket game in the world.
           </p>
         </div>
       </div>

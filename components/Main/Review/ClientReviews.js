@@ -92,7 +92,10 @@ const Testimonials = () => {
         <div className="mt-12">
           <ul className="grid items-center gap-6 sm:grid-cols-2 lg:grid-cols-3">
             {testimonials.map((item, idx) => (
-              <li key={idx} className="bg-white rounded-xl border shadow-md">
+              <li
+                key={idx}
+                className="bg-[#47494d] rounded-xl border shadow-md"
+              >
                 <div className="p-4">
                   <svg
                     className="w-9 h-9 text-gray-300"
@@ -108,7 +111,7 @@ const Testimonials = () => {
                 </div>
                 <figure>
                   <blockquote>
-                    <p className="text-gray-800 text-lg font-semibold px-4 py-1">
+                    <p className="text-white text-lg font-semibold px-4 py-1">
                       {item.quote}
                     </p>
                   </blockquote>

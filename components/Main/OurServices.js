@@ -42,35 +42,39 @@ export default function Services() {
       link: "/services/public-relations",
     },
     {
-      title: "Strategy and Marketing",
+      title: "Crisis Communication",
       img: str,
-      content: "Like in any game, at 4WD, we believe in strategizing.",
-      link: "/services/public-relations",
+      content:
+        "Crisis Communications - Navigating Turbulent Waters with Expertise",
+      link: "/services/crisis-communication",
     },
     {
-      title: "Public Relations",
+      title: "Esports Tournament Organization ",
       img: Pr,
-      content: "At 4WD Gaming, we're PR and gaming specialists",
-      link: "/services/public-relations",
+      content: "Esports Tournament Organization - Level Up Your Gaming Events",
+      link: "/services/esports-tournament-organization",
     },
     {
-      title: "Content and Copywriting",
+      title: "Data Driven Pr-Insights",
       img: cont,
-      content: "Like in gaming, we prefer to create a world for you.",
-      link: "/services/public-relations",
+      content:
+        " Data-driven PR Insights - Unlocking the Power of Analytics in Gaming",
+      link: "/services/data-driven-pr-insight",
     },
     {
-      title: "Creators and Influencers",
+      title: "Gaming Product Launches",
       img: web,
-      content: "We work with some of the top gaming content creators and ...",
-      link: "/services/public-relations",
+      content:
+        "Gaming Product Launches - Igniting Success in the Gaming Industry",
+      link: "/services/gaming-product-launches",
     },
 
     {
-      title: "Digital Gaming Events",
+      title: "International Pr-Expansion",
       img: esp,
-      content: "Your events will be the talk of the gaming community",
-      link: "/services/public-relations",
+      content:
+        " International PR Expansion - Unlocking Global Opportunities for Gaming Brands",
+      link: "/services/international-pr-expansion",
     },
   ];
   return (

@@ -7,7 +7,7 @@ const gamingproductlaunches = () => {
       <Head>
         <title>
           {" "}
-          Content and Copywriting - Engage Your Audience with Compelling Stories
+          Gaming Product Launches - Igniting Success in the Gaming Industry
         </title>
         <meta
           name="description"
@@ -15,8 +15,8 @@ const gamingproductlaunches = () => {
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
-          </Head>
-          <GamingProductLaunches/>
+      </Head>
+      <GamingProductLaunches />
     </div>
   );
 }
