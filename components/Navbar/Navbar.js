@@ -146,16 +146,16 @@ const Navbar = () => {
           &nbsp;
           <button onClick={() => setOpen(!open)} className="block lg:hidden ">
             {!open ? (
-              <RiMenu4Line className="text-3xl" />
+              <RiMenu4Line className="text-3xl text-[#c52326]" />
             ) : (
-              <AiOutlineClose className="text-3xl" />
+              <AiOutlineClose className="text-3xl text-[#c52326]" />
             )}
           </button>
         </div>
       </nav>
 
       {open ? (
-        <div className="bg-[#191c20] text-[#fff] rounded w-full text-center z-10 mb-5 fixed">
+        <div className="bg-[#191c20] text-[#fff] rounded w-full text-center z-10 pb-5 fixed">
           <ul className=" lg:hidden flex flex-col items-center gap-5  ">
             <li>
               <Link
@@ -323,7 +323,7 @@ const Navbar = () => {
               </Link>
             </li>
           </ul>
-          &nbsp;&nbsp;&nbsp;
+          <br/>
           <button className=" bg-[#c52326] text-white items-center px-5 py-3 rounded-lg shadow-lg shadow-red-500/50">
             <Link href={"/contactUs"}>Contact us</Link>
           </button>
