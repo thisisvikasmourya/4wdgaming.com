@@ -75,10 +75,10 @@ const Navbar = () => {
         <div className="dropdown">
           <button className="dropbtn">Our Work</button>
           <div className="dropdown-content">
-            <a href={"/advisory-council-members"}>Advisory Council Members</a>
-            {/* <a href={"/case-study"}>Case Studies</a> */}
-            <a href={"#client"}>Clients</a>
-            <a href="#">4WD Gaming in News</a>
+            <Link href={"/advisory-council-members"}>Advisory Council Members</Link>
+            {/* <Link href={"/case-study"}>Case Studies</Link> */}
+            <Link href={"#client"}>Clients</Link>
+            <Link href="#">4WD Gaming in News</Link>
           </div>
         </div>
       </li>
@@ -86,18 +86,18 @@ const Navbar = () => {
         <div className="dropdown">
           <button className="dropbtn">Case Study</button>
           <div className="dropdown-content">
-            <a href={"/case-study/nazara"} onClick={() => setOpen(false)}>
+            <Link href={"/case-study/nazara"} onClick={() => setOpen(false)}>
               Nazara Technologies
-            </a>
-            <a href={"/case-study/yudiz"} onClick={() => setOpen(false)}>
+            </Link>
+            <Link href={"/case-study/yudiz"} onClick={() => setOpen(false)}>
               Yudiz Solutions
-            </a>
-            <a href={"/case-study/tfg"} onClick={() => setOpen(false)}>
+            </Link>
+            <Link href={"/case-study/tfg"} onClick={() => setOpen(false)}>
               Trade Fantasy Game
-            </a>
-            <a href="/case-study/wcc" onClick={() => setOpen(false)}>
+            </Link>
+            <Link href="/case-study/wcc" onClick={() => setOpen(false)}>
               World Cricket Championship
-            </a>
+            </Link>
           </div>
         </div>
       </li>
@@ -256,18 +256,18 @@ const Navbar = () => {
               <div className="dropdown">
                 <button className="dropbtn">Our Work</button>
                 <div className="dropdown-content">
-                  <a
+                  <Link
                     href={"/advisory-council-members"}
                     onClick={() => setOpen(false)}
                   >
                     Advisory Council Members
-                  </a>
-                  <a href={"#client"} onClick={() => setOpen(false)}>
+                  </Link>
+                  <Link href={"#client"} onClick={() => setOpen(false)}>
                     Clients
-                  </a>
-                  <a href="#" onClick={() => setOpen(false)}>
+                  </Link>
+                  <Link href="#" onClick={() => setOpen(false)}>
                     4WD Gaming in News
-                  </a>
+                  </Link>
                 </div>
               </div>
             </li>
@@ -275,18 +275,18 @@ const Navbar = () => {
               <div className="dropdown">
                 <button className="dropbtn">Case Study</button>
                 <div className="dropdown-content">
-                  <a href={"/case-study/nazara"} onClick={() => setOpen(false)}>
+                  <Link href={"/case-study/nazara"} onClick={() => setOpen(false)}>
                     Nazara Technologies
-                  </a>
-                  <a href={"/case-study/yudiz"} onClick={() => setOpen(false)}>
+                  </Link>
+                  <Link href={"/case-study/yudiz"} onClick={() => setOpen(false)}>
                     Yudiz Solutions
-                  </a>
-                  <a href={"/case-study/tfg"} onClick={() => setOpen(false)}>
+                  </Link>
+                  <Link href={"/case-study/tfg"} onClick={() => setOpen(false)}>
                     Trade Fantasy Game
-                  </a>
-                  <a href="/case-study/wcc" onClick={() => setOpen(false)}>
+                  </Link>
+                  <Link href="/case-study/wcc" onClick={() => setOpen(false)}>
                     World Cricket Championship
-                  </a>
+                  </Link>
                 </div>
               </div>
             </li>
