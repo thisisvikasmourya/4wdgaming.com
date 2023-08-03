@@ -14,6 +14,7 @@ import Testimonial from "@/components/Main/Review/Testimonial";
 import AdvisoryCouncil from "@/components/Main/AdvisoryCouncil";
 import ClientScroll from "@/components/Main/Review/ClientScroll";
 import WhyChooseUs from "@/components/Main/WhyChooseUs";
+import PricingPage from "@/components/Main/Pricing/PricingPage";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -33,7 +34,8 @@ export default function Home() {
         <Services />
         {/* <OurClients /> */}
         <Testimonial/>
-       <WhyChooseUs/>
+        <WhyChooseUs />
+        <PricingPage/>
       </main>
     </>
   );
