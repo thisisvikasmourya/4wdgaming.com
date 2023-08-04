@@ -77,7 +77,7 @@ const testimonials = [
 ];
 const Testimonials = () => {
   return (
-    <section className="relative py-20 bg-[#14161a]">
+    <section className="relative py-20 bg-[#14161a]" data-aos="zoom-in-up">
       <div className="relative z-10 max-w-screen-xl mx-auto px-4 md:px-8">
         <div className="max-w-xl sm:text-center md:mx-auto">
           <h3 className="text-white text-3xl font-semibold sm:text-4xl">
@@ -90,11 +90,11 @@ const Testimonials = () => {
           </p>
         </div>
         <div className="mt-12">
-          <ul className="grid items-center gap-6 sm:grid-cols-2 lg:grid-cols-3">
+          <ul className="grid items-center gap-6 sm:grid-cols-2 lg:grid-cols-3" data-aos="zoom-in-up">
             {testimonials.map((item, idx) => (
               <li
                 key={idx}
-                className="bg-[#47494d] rounded-xl border shadow-md"
+                className="bg-[#14161a] rounded-xl border shadow-md"
               >
                 <div className="p-4">
                   <svg
@@ -111,20 +111,18 @@ const Testimonials = () => {
                 </div>
                 <figure>
                   <blockquote>
-                    <p className="text-white text-lg font-semibold px-4 py-1">
+                    <p className="text-white text-lg  px-4 py-1">
                       {item.quote}
                     </p>
                   </blockquote>
-                  <div className="flex items-center gap-x-4 p-4 mt-6  bg-indigo-50">
+                  <div className="flex items-center gap-x-4 p-4 mt-6  bg-[#c52326] rounded-xl">
                     <img
                       src={item.avatar}
                       className="w-16 h-16 rounded-full border-2 border-indigo-500"
                     />
                     <div>
-                      <span className="block text-gray-800 font-semibold">
-                        {item.name}
-                      </span>
-                      <span className="block text-indigo-600 text-sm mt-0.5">
+                      <span className="block text-white ">{item.name}</span>
+                      <span className="block text-white text-sm mt-0.5">
                         {item.title}
                       </span>
                     </div>
@@ -143,7 +141,7 @@ const Testimonials = () => {
       <div
         className="absolute top-0 w-full h-[350px]"
         style={{
-          backgroundColor: "#c52326",
+          backgroundColor: "#17191d",
         }}
       ></div>
     </section>

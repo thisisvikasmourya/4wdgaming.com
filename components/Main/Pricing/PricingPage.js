@@ -58,7 +58,7 @@ const PricingPage = () =>
               Pricing for all sizes
             </h3>
             <div className="mt-3 max-w-xl text-white">
-              <p>
+              <p className="text-white">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
                 efficitur consequat nunc.
               </p>
@@ -87,7 +87,7 @@ const PricingPage = () =>
                     ${item.price}{" "}
                     <span className="text-xl text-white font-normal">/mo</span>
                   </div>
-                  <p>{item.desc}</p>
+                  <p className="text-white">{item.desc}</p>
                   <button className="px-3 py-3 rounded-lg w-full  text-sm duration-150 text-white bg-[#c52326] hover:bg-[#c52426] active:bg-[#c52326]">
                     Get Started
                   </button>

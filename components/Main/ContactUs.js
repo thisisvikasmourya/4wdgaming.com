@@ -43,7 +43,7 @@ const ContactUs = () => {
 
   return (
     <div>
-      <main className="w-full flex">
+      <main className="w-full flex" data-aos="zoom-in">
         <div className="relative flex-1 hidden items-center justify-center h-screen bg-[#121416] lg:flex">
           <div className="relative z-10 w-full max-w-md">
             <div className=" space-y-3">
@@ -130,18 +130,18 @@ const ContactUs = () => {
               </div>
               <div>
                 <label className="font-medium text-white">Phone number</label>
-              
-                  <input
-                    type="number"
-                    placeholder="+91  00000-00000"
-                    required
-                    onChange={(e) => {
-                      setPhone(e.target.value);
-                    }}
-                    className="w-full pl-2 pr-3 py-2 appearance-none bg-transparent outline-none border focus:border-gray-800 shadow-sm rounded-lg"
-                  />
-                </div>
-            
+
+                <input
+                  type="number"
+                  placeholder="+91  00000-00000"
+                  required
+                  onChange={(e) => {
+                    setPhone(e.target.value);
+                  }}
+                  className="w-full pl-2 pr-3 py-2 appearance-none bg-transparent outline-none border focus:border-gray-800 shadow-sm rounded-lg"
+                />
+              </div>
+
               <div>
                 <label className="font-medium text-white">Message</label>
                 <textarea

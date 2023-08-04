@@ -6,6 +6,10 @@ const PublicRelations = () =>
 {
   const data2 = [
     {
+      title: "Comprehensive Suite of PR Services:",
+      cont: "From media coverage and influencer partnerships to crisis communications and thought leadership articles, we offer a comprehensive suite of PR services. Our aim is to enhance your brand's reputation, forge valuable partnerships, and attract a broader audience to your gaming endeavors.",
+    },
+    {
       title: "Pioneers in Gaming PR:",
       cont: "We take pride in being pioneers in gaming PR, having played a crucial role in shaping the gaming PR ecosystem in India. Our journey as early adopters and advocates of gaming PR has witnessed the industry's evolution from skill-based real money gaming to the exciting world of Web3 and blockchain gaming.",
     },
@@ -43,47 +47,51 @@ const PublicRelations = () =>
       title: "In-Depth Understanding of Gaming Industry:",
       cont: "With years of experience in the gaming and esports industry, we understand the unique challenges and opportunities you face. Our team of dedicated PR specialists is well-versed in the intricacies of the gaming world, enabling us to craft PR campaigns that resonate with your target audience.",
     },
-    {
-      title: "Comprehensive Suite of PR Services:",
-      cont: "From media coverage and influencer partnerships to crisis communications and thought leadership articles, we offer a comprehensive suite of PR services. Our aim is to enhance your brand's reputation, forge valuable partnerships, and attract a broader audience to your gaming endeavors.",
-    },
+   
    
   ];
   return (
     <div>
-      <div className="content bg-[#17191d] py-16 lg:px-32 px-4">
-        <h1 className=" outline text-center lg:text-9xl md:text-6xl text-4xl text-[#fff] outline-4 font-semibold">
-          Public Relations
-        </h1>
-      </div>
-
-      <div className="grid lg:grid-cols-2 grid-cols-1 gap-6 pt-10 lg:px-32 px-4 bg-[#191C20]">
-        <div>
-          <Image src={About} alt="hello" layout="" className="rounded-lg" />
-        </div>
-        <div>
-          <p className="py-1 text-white">
-            Are you ready to take your gaming brand to the next level? At 4WD
-            Gaming, we are not just any PR agency; we are brand builders who
-            understand the immense power of a strong brand in attracting organic
-            media and PR.
-          </p>
-
-          {data.map((items, key) => (
-            <div key={key}>
-              <p className="text-[#c52326] text-xl">{items.title}</p>
-              <p className="py-1 text-white"> {items.cont}</p>
-            </div>
-          ))}
-        </div>
-      </div>
-      <div className="p-4 grid lg:grid-cols-2 grid-cols-1 gap-2  lg:px-32 px-4 bg-[#191C20]">
-        {data2.map((items, key) => (
-          <div key={key}>
-            <p className="text-[#c52326] text-xl">{items.title}</p>
-            <p className="py-1 text-white"> {items.cont}</p>
+      <div className="bg-[#17191d]" data-aos="zoom-in">
+        <div className="max-w-screen-xl mx-auto md:px-8">
+          <div className="content bg-[#17191d] py-16  px-4">
+            <h1 className=" outline text-center lg:text-9xl md:text-6xl text-4xl text-[#fff] outline-4 font-semibold">
+              Public Relations
+            </h1>
           </div>
-        ))}
+        </div>
+      </div>
+      <div className="bg-[#191C20]" data-aos="zoom-in">
+        <div className="max-w-screen-xl mx-auto md:px-8">
+          <div className="grid lg:grid-cols-2 grid-cols-1 gap-6 pt-10  px-4 bg-[#191C20]">
+            <div>
+              <Image src={About} alt="hello" layout="" className="rounded-lg" />
+            </div>
+            <div>
+              <p className="py-1 text-white">
+                Are you ready to take your gaming brand to the next level? At
+                4WD Gaming, we are not just any PR agency; we are brand builders
+                who understand the immense power of a strong brand in attracting
+                organic media and PR.
+              </p>
+
+              {data.map((items, key) => (
+                <div key={key}>
+                  <p className="text-[#c52326] text-xl">{items.title}</p>
+                  <p className="py-1 text-white"> {items.cont}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+          <div className="p-4 grid lg:grid-cols-2 grid-cols-1 gap-2   px-4 bg-[#191C20]">
+            {data2.map((items, key) => (
+              <div key={key}>
+                <p className="text-[#c52326] text-xl">{items.title}</p>
+                <p className="py-1 text-white"> {items.cont}</p>
+              </div>
+            ))}
+          </div>
+        </div>
       </div>
     </div>
   );

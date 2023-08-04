@@ -17,13 +17,14 @@ const CrisisCommunication = () =>
          title: "Transparent Communication:",
          cont: "In times of crisis, transparent communication is vital. We guide you in communicating openly and honestly with your stakeholders, building trust and credibility.",
        },
+     
+     
+     ];
+     const data2 = [
        {
          title: "Preserving Brand Image:",
          cont: "We recognize the significance of preserving your brand's image, even during challenging situations. Our team ensures that your core values and identity remain intact.",
        },
-     
-     ];
-     const data2 = [
        {
          title: "Digital Reputation Management:",
          cont: "In today's digital age, reputation management extends to online platforms. We monitor and manage your digital reputation, safeguarding your brand's online presence.",
@@ -59,38 +60,46 @@ const CrisisCommunication = () =>
      ];
   return (
     <div>
-      <div className="content bg-[#17191d] py-16 lg:px-32 px-4">
-        <h1 className=" outline text-center lg:text-9xl md:text-6xl text-4xl text-[#fff] outline-4 font-semibold">
-          Crisis Communication
-        </h1>
-      </div>
-
-      <div className="grid lg:grid-cols-2 grid-cols-1 gap-6 pt-10 lg:px-32 px-4 bg-[#191C20]">
-        <div>
-          <Image src={About} alt="hello" layout="" className="rounded-lg" />
-        </div>
-        <div>
-          <p className="py-1 text-white">
-            Captivate your gaming community with powerful storytelling. At 4WD
-            Gaming, we understand the significance of content and copywriting in
-            creating meaningful connections with your audience.
-          </p>
-
-          {data.map((items, key) => (
-            <div key={key}>
-              <p className="text-[#c52326] text-xl">{items.title}</p>
-              <p className="py-1 text-white"> {items.cont}</p>
-            </div>
-          ))}
-        </div>
-      </div>
-      <div className=" grid lg:grid-cols-2 grid-cols-1 gap-2   lg:px-32 px-4 bg-[#191C20]">
-        {data2.map((items, key) => (
-          <div key={key}>
-            <p className="text-[#c52326] text-xl">{items.title}</p>
-            <p className="py-1 text-white"> {items.cont}</p>
+      <div className="bg-[#17191d]" data-aos="zoom-in">
+        <div className="max-w-screen-xl mx-auto md:px-8">
+          <div className="content bg-[#17191d] py-16  px-4">
+            <h1 className=" outline text-center lg:text-9xl md:text-6xl text-4xl text-[#fff] outline-4 font-semibold">
+              Crisis Communication
+            </h1>
           </div>
-        ))}
+        </div>
+      </div>
+      <div className="bg-[#191C20]" data-aos="zoom-in">
+        <div className="max-w-screen-xl mx-auto md:px-8">
+          <div className="grid lg:grid-cols-2 grid-cols-1 gap-6 pt-10  px-4 bg-[#191C20]">
+            <div>
+              <Image src={About} alt="hello" layout="" className="rounded-lg" />
+            </div>
+            <div>
+              <p className="py-1 text-white">
+                Captivate your gaming community with powerful storytelling. At
+                4WD Gaming, we understand the significance of content and
+                copywriting in creating meaningful connections with your
+                audience.
+              </p>
+
+              {data.map((items, key) => (
+                <div key={key}>
+                  <p className="text-[#c52326] text-xl">{items.title}</p>
+                  <p className="py-1 text-white"> {items.cont}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+          <div className=" grid lg:grid-cols-2 grid-cols-1 gap-2    px-4 bg-[#191C20]">
+            {data2.map((items, key) => (
+              <div key={key}>
+                <p className="text-[#c52326] text-xl">{items.title}</p>
+                <p className="py-1 text-white"> {items.cont}</p>
+              </div>
+            ))}
+          </div>
+        </div>
       </div>
     </div>
   );

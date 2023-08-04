@@ -5,7 +5,10 @@ import About from "../../../public/images/webs.png";
 const ContentandCopywriting = () =>
 {
    const data2 = [
-     
+     {
+       title: "Showcasing Your Gaming Venture:",
+       cont: "Whether you're launching a new game or promoting an esports event, our content and copywriting services showcase the uniqueness of your gaming venture, setting it apart from the competition.",
+     },
      {
        title: "Driving Community Engagement:",
        cont: "Engagement is the heartbeat of any gaming community. Our content and copywriting strategies are designed to ignite conversations, spark interest, and drive active participation.",
@@ -44,20 +47,21 @@ const ContentandCopywriting = () =>
        title: "Creating Brand Loyalty:",
        cont: "Effective content and copywriting go beyond words; they create emotional connections with your audience. We craft content that fosters brand loyalty, turning gamers into devoted fans.",
      },
-     {
-       title: "Showcasing Your Gaming Venture:",
-       cont: "Whether you're launching a new game or promoting an esports event, our content and copywriting services showcase the uniqueness of your gaming venture, setting it apart from the competition.",
-     },
+    
    ];
-    return (
-      <div>
-        <div className="content bg-[#17191d] py-16 lg:px-32 px-4">
-          <h1 className=" outline text-center lg:text-9xl md:text-6xl text-4xl text-[#fff] outline-4 font-semibold">
-            Content & Copywriting
-          </h1>
+  return (
+    <div className="bg-[#191C20]">
+      <div className="bg-[#17191d]" data-aos="zoom-in">
+        <div className="max-w-screen-xl mx-auto md:px-8">
+          <div className="content bg-[#17191d] py-16  px-4 ">
+            <h1 className=" outline text-center lg:text-9xl md:text-6xl text-4xl text-[#fff] outline-4 font-semibold">
+              Content & Copywriting
+            </h1>
+          </div>
         </div>
-
-        <div className="grid lg:grid-cols-2 grid-cols-1 gap-6 p-4  lg:px-32 px-4 pt-10 bg-[#191C20]">
+      </div>
+      <div className="max-w-screen-xl mx-auto md:px-8" data-aos="zoom-in">
+        <div className="grid lg:grid-cols-2 grid-cols-1 gap-6 p-4   px-4 pt-10 bg-[#191C20]">
           <div>
             <Image src={About} alt="hello" layout="" className="rounded-lg" />
           </div>
@@ -76,7 +80,7 @@ const ContentandCopywriting = () =>
             ))}
           </div>
         </div>
-        <div className=" grid lg:grid-cols-2 grid-cols-1 gap-2  lg:px-32 px-4 bg-[#191C20]">
+        <div className=" grid lg:grid-cols-2 grid-cols-1 gap-2  px-4 bg-[#191C20]">
           {data2.map((items, key) => (
             <div key={key}>
               <p className="text-[#c52326] text-xl">{items.title}</p>
@@ -85,7 +89,8 @@ const ContentandCopywriting = () =>
           ))}
         </div>
       </div>
-    );
+    </div>
+  );
 }
 
 export default ContentandCopywriting

@@ -5,6 +5,11 @@ import About from "../../../public/images/webs.png";
 const DataDrivenPrInsights = () => {
   const data2 = [
     {
+      title: "Measure PR Campaign Success:",
+      cont: "With data-driven PR insights, you can precisely measure the success of your PR campaigns. We track key performance indicators (KPIs) to evaluate the effectiveness of each campaign, providing you with real-time data to gauge performance.",
+    },
+
+    {
       title: "Competitor Benchmarking:",
       cont: "Knowing your competition is vital in the gaming industry. We perform competitor benchmarking to compare your PR efforts with industry peers, enabling you to stay ahead in the competitive gaming landscape.",
     },
@@ -42,46 +47,50 @@ const DataDrivenPrInsights = () => {
       title: "In-depth Data Analysis:",
       cont: "We delve deep into gaming industry data, social media metrics, player engagement, and media coverage to extract valuable insights. Our comprehensive data analysis reveals trends, identifies opportunities, and highlights potential areas of improvement.",
     },
-    {
-      title: "Measure PR Campaign Success:",
-      cont: "With data-driven PR insights, you can precisely measure the success of your PR campaigns. We track key performance indicators (KPIs) to evaluate the effectiveness of each campaign, providing you with real-time data to gauge performance.",
-    },
- 
+  
   ];
   return (
     <div>
-      <div className="content bg-[#17191d] py-16 lg:px-32 px-4">
-        <h1 className=" outline text-center lg:text-9xl md:text-6xl text-4xl text-[#fff] outline-4 font-semibold">
-          Data Driven Pr-Insights
-        </h1>
-      </div>
-
-      <div className="grid lg:grid-cols-2 grid-cols-1 gap-6  pt-10 lg:px-32 px-4 bg-[#191C20]">
-        <div>
-          <Image src={About} alt="hello" layout="" className="rounded-lg" />
-        </div>
-        <div>
-          <p className="py-1 text-white">
-            Captivate your gaming community with powerful storytelling. At 4WD
-            Gaming, we understand the significance of content and copywriting in
-            creating meaningful connections with your audience.
-          </p>
-
-          {data.map((items, key) => (
-            <div key={key}>
-              <p className="text-[#c52326] text-xl">{items.title}</p>
-              <p className="py-1 text-white"> {items.cont}</p>
-            </div>
-          ))}
-        </div>
-      </div>
-      <div className="grid lg:grid-cols-2 grid-cols-1 gap-2 p-4  lg:px-32 px-4 bg-[#191C20]">
-        {data2.map((items, key) => (
-          <div key={key}>
-            <p className="text-[#c52326] text-xl">{items.title}</p>
-            <p className="py-1 text-white"> {items.cont}</p>
+      <div className="bg-[#17191d]" data-aos="zoom-in">
+        <div className="max-w-screen-xl mx-auto md:px-8">
+          <div className="content bg-[#17191d] py-16  px-4">
+            <h1 className=" outline text-center lg:text-9xl md:text-6xl text-4xl text-[#fff] outline-4 font-semibold">
+              Data Driven Pr-Insights
+            </h1>
           </div>
-        ))}
+        </div>
+      </div>
+      <div className="bg-[#191C20]" data-aos="zoom-in">
+        <div className="max-w-screen-xl mx-auto md:px-8">
+          <div className="grid lg:grid-cols-2 grid-cols-1 gap-6  pt-10  px-4 bg-[#191C20]">
+            <div>
+              <Image src={About} alt="hello" layout="" className="rounded-lg" />
+            </div>
+            <div>
+              <p className="py-1 text-white">
+                Captivate your gaming community with powerful storytelling. At
+                4WD Gaming, we understand the significance of content and
+                copywriting in creating meaningful connections with your
+                audience.
+              </p>
+
+              {data.map((items, key) => (
+                <div key={key}>
+                  <p className="text-[#c52326] text-xl">{items.title}</p>
+                  <p className="py-1 text-white"> {items.cont}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+          <div className="grid lg:grid-cols-2 grid-cols-1 gap-2 p-4   px-4 bg-[#191C20]">
+            {data2.map((items, key) => (
+              <div key={key}>
+                <p className="text-[#c52326] text-xl">{items.title}</p>
+                <p className="py-1 text-white"> {items.cont}</p>
+              </div>
+            ))}
+          </div>
+        </div>
       </div>
     </div>
   );

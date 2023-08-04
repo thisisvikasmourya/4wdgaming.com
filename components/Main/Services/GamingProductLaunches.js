@@ -4,7 +4,11 @@ import About from "../../../public/images/content.jpg";
 
 const GamingProductLaunches = () => {
   const data2 = [
-    
+    {
+      title: "Strategic Marketing Campaigns:",
+      cont: "Our gaming product launches are backed by strategic marketing campaigns that build anticipation and excitement among your target audience. From teaser trailers to influencer partnerships, we ensure your product gains momentum before it hits the shelves.",
+    },
+
     {
       title: "Media Coverage and Publicity:",
       cont: "Our extensive media network allows us to secure comprehensive media coverage for your gaming product launch. We create compelling press releases, arrange media interviews, and leverage industry connections to put your product in the spotlight.",
@@ -51,39 +55,43 @@ const GamingProductLaunches = () => {
       title: "Comprehensive Pre-Launch Planning:",
       cont: "A successful gaming product launch starts with a well-executed pre-launch plan. We collaborate with you to understand your vision, analyze market trends, and identify the best launch window for maximum impact.",
     },
-    {
-      title: "Strategic Marketing Campaigns:",
-      cont: "Our gaming product launches are backed by strategic marketing campaigns that build anticipation and excitement among your target audience. From teaser trailers to influencer partnerships, we ensure your product gains momentum before it hits the shelves.",
-    },
+  
   ];
   return (
     <div>
-      <div className="content bg-[#17191d] py-16 lg:px-32 px-4">
-        <h1 className=" outline text-center lg:text-9xl md:text-6xl text-4xl text-[#fff] outline-4 font-semibold">
-          Gaming Product Launches
-        </h1>
-      </div>
-
-      <div className="grid lg:grid-cols-2 grid-cols-1 gap-6  pt-10 lg:px-32 px-4 bg-[#191C20]">
-        <div>
-          <Image src={About} alt="hello" layout="" className="rounded-lg" />
-        </div>
-        <div>
-          {data.map((items, key) => (
-            <div key={key}>
-              <p className="text-[#c52326] text-xl">{items.title}</p>
-              <p className="py-1 text-white"> {items.cont}</p>
-            </div>
-          ))}
-        </div>
-      </div>
-      <div className="p-4 grid lg:grid-cols-2 grid-cols-1 gap-2  lg:px-32 px-4 bg-[#191C20]">
-        {data2.map((items, key) => (
-          <div key={key}>
-            <p className="text-[#c52326] text-xl">{items.title}</p>
-            <p className="py-1 text-white"> {items.cont}</p>
+      <div className="bg-[#17191d]" data-aos="zoom-in">
+        <div className="max-w-screen-xl mx-auto md:px-8">
+          <div className="content bg-[#17191d] py-16  px-4">
+            <h1 className=" outline text-center lg:text-9xl md:text-6xl text-4xl text-[#fff] outline-4 font-semibold">
+              Gaming Product Launches
+            </h1>
           </div>
-        ))}
+        </div>
+      </div>
+      <div className="bg-[#191C20]" data-aos="zoom-in">
+        <div className="max-w-screen-xl mx-auto md:px-8">
+          <div className="grid lg:grid-cols-2 grid-cols-1 gap-6  pt-10  px-4 bg-[#191C20]">
+            <div>
+              <Image src={About} alt="hello" layout="" className="rounded-lg" />
+            </div>
+            <div>
+              {data.map((items, key) => (
+                <div key={key}>
+                  <p className="text-[#c52326] text-xl">{items.title}</p>
+                  <p className="py-1 text-white"> {items.cont}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+          <div className="p-4 grid lg:grid-cols-2 grid-cols-1 gap-2   px-4 bg-[#191C20]">
+            {data2.map((items, key) => (
+              <div key={key}>
+                <p className="text-[#c52326] text-xl">{items.title}</p>
+                <p className="py-1 text-white"> {items.cont}</p>
+              </div>
+            ))}
+          </div>
+        </div>
       </div>
     </div>
   );

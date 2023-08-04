@@ -14,8 +14,8 @@ import client11 from "../../../public/images/trinity.png";
 
 const ClientScroll = () => {
   return (
-    <div className=" py-5 bg-[#c52326]">
-      <div className="marquee">
+    <div className=" py-5 bg-[#191c20]">
+      <div className="marquee max-w-screen-xl mx-auto md:px-8">
         <ul className="marquee-content">
           <li className="marquee-item">
             {" "}

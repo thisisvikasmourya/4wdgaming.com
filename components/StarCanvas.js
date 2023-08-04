@@ -104,7 +104,7 @@ export default function StarsCanvas() {
                 ],
                 autoStart: true,
                 loop: true, // Set the loop option to true for infinite repeating
-                deleteSpeed: 200, // Adjust the delete speed
+                deleteSpeed: 0, // Adjust the delete speed
               }}
               onInit={(typewriter) => {
                 typewriter

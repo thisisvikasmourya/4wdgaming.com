@@ -4,7 +4,6 @@ import About from "../../../public/images/content.jpg";
 
 const InternationalPrExpansion = () => {
   const data2 = [
-   
     {
       title: "Customized PR Strategies:",
       cont: "We tailor our PR strategies to align with the preferences and interests of international gaming communities. Our customized approach ensures that your brand's messaging and engagement tactics appeal to players worldwide.",
@@ -29,7 +28,6 @@ const InternationalPrExpansion = () => {
       title: "Contact Us Today:",
       cont: "Embark on a journey of international gaming success. Contact 4WD Gaming today and let our international PR experts unlock global opportunities for your gaming brand.",
     },
- 
   ];
   const data = [
     {
@@ -51,32 +49,39 @@ const InternationalPrExpansion = () => {
   ];
   return (
     <div>
-      <div className="content bg-[#17191d] py-16 lg:px-32 px-4">
-        <h1 className=" outline text-center lg:text-9xl md:text-6xl text-4xl text-[#fff] outline-4 font-semibold">
-          International Pr-Expansion
-        </h1>
-      </div>
-
-      <div className="grid lg:grid-cols-2 grid-cols-1 gap-6  pt-10 lg:px-32 px-4 bg-[#191C20]">
-        <div>
-          <Image src={About} alt="hello" layout="" className="rounded-lg" />
-        </div>
-        <div>
-          {data.map((items, key) => (
-            <div key={key}>
-              <p className="text-[#c52326] text-xl">{items.title}</p>
-              <p className="py-1 text-white"> {items.cont}</p>
-            </div>
-          ))}
-        </div>
-      </div>
-      <div className="p-4  grid lg:grid-cols-2 grid-cols-1 gap-2 lg:px-32 px-4 bg-[#191C20]">
-        {data2.map((items, key) => (
-          <div key={key}>
-            <p className="text-[#c52326] text-xl">{items.title}</p>
-            <p className="py-1 text-white"> {items.cont}</p>
+      <div className="bg-[#17191d]" data-aos="zoom-in">
+        <div className="max-w-screen-xl mx-auto md:px-8">
+          <div className="content bg-[#17191d] py-16  px-4">
+            <h1 className=" outline text-center lg:text-9xl md:text-6xl text-4xl text-[#fff] outline-4 font-semibold">
+              International Pr-Expansion
+            </h1>
           </div>
-        ))}
+        </div>
+      </div>
+      <div className="bg-[#191C20]" data-aos="zoom-in">
+        <div className="max-w-screen-xl mx-auto md:px-8">
+          <div className="grid lg:grid-cols-2 grid-cols-1 gap-6  pt-10  px-4 bg-[#191C20]">
+            <div>
+              <Image src={About} alt="hello" layout="" className="rounded-lg" />
+            </div>
+            <div>
+              {data.map((items, key) => (
+                <div key={key}>
+                  <p className="text-[#c52326] text-xl">{items.title}</p>
+                  <p className="py-1 text-white"> {items.cont}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+          <div className="p-4  grid lg:grid-cols-2 grid-cols-1 gap-2  px-4 bg-[#191C20]">
+            {data2.map((items, key) => (
+              <div key={key}>
+                <p className="text-[#c52326] text-xl">{items.title}</p>
+                <p className="py-1 text-white"> {items.cont}</p>
+              </div>
+            ))}
+          </div>
+        </div>
       </div>
     </div>
   );

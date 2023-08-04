@@ -31,8 +31,8 @@ export default function Home() {
         <StarsCanvas />
         <Page2 />
         <Services />
-        <ClientScroll/>
         <Testimonial/>
+        <ClientScroll/>
         <WhyChooseUs />
       
       </main>

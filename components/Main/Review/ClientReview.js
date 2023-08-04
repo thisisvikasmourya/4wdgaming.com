@@ -15,7 +15,7 @@ import client11 from "../../../public/images/trinity.png";
 const ClientReview = () => {
   return (
     <div>
-      <div className="py-20 bg-[#17191d] " id="client" data-aos="zoom-in">
+      <div className="py-20 bg-[#17191d] max-w-screen-xl mx-auto md:px-8" id="client" data-aos="zoom-in">
         <div className="max-w-screen-xl mx-auto px-4 md:px-8">
           <div className="max-w-xl mx-auto text-center">
             <h3 className="text-[#c52326] text-3xl font-semibold sm:text-4xl">

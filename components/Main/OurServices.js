@@ -41,6 +41,9 @@ export default function Services() {
       content: "Your events will be the talk of the gaming community",
       link: "/services/public-relations",
     },
+  
+  ];
+  const posts2 = [
     {
       title: "Crisis Communication",
       img: str,
@@ -78,8 +81,11 @@ export default function Services() {
     },
   ];
   return (
-    <>
-      <div className="lg:px-16 px-4  py-20 bg-[#17191d]" data-aos="zoom-in">
+    <div className="bg-[#17191d]">
+      <div
+        className="lg:px-1 px-4  py-20 bg-[#17191d] max-w-screen-xl mx-auto md:px-8"
+        data-aos="zoom-in"
+      >
         {/* <h1>Our Service</h1> */}
         <div className="max-w-xl sm:text-center py-10 md:mx-auto">
           <h3
@@ -99,10 +105,13 @@ export default function Services() {
         <p className="lg:text-2xl text-2xl border-b  text-center pb-3">
           INDIA&apos;S PREMIER GAMING PR & MARKETING CONSULTANCY
         </p> */}
-        <div className="grid gap-5 lg:grid-cols-5 pt-5">
+        <div
+          className="grid gap-5 lg:grid-cols-5 pt-5"
+          data-aos="fade-down-right"
+        >
           {posts.map((items, key) => (
             <div
-              className="w-full rounded-lg shadow-md lg:max-w-sm bg-[#14161a] "
+              className="w-full rounded-lg shadow-md border  lg:max-w-sm bg-[#14161a] "
               data-aos-duration="2000"
               key={key}
             >
@@ -112,23 +121,57 @@ export default function Services() {
                 alt="image"
               />
               <div className="p-4">
-                <h4 className="text-xl font-semibold text-[#c52326]">
+                <Link
+                  className=" text-xl font-semibold text-[#c52326]"
+                  href={items.link}
+                >
                   {items.title}
-                </h4>
-                <p className="mb-2 leading-normal text-white text-[16px]">
-                  {items.content}
-                </p>
+                </Link>
+                <br />
                 <Link
                   className=" text-sm text-blue-100  rounded shadow underline-offset-4"
                   href={items.link}
                 >
-                  Read more...
+                  {items.content}
+                </Link>
+              </div>
+            </div>
+          ))}
+        </div>
+        <div
+          className="grid gap-5 lg:grid-cols-5 pt-5"
+          data-aos="fade-down-right"
+        >
+          {posts2.map((items, key) => (
+            <div
+              className="w-full rounded-lg shadow-md border  lg:max-w-sm bg-[#14161a] "
+              data-aos-duration="2000"
+              key={key}
+            >
+              <Image
+                className="object-cover w-full rounded-lg h-48"
+                src={items.img}
+                alt="image"
+              />
+              <div className="p-4">
+                <Link
+                  className=" text-xl font-semibold text-[#c52326]"
+                  href={items.link}
+                >
+                  {items.title}
+                </Link>
+                <br />
+                <Link
+                  className=" text-sm text-blue-100  rounded shadow underline-offset-4"
+                  href={items.link}
+                >
+                  {items.content}
                 </Link>
               </div>
             </div>
           ))}
         </div>
       </div>
-    </>
+    </div>
   );
 }
