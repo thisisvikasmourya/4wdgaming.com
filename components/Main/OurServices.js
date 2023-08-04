@@ -4,6 +4,7 @@ import esp from "../../public/images/esport.jpg";
 import web from "../../public/images/webs.png";
 import cont from "../../public/images/content.jpg";
 import str from "../../public/images/0x0.jpg";
+import bg from "../../public/images/bg/2.png";
 import Image from "next/image";
 import Link from "next/link";
 import {HiArrowLongRight} from "react-icons/hi"
@@ -81,9 +82,18 @@ export default function Services() {
     },
   ];
   return (
-    <div className="bg-[#17191d]">
+    <div
+      className="bg-[#17191d]"
+      style={{
+        backgroundImage: `url(${bg.src})`,
+        backgroundSize: "cover",
+        width: "100%",
+        height: "100%",
+      }}
+    >
+      {/* bg-[#17191d] */}
       <div
-        className="lg:px-1 px-4  py-20 bg-[#17191d] max-w-screen-xl mx-auto md:px-8"
+        className=" px-4  py-20  max-w-screen-xl mx-auto md:px-8"
         data-aos="zoom-in"
       >
         {/* <h1>Our Service</h1> */}
@@ -98,13 +108,6 @@ export default function Services() {
             Whatever your game, we bring the ammo!
           </p>
         </div>
-
-        {/* <p className="lg:text-3xl text-[#c52326] text-2xl font-bold text-center py-1 ">
-          OUR SERVICES
-        </p>
-        <p className="lg:text-2xl text-2xl border-b  text-center pb-3">
-          INDIA&apos;S PREMIER GAMING PR & MARKETING CONSULTANCY
-        </p> */}
         <div
           className="grid gap-5 lg:grid-cols-5 pt-5"
           data-aos="fade-down-right"

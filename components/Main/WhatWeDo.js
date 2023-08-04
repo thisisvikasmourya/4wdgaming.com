@@ -23,7 +23,7 @@ const WhatWeDo = () => {
             <div className="max-w-screen-xl mx-auto md:px-8">
               <div className="flex lg:flex-row  flex-col gap-4 p-4 py-10  px-4 bg-[#191C20]">
                 <div>
-                  <Image src={About1} alt="hello" className="rounded-lg" />
+                  <Image src={About1} alt="hello" className="rounded-lg" width={300} />
                 </div>
 
                 <div className="text-white">
@@ -63,6 +63,7 @@ const WhatWeDo = () => {
                           src={About2}
                           alt="hello"
                           className="rounded-lg"
+                          width={300}
                         />
                       </div>
 

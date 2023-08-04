@@ -31,10 +31,10 @@ body{
 .dropbtn {
   background-color: ;
   color: white;
-  padding: 10px;
-
+  /* padding: 10px; */
+  
   border: none;
-  border-radius:10px;
+  /* border-radius:10px; */
   margin-bottom:5px
 }
 
@@ -69,7 +69,7 @@ body{
 .dropdown-content a:hover {background-color: #c52326; color:white}
 
 /* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {display: block;   animation: fade-in 10s;
+.dropdown:hover .dropdown-content {display: block;  ;
   
 }
 

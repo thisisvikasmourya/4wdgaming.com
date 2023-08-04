@@ -5,6 +5,7 @@ import vamsi from "../../public/images/Vamsi-Krishna-Talasila-1-1024x936.jpg";
 import jay from "../../public/images/Jay-Sayta-3-1-2.jpg";
 import About2 from "../../public/images/owner.jpg";
 import AdvisoryCouncil from "./AdvisoryCouncil";
+import WhatWeDo from "./WhatWeDo";
 
 const AboutUs = () => {
   return (
@@ -203,6 +204,7 @@ const AboutUs = () => {
           </div>
         </div>
       </div>
+      <WhatWeDo/>
       <AdvisoryCouncil />
     </div>
   );

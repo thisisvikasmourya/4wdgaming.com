@@ -13,7 +13,7 @@ const ContactUs = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log("Sending");
-    
+
     let data = {
       name,
       email,
@@ -48,7 +48,8 @@ const ContactUs = () => {
           <div className="relative z-10 w-full max-w-md">
             <div className=" space-y-3">
               <h3 className="text-white text-3xl font-bold">
-                Start growing your business quickly
+                Our customers positive feedback keeps us inspired and driven to
+                excel. Thank you for being a part of our journey!{" "}
               </h3>
               <p className="text-gray-300">
                 Create an account and get access to all features for 30-days, No

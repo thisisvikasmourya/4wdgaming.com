@@ -34,9 +34,8 @@ const Testimonial = () => {
             Hear from our customers
           </h3>
           <p className="mt-3 text-white text-center">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et est
-            hendrerit, porta nunc vitae, gravida justo. Nunc fermentum magna
-            lorem, euismod volutpat arcu volutpat et.
+            Our customers positive feedback keeps us inspired and driven to
+            excel. Thank you for being a part of our journey!{" "}
           </p>
         </div>
         <div className="mt-12">
@@ -71,9 +70,7 @@ const Testimonial = () => {
                       className="w-16 h-16 rounded-full border-2 border-indigo-500"
                     />
                     <div>
-                      <span className="block text-white ">
-                        {item.name}
-                      </span>
+                      <span className="block text-white ">{item.name}</span>
                       <span className="block text-white text-sm mt-0.5">
                         {item.title}
                       </span>

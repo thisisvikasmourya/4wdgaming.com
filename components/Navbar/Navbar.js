@@ -20,21 +20,18 @@ const Navbar = () => {
       </li>
 
       <li>
-        <div className="dropdown">
-          <button className="dropbtn">About Us</button>
-          <div className="dropdown-content">
-            <Link href="/about-us">About Company</Link>
-            {/* <Link href="/about-founder">About the Founder</Link> */}
-            <Link href="/what-we-do-and-how-we-do">
-              What we do & How we do it
-            </Link>
-            <Link href="/services/digital-gaming-events">Why Choose Us</Link>
-          </div>
-        </div>
+        <Link
+          href="/about-us"
+          className=" px-5 text-white  cursor-pointer hover:bg-[#c52326] py-2.5 rounded-lg hover:text-[#fff] "
+        >
+          About Us
+        </Link>
       </li>
       <li>
         <div className="dropdown ">
-          <button className="dropbtn">Services</button>
+          <button className="dropbtn px-5 text-white  cursor-pointer hover:bg-[#c52326] py-2.5 rounded-lg hover:text-[#fff]">
+            Services
+          </button>
           <div className="dropdown-content">
             <div>
               <Link href="/services/strategy-and-marketing">
@@ -73,20 +70,9 @@ const Navbar = () => {
       </li>
       <li>
         <div className="dropdown">
-          <button className="dropbtn">Our Work</button>
-          <div className="dropdown-content">
-            {/* <Link href={"/advisory-council-members"}>
-              Advisory Council Members
-            </Link> */}
-            {/* <Link href={"/case-study"}>Case Studies</Link> */}
-            <Link href={"#client"}>Clients</Link>
-            <Link href="#">4WD Gaming in News</Link>
-          </div>
-        </div>
-      </li>
-      <li>
-        <div className="dropdown">
-          <button className="dropbtn">Case Study</button>
+          <button className="dropbtn px-5 text-white  cursor-pointer hover:bg-[#c52326] py-3 rounded-lg hover:text-[#fff]">
+            Case Study
+          </button>
           <div className="dropdown-content">
             <Link href={"/case-study/nazara"} onClick={() => setOpen(false)}>
               Nazara Technologies
@@ -126,7 +112,7 @@ const Navbar = () => {
   return (
     <>
       <nav
-        className=" flex items-center justify-between py-6 lg:px-20 px-4 bg-[#191c20]"
+        className=" flex items-center justify-between py-5 lg:px-20 px-4 bg-[#191c20]"
         id="home"
       >
         <Link href={"/"}>
@@ -168,32 +154,18 @@ const Navbar = () => {
             </li>
 
             <li>
-              <div className="dropdown">
-                <button className="dropbtn">About Us</button>
-                <div className="dropdown-content">
-                  <Link href="/about-us" onClick={() => setOpen(false)}>
-                    About Company
-                  </Link>
-                  <Link
-                    href="/what-we-do-and-how-we-do"
-                    onClick={() => setOpen(false)}
-                  >
-                    What we do & How we do it
-                  </Link>
-                  <Link
-                    href="/services/digital-gaming-events"
-                    onClick={() => setOpen(false)}
-                  >
-                    Why Choose Us
-                  </Link>
-                </div>
-              </div>
+              <Link
+                href="/about-us"
+                className=" px-5 text-white  cursor-pointer hover:bg-[#c52326] py-3 rounded-lg hover:text-[#fff] "
+              >
+                About Us
+              </Link>
             </li>
             <li>
               <div className="dropdown ">
                 <button className="dropbtn">Services</button>
                 <div className="dropdown-content">
-                  <div>
+                  
                     <Link
                       href="/services/strategy-and-marketing"
                       onClick={() => setOpen(false)}
@@ -224,8 +196,8 @@ const Navbar = () => {
                     >
                       Creators and Influencers
                     </Link>
-                  </div>
-                  <div>
+                  
+                  
                     <Link
                       href="/services/crisis-communication"
                       onClick={() => setOpen(false)}
@@ -257,19 +229,13 @@ const Navbar = () => {
                       International PrExpansion
                     </Link>
                   </div>
-                </div>
+                
               </div>
             </li>
-            <li>
+            {/* <li>
               <div className="dropdown">
                 <button className="dropbtn">Our Work</button>
                 <div className="dropdown-content">
-                  {/* <Link
-                    href={"/advisory-council-members"}
-                    onClick={() => setOpen(false)}
-                  >
-                    Advisory Council Members
-                  </Link> */}
                   <Link href={"#client"} onClick={() => setOpen(false)}>
                     Clients
                   </Link>
@@ -278,7 +244,7 @@ const Navbar = () => {
                   </Link>
                 </div>
               </div>
-            </li>
+            </li> */}
             <li>
               <div className="dropdown">
                 <button className="dropbtn">Case Study</button>

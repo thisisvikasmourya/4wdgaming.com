@@ -1,25 +1,29 @@
-import React from 'react'
+import React from "react";
 import Image from "next/image";
-import client1 from "../../../public/images/client2.png";
-import client2 from "../../../public/images/Add-a-heading-15.png";
-// import client3 from "../../public/images/Add-a-heading-13-1.png";
-import client4 from "../../../public/images/halaplay-1.png";
-import client5 from "../../../public/images/evenbet.png";
-import client6 from "../../../public/images/sportskeeda.png";
-import client7 from "../../../public/images/Untitled-design-88.png";
-import client8 from "../../../public/images/Untitled-design-93.png";
-import client9 from "../../../public/images/Yudiz-Solutions-Limited-Logo.png";
-import client10 from "../../../public/images/wcc.png";
-import client11 from "../../../public/images/trinity.png";
+import client1 from "../../../public/images/news/aaj.png";
+import client2 from "../../../public/images/news/cp.jpg";
+// import client3 from "../../../public/images/news/";
+import client4 from "../../../public/images/news/ht.jpg";
+import client5 from "../../../public/images/news/it.png";
+import client6 from "../../../public/images/news/n18.jpg";
+import client7 from "../../../public/images/news/tn.png";
+import client8 from "../../../public/images/news/toi.png";
+import client9 from "../../../public/images/news/ndtv.jpg";
+import client10 from "../../../public/images/news/rp.jpg";
+import client11 from "../../../public/images/news/news24.png";
 
 const ClientReview = () => {
   return (
-    <div>
-      <div className="py-20 bg-[#17191d] max-w-screen-xl mx-auto md:px-8" id="client" data-aos="zoom-in">
+    <div className="bg-[#17191d]">
+      <div
+        className="py-20 bg-[#17191d] max-w-screen-xl mx-auto md:px-8"
+        id="client"
+        data-aos="zoom-in"
+      >
         <div className="max-w-screen-xl mx-auto px-4 md:px-8">
           <div className="max-w-xl mx-auto text-center">
             <h3 className="text-[#c52326] text-3xl font-semibold sm:text-4xl">
-              Clients
+              4WD Gaming in News
             </h3>
             <p className="text-white mt-3">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
@@ -34,7 +38,7 @@ const ClientReview = () => {
                 <Image
                   src={client1}
                   alt="client1"
-                  className="rounded-lg"
+                  className="rounded-lg bg-white"
                   width={200}
                   height={100}
                 />
@@ -53,7 +57,7 @@ const ClientReview = () => {
 
               {/* LOGO 3 */}
               <li className="bg-white rounded-lg">
-                <Image src={client10} alt="client1" width={200} height={100} />
+                <Image src={client8} alt="client1" width={200} height={100} />
               </li>
 
               {/* LOGO 4 */}
@@ -70,7 +74,7 @@ const ClientReview = () => {
               {/* LOGO 5 */}
               <li>
                 <Image
-                  src={client5}
+                  src={client9}
                   alt="client1"
                   className="rounded-lg"
                   width={200}
@@ -92,10 +96,10 @@ const ClientReview = () => {
               {/* LOGO 7 */}
               <li>
                 <Image
-                  src={client7}
+                  src={client11}
                   alt="client1"
                   className="rounded-lg"
-                  width={200}
+                  width={180}
                   height={100}
                 />
               </li>
@@ -107,7 +111,7 @@ const ClientReview = () => {
                   alt="client1"
                   className="rounded-lg"
                   width={200}
-                  height={100}
+                  height={120}
                 />
               </li>
             </ul>
@@ -116,6 +120,6 @@ const ClientReview = () => {
       </div>
     </div>
   );
-}
+};
 
-export default ClientReview
+export default ClientReview;

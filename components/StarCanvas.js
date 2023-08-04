@@ -84,7 +84,7 @@ export default function StarsCanvas() {
     <>
       <canvas ref={canvasRef} id="stars" />
       <div className="center-text ">
-        <div className="text-center py-32">
+        <div className="text-center ">
           <h1 className="lg:text-6xl md:text-6xl text-5xl font-bold hover:text-[#] mb-4">
             4WD GAMING
           </h1>
@@ -144,7 +144,8 @@ export default function StarsCanvas() {
 
         .center-text {
           position: absolute;
-          top: 55%;
+          top: 50%;
+          // margin-top:15%;
           left: 50%;
           transform: translate(-50%, -50%);
           text-align: center;
