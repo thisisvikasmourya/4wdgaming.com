@@ -1,5 +1,5 @@
 import React from "react";
-import bg from "../../public/images/bg/1.png";
+import bg from "../../public/images/bg/1.PNG";
 // import ClientScroll from "./Review/ClientScroll";
 const Page2 = () => {
   return (

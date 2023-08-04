@@ -4,7 +4,7 @@ import esp from "../../public/images/esport.jpg";
 import web from "../../public/images/webs.png";
 import cont from "../../public/images/content.jpg";
 import str from "../../public/images/0x0.jpg";
-import bg from "../../public/images/bg/2.png";
+import bg from "../../public/images/bg/2.PNG";
 import Image from "next/image";
 import Link from "next/link";
 import {HiArrowLongRight} from "react-icons/hi"
