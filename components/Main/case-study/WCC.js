@@ -2,6 +2,7 @@ import React from "react";
 import Image from "next/image";
 
 import About2 from "../../../public/images/wcc.png";
+import CaseStudyBar from "@/components/Navbar/CaseStudyBar";
 
 const WCC = () => {
   return (
@@ -72,6 +73,7 @@ const WCC = () => {
           </div>
         </div>
       </div>
+      <CaseStudyBar/>
     </div>
   );
 };

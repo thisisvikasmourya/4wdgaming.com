@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import About from "../../../public/images/nazara.jpg";
+import CaseStudyBar from "@/components/Navbar/CaseStudyBar";
 
 const NazaraTechnologies = () => {
   return (
@@ -89,6 +90,7 @@ const NazaraTechnologies = () => {
           </div>
         </div>
       </div>
+      <CaseStudyBar/>
     </div>
   );
 };

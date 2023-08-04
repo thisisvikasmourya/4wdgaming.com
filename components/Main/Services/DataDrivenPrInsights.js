@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import About from "../../../public/images/webs.png";
+import Navigationbar from "@/components/Navbar/Navigationbar";
 
 const DataDrivenPrInsights = () => {
   const data2 = [
@@ -92,6 +93,7 @@ const DataDrivenPrInsights = () => {
           </div>
         </div>
       </div>
+      <Navigationbar/>
     </div>
   );
 };

@@ -1,6 +1,7 @@
 import React from 'react'
 import Image from "next/image";
 import About from "../../../public/images/HOW.jpg";
+import Navigationbar from '@/components/Navbar/Navigationbar';
 
 const CreatorsandInfluencers = () =>
 {
@@ -92,6 +93,7 @@ const CreatorsandInfluencers = () =>
           </div>
         </div>
       </div>
+      <Navigationbar/>
     </div>
   );
 }

@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import About from "../../../public/images/content.jpg";
+import Navigationbar from "@/components/Navbar/Navigationbar";
 
 const GamingProductLaunches = () => {
   const data2 = [
@@ -93,6 +94,7 @@ const GamingProductLaunches = () => {
           </div>
         </div>
       </div>
+      <Navigationbar/>
     </div>
   );
 };

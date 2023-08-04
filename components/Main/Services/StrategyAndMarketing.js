@@ -1,6 +1,7 @@
 import React from 'react'
 import Image from "next/image";
 import About from "../../../public/images/0x0.jpg";
+import Navigationbar from '@/components/Navbar/Navigationbar';
 
 const StrategyAndMarketing = () =>
 {
@@ -92,6 +93,7 @@ const StrategyAndMarketing = () =>
           </div>
         </div>
       </div>
+      <Navigationbar/>
     </div>
   );
 }

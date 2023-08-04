@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import About3 from "../../../public/images/Yudiz-Logo-1024x1024.png";
+import CaseStudyBar from "@/components/Navbar/CaseStudyBar";
 
 const YudizSolutions = () => {
   return (
@@ -71,6 +72,7 @@ const YudizSolutions = () => {
           </div>
         </div>
       </div>
+      <CaseStudyBar/>
     </div>
   );
 };

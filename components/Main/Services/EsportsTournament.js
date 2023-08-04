@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import About from "../../../public/images/webs.png";
+import Navigationbar from "@/components/Navbar/Navigationbar";
 
 const EsportsTournament = () => {
   const data2 = [
@@ -99,6 +100,7 @@ const EsportsTournament = () => {
           </div>
         </div>
       </div>
+      <Navigationbar/>
     </div>
   );
 };

@@ -1,6 +1,7 @@
 import React from 'react'
 import Image from "next/image";
 import About from "../../../public/images/webs.png";
+import Navigationbar from '@/components/Navbar/Navigationbar';
 
 const CrisisCommunication = () =>
 {
@@ -101,6 +102,7 @@ const CrisisCommunication = () =>
           </div>
         </div>
       </div>
+      <Navigationbar/>
     </div>
   );
 }

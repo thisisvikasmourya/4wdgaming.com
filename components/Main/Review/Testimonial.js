@@ -43,7 +43,7 @@ const Testimonial = () => {
             {testimonials.map((item, idx) => (
               <li
                 key={idx}
-                className="bg-[#14161a] rounded-xl border shadow-md"
+                className="bg-[#14161a] rounded-xl border shadow-md "
               >
                 <div className="p-4">
                   <svg
@@ -82,7 +82,7 @@ const Testimonial = () => {
           </ul>
         </div>
         <div className="text-center">
-          <button className="text-[#fff] bg-[#c52326] hover:bg-[#47494d] rounded-lg px-4 py-3 mt-10">
+          <button className="text-[#fff] bg-[#c52326] hover:bg-[#191c20] hover:border-white hover:border hover:animate-bounce delay-100 rounded-lg px-4 py-3 mt-10">
             <Link href={"/clientReview"}>Readmore Review</Link>
           </button>
         </div>

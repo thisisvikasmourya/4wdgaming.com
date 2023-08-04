@@ -16,6 +16,7 @@ import ClientScroll from "@/components/Main/Review/ClientScroll";
 import WhyChooseUs from "@/components/Main/WhyChooseUs";
 import PricingPage from "@/components/Main/Pricing/PricingPage";
 import ClientReview from "@/components/Main/Review/ClientReview";
+import Navigationbar from "@/components/Navbar/Navigationbar";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -32,11 +33,11 @@ export default function Home() {
         <StarsCanvas />
         <Page2 />
         <Services />
-        <ClientReview/>
-        <Testimonial/>
-        <ClientScroll/>
+        <ClientReview />
+        <Testimonial />
+        <ClientScroll />
         <WhyChooseUs />
-      
+        <Navigationbar />
       </main>
     </>
   );

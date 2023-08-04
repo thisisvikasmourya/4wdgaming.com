@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import About4 from "../../../public/images/TFG-main-logo.-png-1-1024x707.png";
+import CaseStudyBar from "@/components/Navbar/CaseStudyBar";
 
 const TradeFantasyGame = () => {
   return (
@@ -86,6 +87,7 @@ const TradeFantasyGame = () => {
           </div>
         </div>
       </div>
+      <CaseStudyBar/>
     </div>
   );
 };

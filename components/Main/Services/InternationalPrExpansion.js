@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import About from "../../../public/images/content.jpg";
+import Navigationbar from "@/components/Navbar/Navigationbar";
 
 const InternationalPrExpansion = () => {
   const data2 = [
@@ -83,6 +84,7 @@ const InternationalPrExpansion = () => {
           </div>
         </div>
       </div>
+      <Navigationbar/>
     </div>
   );
 };

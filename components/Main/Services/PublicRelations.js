@@ -1,6 +1,7 @@
 import React from 'react'
 import Image from "next/image";
 import About from "../../../public/images/publicrelations-1.jpg";
+import Navigationbar from '@/components/Navbar/Navigationbar';
 
 const PublicRelations = () =>
 {
@@ -93,6 +94,7 @@ const PublicRelations = () =>
           </div>
         </div>
       </div>
+      <Navigationbar/>
     </div>
   );
 }
