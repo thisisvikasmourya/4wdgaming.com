@@ -31,7 +31,7 @@ const AdvisoryCouncil = () => {
               </div>
               <div>
                 <p className="text-xl text-[#c52326] mt-2">Vamsi Talasila</p>
-                <p className="text-lg">
+                <p className="text-lg text-white">
                   {" "}
                   Gaming Technology and Digital Marketing
                 </p>
@@ -71,7 +71,9 @@ const AdvisoryCouncil = () => {
               </div>
               <div>
                 <p className="text-xl text-[#c52326] mt-2">Jay Sayta </p>
-                <p className="text-lg">Technology and Gaming Lawyer in India</p>
+                <p className="text-lg text-white">
+                  Technology and Gaming Lawyer in India
+                </p>
                 <p className="text-white">
                   Jay Sayta is a technology and gaming lawyer in India. He is
                   well known in the media fraternity and is an expert on gaming
