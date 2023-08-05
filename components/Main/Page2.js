@@ -1,5 +1,5 @@
 import React from "react";
-import bg from "../../public/images/bg/1.png";
+// import bg from "../../public/images/bg/1.png";
 // import ClientScroll from "./Review/ClientScroll";
 const Page2 = () => {
   return (
@@ -8,7 +8,6 @@ const Page2 = () => {
         className="px-4  max-w-screen-xl mx-auto md:px-8 "
         data-aos="zoom-in"
         id="page2"
-      
       >
         {/* bg-[#191c20] */}
         <div className="px-1 sm:px-2  rounded-lg py-20   ">
