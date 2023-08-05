@@ -49,7 +49,7 @@ const Navigationbar = () => {
     <div className="bg-[#191C20]">
       <div className="px-4  max-w-screen-xl mx-auto md:px-8 py-10 ">
         <h1 className="px-5 py-1">Read more Services: </h1>
-        <ul className="grid lg:grid-cols-5 grid-cols-2 gap-2 py-1  px-4 bg-[#191C20]">
+        <ul className="grid lg:grid-cols-5 grid-cols-1 gap-2 py-1  px-4 bg-[#191C20]">
           {data.map((items, key) => (
             <Link
               className="bg-[#c52326] flex items-center  rounded-lg place-content-center py-3 hover:bg-[#191c20] hover:border-white hover:border hover:animate-bounce delay-100	"
