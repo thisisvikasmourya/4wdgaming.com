@@ -1,15 +1,27 @@
 import React from "react";
+import hornbill from "../../../public/images/client/hornbill.png";
+import tfg from "../../../public/images/client/tfg.jpg";
+import tgi from "../../../public/images/client/TGI.png";
+import pontus from "../../../public/images/client/pontus.jpg";
+import rajendra from "../../../public/images/client/rajendra.jpg";
+import supercircc from "../../../public/images/client/supercricc.jpeg";
+import nazara from "../../../public/images/client/nazara.jpg";
+import nazaraceo from "../../../public/images/client/nazaraceo.png";
+import jay from "../../../public/images/client/jaysaytaa.png";
+import ekaterina from "../../../public/images/client/ekaterina.jpg";
+import down from "../../../public/images/client/down.png";
+import Image from "next/image";
 
 const testimonials = [
   {
-    avatar: "https://api.uifaces.co/our-content/donated/xZ4wg2Xj.jpg",
+    avatar: nazara,
     name: "Nitish Mittersain - MD and Founder",
     title: "Nazara Technologies Ltd.",
     quote:
       "The right communication has been key to Nazara’s continuous success. SD built up Nazara’s PR and communication from ground up. They have helped create the company’s current perception, and hence are instrumental to Nazara’s growth story.",
   },
   {
-    avatar: "https://api.uifaces.co/our-content/donated/xZ4wg2Xj.jpg",
+    avatar: tfg,
     name: "Jaya Chahar - Founder & CEO, JCDC Sports Pvt. Ltd. Deepak Chahar - Co-Founder & Brand Ambassador",
     title: "Trade Fantasy Gaming (TFG)",
     quote:
@@ -17,7 +29,7 @@ const testimonials = [
   },
 
   {
-    avatar: "https://api.uifaces.co/our-content/donated/xZ4wg2Xj.jpg",
+    avatar: down,
     name: "Gregory Gettinger - Founder & CEO",
     title: "VR Motion Learning GmbH & Co KG",
     quote:
@@ -25,14 +37,14 @@ const testimonials = [
   },
 
   {
-    avatar: "https://api.uifaces.co/our-content/donated/xZ4wg2Xj.jpg",
+    avatar: ekaterina,
     name: "Ekaterina Giganova - Head of PR and Events",
     title: "EvenBet Gaming",
     quote:
-      "We have received an incomparable online media reach promoting our new gaming offer for Asia with the help of 4WD Gaming. I appreciate prompt communication at every stage, attention to detail, and an eye for the best publishing opportunities that Sharmilee’s team has demonstrated while working on our project. Thanks to their work, we were able to deliver a clear offer message and improve our image as one of the leading gaming software vendors in India.",
+      "We have received an incomparable online media reach promoting our new gaming offer for Asia with the help of 4WD GAMING. I appreciate prompt communication at every stage, attention to detail, and an eye for the best publishing opportunities that Sharmilee’s team has demonstrated while working on our project. Thanks to their work, we were able to deliver a clear offer message and improve our image as one of the leading gaming software vendors in India.",
   },
   {
-    avatar: "https://api.uifaces.co/our-content/donated/xZ4wg2Xj.jpg",
+    avatar: supercircc,
     name: "Arvind Sivdas - Co-Founder and CEO",
     title: "Supercric",
     quote:
@@ -40,35 +52,35 @@ const testimonials = [
   },
   //  they always aim to deliver a valuable brand. Working with the 4WD team is an absolute pleasure. They understand the requirement, if required iterate multiple times till the messaging is clear before taking it to the market. We think of 4WD as strategic partners with very sharp execution ability.
   {
-    avatar: "https://api.uifaces.co/our-content/donated/xZ4wg2Xj.jpg",
+    avatar: tgi,
     name: "Abhishek Aggarwal - Co-Founder & CEO",
     title: "Trinity Gaming India",
     quote:
-      "As a young agency, we were unfamiliar with PR and the kind of media support we would need for the brand. While it took a little time to navigate the space, we are glad to have managed to gain recognition as key industry players. 4WD Gaming has provided continuous guidance, coaching and brand direction to our management, enabling Trinity Gaming to emerge as forerunners in the industry through regular features in top media, speakership opportunities, and awards.",
+      "As a young agency, we were unfamiliar with PR and the kind of media support we would need for the brand. While it took a little time to navigate the space, we are glad to have managed to gain recognition as key industry players. 4WD GAMING has provided continuous guidance, coaching and brand direction to our management, enabling Trinity Gaming to emerge as forerunners in the industry through regular features in top media, speakership opportunities, and awards.",
   },
   {
-    avatar: "https://api.uifaces.co/our-content/donated/xZ4wg2Xj.jpg",
+    avatar: nazaraceo,
     name: "Manish Agarwal - CEO",
     title: "Nazara Technologies Ltd.",
     quote:
       "At Nazara Technologies, we wanted to build our communication and brand messaging at a time when gaming as an industry was at a very nascent stage in terms of media buzz and subsequent coverage. However, drawing from Sharmilee Daru's rich experience, precise communication strategies and execution, they navigated the space with absolute finesse and created the exact perception for a gaming brand we wanted. Their work in the gaming PR space is not only pioneering for Nazara, but the industry as a whole.",
   },
   {
-    avatar: "https://api.uifaces.co/our-content/donated/xZ4wg2Xj.jpg",
+    avatar: pontus,
     name: "Pontus Lemberg - Director and Co-Founder",
     title: "Nordanvind Investments Limited",
     quote:
-      "The Indian media space was absolutely new to us when we launched our flagship product in the country. 4WD Gaming's understanding of the space, strategic planning, aggressive outreach and on-point execution helped us navigate the space seamlessly. The trust we put in them resulted in the brand’s successful launch and its surge to an unexpected level, given SD’s good strategic direction.",
+      "The Indian media space was absolutely new to us when we launched our flagship product in the country. 4WD GAMING's understanding of the space, strategic planning, aggressive outreach and on-point execution helped us navigate the space seamlessly. The trust we put in them resulted in the brand’s successful launch and its surge to an unexpected level, given SD’s good strategic direction.",
   },
   {
-    avatar: "https://api.uifaces.co/our-content/donated/xZ4wg2Xj.jpg",
+    avatar: hornbill,
     name: "Manoj Thakur - Managing Partner",
     title: "Hornbill Capital Advisers LLP",
     quote:
       "I met Sharmilee when we invested in Nazara Technologies in early 2021.found Sharmilee and her team to be very professional and responsive. Theymanaged the entire PR process around the investment extremely efficiently.Not only was the press coverage extensive but also the television coverage on a leading TV channel was impactful. Sharmilee is quite an expert in public relations and handling media effectively. She thinks strategically and helps you position the company or product in the right manner.",
   },
   {
-    avatar: "https://api.uifaces.co/our-content/donated/xZ4wg2Xj.jpg",
+    avatar: rajendra,
     name: "P.R. Rajendran - Co-founder and CEO",
     title: "Next Wave Multimedia Pvt. Ltd.",
     quote:
@@ -90,7 +102,10 @@ const Testimonials = () => {
           </p>
         </div>
         <div className="mt-12">
-          <ul className="grid items-center gap-6 sm:grid-cols-2 lg:grid-cols-3" data-aos="zoom-in-up">
+          <ul
+            className="grid items-center gap-6 sm:grid-cols-2 lg:grid-cols-3"
+            data-aos="zoom-in-up"
+          >
             {testimonials.map((item, idx) => (
               <li
                 key={idx}
@@ -116,9 +131,12 @@ const Testimonials = () => {
                     </p>
                   </blockquote>
                   <div className="flex items-center gap-x-4 p-4 mt-6  bg-[#c52326] rounded-xl">
-                    <img
+                    <Image
                       src={item.avatar}
                       className="w-16 h-16 rounded-full border-2 border-indigo-500"
+                      width={100}
+                      alt=""
+                      height={100}
                     />
                     <div>
                       <span className="block text-white ">{item.name}</span>

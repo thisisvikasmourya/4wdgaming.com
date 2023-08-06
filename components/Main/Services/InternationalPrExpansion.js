@@ -23,17 +23,17 @@ const InternationalPrExpansion = () => {
     },
     {
       title: "Unleash Global Gaming Success:",
-      cont: "With 4WD Gaming's international PR expansion services, unleash your gaming brand's global success. Our expertise in cultural adaptation, language localization, and global media outreach propels your brand to new heights.",
+      cont: "With 4WD GAMING's international PR expansion services, unleash your gaming brand's global success. Our expertise in cultural adaptation, language localization, and global media outreach propels your brand to new heights.",
     },
     {
       title: "Contact Us Today:",
-      cont: "Embark on a journey of international gaming success. Contact 4WD Gaming today and let our international PR experts unlock global opportunities for your gaming brand.",
+      cont: "Embark on a journey of international gaming success. Contact 4WD GAMING today and let our international PR experts unlock global opportunities for your gaming brand.",
     },
   ];
   const data = [
     {
       title: "Expand Your Gaming Brand Globally:",
-      cont: "At 4WD Gaming, we understand the significance of expanding your gaming brand to international markets. Our international PR expansion services open the door to global opportunities, connecting your brand with gaming enthusiasts worldwide.",
+      cont: "At 4WD GAMING, we understand the significance of expanding your gaming brand to international markets. Our international PR expansion services open the door to global opportunities, connecting your brand with gaming enthusiasts worldwide.",
     },
     {
       title: "Cultural Expertise and Nuances:",
@@ -48,6 +48,44 @@ const InternationalPrExpansion = () => {
       cont: "With a vast network of international media contacts, we facilitate global media outreach for your gaming brand. Our PR experts secure coverage in leading international publications, gaming blogs, and influential media outlets.",
     },
   ];
+   const navData = [
+     {
+       href: "/services/strategy-and-marketing",
+       name: "Strategy and Marketing",
+     },
+     {
+       href: "/services/content-and-writing",
+       name: "Content and Copywriting",
+     },
+     {
+       href: "/services/creator-and-influencers",
+       name: "Creator and Influencer",
+     },
+     {
+       href: "/services/crisis-communication",
+       name: "Crisis Communication",
+     },
+     {
+       href: "/services/data-driven-pr-insight",
+       name: "Data Driven Pr-insight",
+     },
+     {
+       href: "/services/public-relations",
+       name: "Public Relations",
+     },
+     {
+       href: "/services/digital-gaming-events",
+       name: "Digital Gaming Events",
+     },
+     {
+       href: "/services/esports-tournament-organization",
+       name: "Esports Tournaments",
+     },
+     {
+       href: "/services/gaming-product-launches",
+       name: "Gaming Product Launches",
+     },
+   ];
   return (
     <div>
       <div className="bg-[#17191d]" data-aos="zoom-in">
@@ -69,7 +107,7 @@ const InternationalPrExpansion = () => {
               {data.map((items, key) => (
                 <div key={key}>
                   <p className="text-[#c52326] text-xl">{items.title}</p>
-                  <p className="py-1 text-white"> {items.cont}</p>
+                  <p className="pb-3 text-white"> {items.cont}</p>
                 </div>
               ))}
             </div>
@@ -78,13 +116,13 @@ const InternationalPrExpansion = () => {
             {data2.map((items, key) => (
               <div key={key}>
                 <p className="text-[#c52326] text-xl">{items.title}</p>
-                <p className="py-1 text-white"> {items.cont}</p>
+                <p className="pb-3 text-white"> {items.cont}</p>
               </div>
             ))}
           </div>
         </div>
       </div>
-      <Navigationbar/>
+      <Navigationbar navData={navData} />
     </div>
   );
 };

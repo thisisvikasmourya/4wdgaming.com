@@ -4,7 +4,22 @@ import Image from "next/image";
 import About2 from "../../../public/images/wcc.png";
 import CaseStudyBar from "@/components/Navbar/CaseStudyBar";
 
-const WCC = () => {
+const WCC = () =>
+{
+  const caseData = [
+    {
+      href: "/case-study/nazara",
+      name: "Nazara Technologies",
+    },
+    {
+      href: "/case-study/tfg",
+      name: "Trade Fantasy game",
+    },
+    {
+      href: "/case-study/yudiz",
+      name: "yudiz solutins",
+    },
+  ];
   return (
     <div>
       <div className="bg-[#17191d]" data-aos="zoom-in">
@@ -73,7 +88,7 @@ const WCC = () => {
           </div>
         </div>
       </div>
-      <CaseStudyBar/>
+      <CaseStudyBar caseData={caseData} />
     </div>
   );
 };

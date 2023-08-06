@@ -2,16 +2,17 @@ import React from "react";
 import logo from "../../public/images/Logo.png";
 import Image from "next/image";
 import { useState } from "react";
+import { useRouter } from "next/router"; // Import the useRouter hook
 
 const ContactUs = () => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
   const [phone, setPhone] = useState("");
-  // const [submitted, setSubmitted] = useState(false);
-
+  const [submitted, setSubmitted] = useState(false);
+const router = useRouter();
   const handleSubmit = (e) => {
-    e.preventDefault();
+    // e.preventDefault();
     console.log("Sending");
 
     let data = {
@@ -32,11 +33,13 @@ const ContactUs = () => {
       console.log("Response received");
       if (res.status === 200) {
         console.log("Response succeeded!");
-        // setSubmitted(true);
+        setSubmitted(true);
         setName("");
         setEmail("");
         setPhone("");
-        setBody("");
+        setBody( "" );
+                router.push("/");
+
       }
     });
   };
@@ -55,7 +58,7 @@ const ContactUs = () => {
                 Create an account and get access to all features for 30-days, No
                 credit card required.
               </p>
-              <div className="flex items-center -space-x-2 overflow-hidden">
+              {/* <div className="flex items-center -space-x-2 overflow-hidden">
                 <img
                   src="https://randomuser.me/api/portraits/women/79.jpg"
                   className="w-10 h-10 rounded-full border-2 border-white"
@@ -79,7 +82,7 @@ const ContactUs = () => {
                 <p className="text-sm text-gray-400 font-medium translate-x-5">
                   Join 5.000+ users
                 </p>
-              </div>
+              </div> */}
             </div>
           </div>
           <div
@@ -111,7 +114,7 @@ const ContactUs = () => {
                   type="text"
                   required
                   placeholder="Full Name"
-                  className="w-full mt-2 px-3 py-2 text-gray-500 bg-transparent outline-none border focus:border-gray-800 shadow-sm rounded-lg"
+                  className="w-full mt-2 px-3 py-2 text-white bg-transparent outline-none border focus:border-[#c52326] shadow-sm rounded-lg"
                   onChange={(e) => {
                     setName(e.target.value);
                   }}
@@ -123,7 +126,7 @@ const ContactUs = () => {
                   type="email"
                   placeholder="Email"
                   required
-                  className="w-full mt-2 px-3 py-2 text-gray-500 bg-transparent outline-none border focus:border-gray-800 shadow-sm rounded-lg"
+                  className="w-full mt-2 px-3 py-2 text-white bg-transparent outline-none border focus:border-[#c52326] shadow-sm rounded-lg"
                   onChange={(e) => {
                     setEmail(e.target.value);
                   }}
@@ -139,7 +142,7 @@ const ContactUs = () => {
                   onChange={(e) => {
                     setPhone(e.target.value);
                   }}
-                  className="w-full pl-2 pr-3 py-2 appearance-none bg-transparent outline-none border focus:border-gray-800 shadow-sm rounded-lg"
+                  className="w-full pl-2 pr-3 py-2 appearance-none bg-transparent outline-none border focus:border-[#c52326] shadow-sm rounded-lg"
                 />
               </div>
 
@@ -151,15 +154,19 @@ const ContactUs = () => {
                   onChange={(e) => {
                     setMessage(e.target.value);
                   }}
-                  className="w-full mt-2 h-36 px-3 py-2 resize-none appearance-none bg-transparent outline-none border focus:border-gray-800 shadow-sm rounded-lg"
+                  className="w-full mt-2 h-36 px-3 py-2 resize-none appearance-none bg-transparent outline-none border focus:border-[#c52326] shadow-sm rounded-lg"
                 ></textarea>
               </div>
+              
               <button
-                onClick={handleSubmit}
+                onClick={(e) => {
+                  handleSubmit(e);
+                }}
                 className="w-full px-4 py-2 text-white font-medium bg-[#c52326] hover:bg-gray-700 active:bg-gray-900 rounded-lg duration-150"
               >
                 Submit
-              </button>
+                </button>
+              
             </form>
           </div>
         </div>

@@ -3,7 +3,22 @@ import Image from "next/image";
 import About3 from "../../../public/images/Yudiz-Logo-1024x1024.png";
 import CaseStudyBar from "@/components/Navbar/CaseStudyBar";
 
-const YudizSolutions = () => {
+const YudizSolutions = () =>
+{
+  const caseData = [
+    {
+      href: "/case-study/nazara",
+      name: "Nazara Technologies",
+    },
+    {
+      href: "/case-study/tfg",
+      name: "Trade Fantasy game",
+    },
+    {
+      href: "/case-study/wcc",
+      name: "World Cricket Championship",
+    },
+  ];
   return (
     <div>
       <div className="bg-[#17191d]" data-aos="zoom-in">
@@ -72,7 +87,7 @@ const YudizSolutions = () => {
           </div>
         </div>
       </div>
-      <CaseStudyBar/>
+      <CaseStudyBar caseData={caseData} />
     </div>
   );
 };

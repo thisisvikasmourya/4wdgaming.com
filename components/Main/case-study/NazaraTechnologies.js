@@ -3,7 +3,22 @@ import Image from "next/image";
 import About from "../../../public/images/nazara.jpg";
 import CaseStudyBar from "@/components/Navbar/CaseStudyBar";
 
-const NazaraTechnologies = () => {
+const NazaraTechnologies = () =>
+{
+  const caseData = [
+    {
+      href: "/case-study/tfg",
+      name: "Trade Fantasy game",
+    },
+    {
+      href: "/case-study/wcc",
+      name: "World Cricket Championship",
+    },
+    {
+      href: "/case-study/yudiz",
+      name: "yudiz solutins",
+    },
+  ];
   return (
     <div>
       <div className="bg-[#17191d]" data-aos="zoom-in">
@@ -90,7 +105,7 @@ const NazaraTechnologies = () => {
           </div>
         </div>
       </div>
-      <CaseStudyBar/>
+      <CaseStudyBar caseData={caseData} />
     </div>
   );
 };

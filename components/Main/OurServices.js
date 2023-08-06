@@ -6,7 +6,7 @@ import cont from "../../public/images/content.jpg";
 import str from "../../public/images/0x0.jpg";
 import Image from "next/image";
 import Link from "next/link";
-import {HiArrowLongRight} from "react-icons/hi"
+import { HiArrowLongRight } from "react-icons/hi";
 
 export default function Services() {
   const posts = [
@@ -19,7 +19,7 @@ export default function Services() {
     {
       title: "Public Relations",
       img: Pr,
-      content: "At 4WD Gaming, we're PR and gaming specialists",
+      content: "At 4WD GAMING, we're PR and gaming specialists",
       link: "/services/public-relations",
     },
     {
@@ -41,7 +41,6 @@ export default function Services() {
       content: "Your events will be the talk of the gaming community",
       link: "/services/public-relations",
     },
-  
   ];
   const posts2 = [
     {

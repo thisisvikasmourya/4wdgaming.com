@@ -40,23 +40,61 @@ const EsportsTournament = () => {
     },
     {
       title: "Unforgettable Experiences:",
-      cont: "With 4WD Gaming at the helm, your esports tournaments are guaranteed to leave a lasting impression, turning participants into loyal fans and spectators into enthusiastic supporters.",
+      cont: "With 4WD GAMING at the helm, your esports tournaments are guaranteed to leave a lasting impression, turning participants into loyal fans and spectators into enthusiastic supporters.",
     },
     {
       title: "Contact Us Today:",
-      cont: "Ready to level up your gaming events? Contact 4WD Gaming today and let our esports tournament organization services elevate your gaming experiences to new heights.",
+      cont: "Ready to level up your gaming events? Contact 4WD GAMING today and let our esports tournament organization services elevate your gaming experiences to new heights.",
     },
   ];
   const data = [
     {
       title: "Experience Gaming at Its Best:",
-      cont: "At 4WD Gaming, we take esports tournament organization to a whole new level. Our team of seasoned experts is passionate about delivering top-notch gaming experiences that resonate with both players and fans.",
+      cont: "At 4WD GAMING, we take esports tournament organization to a whole new level. Our team of seasoned experts is passionate about delivering top-notch gaming experiences that resonate with both players and fans.",
     },
     {
       title: "Seamless Virtual Tournaments:",
       cont: "In the virtual realm, we excel at organizing seamless esports tournaments that bring together players from across the globe. Our sophisticated online platforms ensure smooth operations and fair competition.",
     },
-    ];
+  ];
+   const navData = [
+     {
+       href: "/services/strategy-and-marketing",
+       name: "Strategy and Marketing",
+     },
+     {
+       href: "/services/content-and-writing",
+       name: "Content and Copywriting",
+     },
+     {
+       href: "/services/creator-and-influencers",
+       name: "Creator and Influencer",
+     },
+     {
+       href: "/services/crisis-communication",
+       name: "Crisis Communication",
+     },
+     {
+       href: "/services/data-driven-pr-insight",
+       name: "Data Driven Pr-insight",
+     },
+     {
+       href: "/services/public-relations",
+       name: "Public Relations",
+     },
+     {
+       href: "/services/digital-gaming-events",
+       name: "Digital Gaming Events",
+     },
+     {
+       href: "/services/international-pr-expansion",
+       name: "International Pr-Expansion",
+     },
+     {
+       href: "/services/gaming-product-launches",
+       name: "Gaming Product Launches",
+     },
+   ];
   return (
     <div>
       <div className="bg-[#17191d]" data-aos="zoom-in">
@@ -77,7 +115,7 @@ const EsportsTournament = () => {
             <div>
               <p className="py-1 text-white">
                 Captivate your gaming community with powerful storytelling. At
-                4WD Gaming, we understand the significance of content and
+                4WD GAMING, we understand the significance of content and
                 copywriting in creating meaningful connections with your
                 audience.
               </p>
@@ -85,7 +123,7 @@ const EsportsTournament = () => {
               {data.map((items, key) => (
                 <div key={key}>
                   <p className="text-[#c52326] text-xl">{items.title}</p>
-                  <p className="py-1 text-white"> {items.cont}</p>
+                  <p className="pb-3 text-white"> {items.cont}</p>
                 </div>
               ))}
             </div>
@@ -94,13 +132,13 @@ const EsportsTournament = () => {
             {data2.map((items, key) => (
               <div key={key}>
                 <p className="text-[#c52326] text-xl">{items.title}</p>
-                <p className="py-1 text-white"> {items.cont}</p>
+                <p className="pb-3 text-white"> {items.cont}</p>
               </div>
             ))}
           </div>
         </div>
       </div>
-      <Navigationbar/>
+      <Navigationbar navData={navData} />
     </div>
   );
 };

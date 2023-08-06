@@ -1,10 +1,9 @@
-import React from 'react'
+import React from "react";
 import Image from "next/image";
 import About from "../../../public/images/0x0.jpg";
-import Navigationbar from '@/components/Navbar/Navigationbar';
+import Navigationbar from "@/components/Navbar/Navigationbar";
 
-const StrategyAndMarketing = () =>
-{
+const StrategyAndMarketing = () => {
   const data = [
     {
       title: "Analyzing Your Goals and Target Audience:",
@@ -12,13 +11,12 @@ const StrategyAndMarketing = () =>
     },
     {
       title: "Strategize for Success:",
-      cont: "ust like in any game, strategic planning is crucial for success. With 4WD Gaming as your strategic partner, you can be confident that your gaming venture will have the edge it needs to stand out in the crowded gaming industry.",
+      cont: "ust like in any game, strategic planning is crucial for success. With 4WD GAMING as your strategic partner, you can be confident that your gaming venture will have the edge it needs to stand out in the crowded gaming industry.",
     },
     {
       title: "Navigating the Gaming Landscape:",
       cont: "The gaming industry is constantly evolving, with new trends and technologies shaping the landscape. Our forward-thinking approach ensures that your gaming venture stays ahead of the curve and makes the most of emerging opportunities.",
     },
-   
   ];
   const data2 = [
     {
@@ -31,22 +29,60 @@ const StrategyAndMarketing = () =>
     },
     {
       title: "Beyond Strategy:",
-      cont: "At 4WD Gaming, we go beyond just strategy. As gaming and esports specialists, we possess a deep understanding of the gaming ecosystem, enabling us to provide comprehensive guidance and support for your gaming venture.",
+      cont: "At 4WD GAMING, we go beyond just strategy. As gaming and esports specialists, we possess a deep understanding of the gaming ecosystem, enabling us to provide comprehensive guidance and support for your gaming venture.",
     },
     {
       title: "Navigate with Confidence:",
-      cont: "Navigating the gaming industry can be challenging, but with 4WD Gaming as your strategic partner, you can move forward with confidence. Our expertise and experience will guide you every step of the way.",
+      cont: "Navigating the gaming industry can be challenging, but with 4WD GAMING as your strategic partner, you can move forward with confidence. Our expertise and experience will guide you every step of the way.",
     },
     {
       title:
-        "Choose 4WD Gaming as your strategic partner, and let us propel your gaming venture to success. Get in touch with us today and take your gaming endeavor to the next level.",
-      // cont: "Navigating the gaming industry can be challenging, but with 4WD Gaming as your strategic partner, you can move forward with confidence. Our expertise and experience will guide you every step of the way.",
+        "Choose 4WD GAMING as your strategic partner, and let us propel your gaming venture to success. Get in touch with us today and take your gaming endeavor to the next level.",
+      // cont: "Navigating the gaming industry can be challenging, but with 4WD GAMING as your strategic partner, you can move forward with confidence. Our expertise and experience will guide you every step of the way.",
     },
     {
       title: "Tailored Solutions for Gaming Ventures:",
       cont: "Whether you're a budding indie developer or an established gaming company, our strategy and marketing services are tailored to suit your specific needs. We understand that each gaming venture is unique, and our solutions reflect that individuality.",
     },
   ];
+   const navData = [
+     {
+       href: "/services/content-and-writing",
+       name: "Content and Copywriting",
+     },
+     {
+       href: "/services/creator-and-influencers",
+       name: "Creator and Influencer",
+     },
+     {
+       href: "/services/crisis-communication",
+       name: "Crisis Communication",
+     },
+     {
+       href: "/services/data-driven-pr-insight",
+       name: "Data Driven Pr-insight",
+     },
+     {
+       href: "/services/public-relations",
+       name: "Public Relations",
+     },
+     {
+       href: "/services/digital-gaming-events",
+       name: "Digital Gaming Events",
+     },
+     {
+       href: "/services/esports-tournament-organization",
+       name: "Esports Tournaments",
+     },
+     {
+       href: "/services/international-pr-expansion",
+       name: "International Pr-Expansion",
+     },
+     {
+       href: "/services/gaming-product-launches",
+       name: "Gaming Product Launches",
+     },
+   ];
   return (
     <div>
       <div className="bg-[#17191d]" data-aos="zoom-in">
@@ -72,13 +108,13 @@ const StrategyAndMarketing = () =>
             <div>
               <p className="py-1 text-white">
                 Are you ready to elevate your gaming venture to new heights? At
-                4WD Gaming, we understand that successful gaming companies need
+                4WD GAMING, we understand that successful gaming companies need
                 a strategic approach to thrive in the competitive landscape.
               </p>
               {data.map((items, key) => (
                 <div key={key}>
                   <p className="text-[#c52326] text-xl">{items.title}</p>
-                  <p className="py-1 text-white"> {items.cont}</p>
+                  <p className="pb-3 text-white"> {items.cont}</p>
                 </div>
               ))}
             </div>
@@ -87,15 +123,15 @@ const StrategyAndMarketing = () =>
             {data2.map((items, key) => (
               <div key={key}>
                 <p className="text-[#c52326] text-xl">{items.title}</p>
-                <p className="py-1 text-white"> {items.cont}</p>
+                <p className="pb-3 text-white"> {items.cont}</p>
               </div>
             ))}
           </div>
         </div>
       </div>
-      <Navigationbar/>
+      <Navigationbar navData={navData} />
     </div>
   );
-}
+};
 
-export default StrategyAndMarketing
+export default StrategyAndMarketing;

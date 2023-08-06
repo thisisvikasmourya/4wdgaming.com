@@ -89,7 +89,7 @@ export default function StarsCanvas() {
             4WD GAMING
           </h1>
           {/* <h1 className="lg:text-4xl md:text-3xl text-5xl font-bold hover:text-[#]"></h1> */}
-          <h1 className="lg:text-6xl md:text-6xl text-4xl font-bold text-[#c52326] py-4">
+          <h1 className="lg:text-7xl md:text-6xl text-4xl font-bold text-[#c52326] py-4">
             <Typewriter
               options={{
                 strings: [

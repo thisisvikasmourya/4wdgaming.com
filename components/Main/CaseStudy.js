@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 import Image from "next/image";
 import About from "../../public/images/nazara.jpg";
 import About2 from "../../public/images/wcc.png";
@@ -252,6 +252,6 @@ const CaseStudy = () => {
       </div>
     </div>
   );
-}
+};
 
-export default CaseStudy
+export default CaseStudy;

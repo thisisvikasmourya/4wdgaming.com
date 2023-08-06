@@ -3,7 +3,22 @@ import Image from "next/image";
 import About4 from "../../../public/images/TFG-main-logo.-png-1-1024x707.png";
 import CaseStudyBar from "@/components/Navbar/CaseStudyBar";
 
-const TradeFantasyGame = () => {
+const TradeFantasyGame = () =>
+{
+  const caseData = [
+    {
+      href: "/case-study/nazara",
+      name: "Nazara Technologies",
+    },
+    {
+      href: "/case-study/wcc",
+      name: "World Cricket Championship",
+    },
+    {
+      href: "/case-study/yudiz",
+      name: "yudiz solutins",
+    },
+  ];
   return (
     <div>
       <div className="bg-[#17191d]" data-aos="zoom-in">
@@ -87,7 +102,7 @@ const TradeFantasyGame = () => {
           </div>
         </div>
       </div>
-      <CaseStudyBar/>
+      <CaseStudyBar caseData={caseData} />
     </div>
   );
 };

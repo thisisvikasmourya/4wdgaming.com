@@ -4,6 +4,8 @@ import React, { useState } from "react";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 import { RiMenu4Line } from "react-icons/ri";
 import logo from "../../public/images/okayLogo.png";
+import Button from "../Main/Button";
+import Button2 from "../Main/Button2";
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
@@ -126,9 +128,11 @@ const Navbar = () => {
           {menuItems}
         </ul>
         <div className="flex">
-          <button className="hidden lg:block bg-[#c52326] text-white px-5 py-3 rounded-lg shadow-lg shadow-red-500/50">
-            <Link href={"/contactUs"}>Contact us</Link>
-          </button>
+          <Button
+            href={"/contactUs"}
+            buttonText={"Contact Us"}
+            className={"hidden lg:block"}
+          />
           &nbsp;
           <button onClick={() => setOpen(!open)} className="block lg:hidden ">
             {!open ? (
@@ -156,6 +160,7 @@ const Navbar = () => {
             <li>
               <Link
                 href="/about-us"
+                onClick={() => setOpen(false)}
                 className=" px-5 text-white  cursor-pointer hover:bg-[#c52326] py-3 rounded-lg hover:text-[#fff] "
               >
                 About Us
@@ -165,86 +170,70 @@ const Navbar = () => {
               <div className="dropdown ">
                 <button className="dropbtn">Services</button>
                 <div className="dropdown-content">
-                  
-                    <Link
-                      href="/services/strategy-and-marketing"
-                      onClick={() => setOpen(false)}
-                    >
-                      Strategy And Marketing
-                    </Link>
-                    <Link
-                      href="/services/content-and-writing"
-                      onClick={() => setOpen(false)}
-                    >
-                      Content and Copywriting
-                    </Link>
-                    <Link
-                      href="/services/public-relations"
-                      onClick={() => setOpen(false)}
-                    >
-                      Public Relations
-                    </Link>
-                    <Link
-                      href="/services/digital-gaming-events"
-                      onClick={() => setOpen(false)}
-                    >
-                      Digital Gaming Events
-                    </Link>
-                    <Link
-                      href="/services/creator-and-influencers"
-                      onClick={() => setOpen(false)}
-                    >
-                      Creators and Influencers
-                    </Link>
-                  
-                  
-                    <Link
-                      href="/services/crisis-communication"
-                      onClick={() => setOpen(false)}
-                    >
-                      Crisis Communication
-                    </Link>
-                    <Link
-                      href="/services/data-driven-pr-insight"
-                      onClick={() => setOpen(false)}
-                    >
-                      Data Driven PR-Insights
-                    </Link>
-                    <Link
-                      href="/services/esports-tournament-organization"
-                      onClick={() => setOpen(false)}
-                    >
-                      Esports Tournament Organization
-                    </Link>
-                    <Link
-                      href="/services/gaming-product-launches"
-                      onClick={() => setOpen(false)}
-                    >
-                      Gaming Product Launches
-                    </Link>
-                    <Link
-                      href="/services/international-pr-expansion"
-                      onClick={() => setOpen(false)}
-                    >
-                      International PrExpansion
-                    </Link>
-                  </div>
-                
-              </div>
-            </li>
-            {/* <li>
-              <div className="dropdown">
-                <button className="dropbtn">Our Work</button>
-                <div className="dropdown-content">
-                  <Link href={"#client"} onClick={() => setOpen(false)}>
-                    Clients
+                  <Link
+                    href="/services/strategy-and-marketing"
+                    onClick={() => setOpen(false)}
+                  >
+                    Strategy And Marketing
                   </Link>
-                  <Link href="#" onClick={() => setOpen(false)}>
-                    4WD Gaming in News
+                  <Link
+                    href="/services/content-and-writing"
+                    onClick={() => setOpen(false)}
+                  >
+                    Content and Copywriting
+                  </Link>
+                  <Link
+                    href="/services/public-relations"
+                    onClick={() => setOpen(false)}
+                  >
+                    Public Relations
+                  </Link>
+                  <Link
+                    href="/services/digital-gaming-events"
+                    onClick={() => setOpen(false)}
+                  >
+                    Digital Gaming Events
+                  </Link>
+                  <Link
+                    href="/services/creator-and-influencers"
+                    onClick={() => setOpen(false)}
+                  >
+                    Creators and Influencers
+                  </Link>
+
+                  <Link
+                    href="/services/crisis-communication"
+                    onClick={() => setOpen(false)}
+                  >
+                    Crisis Communication
+                  </Link>
+                  <Link
+                    href="/services/data-driven-pr-insight"
+                    onClick={() => setOpen(false)}
+                  >
+                    Data Driven PR-Insights
+                  </Link>
+                  <Link
+                    href="/services/esports-tournament-organization"
+                    onClick={() => setOpen(false)}
+                  >
+                    Esports Tournament Organization
+                  </Link>
+                  <Link
+                    href="/services/gaming-product-launches"
+                    onClick={() => setOpen(false)}
+                  >
+                    Gaming Product Launches
+                  </Link>
+                  <Link
+                    href="/services/international-pr-expansion"
+                    onClick={() => setOpen(false)}
+                  >
+                    International PrExpansion
                   </Link>
                 </div>
               </div>
-            </li> */}
+            </li>
             <li>
               <div className="dropdown">
                 <button className="dropbtn">Case Study</button>
@@ -291,12 +280,12 @@ const Navbar = () => {
           </ul>
           <br />
 
-          <Link
-            className=" bg-[#c52326] text-white items-center px-5 py-3 rounded-lg shadow-lg shadow-red-500/50"
+          <Button2
             href={"/contactUs"}
-          >
-            Contact us
-          </Link>
+            buttonText={"Contact Us"}
+            className="block lg:hidden"
+            onClick={() => setOpen(false)}
+          />
         </div>
       ) : (
         ""

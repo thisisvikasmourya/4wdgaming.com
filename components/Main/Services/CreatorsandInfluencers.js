@@ -1,10 +1,9 @@
-import React from 'react'
+import React from "react";
 import Image from "next/image";
 import About from "../../../public/images/HOW.jpg";
-import Navigationbar from '@/components/Navbar/Navigationbar';
+import Navigationbar from "@/components/Navbar/Navigationbar";
 
-const CreatorsandInfluencers = () =>
-{
+const CreatorsandInfluencers = () => {
   const data2 = [
     {
       title: "Engaging and Authentic Content:",
@@ -32,13 +31,13 @@ const CreatorsandInfluencers = () =>
     },
     {
       title: "Embrace the Power of Influence:",
-      cont: "The influence of creators and influencers extends far beyond the gaming community. Let 4WD Gaming help you harness this power to amplify your gaming brand's reach, foster credibility, and create meaningful connections with gamers worldwide.",
+      cont: "The influence of creators and influencers extends far beyond the gaming community. Let 4WD GAMING help you harness this power to amplify your gaming brand's reach, foster credibility, and create meaningful connections with gamers worldwide.",
     },
   ];
   const data = [
     {
       title: "Amplify Your Gaming Brand:",
-      cont: "Creators and influencers are the heartbeat of the gaming community. At 4WD Gaming, we understand the value they bring to your brand. Through strategic partnerships, we amplify your gaming brand's reach and impact.",
+      cont: "Creators and influencers are the heartbeat of the gaming community. At 4WD GAMING, we understand the value they bring to your brand. Through strategic partnerships, we amplify your gaming brand's reach and impact.",
     },
     {
       title: "Building Credibility and Trust:",
@@ -48,8 +47,45 @@ const CreatorsandInfluencers = () =>
       title: "Expanding Your Audience Reach:",
       cont: "Our strategic partnerships with top gaming influencers allow your brand to tap into a wider audience. Reach out to potential gamers who may not have discovered your brand otherwise.",
     },
-  
   ];
+   const navData = [
+     {
+       href: "/services/strategy-and-marketing",
+       name: "Strategy and Marketing",
+     },
+     {
+       href: "/services/content-and-writing",
+       name: "Content and Copywriting",
+     },
+     {
+       href: "/services/crisis-communication",
+       name: "Crisis Communication",
+     },
+     {
+       href: "/services/data-driven-pr-insight",
+       name: "Data Driven Pr-insight",
+     },
+     {
+       href: "/services/public-relations",
+       name: "Public Relations",
+     },
+     {
+       href: "/services/digital-gaming-events",
+       name: "Digital Gaming Events",
+     },
+     {
+       href: "/services/esports-tournament-organization",
+       name: "Esports Tournaments",
+     },
+     {
+       href: "/services/international-pr-expansion",
+       name: "International Pr-Expansion",
+     },
+     {
+       href: "/services/gaming-product-launches",
+       name: "Gaming Product Launches",
+     },
+   ];
   return (
     <div>
       <div className="bg-[#17191d]" data-aos="zoom-in">
@@ -70,7 +106,7 @@ const CreatorsandInfluencers = () =>
             <div>
               <p className="py-1 text-white">
                 Are you ready to take your gaming brand to the next level? At
-                4WD Gaming, we are not just any PR agency; we are brand builders
+                4WD GAMING, we are not just any PR agency; we are brand builders
                 who understand the immense power of a strong brand in attracting
                 organic media and PR.
               </p>
@@ -78,7 +114,7 @@ const CreatorsandInfluencers = () =>
               {data.map((items, key) => (
                 <div key={key}>
                   <p className="text-[#c52326] text-xl">{items.title}</p>
-                  <p className="py-1 text-white"> {items.cont}</p>
+                  <p className="pb-3 text-white"> {items.cont}</p>
                 </div>
               ))}
             </div>
@@ -87,15 +123,15 @@ const CreatorsandInfluencers = () =>
             {data2.map((items, key) => (
               <div key={key}>
                 <p className="text-[#c52326] text-xl">{items.title}</p>
-                <p className="py-1 text-white"> {items.cont}</p>
+                <p className="pb-3 text-white"> {items.cont}</p>
               </div>
             ))}
           </div>
         </div>
       </div>
-      <Navigationbar/>
+      <Navigationbar navData={navData} />
     </div>
   );
-}
+};
 
-export default CreatorsandInfluencers
+export default CreatorsandInfluencers;

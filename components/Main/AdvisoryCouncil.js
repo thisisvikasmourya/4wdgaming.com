@@ -6,7 +6,7 @@ import Link from "next/link";
 
 const AdvisoryCouncil = () => {
   return (
-    <div>
+    <div id="advisory">
       <div className="bg-[#17191d]" data-aos="zoom-in">
         <div className="max-w-screen-xl mx-auto md:px-8">
           <div className="bg-[#17191d]">

@@ -14,7 +14,7 @@ const AboutUs = () => {
         <div className="max-w-screen-xl mx-auto md:px-8">
           <div className="content bg-[#17191d] py-16  px-4" data-aos="zoom-in">
             <h1 className=" outline text-center lg:text-9xl md:text-6xl text-4xl text-[#fff] outline-4 font-semibold">
-              About 4WD Gaming
+              About 4WD GAMING
             </h1>
           </div>
         </div>
@@ -114,7 +114,7 @@ const AboutUs = () => {
           </div>
         </div>
       </div>
-      <div>
+      <div id="founder">
         <div>
           <div className="bg-[#17191d]" data-aos="zoom-in">
             <div className="max-w-screen-xl mx-auto md:px-8">
@@ -156,7 +156,7 @@ const AboutUs = () => {
                 </div>
                 <div>
                   <p className="text-xl text-[#c52326]">Sharmilee Daru</p>
-                  <p className="text-lg text-[#c52326]">Founder, 4WD Gaming</p>
+                  <p className="text-lg text-[#c52326]">Founder, 4WD GAMING</p>
                   <p className="py-2 text-white">
                     An alumnus of St. Xaviers’ College, Mumbai and a post
                     graduate from the Xavier’s Institute of Communication,
@@ -195,7 +195,7 @@ const AboutUs = () => {
                     the industry like RIL and HUL to emerging gaming start-ups,
                     her experience as a communication advisor with a sharp eye
                     for detail and strong domain knowledge has culminated into
-                    the inception of 4WD Gaming.
+                    the inception of 4WD GAMING.
                   </p>
                 </div>
               </div>
@@ -204,7 +204,7 @@ const AboutUs = () => {
           </div>
         </div>
       </div>
-      <WhatWeDo/>
+      <WhatWeDo />
       <AdvisoryCouncil />
     </div>
   );

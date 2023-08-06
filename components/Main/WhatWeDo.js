@@ -5,7 +5,7 @@ import Image from "next/image";
 const WhatWeDo = () => {
   return (
     <>
-      <div>
+      <div id="whatwedo">
         <div className="bg-[#17191d]">
           <div className="max-w-screen-xl mx-auto md:px-8">
             <div data-aos="zoom-in">
@@ -23,7 +23,12 @@ const WhatWeDo = () => {
             <div className="max-w-screen-xl mx-auto md:px-8">
               <div className="flex lg:flex-row  flex-col gap-4 p-4 py-10  px-4 bg-[#191C20]">
                 <div>
-                  <Image src={About1} alt="hello" className="rounded-lg" width={300} />
+                  <Image
+                    src={About1}
+                    alt="hello"
+                    className="rounded-lg"
+                    width={300}
+                  />
                 </div>
 
                 <div className="text-white">

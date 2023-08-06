@@ -51,6 +51,44 @@ const PublicRelations = () =>
    
    
   ];
+   const navData = [
+     {
+       href: "/services/strategy-and-marketing",
+       name: "Strategy and Marketing",
+     },
+     {
+       href: "/services/content-and-writing",
+       name: "Content and Copywriting",
+     },
+     {
+       href: "/services/creator-and-influencers",
+       name: "Creator and Influencer",
+     },
+     {
+       href: "/services/crisis-communication",
+       name: "Crisis Communication",
+     },
+     {
+       href: "/services/data-driven-pr-insight",
+       name: "Data Driven Pr-insight",
+     },
+     {
+       href: "/services/digital-gaming-events",
+       name: "Digital Gaming Events",
+     },
+     {
+       href: "/services/esports-tournament-organization",
+       name: "Esports Tournaments",
+     },
+     {
+       href: "/services/international-pr-expansion",
+       name: "International Pr-Expansion",
+     },
+     {
+       href: "/services/gaming-product-launches",
+       name: "Gaming Product Launches",
+     },
+   ];
   return (
     <div>
       <div className="bg-[#17191d]" data-aos="zoom-in">
@@ -71,15 +109,15 @@ const PublicRelations = () =>
             <div>
               <p className="py-1 text-white">
                 Are you ready to take your gaming brand to the next level? At
-                4WD Gaming, we are not just any PR agency; we are brand builders
-                who understand the immense power of a strong brand in attracting
-                organic media and PR.
+                <span className='text-[#c32326]'> 4WD Gaming</span>, we are not just any PR agency; we are
+                brand builders who understand the immense power of a strong
+                brand in attracting organic media and PR.
               </p>
 
               {data.map((items, key) => (
                 <div key={key}>
                   <p className="text-[#c52326] text-xl">{items.title}</p>
-                  <p className="py-1 text-white"> {items.cont}</p>
+                  <p className="pb-3 text-white"> {items.cont}</p>
                 </div>
               ))}
             </div>
@@ -88,13 +126,13 @@ const PublicRelations = () =>
             {data2.map((items, key) => (
               <div key={key}>
                 <p className="text-[#c52326] text-xl">{items.title}</p>
-                <p className="py-1 text-white"> {items.cont}</p>
+                <p className="pb-3 text-white"> {items.cont}</p>
               </div>
             ))}
           </div>
         </div>
       </div>
-      <Navigationbar/>
+      <Navigationbar navData={navData}/>
     </div>
   );
 }

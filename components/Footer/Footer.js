@@ -16,7 +16,7 @@ const Footer = () =>
           label: "About Us",
           items: [
             {
-              href: "/about-founder",
+              href: "/about-us/#founder",
               name: "About the Founder",
             },
             {
@@ -24,12 +24,12 @@ const Footer = () =>
               name: "About Company",
             },
             {
-              href: "/what-we-do-and-how-we-do",
+              href: "/about-us/#whatwedo",
               name: "What We Do & How We Do It",
             },
             {
-              href: "javascript:void()",
-              name: "Why Choose Us",
+              href: "/about-us/#advisory",
+              name: "Advisory Council Members",
             },
           ],
         },
@@ -81,32 +81,44 @@ const Footer = () =>
             },
           ],
         },
+        {
+          label: " ",
+          items: [
+            {
+              href: "/services/public-relations",
+              name: "Public Relations",
+            },
+            {
+              href: "/services/strategy-and-marketing",
+              name: "Strategy & Marketing",
+            },
+            {
+              href: "/services/content-and-writing",
+              name: "Content & CopyWriting",
+            },
+            {
+              href: "/services/creator-and-influencers",
+              name: "Creator & Influencers",
+            },
+            {
+              href: "/services/digital-gaming-events",
+              name: "Digital Gaming Events",
+            },
+          ],
+        },
       ];
 
   return (
     <div className="bg-[#191c20]">
       <footer className="text-white  px-4 py-10 max-w-screen-xl mx-auto md:px-8">
-        <div className="gap-6 justify-between md:flex">
-          <div className="flex-1">
+        <div className="gap-20 justify-between md:flex">
+          <div className="flex">
             <div className="max-w-xs">
               <Image src={logo} alt="Logo" className="w-32" />
               <p className="leading-relaxed mt-2 text-[15px] text-white">
                 LET&apos;S BRING TOMORROW CLOSER
               </p>
             </div>
-            {/* <form onSubmit={(e) => e.preventDefault()}>
-              <label className="block pt-4 pb-2">Stay up to date</label>
-              <div className="max-w-sm flex items-center border rounded-md p-1">
-                <input
-                  type="email"
-                  placeholder="Enter your email"
-                  className="w-full p-2.5 outline-none"
-                />
-                <button className="p-2.5 rounded-md text-white bg-indigo-600 outline-none shadow-md focus:shadow-none sm:px-5">
-                  Subscribe
-                </button>
-              </div>
-            </form> */}
           </div>
           <div className="flex-1 mt-10 space-y-6  justify-between sm:flex md:space-y-0 md:mt-0">
             {footerNavs.map((item, idx) => (
@@ -116,7 +128,7 @@ const Footer = () =>
                   <li key={idx}>
                     <a
                       href={el.href}
-                      className="hover:underline text-white hover:text-[#c52326]"
+                      className="hover:underline text-white hover:text-[#c52326] "
                     >
                       {el.name}
                     </a>
