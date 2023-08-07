@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import About from "../../../public/images/content.jpg";
+import About from "../../../public/images/esport.jpg";
 import Navigationbar from "@/components/Navbar/Navigationbar";
 
 const DigitalGamingEvents = () => {

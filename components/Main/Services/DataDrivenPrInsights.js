@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import About from "../../../public/images/data.jpg";
+import About from "../../../public/images/datadriven.jpeg";
 import Navigationbar from "@/components/Navbar/Navigationbar";
 
 const DataDrivenPrInsights = () => {

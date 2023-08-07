@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import About from "../../../public/images/webs.png";
+import About from "../../../public/images/ddd.png";
 import Navigationbar from "@/components/Navbar/Navigationbar";
 
 const ContentandCopywriting = () => {
