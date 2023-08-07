@@ -26,6 +26,7 @@ const AdvisoryCouncil = () => {
                   data-aos="zoom-in"
                   alt="hello"
                   className="rounded-xl"
+                  layout="responsive"
                   width={300}
                 />
               </div>
@@ -67,6 +68,7 @@ const AdvisoryCouncil = () => {
                   alt="hello"
                   className="rounded-xl"
                   width={300}
+                  layout="responsive"
                 />
               </div>
               <div>

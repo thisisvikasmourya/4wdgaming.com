@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import About from "../../../public/images/content.jpg";
+import About from "../../../public/images/game.png";
 import Navigationbar from "@/components/Navbar/Navigationbar";
 
 const GamingProductLaunches = () => {

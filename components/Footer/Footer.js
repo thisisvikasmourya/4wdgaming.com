@@ -8,6 +8,7 @@ import {
   BiLogoTwitter,
   BiLogoInstagram,
 } from "react-icons/bi";
+import Link from 'next/link';
 
 const Footer = () =>
 {
@@ -85,24 +86,24 @@ const Footer = () =>
           label: " ",
           items: [
             {
-              href: "/services/public-relations",
-              name: "Public Relations",
+              href: "/services/crisis-communication",
+              name: "Crisis Communication",
             },
             {
-              href: "/services/strategy-and-marketing",
-              name: "Strategy & Marketing",
+              href: "/services/international-pr-expansion",
+              name: "International Pr-Expansion",
             },
             {
-              href: "/services/content-and-writing",
-              name: "Content & CopyWriting",
+              href: "/services/gaming-product-launches",
+              name: "Gaming Product Launches",
             },
             {
-              href: "/services/creator-and-influencers",
-              name: "Creator & Influencers",
+              href: "/services/data-driven-pr-insight",
+              name: "Data Driven PR-Insights",
             },
             {
-              href: "/services/digital-gaming-events",
-              name: "Digital Gaming Events",
+              href: "/services/esports-tournament-organization",
+              name: "Esports Tournament Organization",
             },
           ],
         },
@@ -123,15 +124,17 @@ const Footer = () =>
           <div className="flex-1 mt-10 space-y-6  justify-between sm:flex md:space-y-0 md:mt-0">
             {footerNavs.map((item, idx) => (
               <ul className="space-y-4" key={idx}>
-                <h2 className="text-[#c52326] text-[#18px] font-bold">{item.label}</h2>
+                <h2 className="text-[#c52326] text-[#18px] font-bold">
+                  {item.label}
+                </h2>
                 {item.items.map((el, idx) => (
                   <li key={idx}>
-                    <a
+                    <Link
                       href={el.href}
                       className="hover:underline text-white hover:text-[#c52326] "
                     >
                       {el.name}
-                    </a>
+                    </Link>
                   </li>
                 ))}
               </ul>
@@ -145,28 +148,28 @@ const Footer = () =>
           <div className="mt-6 sm:mt-0">
             <ul className="flex items-center space-x-4">
               <li className="w-10 h-10 border rounded-full flex items-center justify-center">
-                <a href="javascript:void()">
+                <a href="https://www.instagram.com/4wd.gaming/">
                   <BiLogoInstagram />{" "}
                 </a>
               </li>
 
               <li className="w-10 h-10 border rounded-full flex items-center justify-center">
-                <a href="javascript:void()">
+                <a href="https://twitter.com/4wdGaming">
                   <BiLogoTwitter />
                 </a>
               </li>
 
               <li className="w-10 h-10 border rounded-full flex items-center justify-center">
-                <a href="javascript:void()">
+                <a href="https://www.linkedin.com/company/4wd-gaming/">
                   <BiLogoLinkedin />{" "}
                 </a>
               </li>
 
-              <li className="w-10 h-10 border rounded-full flex items-center justify-center">
+              {/* <li className="w-10 h-10 border rounded-full flex items-center justify-center">
                 <a href="javascript:void()">
                   <BiLogoFacebook />{" "}
                 </a>
-              </li>
+              </li> */}
             </ul>
           </div>
         </div>

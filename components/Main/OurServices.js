@@ -4,6 +4,12 @@ import esp from "../../public/images/esport.jpg";
 import web from "../../public/images/webs.png";
 import cont from "../../public/images/content.jpg";
 import str from "../../public/images/0x0.jpg";
+import crisis from "../../public/images/crisis.jpg";
+import data from "../../public/images/data.jpg";
+import game from "../../public/images/game.png";
+import esports from "../../public/images/interpr.jpg";
+import esportss2 from "../../public/images/esportss.png";
+// import gamess from "../../public/images/";
 import Image from "next/image";
 import Link from "next/link";
 import { HiArrowLongRight } from "react-icons/hi";
@@ -45,27 +51,27 @@ export default function Services() {
   const posts2 = [
     {
       title: "Crisis Communication",
-      img: str,
+      img: crisis,
       content:
         "Crisis Communications - Navigating Turbulent Waters with Expertise",
       link: "/services/crisis-communication",
     },
     {
       title: "Esports Tournament Organization ",
-      img: Pr,
+      img: esportss2,
       content: "Esports Tournament Organization - Level Up Your Gaming Events",
       link: "/services/esports-tournament-organization",
     },
     {
       title: "Data Driven Pr-Insights",
-      img: cont,
+      img: data,
       content:
         " Data-driven PR Insights - Unlocking the Power of Analytics in Gaming",
       link: "/services/data-driven-pr-insight",
     },
     {
       title: "Gaming Product Launches",
-      img: web,
+      img: game,
       content:
         "Gaming Product Launches - Igniting Success in the Gaming Industry",
       link: "/services/gaming-product-launches",
@@ -73,7 +79,7 @@ export default function Services() {
 
     {
       title: "International Pr-Expansion",
-      img: esp,
+      img: esports,
       content:
         " International PR Expansion - Unlocking Global Opportunities for Gaming Brands",
       link: "/services/international-pr-expansion",

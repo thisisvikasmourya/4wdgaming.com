@@ -3,14 +3,14 @@ import React from "react";
 // import ClientScroll from "./Review/ClientScroll";
 const Page2 = () => {
   return (
-    <div className="bg-[#191c20]">
+    <div className="bg-[#191c20] ">
       <div
         className="px-4  max-w-screen-xl mx-auto md:px-8 "
         data-aos="zoom-in"
         id="page2"
       >
         {/* bg-[#191c20] */}
-        <div className="px-1 sm:px-2  rounded-lg py-20   ">
+        <div className="  rounded-lg py-20   ">
           <p className="lg:text-3xl text-[#c52326] text-2xl font-bold text-center py-1 ">
             WELCOME TO 4WD GAMING:
           </p>
@@ -18,8 +18,8 @@ const Page2 = () => {
             INDIA&apos;S PREMIER GAMING PR & MARKETING CONSULTANCY
           </p>
           <p className="lg:text-3xl text-2xl font-semibold text-center border-b border-gray-300 pb-5 "></p>
-          <div className="grid lg:grid-cols-2 grid-cols-1 gap-4 p-4 py-10 text-white">
-            <div className="p-4    text-[16px]" data-aos="zoom-in">
+          <div className="grid lg:grid-cols-2 grid-cols-1 gap-4 py-10 text-white">
+            <div className="    text-[16px]" data-aos="zoom-in">
               {/* <p className="text-[#c52326] font-semibold text-lg">
                 We’re brand builders
               </p> */}
@@ -39,7 +39,7 @@ const Page2 = () => {
             </div>
 
             <div
-              className="p-4   border-gray-500 text-[16px] text-white"
+              className="   border-gray-500 text-[16px] text-white"
               data-aos="zoom-in"
             >
               {/* <p className="text-[#c52326] font-semibold text-lg">

@@ -15,7 +15,7 @@ const Navbar = () => {
       <li>
         <Link
           href="/"
-          className=" px-5 text-white  cursor-pointer hover:bg-[#c52326] py-3 rounded-lg hover:text-[#fff] "
+          className=" px-5 text-white  cursor-pointer hover:bg-[#c52326] transition-all duration-500 py-3 rounded-lg hover:text-[#fff] "
         >
           Home
         </Link>
@@ -24,14 +24,14 @@ const Navbar = () => {
       <li>
         <Link
           href="/about-us"
-          className=" px-5 text-white  cursor-pointer hover:bg-[#c52326] py-2.5 rounded-lg hover:text-[#fff] "
+          className=" px-5 text-white  cursor-pointer hover:bg-[#c52326] transition-all duration-500 py-2.5 rounded-lg hover:text-[#fff] "
         >
           About Us
         </Link>
       </li>
       <li>
         <div className="dropdown ">
-          <button className="dropbtn px-5 text-white  cursor-pointer hover:bg-[#c52326] py-2.5 rounded-lg hover:text-[#fff]">
+          <button className="dropbtn px-5 text-white  cursor-pointer hover:bg-[#c52326] transition-all duration-500 py-2.5 rounded-lg hover:text-[#fff]">
             Services
           </button>
           <div className="dropdown-content">
@@ -72,7 +72,7 @@ const Navbar = () => {
       </li>
       <li>
         <div className="dropdown">
-          <button className="dropbtn px-5 text-white  cursor-pointer hover:bg-[#c52326] py-3 rounded-lg hover:text-[#fff]">
+          <button className="dropbtn px-5 text-white  cursor-pointer hover:bg-[#c52326] py-3 transition-all duration-500 rounded-lg hover:text-[#fff]">
             Case Study
           </button>
           <div className="dropdown-content">
@@ -95,7 +95,7 @@ const Navbar = () => {
         <Link
           href="/pricing-page"
           onClick={() => setOpen(false)}
-          className=" px-5 text-white cursor-pointer hover:bg-[#c52326] py-3 rounded-lg hover:text-[#fff] "
+          className=" px-5 text-white cursor-pointer transition-all duration-500 hover:bg-[#c52326] py-3 rounded-lg hover:text-[#fff] "
         >
           Pricing
         </Link>
@@ -103,7 +103,7 @@ const Navbar = () => {
       <li>
         <Link
           href="/blog"
-          className=" px-5 text-white  cursor-pointer hover:bg-[#c52326] py-3 rounded-lg hover:text-[#fff] "
+          className=" px-5 text-white  cursor-pointer transition-all duration-500 hover:bg-[#c52326] py-3 rounded-lg hover:text-[#fff] "
         >
           Blog
         </Link>
@@ -114,7 +114,7 @@ const Navbar = () => {
   return (
     <>
       <nav
-        className=" flex items-center justify-between py-5 lg:px-20 px-4 bg-[#191c20]"
+        className=" flex items-center  justify-between py-5 lg:px-20 px-4 bg-[#191c20]"
         id="home"
       >
         <Link href={"/"}>
@@ -145,8 +145,12 @@ const Navbar = () => {
       </nav>
 
       {open ? (
-        <div className="bg-[#191c20] text-[#fff] rounded w-full text-center z-10 pb-5 fixed">
-          <ul className=" lg:hidden flex flex-col items-center gap-5  ">
+        <div
+          className={`bg-[#191c20] h-screen text-[#fff] rounded w-full text-center z-10 pb-5 fixed ${
+            open ? "opacity-100" : "opacity-0"
+          } transition-opacity duration-1000 transition-max-h`}
+        >
+          <ul className=" lg:hidden flex flex-col items-center gap-10  ">
             <li>
               <Link
                 href="/"

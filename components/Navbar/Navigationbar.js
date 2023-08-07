@@ -6,7 +6,7 @@ const Navigationbar = ({navData}) => {
  
   return (
     <div className="bg-[#191C20]">
-      <div className="px-4  max-w-screen-xl mx-auto md:px-8 py-10 ">
+      <div className="  max-w-screen-xl mx-auto md:px-8 py-10 ">
         <h1 className="px-5 py-1">Read more Services: </h1>
         <ul className="grid lg:grid-cols-5 grid-cols-1 gap-2 py-1  px-4 bg-[#191C20]">
           {navData.map((items, key) => (

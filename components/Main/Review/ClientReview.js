@@ -107,7 +107,7 @@ const ClientReview = () => {
               {/* LOGO 8 */}
               <li>
                 <Image
-                  src={client8}
+                  src={client7}
                   alt="client1"
                   className="rounded-lg"
                   width={200}

@@ -28,6 +28,7 @@ const WhatWeDo = () => {
                     alt="hello"
                     className="rounded-lg"
                     width={300}
+                    layout="responsive"
                   />
                 </div>
 
@@ -69,10 +70,11 @@ const WhatWeDo = () => {
                           alt="hello"
                           className="rounded-lg"
                           width={300}
+                          layout="responsive"
                         />
                       </div>
 
-                      <div className="text-white">
+                      <div className="text-white ">
                         <p>
                           We devise a &quot;PR-Hack&quot; to define a
                           company&apos;s direction, approach, and objectives.
