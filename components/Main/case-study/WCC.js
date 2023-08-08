@@ -17,7 +17,7 @@ const WCC = () =>
     },
     {
       href: "/case-study/yudiz",
-      name: "yudiz solutins",
+      name: "Yudiz Solutions",
     },
   ];
   return (

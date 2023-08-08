@@ -35,7 +35,7 @@ const Testimonial = () => {
     <section className="relative py-20 bg-[#17191d]" data-aos="zoom-in">
       <div className="relative z-10 max-w-screen-xl mx-auto px-4 md:px-8">
         <div className="max-w-xl sm:text-center md:mx-auto">
-          <h3 className="text-white text-center text-3xl  sm:text-4xl">
+          <h3 className="text-[#c52326] text-center text-3xl font-semibold  sm:text-4xl">
             Hear from our customers
           </h3>
           <p className="mt-3 text-white text-center">
@@ -99,7 +99,7 @@ const Testimonial = () => {
               </span>
               <span className="absolute bottom-0 left-0 w-full h-full transition-all duration-500 ease-in-out delay-200 -translate-x-full translate-y-full bg-red-600 rounded-2xl group-hover:mb-12 group-hover:translate-x-0"></span>
               <span className="relative w-full text-left text-white transition-colors duration-200 ease-in-out group-hover:text-white">
-                Readmore Review
+                Read more review
               </span>
             </Link>
           </button>

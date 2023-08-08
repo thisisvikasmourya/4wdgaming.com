@@ -48,12 +48,12 @@ const Footer = () =>
 
             {
               href: "/case-study/yudiz",
-              name: "Yudiz solutions",
+              name: "Yudiz Solutions",
             },
 
             {
               href: "/case-study/tfg",
-              name: "Trade fanstay Game",
+              name: "Trade Fanstay Game",
             },
           ],
         },
@@ -91,7 +91,7 @@ const Footer = () =>
             },
             {
               href: "/services/international-pr-expansion",
-              name: "International Pr-Expansion",
+              name: "International PR-Expansion",
             },
             {
               href: "/services/gaming-product-launches",
@@ -124,7 +124,7 @@ const Footer = () =>
           <div className="flex-1 mt-10 space-y-6  justify-between sm:flex md:space-y-0 md:mt-0">
             {footerNavs.map((item, idx) => (
               <ul className="space-y-4" key={idx}>
-                <h2 className="text-[#c52326] text-[#18px] font-bold">
+                <h2 className="text-[#c52326] text-[18px] font-bold">
                   {item.label}
                 </h2>
                 {item.items.map((el, idx) => (

@@ -63,7 +63,7 @@ export default function Services() {
       link: "/services/esports-tournament-organization",
     },
     {
-      title: "Data Driven Pr-Insights",
+      title: "Data Driven PR-Insights",
       img: data,
       content:
         " Data-driven PR Insights - Unlocking the Power of Analytics in Gaming",
@@ -78,7 +78,7 @@ export default function Services() {
     },
 
     {
-      title: "International Pr-Expansion",
+      title: "International PR-Expansion",
       img: esports,
       content:
         " International PR Expansion - Unlocking Global Opportunities for Gaming Brands",

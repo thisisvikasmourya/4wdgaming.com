@@ -64,7 +64,7 @@ const Navbar = () => {
                 Gaming Product Launches
               </Link>
               <Link href="/services/international-pr-expansion">
-                International PrExpansion
+                International PR-Expansion
               </Link>
             </div>
           </div>
@@ -233,7 +233,7 @@ const Navbar = () => {
                     href="/services/international-pr-expansion"
                     onClick={() => setOpen(false)}
                   >
-                    International PrExpansion
+                    International PR-Expansion
                   </Link>
                 </div>
               </div>

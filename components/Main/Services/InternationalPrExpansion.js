@@ -92,7 +92,7 @@ const InternationalPrExpansion = () => {
         <div className="max-w-screen-xl mx-auto md:px-8">
           <div className="content bg-[#17191d] py-16  px-4">
             <h1 className=" outline text-center lg:text-9xl md:text-6xl text-4xl text-[#fff] outline-4 font-semibold">
-              International Pr-Expansion
+              International PR-Expansion
             </h1>
           </div>
         </div>

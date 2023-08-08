@@ -88,7 +88,7 @@ const EsportsTournament = () => {
      },
      {
        href: "/services/international-pr-expansion",
-       name: "International Pr-Expansion",
+       name: "International PR-Expansion",
      },
      {
        href: "/services/gaming-product-launches",

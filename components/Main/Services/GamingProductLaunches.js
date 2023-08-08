@@ -92,7 +92,7 @@ const GamingProductLaunches = () => {
      },
      {
        href: "/services/international-pr-expansion",
-       name: "International Pr-Expansion",
+       name: "International PR-Expansion",
      },
    ];
   return (

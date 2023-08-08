@@ -14,7 +14,7 @@ const Page2 = () => {
           <p className="lg:text-3xl text-[#c52326] text-2xl font-bold text-center py-1 ">
             WELCOME TO 4WD GAMING:
           </p>
-          <p className="lg:text-2xl text-2xl text-white  text-center pb-3">
+          <p className="lg:text-2xl text-2xl font-semibold text-white  text-center pb-3">
             INDIA&apos;S PREMIER GAMING PR & MARKETING CONSULTANCY
           </p>
           <p className="lg:text-3xl text-2xl font-semibold text-center border-b border-gray-300 pb-5 "></p>
