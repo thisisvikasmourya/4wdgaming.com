@@ -124,14 +124,14 @@ const Footer = () =>
           <div className="flex-1 mt-10 space-y-6  justify-between sm:flex md:space-y-0 md:mt-0">
             {footerNavs.map((item, idx) => (
               <ul className="space-y-4" key={idx}>
-                <h2 className="text-[#c52326] text-[18px] font-bold">
+                <h2 className="text-[#c52326] text-[20px] font-bold">
                   {item.label}
                 </h2>
                 {item.items.map((el, idx) => (
                   <li key={idx}>
                     <Link
                       href={el.href}
-                      className="hover:underline text-white hover:text-[#c52326] "
+                      className="hover:underline text-white text-[18px] hover:text-[#c52326] "
                     >
                       {el.name}
                     </Link>

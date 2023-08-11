@@ -6,6 +6,10 @@ import Navigationbar from "@/components/Navbar/Navigationbar";
 const CreatorsandInfluencers = () => {
   const data2 = [
     {
+      title: "Expanding Your Audience Reach:",
+      cont: "Our strategic partnerships with top gaming influencers allow your brand to tap into a wider audience. Reach out to potential gamers who may not have discovered your brand otherwise.",
+    },
+    {
       title: "Engaging and Authentic Content:",
       cont: "Authenticity is key in the gaming world. Our collaborations with gaming influencers ensure that your brand is promoted in an engaging and genuine manner, resonating with their audience on a personal level.",
     },
@@ -43,10 +47,7 @@ const CreatorsandInfluencers = () => {
       title: "Building Credibility and Trust:",
       cont: "Gaming content creators and influencers have a dedicated following that trusts their recommendations. By partnering with influential figures, your brand gains credibility and establishes a strong presence within the gaming community.",
     },
-    {
-      title: "Expanding Your Audience Reach:",
-      cont: "Our strategic partnerships with top gaming influencers allow your brand to tap into a wider audience. Reach out to potential gamers who may not have discovered your brand otherwise.",
-    },
+   
   ];
    const navData = [
      {
@@ -104,7 +105,7 @@ const CreatorsandInfluencers = () => {
               <Image src={About} alt="hello" layout="" className="rounded-lg" />
             </div>
             <div>
-              <p className="py-1 text-white">
+              <p className="py-1 text-white text-[20px]">
                 Are you ready to take your gaming brand to the next level? At
                 4WD GAMING, we are not just any PR agency; we are brand builders
                 who understand the immense power of a strong brand in attracting
@@ -113,8 +114,8 @@ const CreatorsandInfluencers = () => {
 
               {data.map((items, key) => (
                 <div key={key}>
-                  <p className="text-[#c52326] text-xl">{items.title}</p>
-                  <p className="pb-3 text-white"> {items.cont}</p>
+                  <p className="text-[#c52326] text-[18px]">{items.title}</p>
+                  <p className="pb-3 text-white text-[18px]"> {items.cont}</p>
                 </div>
               ))}
             </div>
@@ -122,8 +123,10 @@ const CreatorsandInfluencers = () => {
           <div className="p-4  grid lg:grid-cols-2 grid-cols-1 gap-2 px-4 bg-[#191C20]">
             {data2.map((items, key) => (
               <div key={key}>
-                <p className="text-[#c52326] text-xl">{items.title}</p>
-                <p className="pb-3 text-white"> {items.cont}</p>
+                <p className="text-[#c52326] text-xl text-[18px]">
+                  {items.title}
+                </p>
+                <p className="pb-3 text-white text-[18px]"> {items.cont}</p>
               </div>
             ))}
           </div>

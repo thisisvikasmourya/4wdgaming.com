@@ -107,17 +107,18 @@ const PublicRelations = () =>
               <Image src={About} alt="hello" layout="" className="rounded-lg" />
             </div>
             <div>
-              <p className="py-1 text-white">
+              <p className="py-1 text-white text-[20px]">
                 Are you ready to take your gaming brand to the next level? At
-                <span className='text-[#c32326]'> 4WD Gaming</span>, we are not just any PR agency; we are
-                brand builders who understand the immense power of a strong
-                brand in attracting organic media and PR.
+                <span className="text-[#c32326]"> 4WD Gaming</span>, we are not
+                just any PR agency; we are brand builders who understand the
+                immense power of a strong brand in attracting organic media and
+                PR.
               </p>
 
               {data.map((items, key) => (
                 <div key={key}>
-                  <p className="text-[#c52326] text-xl">{items.title}</p>
-                  <p className="pb-3 text-white"> {items.cont}</p>
+                  <p className="text-[#c52326] text-[20px]">{items.title}</p>
+                  <p className="pb-3 text-white text-[18px]"> {items.cont}</p>
                 </div>
               ))}
             </div>
@@ -125,14 +126,14 @@ const PublicRelations = () =>
           <div className="p-4 grid lg:grid-cols-2 grid-cols-1 gap-2   px-4 bg-[#191C20]">
             {data2.map((items, key) => (
               <div key={key}>
-                <p className="text-[#c52326] text-xl">{items.title}</p>
-                <p className="pb-3 text-white"> {items.cont}</p>
+                <p className="text-[#c52326] text-[20px]">{items.title}</p>
+                <p className="pb-3 text-white text-[18px]"> {items.cont}</p>
               </div>
             ))}
           </div>
         </div>
       </div>
-      <Navigationbar navData={navData}/>
+      <Navigationbar navData={navData} />
     </div>
   );
 }

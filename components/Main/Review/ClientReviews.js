@@ -93,9 +93,9 @@ const Testimonials = () => {
       <div className="relative z-10 max-w-screen-xl mx-auto px-4 md:px-8">
         <div className="max-w-xl sm:text-center md:mx-auto">
           <h3 className="text-white text-3xl font-semibold sm:text-4xl">
-            Hear from our customers
+            Hear from our Clients
           </h3>
-          <p className="mt-3 text-white">
+          <p className="mt-3 text-[20px] text-white">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et est
             hendrerit, porta nunc vitae, gravida justo. Nunc fermentum magna
             lorem, euismod volutpat arcu volutpat et.
@@ -139,8 +139,10 @@ const Testimonials = () => {
                       height={100}
                     />
                     <div>
-                      <span className="block text-white ">{item.name}</span>
-                      <span className="block text-white text-sm mt-0.5">
+                      <span className="block text-white text-[18px] ">
+                        {item.name}
+                      </span>
+                      <span className="block text-white text-xl mt-0.5">
                         {item.title}
                       </span>
                     </div>

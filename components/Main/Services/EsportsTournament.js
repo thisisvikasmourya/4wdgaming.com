@@ -113,7 +113,7 @@ const EsportsTournament = () => {
               <Image src={About} alt="hello" layout="" className="rounded-lg" />
             </div>
             <div>
-              <p className="py-1 text-white">
+              <p className="py-1 text-white text-[20px]">
                 Captivate your gaming community with powerful storytelling. At
                 4WD GAMING, we understand the significance of content and
                 copywriting in creating meaningful connections with your
@@ -122,8 +122,8 @@ const EsportsTournament = () => {
 
               {data.map((items, key) => (
                 <div key={key}>
-                  <p className="text-[#c52326] text-xl">{items.title}</p>
-                  <p className="pb-3 text-white"> {items.cont}</p>
+                  <p className="text-[#c52326] text-[20px]">{items.title}</p>
+                  <p className="pb-3 text-white text-[18px]"> {items.cont}</p>
                 </div>
               ))}
             </div>
@@ -131,8 +131,8 @@ const EsportsTournament = () => {
           <div className="p-4 grid lg:grid-cols-2 grid-cols-1 gap-1  px-4 bg-[#191C20]">
             {data2.map((items, key) => (
               <div key={key}>
-                <p className="text-[#c52326] text-xl">{items.title}</p>
-                <p className="pb-3 text-white"> {items.cont}</p>
+                <p className="text-[#c52326] text-[20px]">{items.title}</p>
+                <p className="pb-3 text-white text-[18px]"> {items.cont}</p>
               </div>
             ))}
           </div>

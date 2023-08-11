@@ -12,7 +12,7 @@ const AboutUs = () => {
     <div>
       <div className="bg-[#17191d]" data-aos="zoom-in">
         <div className="max-w-screen-xl mx-auto md:px-8">
-          <div className="content bg-[#17191d] py-16  px-4" data-aos="zoom-in">
+          <div className="content bg-[#17191d] py-20  px-4" data-aos="zoom-in">
             <h1 className=" outline text-center lg:text-9xl md:text-6xl text-4xl text-[#fff] outline-4 font-semibold">
               About 4WD GAMING
             </h1>
@@ -23,10 +23,10 @@ const AboutUs = () => {
         <div className="max-w-screen-xl mx-auto md:px-8">
           <div className="grid lg:grid-cols-2 grid-cols-1 gap-6 p-4  bg-[#191C20] py-10  px-4">
             <div>
-              <p className="text-[#c52326] font-semibold text-lg">
+              <p className="text-[#c52326] font-semibold text-[20px]">
                 We’re brand builders
               </p>
-              <p className="text-[16px] text-white">
+              <p className="text-[18px] text-white">
                 At 4WD GAMING, we are more than just a gaming PR agency. We are
                 brand builders who understand the power of a strong brand in
                 attracting organic media and PR. Our approach is simple but
@@ -39,10 +39,10 @@ const AboutUs = () => {
               </p>
             </div>
             <div>
-              <p className="text-[#c52326] font-semibold text-lg">
+              <p className="text-[#c52326] font-semibold text-[20px]">
                 We’re pioneers
               </p>
-              <p className="text-[16px] text-white">
+              <p className="text-[18px] text-white">
                 We take pride in being pioneers in the gaming space. As the
                 first ones here, we carved the path for the gaming PR ecosystem
                 in India. Our journey as early adopters and proponents of gaming
@@ -54,10 +54,10 @@ const AboutUs = () => {
               </p>
             </div>
             <div>
-              <p className="text-[#c52326] font-semibold text-lg">
+              <p className="text-[#c52326] font-semibold text-[20px]">
                 We understand gaming
               </p>
-              <p className="text-[16px] text-white">
+              <p className="text-[18px] text-white">
                 Gaming is our domain, and we understand it profoundly. With
                 years of experience in building communication strategies for
                 Nazara Technologies Limited and a diverse range of Indian and
@@ -69,10 +69,10 @@ const AboutUs = () => {
               </p>
             </div>
             <div>
-              <p className="text-[#c52326] font-semibold text-lg ">
+              <p className="text-[#c52326] font-semibold text-[20px] ">
                 We’re forward-thinking
               </p>
-              <p className="text-[16px] text-white">
+              <p className="text-[18px] text-white">
                 Our forward-thinking approach sets us apart. As early entrants
                 in this nascent space, we understand the ecosystem, anticipate
                 challenges, and predict industry trends. We&apos;re excited to
@@ -83,10 +83,10 @@ const AboutUs = () => {
               </p>
             </div>
             <div>
-              <p className="text-[#c52326] font-semibold text-lg">
+              <p className="text-[#c52326] font-semibold text-[20px]">
                 We don’t just do PR
               </p>
-              <p className="text-[16px] text-white">
+              <p className="text-[18px] text-white">
                 Though PR is our forte, we&apos;re more than that. We&apos;re
                 marketers, brand planners, and reputation managers. From
                 designing to execution, we&apos;ve led Nazara through their
@@ -98,10 +98,10 @@ const AboutUs = () => {
               </p>
             </div>
             <div>
-              <p className="text-[#c52326] font-semibold text-lg">
+              <p className="text-[#c52326] font-semibold text-[20px]">
                 Our gaming brands:
               </p>
-              <p className="text-[16px] text-white">
+              <p className="text-[18px] text-white">
                 Our gaming portfolio includes major brands and IPs like Nextwave
                 Multimedia, Evenbet Gaming, HalaPlay, Trinity Gaming India,
                 Nordanvind Investments Ltd., and more. The founder, Sharmilee
@@ -116,10 +116,10 @@ const AboutUs = () => {
       </div>
       <div id="founder">
         <div>
-          <div className="bg-[#17191d]" data-aos="zoom-in">
-            <div className="max-w-screen-xl mx-auto md:px-8">
+          <div className="bg-[#17191d] py-18" data-aos="zoom-in">
+            <div className="max-w-screen-xl mx-auto md:px-8 ">
               <div data-aos="zoom-in">
-                <div className="content bg-[#17191d] py-16  px-4">
+                <div className="content bg-[#17191d] py-20  px-4">
                   <h1 className=" outline text-center lg:text-9xl md:text-6xl text-4xl text-[#fff] outline-4 font-semibold">
                     About the Founder
                   </h1>
@@ -129,42 +129,32 @@ const AboutUs = () => {
           </div>
 
           <div className="bg-[#191C20]" data-aos="zoom-in">
-            <div className="max-w-screen-xl mx-auto md:px-8">
-              <div className="grid lg:grid-cols-2 grid-cols-1 gap-6 p-4 py-10  px-4 bg-[#191C20]">
+            <div className="max-w-screen-xl mx-auto md:px-8 py-10">
+              <div className="grid lg:grid-cols-2 grid-cols-1 gap-6 p-4 py-10 items-center px-4 bg-[#191C20]">
                 <div>
                   <Image
                     src={About2}
                     alt="hello"
-                    layout=""
+                    layout="responsive"
                     className="rounded-lg"
+                    
                   />
-                  <p className="py-5 text-white">
-                    Being among the early adopter and proponent of gaming
-                    communication, she has seen the industry evolve. Be it the
-                    ongoing battle for regulation and skill based real money
-                    gaming or the introduction of Web3 among other trends
-                    setting in, she has an advantage having managed all gaming
-                    categories. Be it the fantasy sports space, esports, sports
-                    media space, gamified learning, real money or the casual
-                    gaming space, she has managed to gain a strong foothold in
-                    the Indian gaming ecosystem.
-                  </p>
-                  <p className=" text-white">
-                    When she is not working, she loves to spend her time horse
-                    riding, swimming or simply at the gym.
-                  </p>
                 </div>
                 <div>
-                  <p className="text-xl text-[#c52326]">Sharmilee Daru</p>
-                  <p className="text-lg text-[#c52326]">Founder, 4WD GAMING</p>
-                  <p className="py-2 text-white">
+                  <p className="text-[22px] text-[#c52326] font-bold">
+                    Sharmilee Daru
+                  </p>
+                  <p className="text-[22px] font-bold text-[#c52326]">
+                    Founder, 4WD GAMING
+                  </p>
+                  <p className="py-2 text-white text-[18px]">
                     An alumnus of St. Xaviers’ College, Mumbai and a post
                     graduate from the Xavier’s Institute of Communication,
                     Mumbai, Sharmilee Daru is one of the pioneers of focused and
                     curated, successful communication for gaming solutions in
                     the country and is one of the most noted names in the space.
                   </p>
-                  <p className="py-2 text-white">
+                  <p className="py-2 text-white text-[18px]">
                     With a proven track record in establishing gaming as a
                     formidable niche in the media, Sharmilee Daru, branched out
                     to etch more success stories. She recently launched 4WD
@@ -174,31 +164,45 @@ const AboutUs = () => {
                     gaming into the Indian mainstream ecosystem while enabling
                     sectoral growth.
                   </p>
-                  <p className="text-white">
-                    Managing the communication mandate for Nazara Technologies
-                    Ltd. somehow, allowed Sharmilee Daru to set the path for the
-                    gaming PR ecosystem in the country. She has been
-                    instrumental to Nazara’s growth story. Starting the
-                    corporate communication department for a gaming company
-                    seemed farfetched at the time in March 2016. Architecting
-                    plans and strong execution, while managing reputation, she
-                    saw the company through the public listing process. Today,
-                    it stands as India’s only listed online skill-based gaming
-                    firm enabling her to be among the pioneers for gaming
-                    communication in the country.
-                  </p>
-                  <p className="py-2 text-white">
-                    With more than two decades of experience in the
-                    communication space, Sharmilee Daru has been instrumental in
-                    creating successful brands by providing guidance, training
-                    and strategic direction. From consulting with big names of
-                    the industry like RIL and HUL to emerging gaming start-ups,
-                    her experience as a communication advisor with a sharp eye
-                    for detail and strong domain knowledge has culminated into
-                    the inception of 4WD GAMING.
-                  </p>
                 </div>
               </div>
+
+              <p className="py-2 text-white text-[18px]">
+                Managing the communication mandate for Nazara Technologies Ltd.
+                somehow, allowed Sharmilee Daru to set the path for the gaming
+                PR ecosystem in the country. She has been instrumental to
+                Nazara’s growth story. Starting the corporate communication
+                department for a gaming company seemed farfetched at the time in
+                March 2018. Architecting plans and strong execution, while
+                managing reputation, she saw the company through the public
+                listing process. Today, it stands as India’s only listed online
+                skill-based gaming firm enabling her to be among the pioneers
+                for gaming communication in the country.
+              </p>
+              <p className="py-2 text-white text-[18px]">
+                With more than two decades of experience in the communication
+                space, Sharmilee Daru has been instrumental in creating
+                successful brands by providing guidance, training and strategic
+                direction. From consulting with big names of the industry like
+                RIL and HUL to emerging gaming start-ups, her experience as a
+                communication advisor with a sharp eye for detail and strong
+                domain knowledge has culminated into the inception of 4WD
+                GAMING.
+              </p>
+              <p className="py-3 text-[18px] text-white">
+                Being among the early adopter and proponent of gaming
+                communication, she has seen the industry evolve. Be it the
+                ongoing battle for regulation and skill based real money gaming
+                or the introduction of Web3 among other trends setting in, she
+                has an advantage having managed all gaming categories. Be it the
+                fantasy sports space, esports, sports media space, gamified
+                learning, real money or the casual gaming space, she has managed
+                to gain a strong foothold in the Indian gaming ecosystem.
+              </p>
+              <p className=" text-white text-[18px]">
+                When she is not working, she loves to spend her time horse
+                riding, swimming or simply at the gym.
+              </p>
               <div className="  px-4 bg-[#191C20] text-white"></div>
             </div>
           </div>

@@ -30,8 +30,8 @@ const AdvisoryCouncil = () => {
                   width={300}
                 />
               </div>
-              <div>
-                <p className="text-xl text-[#c52326] mt-2">Vamsi Talasila</p>
+              <div className="py-3 text-[20px]">
+                <p className="text-lg text-[#c52326] mt-2">Vamsi Talasila</p>
                 <p className="text-lg text-white">
                   {" "}
                   Gaming Technology and Digital Marketing
@@ -71,7 +71,7 @@ const AdvisoryCouncil = () => {
                   layout="responsive"
                 />
               </div>
-              <div>
+              <div className="py-3 text-[20px]">
                 <p className="text-xl text-[#c52326] mt-2">Jay Sayta </p>
                 <p className="text-lg text-white">
                   Technology and Gaming Lawyer in India

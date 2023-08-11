@@ -106,8 +106,8 @@ const InternationalPrExpansion = () => {
             <div>
               {data.map((items, key) => (
                 <div key={key}>
-                  <p className="text-[#c52326] text-xl">{items.title}</p>
-                  <p className="pb-3 text-white"> {items.cont}</p>
+                  <p className="text-[#c52326] text-[20px]">{items.title}</p>
+                  <p className="pb-3 text-white text-[18px]"> {items.cont}</p>
                 </div>
               ))}
             </div>
@@ -115,8 +115,8 @@ const InternationalPrExpansion = () => {
           <div className="p-4  grid lg:grid-cols-2 grid-cols-1 gap-2  px-4 bg-[#191C20]">
             {data2.map((items, key) => (
               <div key={key}>
-                <p className="text-[#c52326] text-xl">{items.title}</p>
-                <p className="pb-3 text-white"> {items.cont}</p>
+                <p className="text-[#c52326] text-[20px]">{items.title}</p>
+                <p className="pb-3 text-white text-[18px]"> {items.cont}</p>
               </div>
             ))}
           </div>

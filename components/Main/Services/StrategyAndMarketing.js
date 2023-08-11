@@ -106,15 +106,15 @@ const StrategyAndMarketing = () => {
               />
             </div>
             <div>
-              <p className="py-1 text-white">
+              <p className="py-1 text-white text-[20px]">
                 Are you ready to elevate your gaming venture to new heights? At
                 4WD GAMING, we understand that successful gaming companies need
                 a strategic approach to thrive in the competitive landscape.
               </p>
               {data.map((items, key) => (
                 <div key={key}>
-                  <p className="text-[#c52326] text-xl">{items.title}</p>
-                  <p className="pb-3 text-white"> {items.cont}</p>
+                  <p className="text-[#c52326] text-[20px]">{items.title}</p>
+                  <p className="pb-3 text-white text-[18px]"> {items.cont}</p>
                 </div>
               ))}
             </div>
@@ -122,8 +122,8 @@ const StrategyAndMarketing = () => {
           <div className="p-4 grid lg:grid-cols-2 grid-cols-1 gap-2  px-4 bg-[#191C20]">
             {data2.map((items, key) => (
               <div key={key}>
-                <p className="text-[#c52326] text-xl">{items.title}</p>
-                <p className="pb-3 text-white"> {items.cont}</p>
+                <p className="text-[#c52326] text-[20px]">{items.title}</p>
+                <p className="pb-3 text-white text-[18px]"> {items.cont}</p>
               </div>
             ))}
           </div>

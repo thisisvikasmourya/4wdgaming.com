@@ -25,7 +25,7 @@ const ClientReview = () => {
             <h3 className="text-[#c52326] text-3xl font-semibold sm:text-4xl">
               4WD GAMING in News
             </h3>
-            <p className="text-white mt-3">
+            <p className="text-white text-[20px] mt-3">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
               dignissim nibh nisl, vel egestas magna rhoncus at. Nunc elementum
               efficitur tortor in laoreet.

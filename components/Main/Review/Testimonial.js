@@ -36,9 +36,9 @@ const Testimonial = () => {
       <div className="relative z-10 max-w-screen-xl mx-auto px-4 md:px-8">
         <div className="max-w-xl sm:text-center md:mx-auto">
           <h3 className="text-[#c52326] text-center text-3xl font-semibold  sm:text-4xl">
-            Hear from our customers
+            Hear from our clients
           </h3>
-          <p className="mt-3 text-white text-center">
+          <p className="mt-3 text-white text-[20px] text-center">
             Our customers positive feedback keeps us inspired and driven to
             excel. Thank you for being a part of our journey!{" "}
           </p>
@@ -76,8 +76,10 @@ const Testimonial = () => {
                       alt=""
                     />
                     <div>
-                      <span className="block text-white ">{item.name}</span>
-                      <span className="block text-white text-sm mt-0.5">
+                      <span className="block text-white text-[20px] ">
+                        {item.name}
+                      </span>
+                      <span className="block text-white text-[16px] mt-0.5">
                         {item.title}
                       </span>
                     </div>

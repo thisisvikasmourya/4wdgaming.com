@@ -94,12 +94,12 @@ export default function Services() {
         {/* <h1>Our Service</h1> */}
         <div className="max-w-xl sm:text-center py-10 md:mx-auto">
           <h3
-            className="text-[#c52326] text-3xl font-semibold sm:text-4xl text-center "
+            className="text-[#c52326] text-6xl font-semibold sm:text-4xl text-center "
             data-aos="flip-up"
           >
             Our Services
           </h3>
-          <p className="mt-3 text-white text-center">
+          <p className="mt-3 text-white text-[20px] text-center">
             Whatever your game, we bring the ammo!
           </p>
         </div>
@@ -127,14 +127,14 @@ export default function Services() {
               />
               <div className="p-4">
                 <Link
-                  className=" text-xl font-semibold text-[#c52326]"
+                  className="   font-semibold text-[20px] text-[#c52326]"
                   href={items.link}
                 >
                   {items.title}
                 </Link>
                 <br />
                 <Link
-                  className=" text-sm text-blue-100  rounded shadow underline-offset-4"
+                  className=" text-[18px]  text-blue-100  rounded shadow underline-offset-4"
                   href={items.link}
                 >
                   {items.content}
@@ -160,14 +160,14 @@ export default function Services() {
               />
               <div className="p-4">
                 <Link
-                  className=" text-xl font-semibold text-[#c52326]"
+                  className=" text-[20px] font-semibold text-[#c52326]"
                   href={items.link}
                 >
                   {items.title}
                 </Link>
                 <br />
                 <Link
-                  className=" text-sm text-blue-100  rounded shadow underline-offset-4"
+                  className=" text-[18px] text-blue-100  rounded shadow underline-offset-4"
                   href={items.link}
                 >
                   {items.content}

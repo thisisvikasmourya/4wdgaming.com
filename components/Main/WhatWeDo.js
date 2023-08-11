@@ -32,15 +32,15 @@ const WhatWeDo = () => {
                   />
                 </div>
 
-                <div className="text-white">
-                  <p>
+                <div className="text-white text-[20px]">
+                  <p className="py-3">
                     At 4WD GAMING, we challenge the norms of traditional
                     agencies. Instead, we focus on brand objectives and goals.
                     Our approach strikes the perfect balance, blending
                     traditional media ideals with new-age strategies to capture
                     the new-age media for our brands.
                   </p>
-                  <p>
+                  <p className="py-3">
                     Understanding evolving client needs and media trends is at
                     the core of our service. We work hand-in-hand with brands to
                     ensure success, escalate brand image, and optimize
@@ -74,8 +74,8 @@ const WhatWeDo = () => {
                         />
                       </div>
 
-                      <div className="text-white ">
-                        <p>
+                      <div className="text-white text-[20px]">
+                        <p className="py-3">
                           We devise a &quot;PR-Hack&quot; to define a
                           company&apos;s direction, approach, and objectives.
                           Through rigorous industry research and stakeholder
@@ -84,7 +84,7 @@ const WhatWeDo = () => {
                           visibility and ensure the message reaches the right
                           audience.
                         </p>
-                        <p>
+                        <p className="py-3">
                           Aligning company and brand strategies, we create a
                           seamless flow of communication with stakeholders. Our
                           success stories speak for the effectiveness of this

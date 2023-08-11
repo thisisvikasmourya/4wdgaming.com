@@ -114,7 +114,7 @@ const Navbar = () => {
   return (
     <>
       <nav
-        className=" flex items-center  justify-between py-5 lg:px-20 px-4 bg-[#191c20]"
+        className=" flex items-center text-[18px] justify-between py-5 lg:px-20 px-4 bg-[#191c20]"
         id="home"
       >
         <Link href={"/"}>
@@ -146,7 +146,7 @@ const Navbar = () => {
 
       {open ? (
         <div
-          className={`bg-[#191c20] h-screen text-[#fff] rounded w-full text-center z-10 pb-5 fixed ${
+          className={`bg-[#191c20] h-screen text-[18px] text-[#fff] rounded w-full text-center z-10 pb-5 fixed ${
             open ? "opacity-100" : "opacity-0"
           } transition-opacity duration-1000 transition-max-h`}
         >

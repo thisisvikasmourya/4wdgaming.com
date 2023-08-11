@@ -11,50 +11,32 @@ const Page2 = () => {
       >
         {/* bg-[#191c20] */}
         <div className="  rounded-lg py-20   ">
-          <p className="lg:text-3xl text-[#c52326] text-2xl font-bold text-center py-1 ">
+          <p className="lg:text-6xl text-[#c52326] text-3xl font-bold text-center py-3 ">
             WELCOME TO 4WD GAMING:
           </p>
-          <p className="lg:text-2xl text-2xl font-semibold text-white  text-center pb-3">
+          <p className="lg:text-5xl text-3xl font-semibold text-white  text-center pb-3">
             INDIA&apos;S PREMIER GAMING PR & MARKETING CONSULTANCY
           </p>
           <p className="lg:text-3xl text-2xl font-semibold text-center border-b border-gray-300 pb-5 "></p>
-          <div className="grid lg:grid-cols-2 grid-cols-1 gap-4 py-10 text-white">
-            <div className="    text-[16px]" data-aos="zoom-in">
-              {/* <p className="text-[#c52326] font-semibold text-lg">
-                We’re brand builders
-              </p> */}
-              At 4WD, we are the experts you can trust when it comes to all
-              things gaming. As a premier gaming PR, Web3 gaming PR, and Esports
-              PR consultancy in India, we bring a powerhouse of high-quality
-              solutions to help you succeed in the gaming world.
-              <div>
-                We understand the unique challenges and opportunities that the
-                gaming, Web3 gaming, and Esports industry offers. Whether you
-                are an indie developer, a gaming company, or a professional
-                Esports team, we have tailored PR strategies to meet your
-                specific needs. Our comprehensive range of services includes
-                media coverage, influencer partnerships, crisis communications,
-                and thought leadership articles.
+          <div className="max-w-2xl mx-auto text-center py-10 text-white">
+            <div className="    text-[20px] py-5" data-aos="zoom-in">
+              Years of experience in the Indian gaming space with Sharmilee Daru
+              PR give us an early mover advantage. It’s the kind of advantage
+              your brand should make the most of. Like in a game of Age of
+              Empires, we helped to cultivate and nurture the barren land of
+              gaming in India. The experience that came with it is unparalleled.
+              <div className="text-[20px] py-5">
+                We’re specialists, we’ve left our markers all over the Indian
+                gaming space as if it were a PUBG map. We’re trendsetters. The
+                kind of consultants, who know how to lead trends while setting
+                our own.
               </div>
-            </div>
-
-            <div
-              className="   border-gray-500 text-[16px] text-white"
-              data-aos="zoom-in"
-            >
-              {/* <p className="text-[#c52326] font-semibold text-lg">
-                We’re pioneers
-              </p> */}
-              <div>
-                With our strategic PR campaigns, your brand will shine under the
-                spotlight it deserves. We focus on enhancing your reputation,
-                establishing valuable partnerships, and attracting a broader
-                audience to your gaming ventures.
+              <div className="text-[20px] ">
+                We love to build brands and we love our brands – if anything
+                unfounded is said about you, we’ll jump in with you and bring
+                the ammo. Bring us your problems and sit with us for some free
+                initial suggestions and coffee!
               </div>
-              Embrace the future of gaming with 4WD GAMING. Let us be your
-              ammunition to conquer the world of gaming, Web3 gaming, and
-              Esports. Get in touch with us today and ignite your success in
-              this thrilling and ever-evolving industry.
             </div>
           </div>
         </div>

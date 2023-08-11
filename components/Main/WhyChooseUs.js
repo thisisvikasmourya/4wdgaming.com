@@ -43,13 +43,13 @@ const WhyChooseUs = () => {
               src={object}
               alt="hello"
               className="rounded-xl "
-              width={ 800 }
-              // layout="responsive"
+              // width={ 800 }
+              layout="responsive"
             />
           </div>
           <div>
             {data.map((items, key) => (
-              <p className="py-1 text-white" key={ key }>{ items.text}</p>
+              <p className="py-1 text-[20px] text-white" key={ key }>{ items.text}</p>
             ))}
           </div>
         </div>
