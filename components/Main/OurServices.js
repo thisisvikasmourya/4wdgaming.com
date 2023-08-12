@@ -86,16 +86,13 @@ export default function Services() {
     },
   ];
   return (
-    <div className="bg-[#17191d]">
-      <div
-        className=" px-4  py-20 bg-[#17191d] max-w-screen-xl mx-auto md:px-8"
-        data-aos="zoom-in"
-      >
+    <div className="bg-[#17191d]" data-aos="zoom-in">
+      <div className=" px-4  py-20 bg-[#17191d] max-w-screen-xl mx-auto md:px-8">
         {/* <h1>Our Service</h1> */}
         <div className="max-w-xl sm:text-center py-10 md:mx-auto">
           <h3
-            className="text-[#c52326] text-6xl font-semibold sm:text-4xl text-center "
-            data-aos="flip-up"
+            className="text-[#c52326] text-4xl font-semibold sm:text-4xl text-center "
+          
           >
             Our Services
           </h3>
@@ -143,7 +140,7 @@ export default function Services() {
             </div>
           ))}
         </div>
-        <div
+        {/* <div
           className="grid gap-5 lg:grid-cols-5 pt-5"
           data-aos="fade-down-right"
         >
@@ -175,7 +172,7 @@ export default function Services() {
               </div>
             </div>
           ))}
-        </div>
+        </div> */}
       </div>
     </div>
   );

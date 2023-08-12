@@ -3,12 +3,8 @@ import React from "react";
 // import ClientScroll from "./Review/ClientScroll";
 const Page2 = () => {
   return (
-    <div className="bg-[#191c20] ">
-      <div
-        className="px-4  max-w-screen-xl mx-auto md:px-8 "
-        data-aos="zoom-in"
-        id="page2"
-      >
+    <div className="bg-[#191c20] " data-aos="zoom-in">
+      <div className="px-4  max-w-screen-xl mx-auto md:px-8 " id="page2">
         {/* bg-[#191c20] */}
         <div className="  rounded-lg py-20   ">
           <p className="lg:text-6xl text-[#c52326] text-3xl font-bold text-center py-3 ">

@@ -50,7 +50,7 @@ const Navbar = () => {
                 Creators and Influencers
               </Link>
             </div>
-            <div>
+            {/* <div>
               <Link href="/services/crisis-communication">
                 Crisis Communication
               </Link>
@@ -66,7 +66,7 @@ const Navbar = () => {
               <Link href="/services/international-pr-expansion">
                 International PR-Expansion
               </Link>
-            </div>
+            </div> */}
           </div>
         </div>
       </li>
@@ -205,7 +205,7 @@ const Navbar = () => {
                     Creators and Influencers
                   </Link>
 
-                  <Link
+                  {/* <Link
                     href="/services/crisis-communication"
                     onClick={() => setOpen(false)}
                   >
@@ -234,7 +234,7 @@ const Navbar = () => {
                     onClick={() => setOpen(false)}
                   >
                     International PR-Expansion
-                  </Link>
+                  </Link> */}
                 </div>
               </div>
             </li>

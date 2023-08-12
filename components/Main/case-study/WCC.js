@@ -44,12 +44,12 @@ const WCC = () =>
               />
             </div>
             <div>
-              <p className="py-1 text-xl text-[#c52326]">
+              <p className="py-1 text-[24px] font-bold text-[#c52326]">
                 World Cricket Championship - From Gamer&apos;s Favorite to
                 Global Sensation
               </p>
               {/* <p>Hands-on Nazara – India’s first Gaming IPO</p> */}
-              <p className="py-1 text-white">
+              <p className="py-1 text-white text-[18px]">
                 World Cricket Championship, the highly acclaimed mobile cricket
                 gaming franchise developed by Nextwave Multimedia Pvt. Ltd.,
                 captured the hearts of gamers worldwide with its multiple
@@ -57,14 +57,14 @@ const WCC = () =>
                 popularity among cricket enthusiasts, the brand&apos;s presence
                 was primarily limited to gaming circles.
               </p>
-              <p className="py-1 text-white">
+              <p className="py-1 text-white text-[18px]">
                 When Sharmilee Daru PR assumed the mandate for the brand and its
                 intellectual property, a transformational journey commenced. By
                 crafting repeated and impactful messaging, we steered the
                 brand&apos;s perception in the media and beyond, rightfully
                 positioning it as The Largest Mobile Cricket Game in the world.
               </p>
-              <p className="py-1 text-white">
+              <p className="py-1 text-white text-[18px]">
                 Through strategic PR initiatives, the studio, its spokesperson,
                 and the product itself garnered widespread attention,
                 captivating audiences across the globe. The brand&apos;s
@@ -72,13 +72,13 @@ const WCC = () =>
                 most prominent game development studios and an exceptional IP
                 crafted within the country.
               </p>
-              <p className="py-1 text-white">
+              <p className="py-1 text-white text-[18px]">
                 With compelling media coverage and meaningful engagements, World
                 Cricket Championship secured its spot in the media landscape,
                 admired as a global sensation cherished by cricket enthusiasts
                 and gaming aficionados alike.
               </p>
-              <p className="py-1 text-white">
+              <p className="py-1 text-white text-[18px]">
                 The case study showcases how 4WD GAMING&apos;s strategic PR
                 efforts successfully elevated World Cricket Championship from a
                 beloved gaming franchise among gamers to a global sensation,

@@ -71,7 +71,7 @@ const PricingPage = () =>
               <p className="text-white">Choose your Favourite Plan </p>
             </div>
           </div>
-          <div className="mt-16 justify-center gap-6 sm:grid sm:grid-cols-2 sm:space-y-0 lg:grid-cols-3">
+          <div className="mt-16  text-[18px] justify-center gap-6 sm:grid sm:grid-cols-2 sm:space-y-0 lg:grid-cols-3">
             {plans.map((item, idx) => (
               <div
                 key={idx}
@@ -96,7 +96,7 @@ const PricingPage = () =>
                   </div>
                   <p className="text-white">{item.desc}</p>
                   <button className="px-3 py-3 rounded-lg w-full  text-sm duration-150 text-white bg-[#c52326] hover:bg-[#c52426] active:bg-[#c52326]">
-                    <a href={'/contactUs'}>Get Started</a>
+                    <a href={"/contactUs"}>Get Started</a>
                   </button>
                 </div>
                 <ul className="p-8 space-y-3">
@@ -127,7 +127,7 @@ const PricingPage = () =>
               </div>
             ))}
           </div>
-          <div className="pt-10">
+          <div className="pt-10 text-[18px] ">
             <p className="text-[#c52326] text-xl">
               Why Choose Our Enhanced Pricing Strategy:
             </p>

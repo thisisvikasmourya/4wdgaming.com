@@ -1,6 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import object from "../../public/images/rE7ypN.gif";
+import WhyChoose from "./WhyChoose";
 
 const WhyChooseUs = () => {
   const data = [
@@ -39,14 +40,7 @@ const WhyChooseUs = () => {
         </div>
         <div className="flex lg:flex-row flex-col py-2 gap-6 items-center ">
           <div>
-            <Image
-              src={object}
-              alt="hello"
-              className="rounded-xl "
-              // width={ 800 }
-              layout="responsive"
-            />
-          </div>
+             <WhyChoose/>       </div>
           <div>
             {data.map((items, key) => (
               <p className="py-1 text-[20px] text-white" key={ key }>{ items.text}</p>

@@ -40,7 +40,7 @@ export default function Blog ()  {
 
   return (
     <div>
-      <div className="bg-[#14161a]">
+      <div className="bg-[#14161a] text-[18px]">
         <div className="max-w-screen-xl mx-auto md:px-8">
           <section className="   " data-aos="zoom-in">
             <div className=" px-4">
@@ -86,7 +86,7 @@ export default function Blog ()  {
                         <h3 className="text-xl text-[#c52326]">
                           {items.title}
                         </h3>
-                        <p className="text-white text-sm mt-1">{items.desc}</p>
+                        <p className="text-white text-lg mt-1">{items.desc}</p>
                       </div>
                     </a>
                   </article>

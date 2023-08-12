@@ -43,11 +43,11 @@ const TradeFantasyGame = () =>
               />
             </div>
             <div>
-              <p className="py-1 text-xl text-[#c52326] ">
+              <p className="py-1 text-[24px] font-bold text-[#c52326] ">
                 Trade Fantasy Game (TFG)
               </p>
               {/* <p>Hands-on Nazara – India’s first Gaming IPO</p> */}
-              <p className="py-1 text-white">
+              <p className="py-1 text-white text-[18px]">
                 Trade Fantasy Game (TFG), a premier fantasy platform set to
                 compete with industry giants like Dream 11, My 11 circle, and My
                 Fab 11, had a powerful ace up its sleeve - Indian International
@@ -56,7 +56,7 @@ const TradeFantasyGame = () =>
                 embraced the challenge of spearheading the PR campaign for
                 TFG&apos;s grand launch.
               </p>
-              <p className="py-1 text-white">
+              <p className="py-1 text-white text-[18px]">
                 Our primary objective was to create awareness for TFG in the
                 highly competitive fantasy gaming space and among cricket
                 enthusiasts. Through strategic planning, we emphasized the
@@ -64,7 +64,7 @@ const TradeFantasyGame = () =>
                 ensuring the right messaging reached the target audience through
                 effective PR channels.
               </p>
-              <p className="py-1 text-white">
+              <p className="py-1 text-white text-[18px]">
                 The launch had an additional challenge - introducing Jaya Chahar
                 as the CEO and official spokesperson for TFG, taking the
                 business forward. With a calculated approach, we secured
@@ -73,7 +73,7 @@ const TradeFantasyGame = () =>
                 skill publications. This strategic move aimed to build her
                 publicity and prominence as the voice of the brand.
               </p>
-              <p className="py-1 text-white">
+              <p className="py-1 text-white text-[18px]">
                 To maximize reach, we executed a multi-launch strategy,
                 targeting geographies across the country, including Tier 2 and
                 Tier 3 cities with a substantial fantasy gaming audience. Our
@@ -84,7 +84,7 @@ const TradeFantasyGame = () =>
                 phenomenal, with the brand witnessing 50,000 sign-ups within the
                 initial weeks.
               </p>
-              <p className="py-1 text-white">
+              <p className="py-1 text-white text-[18px]">
                 As proactive advisors, 4WD GAMING ensured TFG&apos;s brand
                 reputation remained unscathed during unforeseen situations. We
                 provided guidance and training to the spokesperson, positioning
@@ -92,7 +92,7 @@ const TradeFantasyGame = () =>
                 through key industry stories and television features,
                 particularly around decisions from MeitY.
               </p>
-              <p className="py-1 text-white">
+              <p className="py-1 text-white text-[18px]">
                 Though a relatively early entrant, TFG has swiftly carved its
                 niche, standing tall among leading fantasy platforms, thanks to
                 its share of voice in the media and resonating presence in the
