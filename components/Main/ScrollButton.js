@@ -35,7 +35,7 @@ const ScrollButton = () => {
         isVisible ? "visible" : "invisible"
       }`}
     >
-      <BsArrowUpCircleFill className="text-3xl  text-[#c52326]" />
+      <BsArrowUpCircleFill className="text-4xl  text-[#c52326]" />
     </button>
   );
 };

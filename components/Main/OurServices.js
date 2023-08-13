@@ -37,7 +37,7 @@ export default function Services() {
     {
       title: "Creators and Influencers",
       img: web,
-      content: "We work with some of the top gaming content creators and ...",
+      content: "We work with some of the top gaming content creators",
       link: "/services/public-relations",
     },
 
@@ -90,14 +90,13 @@ export default function Services() {
       <div className=" px-4  py-20 bg-[#17191d] max-w-screen-xl mx-auto md:px-8">
         {/* <h1>Our Service</h1> */}
         <div className="max-w-xl sm:text-center py-10 md:mx-auto">
-          <h3
-            className="text-[#c52326] text-4xl font-semibold sm:text-4xl text-center "
-          
-          >
+          <h3 className="text-[#c52326] text-4xl font-semibold sm:text-4xl text-center ">
             Our Services
           </h3>
           <p className="mt-3 text-white text-[20px] text-center">
-            Whatever your game, we bring the ammo!
+            At 4wdGaming, we are dedicated to providing PR for
+            businesses of all sizes. Contact us today to learn more about how we
+            can help your business grow and succeed.
           </p>
         </div>
 
