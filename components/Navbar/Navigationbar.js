@@ -11,7 +11,7 @@ const Navigationbar = ({navData}) => {
         <ul className="grid lg:grid-cols-5 grid-cols-1 gap-2 py-1  px-4 bg-[#191C20]">
           {navData.map((items, key) => (
             <Link
-              className="bg-[#c52326] flex items-center  rounded-lg place-content-center py-3 hover:bg-[#191c20] hover:border-white hover:border hover:animate-bounce delay-100	"
+              className="bg-[#c52326] flex items-center text-[18px] rounded-lg place-content-center py-3 hover:bg-[#191c20] hover:border-white hover:border hover:animate-bounce delay-100	"
               href={items.href}
               key={key}
             >

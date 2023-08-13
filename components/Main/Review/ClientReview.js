@@ -34,7 +34,7 @@ const ClientReview = () => {
           <div className="mt-12 flex justify-center">
             <ul className="inline-grid grid-cols-2 gap-x-10 gap-y-6 md:gap-x-16 md:grid-cols-3 lg:grid-cols-4">
               {/* LOGO 1 */}
-              <li>
+              <li className="indi">
                 <Image
                   src={client1}
                   alt="client1"
@@ -45,7 +45,7 @@ const ClientReview = () => {
               </li>
 
               {/* LOGO 2 */}
-              <li>
+              <li className="indi">
                 <Image
                   src={client2}
                   className="rounded-lg"
@@ -56,12 +56,12 @@ const ClientReview = () => {
               </li>
 
               {/* LOGO 3 */}
-              <li className="bg-white rounded-lg">
+              <li className="bg-white rounded-lg indi">
                 <Image src={client8} alt="client1" width={200} height={100} />
               </li>
 
               {/* LOGO 4 */}
-              <li className="bg-white">
+              <li className="bg-white indi">
                 <Image
                   src={client4}
                   alt="client1"
@@ -72,7 +72,7 @@ const ClientReview = () => {
               </li>
 
               {/* LOGO 5 */}
-              <li>
+              <li className="indi">
                 <Image
                   src={client9}
                   alt="client1"
@@ -83,7 +83,7 @@ const ClientReview = () => {
               </li>
 
               {/* LOGO 6 */}
-              <li>
+              <li className="indi">
                 <Image
                   src={client6}
                   alt="client1"
@@ -94,7 +94,7 @@ const ClientReview = () => {
               </li>
 
               {/* LOGO 7 */}
-              <li>
+              <li className="indi">
                 <Image
                   src={client11}
                   alt="client1"
@@ -105,7 +105,7 @@ const ClientReview = () => {
               </li>
 
               {/* LOGO 8 */}
-              <li>
+              <li className="indi">
                 <Image
                   src={client7}
                   alt="client1"

@@ -7,6 +7,8 @@ import Testimonial from "@/components/Main/Review/Testimonial";
 import ClientScroll from "@/components/Main/Review/ClientScroll";
 import WhyChooseUs from "@/components/Main/WhyChooseUs";
 import ClientReview from "@/components/Main/Review/ClientReview";
+import ScrollButton from "@/components/Main/ScrollButton";
+// import BubbleEffect from "@/components/Main/BubbleEffect";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -27,6 +29,8 @@ export default function Home() {
         <Testimonial />
         <ClientScroll />
         <WhyChooseUs />
+        <ScrollButton />
+        {/* <BubbleEffect/>  */}
       </main>
     </>
   );

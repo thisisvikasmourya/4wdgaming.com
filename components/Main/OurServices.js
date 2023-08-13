@@ -113,7 +113,7 @@ export default function Services() {
         >
           {posts.map((items, key) => (
             <div
-              className="w-full rounded-lg shadow-md border  lg:max-w-sm bg-[#14161a] "
+              className="w-full rounded-lg shadow-md border  lg:max-w-sm bg-[#14161a] indi"
               data-aos-duration="2000"
               key={key}
             >

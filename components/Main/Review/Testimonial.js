@@ -48,7 +48,7 @@ const Testimonial = () => {
             {testimonials.map((item, idx) => (
               <li
                 key={idx}
-                className="bg-[#14161a] rounded-xl border shadow-md "
+                className="bg-[#14161a] rounded-xl border shadow-md indi"
               >
                 <div className="p-4">
                   <svg

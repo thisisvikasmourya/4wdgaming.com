@@ -213,3 +213,14 @@ width:100%;
   color: #fff;
   background: #007aff;
 }
+
+
+.indi{
+transition:.5s
+}
+.indi:hover{
+  transform:scale(1.1);
+  rotate:-5deg
+}
+
+
