@@ -1,4 +1,4 @@
-export default function Blog ()  {
+export default function Blog() {
   const posts = [
     {
       title: "What is SaaS? Software as a Service Explained",
@@ -45,17 +45,17 @@ export default function Blog ()  {
           <section className="   " data-aos="zoom-in">
             <div className=" px-4">
               <div className="text-center">
-                <h1 className="text-3xl text-[#c52326] font-semibold py-3">
+                <h1 className="text-3xl text-[#4d326b] font-semibold py-3">
                   Blog
                 </h1>
-                <p className="mt-3 text-white">
+                <p className="mt-3 text-black">
                   Blogs that are loved by the community. Updated every hour.
                 </p>
               </div>
               <div className="mt-12 grid gap-8 sm:grid-cols-2 lg:grid-cols-3 py-10">
                 {posts.map((items, key) => (
                   <article
-                    className="max-w-md mx-auto mt-4 shadow-lg border rounded-md duration-300 hover:shadow-sm bg-[#191c20] "
+                    className="max-w-md mx-auto mt-4 shadow-lg border rounded-md duration-300 hover:shadow-sm bg-[#f0ebd7] "
                     key={key}
                   >
                     <a href={items.href}>
@@ -74,7 +74,7 @@ export default function Blog ()  {
                           />
                         </div>
                         <div className="ml-3">
-                          <span className="block text-white">
+                          <span className="block text-black">
                             {items.authorName}
                           </span>
                           <span className="block text-gray-400 text-sm">
@@ -83,10 +83,10 @@ export default function Blog ()  {
                         </div>
                       </div>
                       <div className="pt-3 ml-4 mr-2 mb-3">
-                        <h3 className="text-xl text-[#c52326]">
+                        <h3 className="text-xl text-[#4d326b]">
                           {items.title}
                         </h3>
-                        <p className="text-white text-lg mt-1">{items.desc}</p>
+                        <p className="text-black text-lg mt-1">{items.desc}</p>
                       </div>
                     </a>
                   </article>
@@ -98,4 +98,4 @@ export default function Blog ()  {
       </div>
     </div>
   );
-};
+}

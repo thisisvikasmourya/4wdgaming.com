@@ -1,7 +1,7 @@
 // components/ScrollButton.js
 
 import { useState, useEffect } from "react";
-import {BsArrowUpCircleFill} from "react-icons/bs"
+import { BsArrowUpCircleFill } from "react-icons/bs";
 
 const ScrollButton = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -31,11 +31,11 @@ const ScrollButton = () => {
   return (
     <button
       onClick={scrollToTop}
-      className={`fixed bottom-4 right-4 bg-[#fff] text-white p-1 rounded-lg ${
+      className={`fixed bottom-4 right-4 bg-[#fff] text-black p-1 rounded-lg ${
         isVisible ? "visible" : "invisible"
       }`}
     >
-      <BsArrowUpCircleFill className="text-4xl  text-[#c52326]" />
+      <BsArrowUpCircleFill className="text-4xl  text-[#4d326b]" />
     </button>
   );
 };

@@ -88,23 +88,23 @@ const PublicRelations = () => {
   ];
   return (
     <div>
-      <div className="bg-[#17191d]" data-aos="zoom-in">
+      <div className="bg-[#f3efdf]" data-aos="zoom-in">
         <div className="max-w-screen-xl mx-auto md:px-8">
-          <div className="content bg-[#17191d] py-16  px-4">
+          <div className="content bg-[#f3efdf] py-16  px-4">
             <h1 className=" outline text-center lg:text-9xl md:text-6xl text-4xl text-[#fff] outline-4 font-semibold">
               Public Relations
             </h1>
           </div>
         </div>
       </div>
-      <div className="bg-[#191C20]" data-aos="zoom-in">
+      <div className="bg-[#f0ebd7]" data-aos="zoom-in">
         <div className="max-w-screen-xl mx-auto md:px-8">
-          <div className="grid lg:grid-cols-2 grid-cols-1 gap-6 pt-10  px-4 bg-[#191C20]">
+          <div className="grid lg:grid-cols-2 grid-cols-1 gap-6 pt-10  px-4 bg-[#f0ebd7]">
             <div>
               <Image src={About} alt="hello" layout="" className="rounded-lg" />
             </div>
             <div>
-              <p className="py-1 text-white text-[20px]">
+              <p className="py-1 text-black text-[20px]">
                 Are you ready to take your gaming brand to the next level? At
                 <span className="text-[#c32326]"> Moram Napu</span>, we are not
                 just any PR agency; we are brand builders who understand the
@@ -114,17 +114,17 @@ const PublicRelations = () => {
 
               {data.map((items, key) => (
                 <div key={key}>
-                  <p className="text-[#c52326] text-[20px]">{items.title}</p>
-                  <p className="pb-3 text-white text-[18px]"> {items.cont}</p>
+                  <p className="text-[#4d326b] text-[20px]">{items.title}</p>
+                  <p className="pb-3 text-black text-[18px]"> {items.cont}</p>
                 </div>
               ))}
             </div>
           </div>
-          <div className="p-4 grid lg:grid-cols-2 grid-cols-1 gap-2   px-4 bg-[#191C20]">
+          <div className="p-4 grid lg:grid-cols-2 grid-cols-1 gap-2   px-4 bg-[#f0ebd7]">
             {data2.map((items, key) => (
               <div key={key}>
-                <p className="text-[#c52326] text-[20px]">{items.title}</p>
-                <p className="pb-3 text-white text-[18px]"> {items.cont}</p>
+                <p className="text-[#4d326b] text-[20px]">{items.title}</p>
+                <p className="pb-3 text-black text-[18px]"> {items.cont}</p>
               </div>
             ))}
           </div>

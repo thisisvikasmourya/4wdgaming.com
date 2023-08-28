@@ -6,11 +6,11 @@ const WhatWeDo = () => {
   return (
     <>
       <div id="whatwedo">
-        <div className="bg-[#17191d]">
+        <div className="bg-[#f3efdf]">
           <div className="max-w-screen-xl mx-auto md:px-8">
             <div data-aos="zoom-in">
               <div
-                className="content bg-[#17191d] py-16  px-4"
+                className="content bg-[#f3efdf] py-16  px-4"
                 data-aos="zoom-in"
               >
                 <h1 className=" outline text-center lg:text-9xl md:text-6xl text-4xl text-[#fff] outline-4 font-semibold">
@@ -19,9 +19,9 @@ const WhatWeDo = () => {
               </div>
             </div>
           </div>
-          <div className="bg-[#191C20]">
+          <div className="bg-[#f0ebd7]">
             <div className="max-w-screen-xl mx-auto md:px-8">
-              <div className="flex lg:flex-row  flex-col gap-4 p-4 py-10  px-4 bg-[#191C20]">
+              <div className="flex lg:flex-row  flex-col gap-4 p-4 py-10  px-4 bg-[#f0ebd7]">
                 <div>
                   <Image
                     src={About1}
@@ -32,7 +32,7 @@ const WhatWeDo = () => {
                   />
                 </div>
 
-                <div className="text-white text-[20px]">
+                <div className="text-black text-[20px]">
                   <p className="py-3">
                     At Moram Napu, we challenge the norms of traditional
                     agencies. Instead, we focus on brand objectives and goals.
@@ -51,19 +51,19 @@ const WhatWeDo = () => {
               </div>
             </div>
             <div>
-              <div className="bg-[#17191d]">
+              <div className="bg-[#f3efdf]">
                 <div className="max-w-screen-xl mx-auto md:px-8">
                   <div data-aos="zoom-in">
-                    <div className="content bg-[#17191d] py-16  px-4 ">
+                    <div className="content bg-[#f3efdf] py-16  px-4 ">
                       <h1 className=" outline text-center lg:text-9xl md:text-6xl text-4xl text-[#fff] outline-4 font-semibold">
                         How We Do It
                       </h1>
                     </div>
                   </div>
                 </div>
-                <div className="bg-[#191C20]">
+                <div className="bg-[#f0ebd7]">
                   <div className="max-w-screen-xl mx-auto md:px-8">
-                    <div className="flex lg:flex-row  flex-col gap-4 p-4 py-10  px-4 bg-[#191C20]">
+                    <div className="flex lg:flex-row  flex-col gap-4 p-4 py-10  px-4 bg-[#f0ebd7]">
                       <div>
                         <Image
                           src={About2}
@@ -74,7 +74,7 @@ const WhatWeDo = () => {
                         />
                       </div>
 
-                      <div className="text-white text-[20px]">
+                      <div className="text-black text-[20px]">
                         <p className="py-3">
                           We devise a &quot;PR-Hack&quot; to define a
                           company&apos;s direction, approach, and objectives.

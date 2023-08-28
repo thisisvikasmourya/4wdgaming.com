@@ -7,17 +7,17 @@ import Link from "next/link";
 const AdvisoryCouncil = () => {
   return (
     <div id="advisory">
-      <div className="bg-[#17191d]" data-aos="zoom-in">
+      <div className="bg-[#f3efdf]" data-aos="zoom-in">
         <div className="max-w-screen-xl mx-auto md:px-8">
-          <div className="bg-[#17191d]">
-            <div className="content bg-[#17191d] py-16  px-4">
+          <div className="bg-[#f3efdf]">
+            <div className="content bg-[#f3efdf] py-16  px-4">
               <h1 className=" outline text-center lg:text-9xl md:text-6xl text-4xl text-[#fff] outline-4 font-semibold">
                 Advisory Council Members
               </h1>
             </div>
           </div>
         </div>
-        <div className="bg-[#191C20]">
+        <div className="bg-[#f0ebd7]">
           <div className="max-w-screen-xl mx-auto md:px-8">
             <div className="flex lg:flex-row justify-center flex-col  space-between gap-6 p-4 py-10  px-4 ">
               <div className="text-center">
@@ -31,12 +31,12 @@ const AdvisoryCouncil = () => {
                 />
               </div>
               <div className="py-3 text-[20px]">
-                <p className="text-lg text-[#c52326] mt-2">Vamsi Talasila</p>
-                <p className="text-lg text-white">
+                <p className="text-lg text-[#4d326b] mt-2">Vamsi Talasila</p>
+                <p className="text-lg text-black">
                   {" "}
                   Gaming Technology and Digital Marketing
                 </p>
-                <p className="text-white">
+                <p className="text-black">
                   Vamsi Talasila is a veteran and dynamic technology leader with
                   two decades of experience in building technology for gaming,
                   esports, and sports domains. He is an expert in converting
@@ -47,7 +47,7 @@ const AdvisoryCouncil = () => {
                   expansion of the company’s gaming services globally, enabling
                   it to become India’s first listed gaming company.
                 </p>
-                <p className="text-white">
+                <p className="text-black">
                   Vamsi has worked with new-age technology strategies and
                   solutions across gaming verticals like subscription, freemium
                   games, real money games, fantasy sports, and betting games
@@ -72,11 +72,11 @@ const AdvisoryCouncil = () => {
                 />
               </div>
               <div className="py-3 text-[20px]">
-                <p className="text-xl text-[#c52326] mt-2">Jay Sayta </p>
-                <p className="text-lg text-white">
+                <p className="text-xl text-[#4d326b] mt-2">Jay Sayta </p>
+                <p className="text-lg text-black">
                   Technology and Gaming Lawyer in India
                 </p>
-                <p className="text-white">
+                <p className="text-black">
                   Jay Sayta is a technology and gaming lawyer in India. He is
                   well known in the media fraternity and is an expert on gaming
                   laws. He has contributed through research and written

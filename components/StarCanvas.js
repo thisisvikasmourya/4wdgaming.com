@@ -37,7 +37,7 @@ export default function StarsCanvas() {
           rad > params.extinction ? 1.5 * (2 - rad / params.extinction) : 1;
 
         ctx.beginPath();
-        ctx.fillStyle = "rgba(255, 255, 255, " + opacity + ")";
+        ctx.fillStyle = "rgba(77,50,107, " + opacity + ")";
         ctx.arc(x, y, rad, 0, Math.PI * 2);
         ctx.fill();
       };
@@ -59,7 +59,7 @@ export default function StarsCanvas() {
     }
 
     function updateStars() {
-      ctx.fillStyle = "#191C20";
+      ctx.fillStyle = "#f0ebd7";
       ctx.fillRect(0, 0, canvas.width, canvas.height);
       stars.forEach(function (s) {
         s.show();
@@ -85,11 +85,11 @@ export default function StarsCanvas() {
       <canvas ref={canvasRef} id="stars" />
       <div className="center-text ">
         <div className="text-center ">
-          <h1 className="lg:text-6xl md:text-6xl text-5xl font-bold hover:text-[#] mb-4">
+          <h1 className="lg:text-6xl text-black md:text-6xl text-5xl font-bold hover:text-[#48b4e8] mb-4">
             Moram Napu
           </h1>
           {/* <h1 className="lg:text-4xl md:text-3xl text-5xl font-bold hover:text-[#]"></h1> */}
-          <h1 className="lg:text-7xl md:text-6xl text-4xl font-bold text-[#c52326] py-4">
+          <h1 className="lg:text-7xl md:text-6xl text-4xl font-bold text-[#4d326b] py-4">
             <Typewriter
               options={{
                 strings: [
@@ -120,11 +120,11 @@ export default function StarsCanvas() {
               }}
             />
           </h1>
-          <h2 className="text-2xl py-8 hover:text-[#c52326]">
+          <h2 className="text-2xl text-black py-8 hover:text-[#4d326b]">
             Whatever your game, we bring the ammo!
           </h2>
           <button>
-            <a className="text-5xl text-[#fff] animatedd " href="#page2">
+            <a className="text-5xl text-black animatedd " href="#page2">
               <BsArrowDownCircle />
             </a>
           </button>
@@ -149,7 +149,7 @@ export default function StarsCanvas() {
           left: 50%;
           transform: translate(-50%, -50%);
           text-align: center;
-          color: white;
+          color: black;
           font-family: sans-serif;
         }
 
@@ -159,7 +159,7 @@ export default function StarsCanvas() {
           left: 50%;
           transform: translateX(-50%);
           width: 0px;
-          color: white;
+          color: black;
           font-family: sans-serif;
           text-align: right;
         }

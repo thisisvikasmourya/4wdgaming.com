@@ -1,12 +1,12 @@
 import React from "react";
-const Thankyou = () =>{
+const Thankyou = () => {
   return (
     <div>
       <main className="w-full flex" data-aos="zoom-in">
         <div className="relative flex-1 hidden items-center justify-center h-screen bg-[#121416] lg:flex">
           <div className="relative z-10 w-full max-w-md">
             <div className=" space-y-3">
-              <h3 className="text-white text-3xl font-bold">
+              <h3 className="text-black text-3xl font-bold">
                 Our customers positive feedback keeps us inspired and driven to
                 excel. Thank you for being a part of our journey!{" "}
               </h3>

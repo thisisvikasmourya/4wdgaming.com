@@ -88,10 +88,10 @@ const ContentandCopywriting = () => {
     },
   ];
   return (
-    <div className="bg-[#191C20]">
-      <div className="bg-[#17191d]" data-aos="zoom-in">
+    <div className="bg-[#f0ebd7]">
+      <div className="bg-[#f3efdf]" data-aos="zoom-in">
         <div className="max-w-screen-xl mx-auto md:px-8">
-          <div className="content bg-[#17191d] py-16  px-4 ">
+          <div className="content bg-[#f3efdf] py-16  px-4 ">
             <h1 className=" outline text-center lg:text-9xl md:text-6xl text-4xl text-[#fff] outline-4 font-semibold">
               Content & Copywriting
             </h1>
@@ -99,12 +99,12 @@ const ContentandCopywriting = () => {
         </div>
       </div>
       <div className="max-w-screen-xl mx-auto md:px-8" data-aos="zoom-in">
-        <div className="grid lg:grid-cols-2 grid-cols-1 gap-6 p-4   px-4 pt-10 bg-[#191C20]">
+        <div className="grid lg:grid-cols-2 grid-cols-1 gap-6 p-4   px-4 pt-10 bg-[#f0ebd7]">
           <div>
             <Image src={About} alt="hello" layout="" className="rounded-lg" />
           </div>
           <div>
-            <p className="py-1 text-white text-[20px]">
+            <p className="py-1 text-black text-[20px]">
               Captivate your gaming community with powerful storytelling. At 4WD
               Gaming, we understand the significance of content and copywriting
               in creating meaningful connections with your audience.
@@ -112,21 +112,21 @@ const ContentandCopywriting = () => {
 
             {data.map((items, key) => (
               <div key={key}>
-                <p className="text-[#c52326] font-bold text-xl text-[20px]">
+                <p className="text-[#4d326b] font-bold text-xl text-[20px]">
                   {items.title}
                 </p>
-                <p className=" pb-3 text-white text-[18px]"> {items.cont}</p>
+                <p className=" pb-3 text-black text-[18px]"> {items.cont}</p>
               </div>
             ))}
           </div>
         </div>
-        <div className=" grid lg:grid-cols-2 grid-cols-1 gap-2  px-4 bg-[#191C20]">
+        <div className=" grid lg:grid-cols-2 grid-cols-1 gap-2  px-4 bg-[#f0ebd7]">
           {data2.map((items, key) => (
             <div key={key}>
-              <p className="text-[#c52326] font-bold text-xl text-[20px]">
+              <p className="text-[#4d326b] font-bold text-xl text-[20px]">
                 {items.title}
               </p>
-              <p className=" pb-3 text-white text-[18px]"> {items.cont}</p>
+              <p className=" pb-3 text-black text-[18px]"> {items.cont}</p>
             </div>
           ))}
         </div>

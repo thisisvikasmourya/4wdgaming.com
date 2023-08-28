@@ -4,7 +4,6 @@ import object from "../../public/images/rE7ypN.gif";
 import WhyChoose from "./WhyChoose";
 import BackgroundImage from "../../public/images/bg123.png";
 
-
 const WhyChooseUs = () => {
   const data = [
     {
@@ -25,15 +24,16 @@ const WhyChooseUs = () => {
   ];
   return (
     <div
-      className=""
+      className="bg-[#f0ebd7]"
       data-aos="zoom-in"
-      style={{
-        backgroundImage: `url(${BackgroundImage.src})`,
-        backgroundSize: "cover", // Adjust as needed
-        backgroundRepeat: "no-repeat",
-        width: "100%",
-        // height: "100vh", // Adjust for desired height
-      }}
+
+      // style={{
+      //   backgroundImage: `url(${BackgroundImage.src})`,
+      //   backgroundSize: "cover", // Adjust as needed
+      //   backgroundRepeat: "no-repeat",
+      //   width: "100%",
+      //   // height: "100vh", // Adjust for desired height
+      // }}
     >
       <div
         className="  px-4 py-16 max-w-screen-xl mx-auto md:px-8"
@@ -41,12 +41,12 @@ const WhyChooseUs = () => {
       >
         <div className="max-w-xl sm:text-center py-1 md:mx-auto">
           <h3
-            className="text-[#c52326] text-3xl font-semibold sm:text-4xl text-center "
+            className="text-[#4d326b] text-3xl font-semibold sm:text-4xl text-center "
             data-aos="flip-up"
           >
             Why Choose Us
           </h3>
-          <p className="mt-3 mb-4 text-white text-center">
+          <p className="mt-3 mb-4 text-black text-center">
             Whatever your game, we bring the ammo!
           </p>
         </div>
@@ -56,7 +56,7 @@ const WhyChooseUs = () => {
           </div>
           <div>
             {data.map((items, key) => (
-              <p className="py-1 text-[20px] text-white" key={key}>
+              <p className="py-1 text-[20px] text-black" key={key}>
                 {items.text}
               </p>
             ))}

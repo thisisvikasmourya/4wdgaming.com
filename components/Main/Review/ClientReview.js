@@ -14,18 +14,18 @@ import client11 from "../../../public/images/news/news24.png";
 
 const ClientReview = () => {
   return (
-    <div className="bg-[#17191d]">
+    <div className="bg-[#f3efdf]">
       <div
-        className="py-20 bg-[#17191d] max-w-screen-xl mx-auto md:px-8"
+        className="py-20 bg-[#f3efdf] max-w-screen-xl mx-auto md:px-8"
         id="client"
         data-aos="zoom-in"
       >
         <div className="max-w-screen-xl mx-auto px-4 md:px-8">
           <div className="max-w-xl mx-auto text-center">
-            <h3 className="text-[#c52326] text-3xl font-semibold sm:text-4xl">
+            <h3 className="text-[#4d326b] text-3xl font-semibold sm:text-4xl">
               Moram Napu in News
             </h3>
-            <p className="text-white text-[20px] mt-3">
+            <p className="text-black text-[20px] mt-3">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
               dignissim nibh nisl, vel egestas magna rhoncus at. Nunc elementum
               efficitur tortor in laoreet.

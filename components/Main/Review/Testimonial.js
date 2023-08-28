@@ -1,44 +1,43 @@
-import Link from 'next/link';
-import React from 'react'
+import Link from "next/link";
+import React from "react";
 import nazara from "../../../public/images/client/nazara.jpg";
 import down from "../../../public/images/client/down.png";
 import tfg from "../../../public/images/client/tfg.jpg";
-import Image from 'next/image';
+import Image from "next/image";
 
+const testimonials = [
+  {
+    avatar: nazara,
+    name: "Nitish Mittersain - MD and Founder",
+    title: "Nazara Technologies Ltd.",
+    quote:
+      "The right communication has been key to Nazara’s continuous success. SD built up Nazara’s PR and communication from ground up. They have helped create the company’s current perception, and hence are instrumental to Nazara’s growth story.",
+  },
+  {
+    avatar: tfg,
+    name: "Jaya Chahar - Founder & CEO, JCDC Sports Pvt. Ltd. Deepak Chahar - Co-Founder & Brand Ambassador",
+    title: "Trade Fantasy Gaming (TFG)",
+    quote:
+      "Our objective for the launch was to create awareness for TFG to be seen as a serious business in the business circles as well as the cricketer community. We successfully achieved this and much more awareness with the right messaging through PR. ",
+  },
 
-    const testimonials = [
-      {
-        avatar: nazara,
-        name: "Nitish Mittersain - MD and Founder",
-        title: "Nazara Technologies Ltd.",
-        quote:
-          "The right communication has been key to Nazara’s continuous success. SD built up Nazara’s PR and communication from ground up. They have helped create the company’s current perception, and hence are instrumental to Nazara’s growth story.",
-      },
-      {
-        avatar: tfg,
-        name: "Jaya Chahar - Founder & CEO, JCDC Sports Pvt. Ltd. Deepak Chahar - Co-Founder & Brand Ambassador",
-        title: "Trade Fantasy Gaming (TFG)",
-        quote:
-          "Our objective for the launch was to create awareness for TFG to be seen as a serious business in the business circles as well as the cricketer community. We successfully achieved this and much more awareness with the right messaging through PR. ",
-      },
-
-      {
-        avatar: down,
-        name: "Gregory Gettinger - Founder & CEO",
-        title: "VR Motion Learning GmbH & Co KG",
-        quote:
-          "We had a wonderful overall experience: The team is professional, responsive, on-time and understands the requirements of international markets. We fully recommend this agency",
-      },
-    ];
+  {
+    avatar: down,
+    name: "Gregory Gettinger - Founder & CEO",
+    title: "VR Motion Learning GmbH & Co KG",
+    quote:
+      "We had a wonderful overall experience: The team is professional, responsive, on-time and understands the requirements of international markets. We fully recommend this agency",
+  },
+];
 const Testimonial = () => {
   return (
-    <section className="relative py-20 bg-[#17191d]" data-aos="zoom-in">
+    <section className="relative py-20 bg-[#f3efdf]" data-aos="zoom-in">
       <div className="relative z-10 max-w-screen-xl mx-auto px-4 md:px-8">
         <div className="max-w-xl sm:text-center md:mx-auto">
-          <h3 className="text-[#c52326] text-center text-3xl font-semibold  sm:text-4xl">
+          <h3 className="text-[#4d326b] text-center text-3xl font-semibold  sm:text-4xl">
             Hear from our clients
           </h3>
-          <p className="mt-3 text-white text-[20px] text-center">
+          <p className="mt-3 text-black text-[20px] text-center">
             Our customers positive feedback keeps us inspired and driven to
             excel. Thank you for being a part of our journey!{" "}
           </p>
@@ -65,21 +64,21 @@ const Testimonial = () => {
                 </div>
                 <figure>
                   <blockquote>
-                    <p className="text-white text-lg  px-4 py-1">
+                    <p className="text-black text-lg  px-4 py-1">
                       {item.quote}
                     </p>
                   </blockquote>
-                  <div className="flex items-center gap-x-4 p-4 mt-6  bg-[#c52326] rounded-xl">
+                  <div className="flex items-center gap-x-4 p-4 mt-6  bg-[#4d326b] rounded-xl">
                     <Image
                       src={item.avatar}
                       className="w-16 h-16 rounded-full border-2 border-indigo-500"
                       alt=""
                     />
                     <div>
-                      <span className="block text-white text-[20px] ">
+                      <span className="block text-black text-[20px] ">
                         {item.name}
                       </span>
-                      <span className="block text-white text-[16px] mt-0.5">
+                      <span className="block text-black text-[16px] mt-0.5">
                         {item.title}
                       </span>
                     </div>
@@ -94,13 +93,13 @@ const Testimonial = () => {
             {/* <Link href={"/clientReview"}>Readmore Review</Link> */}
             <Link
               href={"/clientReview"}
-              class=" relative inline-flex items-center justify-start px-6 py-3 overflow-hidden font-medium transition-all  bg-[#c52326] rounded-xl group"
+              class=" relative inline-flex items-center justify-start px-6 py-3 overflow-hidden font-medium transition-all  bg-[#4d326b] rounded-xl group"
             >
               <span className="absolute top-0 right-0 inline-block w-4 h-4 transition-all duration-500 ease-in-out bg-red-500 rounded group-hover:-mr-4 group-hover:-mt-4">
                 <span className="absolute top-0 right-0 w-5 h-5 rotate-45 translate-x-1/2 -translate-y-1/2 bg-white"></span>
               </span>
               <span className="absolute bottom-0 left-0 w-full h-full transition-all duration-500 ease-in-out delay-200 -translate-x-full translate-y-full bg-red-600 rounded-2xl group-hover:mb-12 group-hover:translate-x-0"></span>
-              <span className="relative w-full text-left text-white transition-colors duration-200 ease-in-out group-hover:text-white">
+              <span className="relative w-full text-left text-black transition-colors duration-200 ease-in-out group-hover:text-black">
                 Read more review
               </span>
             </Link>
@@ -110,11 +109,11 @@ const Testimonial = () => {
       <div
         className="absolute top-0 w-full h-[350px]"
         style={{
-          backgroundColor: "#191c20",
+          backgroundColor: "#f0ebd7",
         }}
       ></div>
     </section>
   );
-}
+};
 
-export default Testimonial
+export default Testimonial;

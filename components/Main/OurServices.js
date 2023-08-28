@@ -86,21 +86,21 @@ export default function Services() {
     },
   ];
   return (
-    <div className="bg-[#17191d]" data-aos="zoom-in">
-      <div className=" px-4  py-20 bg-[#17191d] max-w-screen-xl mx-auto md:px-8">
+    <div className="bg-[#f3efdf]" data-aos="zoom-in">
+      <div className=" px-4  py-20 bg-[#f3efdf] max-w-screen-xl mx-auto md:px-8">
         {/* <h1>Our Service</h1> */}
         <div className="max-w-xl sm:text-center py-10 md:mx-auto">
-          <h3 className="text-[#c52326] text-4xl font-semibold sm:text-4xl text-center ">
+          <h3 className="text-[#4d326b] text-4xl font-semibold sm:text-4xl text-center ">
             Our Services
           </h3>
-          <p className="mt-3 text-white text-[20px] text-center">
+          <p className="mt-3 text-black text-[20px] text-center">
             At 4wdGaming, we are dedicated to providing PR for businesses of all
             sizes. Contact us today to learn more about how we can help your
             business grow and succeed.
           </p>
         </div>
 
-        {/* <p className="lg:text-3xl text-[#c52326] text-2xl font-bold text-center py-1 ">
+        {/* <p className="lg:text-3xl text-[#4d326b] text-2xl font-bold text-center py-1 ">
           OUR SERVICES
         </p>
         <p className="lg:text-2xl text-2xl border-b  text-center pb-3">
@@ -123,7 +123,7 @@ export default function Services() {
               />
               <div className="p-4">
                 <Link
-                  className="   font-semibold text-[20px] text-[#c52326]"
+                  className="   font-semibold text-[20px] text-[#4d326b]"
                   href={items.link}
                 >
                   {items.title}
@@ -156,7 +156,7 @@ export default function Services() {
               />
               <div className="p-4">
                 <Link
-                  className=" text-[20px] font-semibold text-[#c52326]"
+                  className=" text-[20px] font-semibold text-[#4d326b]"
                   href={items.link}
                 >
                   {items.title}

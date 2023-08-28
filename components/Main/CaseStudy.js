@@ -8,13 +8,13 @@ import About4 from "../../public/images/TFG-main-logo.-png-1-1024x707.png";
 const CaseStudy = () => {
   return (
     <div>
-      <div className="content bg-[#17191d] py-16 lg:px-32 px-4">
+      <div className="content bg-[#f3efdf] py-16 lg:px-32 px-4">
         <h1 className=" outline text-center lg:text-9xl md:text-6xl text-4xl text-[#fff] outline-4 font-semibold">
           Case Study
         </h1>
       </div>
 
-      <div className="flex lg:flex-row flex-col gap-6 p-4 py-5 lg:px-32 px-4 bg-[#191C20]">
+      <div className="flex lg:flex-row flex-col gap-6 p-4 py-5 lg:px-32 px-4 bg-[#f0ebd7]">
         <div>
           <Image
             src={About}
@@ -25,7 +25,7 @@ const CaseStudy = () => {
           />
         </div>
         <div>
-          <p className="py-1 text-xl text-[#c52326]">
+          <p className="py-1 text-xl text-[#4d326b]">
             Nazara Technologies Ltd.
           </p>
           <p>Hands-on Nazara – India’s first Gaming IPO</p>
@@ -80,7 +80,7 @@ const CaseStudy = () => {
           </p>
         </div>
       </div>
-      <div className="flex lg:flex-row flex-col gap-6 p-4 py-5 lg:px-32 px-4 bg-[#191C20]">
+      <div className="flex lg:flex-row flex-col gap-6 p-4 py-5 lg:px-32 px-4 bg-[#f0ebd7]">
         <div>
           <Image
             src={About3}
@@ -91,7 +91,7 @@ const CaseStudy = () => {
           />
         </div>
         <div>
-          <p className="py-1 text-xl text-[#c52326]">
+          <p className="py-1 text-xl text-[#4d326b]">
             Yudiz Solutions Ltd. - A Groundbreaking IPO in the Converging Tech
             Landscape
           </p>
@@ -132,7 +132,7 @@ const CaseStudy = () => {
           </p>
         </div>
       </div>
-      <div className="flex lg:flex-row flex-col gap-6 p-4 py-5 lg:px-32 px-4 bg-[#191C20]">
+      <div className="flex lg:flex-row flex-col gap-6 p-4 py-5 lg:px-32 px-4 bg-[#f0ebd7]">
         <div>
           <Image
             src={About4}
@@ -143,11 +143,11 @@ const CaseStudy = () => {
           />
         </div>
         <div>
-          <p className="py-1 text-xl text-[#c52326] ">
+          <p className="py-1 text-xl text-[#4d326b] ">
             Trade Fantasy Game (TFG)
           </p>
           {/* <p>Hands-on Nazara – India’s first Gaming IPO</p> */}
-          <p className="py-1 text-white">
+          <p className="py-1 text-black">
             Trade Fantasy Game (TFG), a premier fantasy platform set to compete
             with industry giants like Dream 11, My 11 circle, and My Fab 11, had
             a powerful ace up its sleeve - Indian International Cricketer Deepak
@@ -155,14 +155,14 @@ const CaseStudy = () => {
             and entrepreneur, Moram Napu eagerly embraced the challenge of
             spearheading the PR campaign for TFG&apos;s grand launch.
           </p>
-          <p className="py-1 text-white">
+          <p className="py-1 text-black">
             Our primary objective was to create awareness for TFG in the highly
             competitive fantasy gaming space and among cricket enthusiasts.
             Through strategic planning, we emphasized the brand&apos;s vision,
             ambitions, and unique product offerings, ensuring the right
             messaging reached the target audience through effective PR channels.
           </p>
-          <p className="py-1 text-white">
+          <p className="py-1 text-black">
             The launch had an additional challenge - introducing Jaya Chahar as
             the CEO and official spokesperson for TFG, taking the business
             forward. With a calculated approach, we secured interviews featuring
@@ -171,7 +171,7 @@ const CaseStudy = () => {
             strategic move aimed to build her publicity and prominence as the
             voice of the brand.
           </p>
-          <p className="py-1 text-white">
+          <p className="py-1 text-black">
             To maximize reach, we executed a multi-launch strategy, targeting
             geographies across the country, including Tier 2 and Tier 3 cities
             with a substantial fantasy gaming audience. Our efforts paid off as
@@ -181,7 +181,7 @@ const CaseStudy = () => {
             gaming media coverage. The response was phenomenal, with the brand
             witnessing 50,000 sign-ups within the initial weeks.
           </p>
-          <p className="py-1 text-white">
+          <p className="py-1 text-black">
             As proactive advisors, Moram Napu ensured TFG&apos;s brand
             reputation remained unscathed during unforeseen situations. We
             provided guidance and training to the spokesperson, positioning TFG
@@ -189,7 +189,7 @@ const CaseStudy = () => {
             industry stories and television features, particularly around
             decisions from MeitY.
           </p>
-          <p className="py-1 text-white">
+          <p className="py-1 text-black">
             Though a relatively early entrant, TFG has swiftly carved its niche,
             standing tall among leading fantasy platforms, thanks to its share
             of voice in the media and resonating presence in the gaming
@@ -197,7 +197,7 @@ const CaseStudy = () => {
           </p>
         </div>
       </div>
-      <div className="flex lg:flex-row flex-col gap-6 p-4 py-5 lg:px-32 px-4 bg-[#191C20]">
+      <div className="flex lg:flex-row flex-col gap-6 p-4 py-5 lg:px-32 px-4 bg-[#f0ebd7]">
         <div>
           <Image
             src={About2}
@@ -208,7 +208,7 @@ const CaseStudy = () => {
           />
         </div>
         <div>
-          <p className="py-1 text-xl text-[#c52326]">
+          <p className="py-1 text-xl text-[#4d326b]">
             World Cricket Championship - From Gamer&apos;s Favorite to Global
             Sensation
           </p>
