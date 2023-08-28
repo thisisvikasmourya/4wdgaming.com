@@ -35,58 +35,57 @@ const CreatorsandInfluencers = () => {
     },
     {
       title: "Embrace the Power of Influence:",
-      cont: "The influence of creators and influencers extends far beyond the gaming community. Let 4WD GAMING help you harness this power to amplify your gaming brand's reach, foster credibility, and create meaningful connections with gamers worldwide.",
+      cont: "The influence of creators and influencers extends far beyond the gaming community. Let Moram Napu help you harness this power to amplify your gaming brand's reach, foster credibility, and create meaningful connections with gamers worldwide.",
     },
   ];
   const data = [
     {
       title: "Amplify Your Gaming Brand:",
-      cont: "Creators and influencers are the heartbeat of the gaming community. At 4WD GAMING, we understand the value they bring to your brand. Through strategic partnerships, we amplify your gaming brand's reach and impact.",
+      cont: "Creators and influencers are the heartbeat of the gaming community. At Moram Napu, we understand the value they bring to your brand. Through strategic partnerships, we amplify your gaming brand's reach and impact.",
     },
     {
       title: "Building Credibility and Trust:",
       cont: "Gaming content creators and influencers have a dedicated following that trusts their recommendations. By partnering with influential figures, your brand gains credibility and establishes a strong presence within the gaming community.",
     },
-   
   ];
-   const navData = [
-     {
-       href: "/services/strategy-and-marketing",
-       name: "Strategy and Marketing",
-     },
-     {
-       href: "/services/content-and-writing",
-       name: "Content and Copywriting",
-     },
-     {
-       href: "/services/crisis-communication",
-       name: "Crisis Communication",
-     },
-     {
-       href: "/services/data-driven-pr-insight",
-       name: "Data Driven Pr-insight",
-     },
-     {
-       href: "/services/public-relations",
-       name: "Public Relations",
-     },
-     {
-       href: "/services/digital-gaming-events",
-       name: "Digital Gaming Events",
-     },
-     {
-       href: "/services/esports-tournament-organization",
-       name: "Esports Tournaments",
-     },
-     {
-       href: "/services/international-pr-expansion",
-       name: "International PR-Expansion",
-     },
-     {
-       href: "/services/gaming-product-launches",
-       name: "Gaming Product Launches",
-     },
-   ];
+  const navData = [
+    {
+      href: "/services/strategy-and-marketing",
+      name: "Strategy and Marketing",
+    },
+    {
+      href: "/services/content-and-writing",
+      name: "Content and Copywriting",
+    },
+    {
+      href: "/services/crisis-communication",
+      name: "Crisis Communication",
+    },
+    {
+      href: "/services/data-driven-pr-insight",
+      name: "Data Driven Pr-insight",
+    },
+    {
+      href: "/services/public-relations",
+      name: "Public Relations",
+    },
+    {
+      href: "/services/digital-gaming-events",
+      name: "Digital Gaming Events",
+    },
+    {
+      href: "/services/esports-tournament-organization",
+      name: "Esports Tournaments",
+    },
+    {
+      href: "/services/international-pr-expansion",
+      name: "International PR-Expansion",
+    },
+    {
+      href: "/services/gaming-product-launches",
+      name: "Gaming Product Launches",
+    },
+  ];
   return (
     <div>
       <div className="bg-[#17191d]" data-aos="zoom-in">
@@ -107,7 +106,7 @@ const CreatorsandInfluencers = () => {
             <div>
               <p className="py-1 text-white text-[20px]">
                 Are you ready to take your gaming brand to the next level? At
-                4WD GAMING, we are not just any PR agency; we are brand builders
+                Moram Napu, we are not just any PR agency; we are brand builders
                 who understand the immense power of a strong brand in attracting
                 organic media and PR.
               </p>

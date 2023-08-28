@@ -25,7 +25,7 @@ export default function Services() {
     {
       title: "Public Relations",
       img: Pr,
-      content: "At 4WD GAMING, we're PR and gaming specialists",
+      content: "At Moram Napu, we're PR and gaming specialists",
       link: "/services/public-relations",
     },
     {
@@ -94,9 +94,9 @@ export default function Services() {
             Our Services
           </h3>
           <p className="mt-3 text-white text-[20px] text-center">
-            At 4wdGaming, we are dedicated to providing PR for
-            businesses of all sizes. Contact us today to learn more about how we
-            can help your business grow and succeed.
+            At 4wdGaming, we are dedicated to providing PR for businesses of all
+            sizes. Contact us today to learn more about how we can help your
+            business grow and succeed.
           </p>
         </div>
 

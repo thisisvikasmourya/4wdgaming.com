@@ -41,7 +41,7 @@ const testimonials = [
     name: "Ekaterina Giganova - Head of PR and Events",
     title: "EvenBet Gaming",
     quote:
-      "We have received an incomparable online media reach promoting our new gaming offer for Asia with the help of 4WD GAMING. I appreciate prompt communication at every stage, attention to detail, and an eye for the best publishing opportunities that Sharmilee’s team has demonstrated while working on our project. Thanks to their work, we were able to deliver a clear offer message and improve our image as one of the leading gaming software vendors in India.",
+      "We have received an incomparable online media reach promoting our new gaming offer for Asia with the help of Moram Napu. I appreciate prompt communication at every stage, attention to detail, and an eye for the best publishing opportunities that Sharmilee’s team has demonstrated while working on our project. Thanks to their work, we were able to deliver a clear offer message and improve our image as one of the leading gaming software vendors in India.",
   },
   {
     avatar: supercircc,
@@ -56,7 +56,7 @@ const testimonials = [
     name: "Abhishek Aggarwal - Co-Founder & CEO",
     title: "Trinity Gaming India",
     quote:
-      "As a young agency, we were unfamiliar with PR and the kind of media support we would need for the brand. While it took a little time to navigate the space, we are glad to have managed to gain recognition as key industry players. 4WD GAMING has provided continuous guidance, coaching and brand direction to our management, enabling Trinity Gaming to emerge as forerunners in the industry through regular features in top media, speakership opportunities, and awards.",
+      "As a young agency, we were unfamiliar with PR and the kind of media support we would need for the brand. While it took a little time to navigate the space, we are glad to have managed to gain recognition as key industry players. Moram Napu has provided continuous guidance, coaching and brand direction to our management, enabling Trinity Gaming to emerge as forerunners in the industry through regular features in top media, speakership opportunities, and awards.",
   },
   {
     avatar: nazaraceo,
@@ -70,7 +70,7 @@ const testimonials = [
     name: "Pontus Lemberg - Director and Co-Founder",
     title: "Nordanvind Investments Limited",
     quote:
-      "The Indian media space was absolutely new to us when we launched our flagship product in the country. 4WD GAMING's understanding of the space, strategic planning, aggressive outreach and on-point execution helped us navigate the space seamlessly. The trust we put in them resulted in the brand’s successful launch and its surge to an unexpected level, given SD’s good strategic direction.",
+      "The Indian media space was absolutely new to us when we launched our flagship product in the country. Moram Napu's understanding of the space, strategic planning, aggressive outreach and on-point execution helped us navigate the space seamlessly. The trust we put in them resulted in the brand’s successful launch and its surge to an unexpected level, given SD’s good strategic direction.",
   },
   {
     avatar: hornbill,

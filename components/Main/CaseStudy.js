@@ -30,7 +30,7 @@ const CaseStudy = () => {
           </p>
           <p>Hands-on Nazara – India’s first Gaming IPO</p>
           <p className="py-1">
-            When 4WD GAMING, India&apos;s premier gaming PR, Web3 gaming PR, and
+            When Moram Napu, India&apos;s premier gaming PR, Web3 gaming PR, and
             Esports PR consultancy, partnered with Nazara Technologies Ltd., a
             leading gaming company, in 2016, our mission was clear - to
             establish Nazara as the foremost gaming brand in India and attract
@@ -104,7 +104,7 @@ const CaseStudy = () => {
             strategic plans for the future.
           </p>
           <p className="py-1">
-            For 4WD GAMING, the opportunity to work on this project was
+            For Moram Napu, the opportunity to work on this project was
             exhilarating, especially after successfully handling the Nazara
             Technologies IPO - the first in the gaming space. Yudiz&apos;s IPO
             was unique, combining elements of blockchain, AI, and gaming, making
@@ -152,7 +152,7 @@ const CaseStudy = () => {
             with industry giants like Dream 11, My 11 circle, and My Fab 11, had
             a powerful ace up its sleeve - Indian International Cricketer Deepak
             Chahar. Tasked with showcasing Deepak Chahar as the brand ambassador
-            and entrepreneur, 4WD GAMING eagerly embraced the challenge of
+            and entrepreneur, Moram Napu eagerly embraced the challenge of
             spearheading the PR campaign for TFG&apos;s grand launch.
           </p>
           <p className="py-1 text-white">
@@ -182,7 +182,7 @@ const CaseStudy = () => {
             witnessing 50,000 sign-ups within the initial weeks.
           </p>
           <p className="py-1 text-white">
-            As proactive advisors, 4WD GAMING ensured TFG&apos;s brand
+            As proactive advisors, Moram Napu ensured TFG&apos;s brand
             reputation remained unscathed during unforeseen situations. We
             provided guidance and training to the spokesperson, positioning TFG
             among market leaders and enhancing its brand visibility through key
@@ -243,7 +243,7 @@ const CaseStudy = () => {
             gaming aficionados alike.
           </p>
           <p className="py-1">
-            The case study showcases how 4WD GAMING&apos;s strategic PR efforts
+            The case study showcases how Moram Napu&apos;s strategic PR efforts
             successfully elevated World Cricket Championship from a beloved
             gaming franchise among gamers to a global sensation, recognized as
             the largest mobile cricket game in the world.

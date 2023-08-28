@@ -3,7 +3,7 @@ import Link from "next/link";
 import React, { useState } from "react";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 import { RiMenu4Line } from "react-icons/ri";
-import logo from "../../public/images/okayLogo.png";
+import logo from "../../public/images/MORAM.png";
 import Button from "../Main/Button";
 import Button2 from "../Main/Button2";
 
@@ -145,9 +145,7 @@ const Navbar = () => {
       </nav>
 
       {open ? (
-        <div
-          className="bg-[#191c20] h-screen text-[18px] text-[#fff] rounded w-full text-center z-10 pb-5 fixed navv "
-        >
+        <div className="bg-[#191c20] h-screen text-[18px] text-[#fff] rounded w-full text-center z-10 pb-5 fixed navv ">
           <ul className=" lg:hidden flex flex-col items-center gap-10  ">
             <li>
               <Link

@@ -14,7 +14,7 @@ const AboutUs = () => {
         <div className="max-w-screen-xl mx-auto md:px-8">
           <div className="content bg-[#17191d] py-20  px-4" data-aos="zoom-in">
             <h1 className=" outline text-center lg:text-9xl md:text-6xl text-4xl text-[#fff] outline-4 font-semibold">
-              About 4WD GAMING
+              About Moram Napu
             </h1>
           </div>
         </div>
@@ -27,7 +27,7 @@ const AboutUs = () => {
                 We’re brand builders
               </p>
               <p className="text-[18px] text-white">
-                At 4WD GAMING, we are more than just a gaming PR agency. We are
+                At Moram Napu, we are more than just a gaming PR agency. We are
                 brand builders who understand the power of a strong brand in
                 attracting organic media and PR. Our approach is simple but
                 effective - we sit with you, plan, consult, and watch the magic
@@ -137,7 +137,6 @@ const AboutUs = () => {
                     alt="hello"
                     layout="responsive"
                     className="rounded-lg"
-                    
                   />
                 </div>
                 <div>
@@ -145,7 +144,7 @@ const AboutUs = () => {
                     Sharmilee Daru
                   </p>
                   <p className="text-[22px] font-bold text-[#c52326]">
-                    Founder, 4WD GAMING
+                    Founder, Moram Napu
                   </p>
                   <p className="py-2 text-white text-[18px]">
                     An alumnus of St. Xaviers’ College, Mumbai and a post

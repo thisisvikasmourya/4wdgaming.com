@@ -86,7 +86,7 @@ export default function StarsCanvas() {
       <div className="center-text ">
         <div className="text-center ">
           <h1 className="lg:text-6xl md:text-6xl text-5xl font-bold hover:text-[#] mb-4">
-            4WD GAMING
+            Moram Napu
           </h1>
           {/* <h1 className="lg:text-4xl md:text-3xl text-5xl font-bold hover:text-[#]"></h1> */}
           <h1 className="lg:text-7xl md:text-6xl text-4xl font-bold text-[#c52326] py-4">

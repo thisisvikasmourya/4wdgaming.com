@@ -34,7 +34,7 @@ const WhatWeDo = () => {
 
                 <div className="text-white text-[20px]">
                   <p className="py-3">
-                    At 4WD GAMING, we challenge the norms of traditional
+                    At Moram Napu, we challenge the norms of traditional
                     agencies. Instead, we focus on brand objectives and goals.
                     Our approach strikes the perfect balance, blending
                     traditional media ideals with new-age strategies to capture

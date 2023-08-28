@@ -35,13 +35,13 @@ const DigitalGamingEvents = () => {
     },
     {
       title: "Create Unforgettable Moments.",
-      cont: "Elevate your gaming events to new heights with 4WD GAMING. Let us craft unforgettable gaming experiences that resonate with your audience, driving engagement and loyalty to your gaming brand.",
+      cont: "Elevate your gaming events to new heights with Moram Napu. Let us craft unforgettable gaming experiences that resonate with your audience, driving engagement and loyalty to your gaming brand.",
     },
   ];
   const data = [
     {
       title: "Unforgettable Gaming Experiences:",
-      cont: "4WD GAMING specializes in crafting unforgettable gaming events that leave a lasting impression on participants and spectators alike.",
+      cont: "Moram Napu specializes in crafting unforgettable gaming events that leave a lasting impression on participants and spectators alike.",
     },
     {
       title: "Virtual Gaming Tournaments:",
@@ -56,44 +56,44 @@ const DigitalGamingEvents = () => {
       cont: "Our experienced team handles every aspect of event execution, from planning and logistics to promotion and coordination, ensuring a seamless and memorable experience for all attendees.",
     },
   ];
-   const navData = [
-     {
-       href: "/services/strategy-and-marketing",
-       name: "Strategy and Marketing",
-     },
-     {
-       href: "/services/content-and-writing",
-       name: "Content and Copywriting",
-     },
-     {
-       href: "/services/creator-and-influencers",
-       name: "Creator and Influencer",
-     },
-     {
-       href: "/services/crisis-communication",
-       name: "Crisis Communication",
-     },
-     {
-       href: "/services/data-driven-pr-insight",
-       name: "Data Driven Pr-insight",
-     },
-     {
-       href: "/services/public-relations",
-       name: "Public Relations",
-     },
-     {
-       href: "/services/esports-tournament-organization",
-       name: "Esports Tournaments",
-     },
-     {
-       href: "/services/international-pr-expansion",
-       name: "International PR-Expansion",
-     },
-     {
-       href: "/services/gaming-product-launches",
-       name: "Gaming Product Launches",
-     },
-   ];
+  const navData = [
+    {
+      href: "/services/strategy-and-marketing",
+      name: "Strategy and Marketing",
+    },
+    {
+      href: "/services/content-and-writing",
+      name: "Content and Copywriting",
+    },
+    {
+      href: "/services/creator-and-influencers",
+      name: "Creator and Influencer",
+    },
+    {
+      href: "/services/crisis-communication",
+      name: "Crisis Communication",
+    },
+    {
+      href: "/services/data-driven-pr-insight",
+      name: "Data Driven Pr-insight",
+    },
+    {
+      href: "/services/public-relations",
+      name: "Public Relations",
+    },
+    {
+      href: "/services/esports-tournament-organization",
+      name: "Esports Tournaments",
+    },
+    {
+      href: "/services/international-pr-expansion",
+      name: "International PR-Expansion",
+    },
+    {
+      href: "/services/gaming-product-launches",
+      name: "Gaming Product Launches",
+    },
+  ];
   return (
     <div>
       <div className="bg-[#17191d]" data-aos="zoom-in">

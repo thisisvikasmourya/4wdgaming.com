@@ -3,8 +3,7 @@ import Image from "next/image";
 import About from "../../../public/images/nazara.jpg";
 import CaseStudyBar from "@/components/Navbar/CaseStudyBar";
 
-const NazaraTechnologies = () =>
-{
+const NazaraTechnologies = () => {
   const caseData = [
     {
       href: "/case-study/tfg",
@@ -50,7 +49,7 @@ const NazaraTechnologies = () =>
                 Hands-on Nazara – India’s first Gaming IPO
               </p>
               <p className="py-1 text-white text-[18px]">
-                When 4WD GAMING, India&apos;s premier gaming PR, Web3 gaming PR,
+                When Moram Napu, India&apos;s premier gaming PR, Web3 gaming PR,
                 and Esports PR consultancy, partnered with Nazara Technologies
                 Ltd., a leading gaming company, in 2016, our mission was clear -
                 to establish Nazara as the foremost gaming brand in India and

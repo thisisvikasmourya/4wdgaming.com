@@ -3,8 +3,7 @@ import Image from "next/image";
 import About4 from "../../../public/images/TFG-main-logo.-png-1-1024x707.png";
 import CaseStudyBar from "@/components/Navbar/CaseStudyBar";
 
-const TradeFantasyGame = () =>
-{
+const TradeFantasyGame = () => {
   const caseData = [
     {
       href: "/case-study/nazara",
@@ -52,7 +51,7 @@ const TradeFantasyGame = () =>
                 compete with industry giants like Dream 11, My 11 circle, and My
                 Fab 11, had a powerful ace up its sleeve - Indian International
                 Cricketer Deepak Chahar. Tasked with showcasing Deepak Chahar as
-                the brand ambassador and entrepreneur, 4WD GAMING eagerly
+                the brand ambassador and entrepreneur, Moram Napu eagerly
                 embraced the challenge of spearheading the PR campaign for
                 TFG&apos;s grand launch.
               </p>
@@ -85,7 +84,7 @@ const TradeFantasyGame = () =>
                 initial weeks.
               </p>
               <p className="py-1 text-white text-[18px]">
-                As proactive advisors, 4WD GAMING ensured TFG&apos;s brand
+                As proactive advisors, Moram Napu ensured TFG&apos;s brand
                 reputation remained unscathed during unforeseen situations. We
                 provided guidance and training to the spokesperson, positioning
                 TFG among market leaders and enhancing its brand visibility

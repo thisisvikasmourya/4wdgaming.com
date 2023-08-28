@@ -7,7 +7,7 @@ const CrisisCommunication = () => {
   const data = [
     {
       title: "Protecting Your Gaming Brand:",
-      cont: "In the fast-paced and interconnected world of gaming, unforeseen crises can arise at any moment. At 4WD GAMING, we understand the importance of protecting your gaming brand during turbulent times.",
+      cont: "In the fast-paced and interconnected world of gaming, unforeseen crises can arise at any moment. At Moram Napu, we understand the importance of protecting your gaming brand during turbulent times.",
     },
     {
       title: "Swift and Strategic Response:",
@@ -41,7 +41,7 @@ const CrisisCommunication = () => {
     },
     {
       title: "Expert Guidance in Crisis:",
-      cont: "When navigating turbulent waters, trust 4WD GAMING to be your expert guide. Our crisis communications services provide the support and expertise you need to steer through challenging situations with confidence.",
+      cont: "When navigating turbulent waters, trust Moram Napu to be your expert guide. Our crisis communications services provide the support and expertise you need to steer through challenging situations with confidence.",
     },
     {
       title: "24/7 Crisis Support:",
@@ -56,44 +56,44 @@ const CrisisCommunication = () => {
       cont: "We handle media relations with finesse, ensuring that accurate information is conveyed to the public and the media during crisis situations.",
     },
   ];
-   const navData = [
-     {
-       href: "/services/strategy-and-marketing",
-       name: "Strategy and Marketing",
-     },
-     {
-       href: "/services/content-and-writing",
-       name: "Content and Copywriting",
-     },
-     {
-       href: "/services/creator-and-influencers",
-       name: "Creator and Influencer",
-     },
-     {
-       href: "/services/data-driven-pr-insight",
-       name: "Data Driven Pr-insight",
-     },
-     {
-       href: "/services/public-relations",
-       name: "Public Relations",
-     },
-     {
-       href: "/services/digital-gaming-events",
-       name: "Digital Gaming Events",
-     },
-     {
-       href: "/services/esports-tournament-organization",
-       name: "Esports Tournaments",
-     },
-     {
-       href: "/services/international-pr-expansion",
-       name: "International PR-Expansion",
-     },
-     {
-       href: "/services/gaming-product-launches",
-       name: "Gaming Product Launches",
-     },
-   ];
+  const navData = [
+    {
+      href: "/services/strategy-and-marketing",
+      name: "Strategy and Marketing",
+    },
+    {
+      href: "/services/content-and-writing",
+      name: "Content and Copywriting",
+    },
+    {
+      href: "/services/creator-and-influencers",
+      name: "Creator and Influencer",
+    },
+    {
+      href: "/services/data-driven-pr-insight",
+      name: "Data Driven Pr-insight",
+    },
+    {
+      href: "/services/public-relations",
+      name: "Public Relations",
+    },
+    {
+      href: "/services/digital-gaming-events",
+      name: "Digital Gaming Events",
+    },
+    {
+      href: "/services/esports-tournament-organization",
+      name: "Esports Tournaments",
+    },
+    {
+      href: "/services/international-pr-expansion",
+      name: "International PR-Expansion",
+    },
+    {
+      href: "/services/gaming-product-launches",
+      name: "Gaming Product Launches",
+    },
+  ];
   return (
     <div>
       <div className="bg-[#17191d]" data-aos="zoom-in">
@@ -114,7 +114,7 @@ const CrisisCommunication = () => {
             <div>
               <p className="py-1 text-white text-[20px]">
                 Captivate your gaming community with powerful storytelling. At
-                4WD GAMING, we understand the significance of content and
+                Moram Napu, we understand the significance of content and
                 copywriting in creating meaningful connections with your
                 audience.
               </p>

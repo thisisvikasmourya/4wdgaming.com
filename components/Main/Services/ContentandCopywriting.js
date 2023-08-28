@@ -31,7 +31,7 @@ const ContentandCopywriting = () => {
     },
     {
       title: "Elevate Your Gaming Narrative:",
-      cont: "The right words have the power to elevate your gaming narrative to new heights. Let 4WD GAMING be your storytelling partner, crafting compelling content that engages your audience and leaves a lasting impact.",
+      cont: "The right words have the power to elevate your gaming narrative to new heights. Let Moram Napu be your storytelling partner, crafting compelling content that engages your audience and leaves a lasting impact.",
     },
   ];
   const data = [
@@ -49,44 +49,44 @@ const ContentandCopywriting = () => {
     },
   ];
 
-   const navData = [
-     {
-       href: "/services/strategy-and-marketing",
-       name: "Strategy and Marketing",
-     },
-     {
-       href: "/services/creator-and-influencers",
-       name: "Creator and Influencer",
-     },
-     {
-       href: "/services/crisis-communication",
-       name: "Crisis Communication",
-     },
-     {
-       href: "/services/data-driven-pr-insight",
-       name: "Data Driven Pr-insight",
-     },
-     {
-       href: "/services/public-relations",
-       name: "Public Relations",
-     },
-     {
-       href: "/services/digital-gaming-events",
-       name: "Digital Gaming Events",
-     },
-     {
-       href: "/services/esports-tournament-organization",
-       name: "Esports Tournaments",
-     },
-     {
-       href: "/services/international-pr-expansion",
-       name: "International PR-Expansion",
-     },
-     {
-       href: "/services/gaming-product-launches",
-       name: "Gaming Product Launches",
-     },
-   ];
+  const navData = [
+    {
+      href: "/services/strategy-and-marketing",
+      name: "Strategy and Marketing",
+    },
+    {
+      href: "/services/creator-and-influencers",
+      name: "Creator and Influencer",
+    },
+    {
+      href: "/services/crisis-communication",
+      name: "Crisis Communication",
+    },
+    {
+      href: "/services/data-driven-pr-insight",
+      name: "Data Driven Pr-insight",
+    },
+    {
+      href: "/services/public-relations",
+      name: "Public Relations",
+    },
+    {
+      href: "/services/digital-gaming-events",
+      name: "Digital Gaming Events",
+    },
+    {
+      href: "/services/esports-tournament-organization",
+      name: "Esports Tournaments",
+    },
+    {
+      href: "/services/international-pr-expansion",
+      name: "International PR-Expansion",
+    },
+    {
+      href: "/services/gaming-product-launches",
+      name: "Gaming Product Launches",
+    },
+  ];
   return (
     <div className="bg-[#191C20]">
       <div className="bg-[#17191d]" data-aos="zoom-in">
@@ -112,7 +112,7 @@ const ContentandCopywriting = () => {
 
             {data.map((items, key) => (
               <div key={key}>
-                <p className="text-[#c52326] text-xl text-[20px]">
+                <p className="text-[#c52326] font-bold text-xl text-[20px]">
                   {items.title}
                 </p>
                 <p className=" pb-3 text-white text-[18px]"> {items.cont}</p>
@@ -123,7 +123,7 @@ const ContentandCopywriting = () => {
         <div className=" grid lg:grid-cols-2 grid-cols-1 gap-2  px-4 bg-[#191C20]">
           {data2.map((items, key) => (
             <div key={key}>
-              <p className="text-[#c52326] text-xl text-[20px]">
+              <p className="text-[#c52326] font-bold text-xl text-[20px]">
                 {items.title}
               </p>
               <p className=" pb-3 text-white text-[18px]"> {items.cont}</p>

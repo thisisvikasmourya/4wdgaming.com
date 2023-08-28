@@ -1,10 +1,9 @@
-import React from 'react'
+import React from "react";
 import Image from "next/image";
 import About from "../../../public/images/pr.jpg";
-import Navigationbar from '@/components/Navbar/Navigationbar';
+import Navigationbar from "@/components/Navbar/Navigationbar";
 
-const PublicRelations = () =>
-{
+const PublicRelations = () => {
   const data2 = [
     {
       title: "Comprehensive Suite of PR Services:",
@@ -28,7 +27,7 @@ const PublicRelations = () =>
     },
     {
       title: "Challenge the Norms:",
-      cont: "4WD Gaming's public relations strategies are designed to challenge the norms of traditional agencies. We focus on your brand objectives and goals, blending traditional media ideals with new-age strategies to capture the new-age media for our brands.",
+      cont: "Moram Napu's public relations strategies are designed to challenge the norms of traditional agencies. We focus on your brand objectives and goals, blending traditional media ideals with new-age strategies to capture the new-age media for our brands.",
     },
     {
       title: "Partner for Success:",
@@ -36,7 +35,7 @@ const PublicRelations = () =>
     },
     {
       title:
-        "Choose 4WD Gaming as your PR partner, and let us be your ammunition to conquer the world of gaming, Web3 gaming, and esports. Get in touch with us today and ignite your success in this thrilling and ever-evolving industry.",
+        "Choose Moram Napu as your PR partner, and let us be your ammunition to conquer the world of gaming, Web3 gaming, and esports. Get in touch with us today and ignite your success in this thrilling and ever-evolving industry.",
     },
   ];
   const data = [
@@ -48,47 +47,45 @@ const PublicRelations = () =>
       title: "In-Depth Understanding of Gaming Industry:",
       cont: "With years of experience in the gaming and esports industry, we understand the unique challenges and opportunities you face. Our team of dedicated PR specialists is well-versed in the intricacies of the gaming world, enabling us to craft PR campaigns that resonate with your target audience.",
     },
-   
-   
   ];
-   const navData = [
-     {
-       href: "/services/strategy-and-marketing",
-       name: "Strategy and Marketing",
-     },
-     {
-       href: "/services/content-and-writing",
-       name: "Content and Copywriting",
-     },
-     {
-       href: "/services/creator-and-influencers",
-       name: "Creator and Influencer",
-     },
-     {
-       href: "/services/crisis-communication",
-       name: "Crisis Communication",
-     },
-     {
-       href: "/services/data-driven-pr-insight",
-       name: "Data Driven Pr-insight",
-     },
-     {
-       href: "/services/digital-gaming-events",
-       name: "Digital Gaming Events",
-     },
-     {
-       href: "/services/esports-tournament-organization",
-       name: "Esports Tournaments",
-     },
-     {
-       href: "/services/international-pr-expansion",
-       name: "International PR-Expansion",
-     },
-     {
-       href: "/services/gaming-product-launches",
-       name: "Gaming Product Launches",
-     },
-   ];
+  const navData = [
+    {
+      href: "/services/strategy-and-marketing",
+      name: "Strategy and Marketing",
+    },
+    {
+      href: "/services/content-and-writing",
+      name: "Content and Copywriting",
+    },
+    {
+      href: "/services/creator-and-influencers",
+      name: "Creator and Influencer",
+    },
+    {
+      href: "/services/crisis-communication",
+      name: "Crisis Communication",
+    },
+    {
+      href: "/services/data-driven-pr-insight",
+      name: "Data Driven Pr-insight",
+    },
+    {
+      href: "/services/digital-gaming-events",
+      name: "Digital Gaming Events",
+    },
+    {
+      href: "/services/esports-tournament-organization",
+      name: "Esports Tournaments",
+    },
+    {
+      href: "/services/international-pr-expansion",
+      name: "International PR-Expansion",
+    },
+    {
+      href: "/services/gaming-product-launches",
+      name: "Gaming Product Launches",
+    },
+  ];
   return (
     <div>
       <div className="bg-[#17191d]" data-aos="zoom-in">
@@ -109,7 +106,7 @@ const PublicRelations = () =>
             <div>
               <p className="py-1 text-white text-[20px]">
                 Are you ready to take your gaming brand to the next level? At
-                <span className="text-[#c32326]"> 4WD Gaming</span>, we are not
+                <span className="text-[#c32326]"> Moram Napu</span>, we are not
                 just any PR agency; we are brand builders who understand the
                 immense power of a strong brand in attracting organic media and
                 PR.
@@ -136,6 +133,6 @@ const PublicRelations = () =>
       <Navigationbar navData={navData} />
     </div>
   );
-}
+};
 
-export default PublicRelations
+export default PublicRelations;

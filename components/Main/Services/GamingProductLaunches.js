@@ -36,17 +36,17 @@ const GamingProductLaunches = () => {
     },
     {
       title: "Captivate Players Worldwide:",
-      cont: "With 4WD GAMING's expertise, your gaming product launch is set to captivate players worldwide, establishing your brand as a force to be reckoned with in the gaming industry.",
+      cont: "With Moram Napu's expertise, your gaming product launch is set to captivate players worldwide, establishing your brand as a force to be reckoned with in the gaming industry.",
     },
     {
       title: "Contact Us Today:",
-      cont: "Ready to ignite success with your gaming product launch? Contact 4WD GAMING today and let our expert strategies take your gaming masterpiece to new heights.",
+      cont: "Ready to ignite success with your gaming product launch? Contact Moram Napu today and let our expert strategies take your gaming masterpiece to new heights.",
     },
   ];
   const data = [
     {
       title: "Launching Your Gaming Masterpiece:",
-      cont: "At 4WD GAMING, we understand that launching a gaming product is more than just a release; it's an opportunity to make a lasting impact on the gaming industry. Our gaming product launches are meticulously crafted to ensure your masterpiece gets the attention it deserves.",
+      cont: "At Moram Napu, we understand that launching a gaming product is more than just a release; it's an opportunity to make a lasting impact on the gaming industry. Our gaming product launches are meticulously crafted to ensure your masterpiece gets the attention it deserves.",
     },
     {
       title: "Tailored Launch Strategies:",
@@ -57,44 +57,44 @@ const GamingProductLaunches = () => {
       cont: "A successful gaming product launch starts with a well-executed pre-launch plan. We collaborate with you to understand your vision, analyze market trends, and identify the best launch window for maximum impact.",
     },
   ];
-   const navData = [
-     {
-       href: "/services/strategy-and-marketing",
-       name: "Strategy and Marketing",
-     },
-     {
-       href: "/services/content-and-writing",
-       name: "Content and Copywriting",
-     },
-     {
-       href: "/services/creator-and-influencers",
-       name: "Creator and Influencer",
-     },
-     {
-       href: "/services/crisis-communication",
-       name: "Crisis Communication",
-     },
-     {
-       href: "/services/data-driven-pr-insight",
-       name: "Data Driven Pr-insight",
-     },
-     {
-       href: "/services/public-relations",
-       name: "Public Relations",
-     },
-     {
-       href: "/services/digital-gaming-events",
-       name: "Digital Gaming Events",
-     },
-     {
-       href: "/services/esports-tournament-organization",
-       name: "Esports Tournaments",
-     },
-     {
-       href: "/services/international-pr-expansion",
-       name: "International PR-Expansion",
-     },
-   ];
+  const navData = [
+    {
+      href: "/services/strategy-and-marketing",
+      name: "Strategy and Marketing",
+    },
+    {
+      href: "/services/content-and-writing",
+      name: "Content and Copywriting",
+    },
+    {
+      href: "/services/creator-and-influencers",
+      name: "Creator and Influencer",
+    },
+    {
+      href: "/services/crisis-communication",
+      name: "Crisis Communication",
+    },
+    {
+      href: "/services/data-driven-pr-insight",
+      name: "Data Driven Pr-insight",
+    },
+    {
+      href: "/services/public-relations",
+      name: "Public Relations",
+    },
+    {
+      href: "/services/digital-gaming-events",
+      name: "Digital Gaming Events",
+    },
+    {
+      href: "/services/esports-tournament-organization",
+      name: "Esports Tournaments",
+    },
+    {
+      href: "/services/international-pr-expansion",
+      name: "International PR-Expansion",
+    },
+  ];
   return (
     <div>
       <div className="bg-[#17191d]" data-aos="zoom-in">

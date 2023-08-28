@@ -35,58 +35,58 @@ const DataDrivenPrInsights = () => {
       cont: "Data-driven insights guide us in optimizing engagement and reach. We identify the most effective communication channels and PR tactics to connect with players and influencers, amplifying your brand's presence.",
     },
     {
-      title: "Stay Ahead with 4WD GAMING:",
-      cont: "Embrace the power of data-driven PR insights with 4WD GAMING and stay ahead in the competitive gaming landscape. Our expertise in data analysis and PR ensures your gaming brand's success and prominence in the gaming community.",
+      title: "Stay Ahead with Moram Napu:",
+      cont: "Embrace the power of data-driven PR insights with Moram Napu and stay ahead in the competitive gaming landscape. Our expertise in data analysis and PR ensures your gaming brand's success and prominence in the gaming community.",
     },
   ];
   const data = [
     {
       title: "Leverage the Power of Data in Gaming PR:",
-      cont: "At 4WD GAMING, we recognize the significance of data-driven insights in shaping effective PR strategies. Our data-driven PR insights offer a holistic view of your gaming brand's performance, allowing you to make informed decisions for maximum impact.",
+      cont: "At Moram Napu, we recognize the significance of data-driven insights in shaping effective PR strategies. Our data-driven PR insights offer a holistic view of your gaming brand's performance, allowing you to make informed decisions for maximum impact.",
     },
     {
       title: "In-depth Data Analysis:",
       cont: "We delve deep into gaming industry data, social media metrics, player engagement, and media coverage to extract valuable insights. Our comprehensive data analysis reveals trends, identifies opportunities, and highlights potential areas of improvement.",
     },
   ];
-   const navData = [
-     {
-       href: "/services/strategy-and-marketing",
-       name: "Strategy and Marketing",
-     },
-     {
-       href: "/services/content-and-writing",
-       name: "Content and Copywriting",
-     },
-     {
-       href: "/services/creator-and-influencers",
-       name: "Creator and Influencer",
-     },
-     {
-       href: "/services/crisis-communication",
-       name: "Crisis Communication",
-     },
-     {
-       href: "/services/public-relations",
-       name: "Public Relations",
-     },
-     {
-       href: "/services/digital-gaming-events",
-       name: "Digital Gaming Events",
-     },
-     {
-       href: "/services/esports-tournament-organization",
-       name: "Esports Tournaments",
-     },
-     {
-       href: "/services/international-pr-expansion",
-       name: "International PR-Expansion",
-     },
-     {
-       href: "/services/gaming-product-launches",
-       name: "Gaming Product Launches",
-     },
-   ];
+  const navData = [
+    {
+      href: "/services/strategy-and-marketing",
+      name: "Strategy and Marketing",
+    },
+    {
+      href: "/services/content-and-writing",
+      name: "Content and Copywriting",
+    },
+    {
+      href: "/services/creator-and-influencers",
+      name: "Creator and Influencer",
+    },
+    {
+      href: "/services/crisis-communication",
+      name: "Crisis Communication",
+    },
+    {
+      href: "/services/public-relations",
+      name: "Public Relations",
+    },
+    {
+      href: "/services/digital-gaming-events",
+      name: "Digital Gaming Events",
+    },
+    {
+      href: "/services/esports-tournament-organization",
+      name: "Esports Tournaments",
+    },
+    {
+      href: "/services/international-pr-expansion",
+      name: "International PR-Expansion",
+    },
+    {
+      href: "/services/gaming-product-launches",
+      name: "Gaming Product Launches",
+    },
+  ];
   return (
     <div>
       <div className="bg-[#17191d]" data-aos="zoom-in">
@@ -107,7 +107,7 @@ const DataDrivenPrInsights = () => {
             <div>
               <p className="py-1 text-white text-[20px]">
                 Captivate your gaming community with powerful storytelling. At
-                4WD GAMING, we understand the significance of content and
+                Moram Napu, we understand the significance of content and
                 copywriting in creating meaningful connections with your
                 audience.
               </p>

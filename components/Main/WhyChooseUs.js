@@ -2,6 +2,8 @@ import Image from "next/image";
 import React from "react";
 import object from "../../public/images/rE7ypN.gif";
 import WhyChoose from "./WhyChoose";
+import BackgroundImage from "../../public/images/bg123.png";
+
 
 const WhyChooseUs = () => {
   const data = [
@@ -22,9 +24,19 @@ const WhyChooseUs = () => {
     },
   ];
   return (
-    <div className="bg-[#17191d]" data-aos="zoom-in">
+    <div
+      className=""
+      data-aos="zoom-in"
+      style={{
+        backgroundImage: `url(${BackgroundImage.src})`,
+        backgroundSize: "cover", // Adjust as needed
+        backgroundRepeat: "no-repeat",
+        width: "100%",
+        // height: "100vh", // Adjust for desired height
+      }}
+    >
       <div
-        className="bg-[#17191d]  px-4 py-16 max-w-screen-xl mx-auto md:px-8"
+        className="  px-4 py-16 max-w-screen-xl mx-auto md:px-8"
         data-aos="zoom-in"
       >
         <div className="max-w-xl sm:text-center py-1 md:mx-auto">
@@ -40,10 +52,13 @@ const WhyChooseUs = () => {
         </div>
         <div className="flex lg:flex-row flex-col py-2 gap-6 items-center ">
           <div>
-             <WhyChoose/>       </div>
+            <WhyChoose />{" "}
+          </div>
           <div>
             {data.map((items, key) => (
-              <p className="py-1 text-[20px] text-white" key={ key }>{ items.text}</p>
+              <p className="py-1 text-[20px] text-white" key={key}>
+                {items.text}
+              </p>
             ))}
           </div>
         </div>

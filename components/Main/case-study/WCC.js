@@ -4,8 +4,7 @@ import Image from "next/image";
 import About2 from "../../../public/images/wcc.png";
 import CaseStudyBar from "@/components/Navbar/CaseStudyBar";
 
-const WCC = () =>
-{
+const WCC = () => {
   const caseData = [
     {
       href: "/case-study/nazara",
@@ -79,7 +78,7 @@ const WCC = () =>
                 and gaming aficionados alike.
               </p>
               <p className="py-1 text-white text-[18px]">
-                The case study showcases how 4WD GAMING&apos;s strategic PR
+                The case study showcases how Moram Napu&apos;s strategic PR
                 efforts successfully elevated World Cricket Championship from a
                 beloved gaming franchise among gamers to a global sensation,
                 recognized as the largest mobile cricket game in the world.

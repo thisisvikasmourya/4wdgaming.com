@@ -3,8 +3,7 @@ import Image from "next/image";
 import About3 from "../../../public/images/Yudiz-Logo-1024x1024.png";
 import CaseStudyBar from "@/components/Navbar/CaseStudyBar";
 
-const YudizSolutions = () =>
-{
+const YudizSolutions = () => {
   const caseData = [
     {
       href: "/case-study/nazara",
@@ -56,7 +55,7 @@ const YudizSolutions = () =>
                 their strategic plans for the future.
               </p>
               <p className="py-1 text-white text-[18px]">
-                For 4WD GAMING, the opportunity to work on this project was
+                For Moram Napu, the opportunity to work on this project was
                 exhilarating, especially after successfully handling the Nazara
                 Technologies IPO - the first in the gaming space. Yudiz&apos;s
                 IPO was unique, combining elements of blockchain, AI, and
