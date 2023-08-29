@@ -4,7 +4,7 @@ import StarsCanvas from "@/components/StarCanvas";
 import Page2 from "@/components/Main/Page2";
 import Services from "@/components/Main/OurServices";
 import Testimonial from "@/components/Main/Review/Testimonial";
-import ClientScroll from "@/components/Main/Review/ClientScroll";
+// import ClientScroll from "@/components/Main/Review/ClientScroll";
 import WhyChooseUs from "@/components/Main/WhyChooseUs";
 import ClientReview from "@/components/Main/Review/ClientReview";
 import ScrollButton from "@/components/Main/ScrollButton";
@@ -27,7 +27,7 @@ export default function Home() {
         <Services />
         <ClientReview />
         <Testimonial />
-        <ClientScroll />
+        {/* <ClientScroll /> */}
         <WhyChooseUs />
         <ScrollButton />
         {/* <BubbleEffect/>  */}

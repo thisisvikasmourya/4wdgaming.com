@@ -32,22 +32,18 @@ const Navbar = () => {
       <li>
         <div className="dropdown ">
           <button className="dropbtn px-5 text-black  cursor-pointer hover:bg-[#4d326b] transition-all duration-500 py-2.5 rounded-lg hover:text-[#fff]">
-            Services
+            <span className="text-black hover:text-[#fff]">Services</span>
           </button>
-          <div className="dropdown-content">
+          <div className="dropdown-content ">
             <div>
               <Link href="/services/strategy-and-marketing">
-                Strategy And Marketing
+                Game Buzz Builder
               </Link>
               <Link href="/services/content-and-writing">
-                Content and Copywriting
+                Player Connection Pro
               </Link>
-              <Link href="/services/public-relations">Public Relations</Link>
-              <Link href="/services/digital-gaming-events">
-                Digital Gaming Events
-              </Link>
-              <Link href="/services/creator-and-influencers">
-                Creators and Influencers
+              <Link href="/services/public-relations">
+                Trusted Game Partner
               </Link>
             </div>
             {/* <div>
@@ -70,7 +66,7 @@ const Navbar = () => {
           </div>
         </div>
       </li>
-      <li>
+      {/* <li>
         <div className="dropdown">
           <button className="dropbtn px-5 text-black  cursor-pointer hover:bg-[#4d326b] py-3 transition-all duration-500 rounded-lg hover:text-[#fff]">
             Case Study
@@ -90,7 +86,7 @@ const Navbar = () => {
             </Link>
           </div>
         </div>
-      </li>
+      </li> */}
       <li>
         <Link
           href="/pricing-page"
@@ -168,37 +164,27 @@ const Navbar = () => {
             </li>
             <li>
               <div className="dropdown ">
-                <button className="dropbtn">Services</button>
+                <button className="dropbtn text-black">
+                  <span className="text-black">Services</span>
+                </button>
                 <div className="dropdown-content">
                   <Link
                     href="/services/strategy-and-marketing"
                     onClick={() => setOpen(false)}
                   >
-                    Strategy And Marketing
+                    Game Buzz Builder
                   </Link>
                   <Link
                     href="/services/content-and-writing"
                     onClick={() => setOpen(false)}
                   >
-                    Content and Copywriting
+                    Player Connection Pro
                   </Link>
                   <Link
                     href="/services/public-relations"
                     onClick={() => setOpen(false)}
                   >
-                    Public Relations
-                  </Link>
-                  <Link
-                    href="/services/digital-gaming-events"
-                    onClick={() => setOpen(false)}
-                  >
-                    Digital Gaming Events
-                  </Link>
-                  <Link
-                    href="/services/creator-and-influencers"
-                    onClick={() => setOpen(false)}
-                  >
-                    Creators and Influencers
+                    Trusted Game Partner
                   </Link>
 
                   {/* <Link
@@ -234,9 +220,9 @@ const Navbar = () => {
                 </div>
               </div>
             </li>
-            <li>
+            {/* <li>
               <div className="dropdown">
-                <button className="dropbtn">Case Study</button>
+                <button className="dropbtn text-black">Case Study</button>
                 <div className="dropdown-content">
                   <Link
                     href={"/case-study/nazara"}
@@ -258,7 +244,7 @@ const Navbar = () => {
                   </Link>
                 </div>
               </div>
-            </li>
+            </li> */}
             <li>
               <Link
                 href="/pricing-page"

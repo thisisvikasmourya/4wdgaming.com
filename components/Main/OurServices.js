@@ -17,36 +17,38 @@ import { HiArrowLongRight } from "react-icons/hi";
 export default function Services() {
   const posts = [
     {
-      title: "Strategy and Marketing",
+      title: "Game Buzz Builder",
       img: str,
-      content: "Like in any game, at 4WD, we believe in strategizing.",
+      content:
+        "We create a lot of buzz around games. It's like when a secret gets out and everyone wants to know more. We use social media, cool content, and smart marketing to get people talking about games.",
       link: "/services/public-relations",
     },
     {
-      title: "Public Relations",
+      title: "Player Connection Pro",
       img: Pr,
-      content: "At Moram Napu, we're PR and gaming specialists",
+      content:
+        "We help game companies become friends with players. Imagine having a big party where everyone talks about games and has a blast. That's what we do online – connect players and make games more fun",
       link: "/services/public-relations",
     },
     {
-      title: "Content and Copywriting",
+      title: "Trusted Game Partner",
       img: cont,
-      content: "Like in gaming, we prefer to create a world for you.",
+      content: " We make sure game companies look really good. We team up with famous people and use clever tricks to show everyone that the games are super trustworthy and awesome.",
       link: "/services/public-relations",
     },
-    {
-      title: "Creators and Influencers",
-      img: web,
-      content: "We work with some of the top gaming content creators",
-      link: "/services/public-relations",
-    },
+    // {
+    //   title: "Creators and Influencers",
+    //   img: web,
+    //   content: "We work with some of the top gaming content creators",
+    //   link: "/services/public-relations",
+    // },
 
-    {
-      title: "Digital Gaming Events",
-      img: esp,
-      content: "Your events will be the talk of the gaming community",
-      link: "/services/public-relations",
-    },
+    // {
+    //   title: "Digital Gaming Events",
+    //   img: esp,
+    //   content: "Your events will be the talk of the gaming community",
+    //   link: "/services/public-relations",
+    // },
   ];
   const posts2 = [
     {
@@ -94,9 +96,8 @@ export default function Services() {
             Our Services
           </h3>
           <p className="mt-3 text-black text-[20px] text-center">
-            At 4wdGaming, we are dedicated to providing PR for businesses of all
-            sizes. Contact us today to learn more about how we can help your
-            business grow and succeed.
+            We offer three amazing services that work like magic for game
+            companies:
           </p>
         </div>
 
@@ -107,12 +108,12 @@ export default function Services() {
           INDIA&apos;S PREMIER GAMING PR & MARKETING CONSULTANCY
         </p> */}
         <div
-          className="grid gap-5 lg:grid-cols-5 pt-5"
+          className="grid gap-5 lg:grid-cols-3 pt-5"
           data-aos="fade-down-right"
         >
           {posts.map((items, key) => (
             <div
-              className="w-full rounded-lg shadow-md border  lg:max-w-sm bg-[#14161a] indi"
+              className="w-full rounded-lg shadow-md border  lg:max-w-sm bg-[#4d326b] indi"
               data-aos-duration="2000"
               key={key}
             >
@@ -123,14 +124,14 @@ export default function Services() {
               />
               <div className="p-4">
                 <Link
-                  className="   font-semibold text-[20px] text-[#4d326b]"
+                  className="   font-semibold text-[20px] text-[#f0ebd7]"
                   href={items.link}
                 >
                   {items.title}
                 </Link>
                 <br />
                 <Link
-                  className=" text-[18px]  text-blue-100  rounded shadow underline-offset-4"
+                  className=" text-[18px]  text-gray-100  rounded "
                   href={items.link}
                 >
                   {items.content}

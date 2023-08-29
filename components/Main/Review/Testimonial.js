@@ -42,7 +42,8 @@ const Testimonial = () => {
             excel. Thank you for being a part of our journey!{" "}
           </p>
         </div>
-        <div className="mt-12">
+        <h1 className="text-center text-[30px] font-semibold">Coming Soon</h1>
+        {/* <div className="mt-12">
           <ul className="grid items-center gap-6 sm:grid-cols-2 lg:grid-cols-3">
             {testimonials.map((item, idx) => (
               <li
@@ -90,7 +91,7 @@ const Testimonial = () => {
         </div>
         <div className="text-center">
           <button className="pt-10">
-            {/* <Link href={"/clientReview"}>Readmore Review</Link> */}
+            <Link href={"/clientReview"}>Readmore Review</Link>
             <Link
               href={"/clientReview"}
               class=" relative inline-flex items-center justify-start px-6 py-3 overflow-hidden font-medium transition-all  bg-[#4d326b] rounded-xl group"
@@ -104,7 +105,7 @@ const Testimonial = () => {
               </span>
             </Link>
           </button>
-        </div>
+        </div> */}
       </div>
       <div
         className="absolute top-0 w-full h-[350px]"

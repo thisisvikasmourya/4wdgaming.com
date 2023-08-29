@@ -18,31 +18,29 @@ const Page2 = () => {
       <div className="px-4  max-w-screen-xl mx-auto md:px-8 " id="page2">
         {/* bg-[#f0ebd7] */}
         <div className="  rounded-lg py-10   ">
-          <p className="lg:text-6xl text-[#4d326b] text-3xl font-bold text-center py-3 ">
-            WELCOME TO Moram Napu:
+          <p className="lg:text-6xl text-[#4d326b]  text-3xl font-bold text-center py-3 ">
+            Welcome to Moram Napu:
           </p>
           <p className="lg:text-5xl text-3xl font-semibold text-black  text-center pb-1">
-            INDIA&apos;S PREMIER GAMING PR & MARKETING CONSULTANCY
+            Redefining Gaming PR & Marketing Strategies
           </p>
           <p className="lg:text-3xl text-2xl font-semibold text-center border-b border-gray-300 pb-5 "></p>
-          <div className="max-w-2xl mx-auto text-center py-8 text-black">
+          <div className="max-w-3xl mx-auto text-center py-8 text-[20px] text-black">
+            Guiding gaming companies to their ideal audience using
+            Marketing,Digital Marketing, Content Marketing, Social Media
+            Management, Growth and Performance Marketing,Public Relations,
+            Community Building & Management. We also cultivate Brand Awareness
+            and Trust in the audience
             <div className="    text-[20px] py-5" data-aos="zoom-in">
-              Years of experience in the Indian gaming space with Sharmilee Daru
-              PR give us an early mover advantage. It’s the kind of advantage
-              your brand should make the most of. Like in a game of Age of
-              Empires, we helped to cultivate and nurture the barren land of
-              gaming in India. The experience that came with it is unparalleled.
+              We have Secret tricks to win in the gaming industries? CHEAT CODE
+              - MORAM NAPU, Our special marketing powers are like cheat codes
+              that help you do better, score more, and become a gaming superstar
+              in no time.{" "}
               <div className="text-[20px] py-5">
-                We’re specialists, we’ve left our markers all over the Indian
-                gaming space as if it were a PUBG map. We’re trendsetters. The
-                kind of consultants, who know how to lead trends while setting
-                our own.
-              </div>
-              <div className="text-[20px] ">
-                We love to build brands and we love our brands – if anything
-                unfounded is said about you, we’ll jump in with you and bring
-                the ammo. Bring us your problems and sit with us for some free
-                initial suggestions and coffee!
+                MORAM NAPU is like the friend who helps gaming brands and
+                companies become famous and loved. We use our special tricks to
+                tell everyone how awesome the games are. Our goal is to make
+                games and gamers happy by connecting them in a fun and cool way.{" "}
               </div>
             </div>
           </div>

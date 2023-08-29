@@ -21,7 +21,7 @@ const AboutUs = () => {
       </div>
       <div className="bg-[#f0ebd7]" data-aos="zoom-in">
         <div className="max-w-screen-xl mx-auto md:px-8">
-          <div className="grid lg:grid-cols-2 grid-cols-1 gap-6 p-4  bg-[#f0ebd7] py-10  px-4">
+          {/* <div className="grid lg:grid-cols-2 grid-cols-1 gap-6 p-4  bg-[#f0ebd7] py-10  px-4">
             <div>
               <p className="text-[#4d326b] font-semibold text-[20px]">
                 We’re brand builders
@@ -111,10 +111,17 @@ const AboutUs = () => {
                 direction that creates successful brands.
               </p>
             </div>
+          </div> */}
+          <div className="p-4 text-[18px] text-black  bg-[#f0ebd7] py-10  px-4">
+            About MORAM NAPU: At MORAM NAPU, we&apos;re the ones who make games
+            stand out and get all the attention they deserve. Think of us as the
+            boosters that help game companies reach players who can&apos;t wait
+            to dive into their games. Our secret recipe includes creative ideas
+            and smart strategies that make games famous and loved.
           </div>
         </div>
       </div>
-      <div id="founder">
+      {/* <div id="founder">
         <div>
           <div className="bg-[#f3efdf] py-18" data-aos="zoom-in">
             <div className="max-w-screen-xl mx-auto md:px-8 ">
@@ -206,7 +213,7 @@ const AboutUs = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
       <WhatWeDo />
       <AdvisoryCouncil />
     </div>

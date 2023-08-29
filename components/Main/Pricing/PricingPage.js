@@ -5,7 +5,7 @@ const PricingPage = () => {
     {
       name: "Silver Package",
       desc: "Ideal for startups and small businesses looking to establish their presence:",
-      price: "1 Lakh",
+      price: "$500",
       isMostPop: false,
       features: [
         "4 Press Release Drafting, Dissemination, and Coverage",
@@ -20,7 +20,7 @@ const PricingPage = () => {
     {
       name: "Gold Package",
       desc: "Designed for companies aiming for broader exposure and brand recognition:",
-      price: "2.5 Lakhs",
+      price: "$1000",
       isMostPop: true,
       features: [
         "All features of the silver Package",
@@ -33,7 +33,7 @@ const PricingPage = () => {
     {
       name: "Platinum Package",
       desc: "Tailored to meet the specific needs of established brands and ambitious campaigns:.",
-      price: "Customized Pricing",
+      price: "$2000",
       isMostPop: false,
       features: [
         "All features of the Gold Package",
@@ -60,14 +60,18 @@ const PricingPage = () => {
   ];
   return (
     <div>
-      <section className="py-14 bg-[#14161a]">
-        <div className="max-w-screen-xl mx-auto px-4 bg-[#14161a] md:px-8">
+      <section className="py-14 bg-[#f3efdf]">
+        <div className="max-w-screen-xl mx-auto px-4 bg-[#f3efdf] md:px-8">
           <div className="relative max-w-xl mx-auto text-center">
             <h3 className="text-[#4d326b] text-3xl font-semibold sm:text-4xl">
               Pricing for all sizes
             </h3>
             <div className="mt-3 max-w-xl text-black">
-              <p className="text-black">Choose your Favourite Plan </p>
+              <p className="text-black text-[20px]">
+                We believe in fairness and giving game companies choices that
+                suit them. Our pricing strategy is designed to offer flexibility
+                and value for every budget:
+              </p>
             </div>
           </div>
           <div className="mt-16  text-[18px] justify-center gap-6 sm:grid sm:grid-cols-2 sm:space-y-0 lg:grid-cols-3">

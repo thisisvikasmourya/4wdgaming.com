@@ -121,7 +121,7 @@ export default function StarsCanvas() {
             />
           </h1>
           <h2 className="text-2xl text-black py-8 hover:text-[#4d326b]">
-            Whatever your game, we bring the ammo!
+            Your All-Access Pass to Gaming Superstardom!
           </h2>
           <button>
             <a className="text-5xl text-black animatedd " href="#page2">

@@ -7,19 +7,22 @@ import BackgroundImage from "../../public/images/bg123.png";
 const WhyChooseUs = () => {
   const data = [
     {
-      text: "While we at Sharmilee Daru set the trend for focused gaming PR in the country with Nazara Technologies Ltd. since 2016 and still going, for their corporate communication services and consumer PR. We also managed to bring gaming into the mainstream!",
+      text: "We Know gaming: Our team loves gaming folks and knows all about them. We're like gaming experts!",
     },
     {
-      text: "We made way for gaming news when it was too niche for mainstream media to cover. Faced with multiple challenges initially, as India was still an emerging gaming market, our aggressive push for gaming as a legit area to cover is bearing fruit now, with the ecosystem becoming an area of absolute interest for the media.",
+      text: "We're Super Creative: We make new and exciting ideas just for each gaming brand. No boring stuff here!",
     },
     {
-      text: "As a dedicated team, we take our clients very seriously and unjustified criticism of them very personally. We are deeply involved in the day-to-day actions of our clientele. Equipped with dedicated resources, suggestions, and implementation strategies, we make sure the coverage for our clients is present in every possible space and we never miss an opportunity.",
+      text: "We Change with the Times: Gaming changes, and we change too. We always know what's new and cool.",
     },
     {
-      text: "We spend time understanding ever-evolving client needs and media trends and work hand-in-hand with the brands to ensure success.",
+      text: "We Show Results: We don't just talk—our work shows real results. More people will know and like the games.",
     },
     {
-      text: "Most of our gaming brands have managed exceptional visibility and anchored their position as innovative leaders in the media space. Just a click on the mouse and you will find out how our brands’ visibility explodes relatively within a short span of time.",
+      text: "We're Team Players: We work closely with game companies to make sure we're all on the same page. It's like teamwork!",
+    },
+    {
+      text: "MORAM NAPU is like the friend who helps games become famous and loved. We use our special tricks to tell everyone how awesome the games are. Our goal is to make games and gamers happy by connecting them in a fun and cool way.",
     },
   ];
   return (
@@ -44,10 +47,10 @@ const WhyChooseUs = () => {
             className="text-[#4d326b] text-3xl font-semibold sm:text-4xl text-center "
             data-aos="flip-up"
           >
-            Why Choose Us
+            Why You&apos;ll Like Us:
           </h3>
-          <p className="mt-3 mb-4 text-black text-center">
-            Whatever your game, we bring the ammo!
+          <p className="mt-3 mb-4 text-[20px] text-black text-center">
+            Gaming Enthusiasts, Gaming Experts
           </p>
         </div>
         <div className="flex lg:flex-row flex-col py-2 gap-6 items-center ">
@@ -56,7 +59,7 @@ const WhyChooseUs = () => {
           </div>
           <div>
             {data.map((items, key) => (
-              <p className="py-1 text-[20px] text-black" key={key}>
+              <p className="py-1 text-[20px] text-black text-center" key={key}>
                 {items.text}
               </p>
             ))}

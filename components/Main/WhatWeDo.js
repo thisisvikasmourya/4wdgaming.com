@@ -34,18 +34,39 @@ const WhatWeDo = () => {
 
                 <div className="text-black text-[20px]">
                   <p className="py-3">
-                    At Moram Napu, we challenge the norms of traditional
-                    agencies. Instead, we focus on brand objectives and goals.
-                    Our approach strikes the perfect balance, blending
-                    traditional media ideals with new-age strategies to capture
-                    the new-age media for our brands.
+                    Sharing Cool Stories: We create exciting stories about your
+                    brand that make people go &quot;wow!&quot; We tell these
+                    stories to the right people so they can learn about your
+                    brand.
+                  </p>
+
+                  <p className="py-3">
+                    Being Social Media Experts: You know Google,Facebook,
+                    Instagram,Linkedin and Twitter? We make brands popular there
+                    too. We post fun stuff and talk to the gaming industry.
+                  </p>
+
+                  <p className="py-3">
+                    Helping Games Grow: We use clever tricks to make more people
+                    know about my brand. We also make sure the gaming companies
+                    get more money for their hard work.
                   </p>
                   <p className="py-3">
-                    Understanding evolving client needs and media trends is at
-                    the core of our service. We work hand-in-hand with brands to
-                    ensure success, escalate brand image, and optimize
-                    communication strategies. Our success is measured only by
-                    the success of our partner brands.
+                    Making Fun Stuff: We make fun videos, articles, and things
+                    that gaming indutsry like. This makes game companies look
+                    super smart and cool.
+                  </p>
+                  <p className="py-3">
+                    Being Friends with Gaming folks: We help brands make friends
+                    online and talk about whats cooking. This makes the game
+                    community strong and happy.
+                  </p>
+                  <p className="py-3">
+                    Making gaming brand Famous and Trusted: We work hard so
+                    people think the gaming brands are really good and
+                    trustworthy. We do this by working with famous people and
+                    making sure everyone hears good things about the gaming
+                    companies.
                   </p>
                 </div>
               </div>

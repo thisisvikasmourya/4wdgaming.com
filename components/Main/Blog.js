@@ -40,7 +40,7 @@ export default function Blog() {
 
   return (
     <div>
-      <div className="bg-[#14161a] text-[18px]">
+      <div className="bg-[#f0ebd7] text-[18px]">
         <div className="max-w-screen-xl mx-auto md:px-8">
           <section className="   " data-aos="zoom-in">
             <div className=" px-4">
