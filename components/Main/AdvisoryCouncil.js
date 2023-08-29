@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React from "react";
-import About from "../../public/images/jay.png";
-import About2 from "../../public/images/vami.jpg";
+import About from "../../public/pro.png";
+// import About2 from "../../public/images/vami.jpg";
 import Link from "next/link";
 
 const AdvisoryCouncil = () => {
@@ -22,7 +22,7 @@ const AdvisoryCouncil = () => {
             <div className="flex lg:flex-row justify-center flex-col  space-between gap-6 p-4 py-10  px-4 ">
               <div className="text-center">
                 <Image
-                  src={About2}
+                  src={About}
                   data-aos="zoom-in"
                   alt="hello"
                   className="rounded-xl"
@@ -31,31 +31,34 @@ const AdvisoryCouncil = () => {
                 />
               </div>
               <div className="py-3 text-[20px]">
-                <p className="text-lg text-[#4d326b] mt-2">Vamsi Talasila</p>
+                <p className="text-lg text-[#4d326b] mt-2">Lorem ipsum</p>
                 <p className="text-lg text-black">
                   {" "}
-                  Gaming Technology and Digital Marketing
+                  dummy text of the printing and typesetting
                 </p>
                 <p className="text-black">
-                  Vamsi Talasila is a veteran and dynamic technology leader with
-                  two decades of experience in building technology for gaming,
-                  esports, and sports domains. He is an expert in converting
-                  various business problems into feasible technology solutions.
-                  For nearly a decade at Nazara Technologies Ltd., he led
-                  technology transformation initiatives across multiple lines of
-                  businesses and functions facilitating growth and rapid
-                  expansion of the company’s gaming services globally, enabling
-                  it to become India’s first listed gaming company.
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry. Lorem Ipsum has been the industrys
+                  standard dummy text ever since the 1500s, when an unknown
+                  printer took a galley of type and scrambled it to make a type
+                  specimen book. It has survived not only five centuries, but
+                  also the leap into electronic typesetting, remaining
+                  essentially unchanged. It was popularised in the 1960s with
+                  the release of Letraset sheets containing Lorem Ipsum
+                  passages, and more recently with desktop publishing software
+                  like Aldus PageMaker including versions of Lorem Ipsum.
                 </p>
                 <p className="text-black">
-                  Vamsi has worked with new-age technology strategies and
-                  solutions across gaming verticals like subscription, freemium
-                  games, real money games, fantasy sports, and betting games
-                  along with performance marketing, analytics, and loyalty
-                  programs. He is also known for having built large consumer
-                  platforms and solutions catering to millions of subscribers,
-                  addressing critical factors like scalability, availability,
-                  security, analytics, and consumer experience.
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry. Lorem Ipsum has been the industrys
+                  standard dummy text ever since the 1500s, when an unknown
+                  printer took a galley of type and scrambled it to make a type
+                  specimen book. It has survived not only five centuries, but
+                  also the leap into electronic typesetting, remaining
+                  essentially unchanged. It was popularised in the 1960s with
+                  the release of Letraset sheets containing Lorem Ipsum
+                  passages, and more recently with desktop publishing software
+                  like Aldus PageMaker including versions of Lorem Ipsum.
                 </p>
               </div>
             </div>
@@ -72,20 +75,21 @@ const AdvisoryCouncil = () => {
                 />
               </div>
               <div className="py-3 text-[20px]">
-                <p className="text-xl text-[#4d326b] mt-2">Jay Sayta </p>
+                <p className="text-xl text-[#4d326b] mt-2">Lorem ipsum</p>
                 <p className="text-lg text-black">
-                  Technology and Gaming Lawyer in India
+                  dummy text of the printing and typesetting
                 </p>
                 <p className="text-black">
-                  Jay Sayta is a technology and gaming lawyer in India. He is
-                  well known in the media fraternity and is an expert on gaming
-                  laws. He has contributed through research and written
-                  extensively on gambling and betting laws. He has spoken on the
-                  issues of gaming legislation at various key industry forums
-                  and bodies like the Indian Merchants’ Chambers (IMC),
-                  Confederation of Indian Industry (CII), Federation of Indian
-                  Chambers of Commerce and Industry (FICCI), ICE Totally Gaming,
-                  All India Gaming Federation (AIGF) among others.
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry. Lorem Ipsum has been the industrys
+                  standard dummy text ever since the 1500s, when an unknown
+                  printer took a galley of type and scrambled it to make a type
+                  specimen book. It has survived not only five centuries, but
+                  also the leap into electronic typesetting, remaining
+                  essentially unchanged. It was popularised in the 1960s with
+                  the release of Letraset sheets containing Lorem Ipsum
+                  passages, and more recently with desktop publishing software
+                  like Aldus PageMaker including versions of Lorem Ipsum.
                 </p>
               </div>
             </div>
