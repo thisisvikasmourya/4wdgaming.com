@@ -51,16 +51,16 @@ const Footer = () => {
   return (
     <div className="bg-[#f0ebd7]">
       <footer className="text-black  px-4 py-10 max-w-screen-xl mx-auto md:px-8">
-        <div className="gap-20 justify-between md:flex">
+        <div className="gap-20 justify-between md:flex lg:flex-row">
           <div className="flex">
-            <div className="max-w-xs">
+            <div className="max-w-xs py-3">
               <Image src={logo} alt="Logo" className="w-32" />
               <p className="leading-relaxed mt-2 text-[20px] text-black">
                 Elevating Gaming PR & Marketing
               </p>
             </div>
           </div>
-          <div className="flex mt-10 space-y-3 gap-10 justify-between sm:flex md:space-y-0 md:mt-0">
+          <div className="flex flex-col lg:flex-row  space-y-3 lg:gap-10  gap-3 justify-between sm:flex md:space-y-0 md:mt-0">
             {footerNavs.map((item, idx) => (
               <ul className="" key={idx}>
                 <h2 className="flex-1 text-[#4d326b] text-[20px] font-bold">
@@ -80,7 +80,7 @@ const Footer = () => {
             ))}
           </div>
         </div>
-        <div className="mt-8 py-6 border-t items-center justify-between sm:flex">
+        <div className=" py-6 border-t items-center justify-between sm:flex">
           <div className="mt-4 sm:mt-0">
             &copy; MoramNapu 2023. All Rights Reserved .
           </div>

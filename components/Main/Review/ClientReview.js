@@ -23,12 +23,10 @@ const ClientReview = () => {
         <div className="max-w-screen-xl mx-auto px-4 md:px-8">
           <div className="max-w-xl mx-auto text-center">
             <h3 className="text-[#4d326b] text-3xl font-semibold sm:text-4xl">
-              Moram Napu in News
+              Moram Napu: Making Media Buzz
             </h3>
             <p className="text-black text-[20px] mt-3">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-              dignissim nibh nisl, vel egestas magna rhoncus at. Nunc elementum
-              efficitur tortor in laoreet.
+              We&apos;ll get the media talking about you!
             </p>
           </div>
           <div className="mt-12 flex justify-center">

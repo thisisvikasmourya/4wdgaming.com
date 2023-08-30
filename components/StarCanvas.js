@@ -1,4 +1,4 @@
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 import { BsArrowDownCircle } from "react-icons/bs";
 import Typewriter from "typewriter-effect";
 
@@ -80,16 +80,224 @@ export default function StarsCanvas() {
     };
   }, []);
 
+  const [text, setText] = useState("");
+
+  const [randomPhrase, setRandomPhrase] = useState("");
+
+  useEffect(() => {
+    const randomIndex = Math.floor(Math.random() * Quotes.length);
+    setRandomPhrase(Quotes[randomIndex]);
+  }, []);
+
+  useEffect(() => {
+    const timer = setInterval(() => {
+      const randomIndex = Math.floor(Math.random() * phrases.length);
+      setText(phrases[randomIndex]);
+    }, 3000);
+
+    return () => clearInterval(timer);
+  }, []);
+
+  const phrases = [
+    "Gaming PR Services ",
+    "Gaming Content Management",
+    "Digital Marketing for Gaming",
+    "Social Media for Gaming",
+    "Gaming Performance Marketing",
+    "Growth Marketing for Gaming",
+    "Community Building in Gaming",
+    "Game Public Relations",
+    "Gaming Marketing Solutions",
+    "Gaming Content Strategy",
+    "Online Gaming Marketing",
+    "Social Media Engagement in Gaming",
+    "Performance-Driven Gaming Marketing",
+    "Building Gaming Communities",
+    "Game PR and Marketing",
+    "Content Marketing for Gaming",
+    "Gaming Social Media Management",
+    "Performance Marketing for Gaming",
+    "Building Gaming Networks",
+    "Esports Community Building",
+    "Gaming PR Strategies",
+    "Gaming Content Excellence",
+    "Game Developer PR",
+    "Gaming Outreach Campaigns",
+    "Gaming Content Creation Excellence",
+    "Social Media Engagement for Gaming",
+    "Performance-Enhancing Gaming Marketing",
+    "Growth Strategies for Gaming",
+    "Community Management in Gaming",
+    "Gaming PR and Visibility",
+    "Gaming Content Management",
+    "Gaming Community Building",
+    "Game Developer Marketing Solutions",
+    "Social Media Engagement in Gaming",
+    "Performance-Driven Gaming Growth",
+    "Community Engagement for Gaming",
+    "Gaming PR Excellence",
+    "Gaming Content Strategy Excellence",
+    "Social Media Engagement for Gaming",
+    "Performance Marketing for Gaming",
+    "Growth Strategies for Gaming",
+    "Building Gaming Communities",
+    "Game PR and Reputation",
+    "Gaming Community Engagement",
+
+    "Web3 Gaming Outreach",
+    "Digital Marketing for Web3 Games",
+    "Building Web3 Gaming Communities",
+    "Web3 Gaming Performance Marketing",
+    "Growth Marketing for Web3 Games",
+    "Web3 Gaming Content Strategy",
+    "Social Media Engagement in Web3 Games",
+    "Performance-Driven Web3 Gaming Marketing",
+    "Building Web3 Gaming Networks",
+    "Web3 Gaming Outreach Campaigns",
+    "Web3 Gaming Content Creation",
+    "Social Media Engagement for Web3 Games",
+    "Performance Marketing for Web3 Games",
+    "Growth Strategies for Web3 Games",
+    "Web3 Gaming Community Building",
+    "Web3 Gaming Content Excellence",
+    "Web3 Gaming Outreach Services",
+    "Social Media Engagement for Web3 Games",
+    "Performance-Enhancing Web3 Gaming Marketing",
+    "Web3 Gaming Growth Tactics",
+    "Web3 Gaming PR Strategies",
+    "Web3 Gaming Content Management",
+    "Web3 Gaming Community Engagement",
+    "Web3 Gaming Content Strategy Excellence",
+    "Web3 Gaming Social Media Engagement",
+
+    "Esports Content Management",
+    "Digital Marketing for Esports",
+    "Social Media for Esports",
+    "Esports Performance Marketing",
+    "Growth Marketing in Esports",
+    "Community Building in Esports",
+    "Esports Public Relations",
+    "Esports Marketing Solutions",
+    "Esports Content Strategy",
+    "Online Esports Marketing",
+    "Social Media Engagement in Esports",
+    "Performance-Driven Esports Marketing",
+    "Building Esports Communities",
+    "Esports PR and Marketing",
+    "Content Marketing for Esports",
+    "Esports Social Media Management",
+    "Performance Marketing for Esports",
+    "Building Esports Networks",
+    "Esports Community Engagement",
+    "Esports PR Strategies",
+    "Esports Content Excellence",
+    "Esports Outreach Campaigns",
+    "Esports Content Creation Excellence",
+    "Social Media Engagement for Esports",
+    "Performance-Enhancing Esports Marketing",
+    "Growth Strategies for Esports",
+    "Community Management in Esports",
+    "Esports PR Excellence",
+    "Esports Content Strategy Excellence",
+    "Social Media Engagement for Esports",
+    "Performance Marketing for Esports",
+
+    "Real Money Gaming Marketing",
+    "Digital Marketing for RMG",
+    "Social Media for RMG",
+    "RMG Performance Marketing",
+    "Growth Marketing for RMG",
+    "Community Building in RMG",
+    "RMG Public Relations",
+    "RMG Marketing Solutions",
+    "RMG Content Strategy",
+    "Online RMG Marketing",
+    "Social Media Engagement in RMG",
+    "Performance-Driven RMG Marketing",
+    "Building RMG Communities",
+    "RMG PR and Marketing",
+    "Content Marketing for RMG",
+    "RMG Social Media Management",
+    "Performance Marketing for RMG",
+    "Building RMG Networks",
+    "RMG Community Engagement",
+    "RMG PR Strategies",
+    "RMG Content Excellence",
+    "RMG Outreach Campaigns",
+    "RMG Content Creation Excellence",
+    "Social Media Engagement for RMG",
+    "Performance-Enhancing RMG Marketing",
+    "Growth Strategies for RMG",
+    "Community Management in RMG",
+    "RMG PR Excellence",
+    "RMG Content Strategy Excellence",
+    "Social Media Engagement for RMG",
+    "Performance Marketing for RMG",
+  ];
+
+  const Quotes = [
+    "Think big, start small.",
+    "Innovate or stagnate.",
+    "Simplify complexity, maximize impact.",
+    "Solving your IT problems.",
+    "Technology that drives results.",
+    "Digital solutions for modern businesses.",
+    "Empowering your digital transformation journey.",
+    "Transforming ideas into digital reality.",
+    "Experience the power of technology.",
+    "IT solutions for every business.",
+    "Innovate. Disrupt. Succeed. Repeat.",
+    "Technology that drives your business.",
+    "Where creativity meets technology.",
+    "Innovative solutions for modern problems.",
+    "Transform your business with technology.",
+    "Custom IT solutions, exceptional results.",
+    "Innovative ideas, smart solutions.",
+    "We make technology work better.",
+    "Design. Develop. Deliver. Succeed.",
+    "Innovative solutions for dynamic businesses.",
+    "Transforming businesses with technology.",
+    "Expertise in every IT solution.",
+    "Empowering your business through technology.",
+    "Technology-driven solutions for every industry.",
+    "Innovative solutions for the future.",
+    "Leading your business to success.",
+    "Creative IT solutions for businesses.",
+    "Custom IT solutions, measurable results.",
+    "Empowering businesses with innovative technology.",
+    "Innovating to drive your success.",
+    "Innovation is our driving force.",
+    "Empower your business with technology.",
+    "Transform your ideas into reality.",
+    "We create digital experiences.",
+    "Your vision, our technology solutions.",
+    "IT solutions for every business.",
+    "Partner with us for success.",
+    "Excellence in every solution delivered.",
+    "Think technology, think us.",
+    "Your growth is our priority.",
+    "Unlock your business potential today.",
+    "Empowering businesses with IT solutions.",
+    "Your success is our goal.",
+    "Unlocking new possibilities with technology.",
+    "Customized solutions for your business.",
+    "IT solutions that deliver results.",
+    "Enabling growth through technology.",
+    "Your satisfaction is our guarantee.",
+    "We innovate to elevate businesses.",
+    "Driving digital transformation for business.",
+  ];
+
   return (
     <>
       <canvas ref={canvasRef} id="stars" />
       <div className="center-text ">
         <div className="text-center ">
-          <h1 className="lg:text-6xl text-black md:text-6xl text-5xl font-bold hover:text-[#48b4e8] mb-4">
+          <h1 className="lg:text-2xl border max-w-[200px] mx-auto border-black text-black md:text-xl text-xl font-bold hover:text-[#48b4e8] mb-4 rounded-lg">
             Moram Napu
           </h1>
           {/* <h1 className="lg:text-4xl md:text-3xl text-5xl font-bold hover:text-[#]"></h1> */}
-          <h1 className="lg:text-7xl md:text-6xl text-4xl font-bold text-[#4d326b] py-4">
+          {/* <h1 className="lg:text-7xl md:text-6xl text-4xl font-bold text-[#4d326b] py-4">
             <Typewriter
               options={{
                 strings: [
@@ -122,6 +330,13 @@ export default function StarsCanvas() {
           </h1>
           <h2 className="text-2xl text-black py-8 hover:text-[#4d326b]">
             Your All-Access Pass to Gaming Superstardom!
+          </h2> */}
+          <h1 className="lg:text-7xl font-sans xs:px-4 sm:px-3 xs:text-4xl   text-5xl font-semibold break-normal text- py-6 text-[#4d326b] 	">
+            <span className="">{text}</span>
+          </h1>
+        
+          <h2 className=" text-2xl xs:px-4 sm:px-3   break-normal text-black py-4	">
+            {randomPhrase}
           </h2>
           <button>
             <a className="text-5xl text-black animatedd " href="#page2">

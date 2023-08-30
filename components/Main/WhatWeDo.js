@@ -97,20 +97,19 @@ const WhatWeDo = () => {
 
                       <div className="text-black text-[20px]">
                         <p className="py-3">
-                          We devise a &quot;PR-Hack&quot; to define a
-                          company&apos;s direction, approach, and objectives.
-                          Through rigorous industry research and stakeholder
-                          communication, we identify goals, communication
-                          spaces, and target audiences. Our strategies bring
-                          visibility and ensure the message reaches the right
-                          audience.
+                          We guide gaming companies to their
+                          ideal audience using PR & Marketing, Content
+                          Marketing, Social Media Management, Digital, Growth
+                          and Performance Marketing, Community Building &
+                          Management. We also cultivate Brand Awareness and
+                          Trust.
                         </p>
-                        <p className="py-3">
+                        {/* <p className="py-3">
                           Aligning company and brand strategies, we create a
                           seamless flow of communication with stakeholders. Our
                           success stories speak for the effectiveness of this
                           approach.
-                        </p>
+                        </p> */}
                       </div>
                     </div>
                   </div>
