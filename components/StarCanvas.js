@@ -242,7 +242,7 @@ export default function StarsCanvas() {
       <canvas ref={canvasRef} id="stars" />
       <div className="center-text ">
         <div className="text-center ">
-          <h1 className="lg:text-2xl border max-w-[200px] mx-auto border-black text-[#4d326b] md:text-xl text-xl font-bold hover:text-[#48b4e8]  rounded-lg">
+          <h1 className="lg:text-2xl border max-w-[200px] mx-auto border-[#4d326b] text-[#4d326b] md:text-xl text-xl font-bold hover:text-[#48b4e8]  rounded-lg">
             Moram Napu
           </h1>
           {/* <h1 className="lg:text-4xl md:text-3xl text-5xl font-bold hover:text-[#]"></h1> */}
