@@ -6,13 +6,13 @@ const AdvisoryCouncilMembers = () => {
   return (
     <>
       <div>
-        <div className="content bg-[#f3efdf] py-16 lg:px-32 px-4">
+        <div className="content bg-[#fff] py-16 lg:px-32 px-4">
           <h1 className=" outline text-center lg:text-9xl md:text-6xl text-4xl text-[#fff] outline-4 font-semibold">
             Advisory Council Members
           </h1>
         </div>
 
-        <div className="grid lg:grid-cols-2 grid-cols-1 gap-6 p-4 py-10 lg:px-32 px-4 bg-[#f0ebd7] justify-center">
+        <div className="grid lg:grid-cols-2 grid-cols-1 gap-6 p-4 py-10 lg:px-32 px-4 bg-[#fff] justify-center">
           <div>
             <Image src={jay} alt="hello" className="rounded-lg" />
           </div>
@@ -35,7 +35,7 @@ const AdvisoryCouncilMembers = () => {
             </p>
           </div>
         </div>
-        <div className="grid lg:grid-cols-2 grid-cols-1 gap-4 p-4 py-10 lg:px-32 px-4 bg-[#f0ebd7] ">
+        <div className="grid lg:grid-cols-2 grid-cols-1 gap-4 p-4 py-10 lg:px-32 px-4 bg-[#fff] ">
           <div>
             <Image src={vamsi} alt="hello" className="rounded-lg" />
           </div>

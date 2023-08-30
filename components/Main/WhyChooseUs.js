@@ -27,7 +27,7 @@ const WhyChooseUs = () => {
   ];
   return (
     <div
-      className="bg-[#f0ebd7]"
+      className="bg-[#fff]"
       data-aos="zoom-in"
 
       // style={{

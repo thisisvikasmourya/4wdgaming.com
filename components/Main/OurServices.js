@@ -33,7 +33,8 @@ export default function Services() {
     {
       title: "Trusted Game Partner",
       img: cont,
-      content: " We make sure game companies look really good. We team up with famous people and use clever tricks to show everyone that the games are super trustworthy and awesome.",
+      content:
+        " We make sure game companies look really good. We team up with famous people and use clever tricks to show everyone that the games are super trustworthy and awesome.",
       link: "/services/public-relations",
     },
     // {
@@ -88,8 +89,8 @@ export default function Services() {
     },
   ];
   return (
-    <div className="bg-[#f3efdf]" data-aos="zoom-in">
-      <div className=" px-4  py-20 bg-[#f3efdf] max-w-screen-xl mx-auto md:px-8">
+    <div className="bg-[#fff]" data-aos="zoom-in">
+      <div className=" px-4  py-20 bg-[#fff] max-w-screen-xl mx-auto md:px-8">
         {/* <h1>Our Service</h1> */}
         <div className="max-w-xl sm:text-center py-10 md:mx-auto">
           <h3 className="text-[#4d326b] text-4xl font-semibold sm:text-4xl text-center ">
@@ -124,7 +125,7 @@ export default function Services() {
               />
               <div className="p-4">
                 <Link
-                  className="   font-semibold text-[20px] text-[#f0ebd7]"
+                  className="   font-semibold text-[20px] text-[#fff]"
                   href={items.link}
                 >
                   {items.title}

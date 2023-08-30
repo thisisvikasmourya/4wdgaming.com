@@ -8,13 +8,13 @@ import About4 from "../../public/images/TFG-main-logo.-png-1-1024x707.png";
 const CaseStudy = () => {
   return (
     <div>
-      <div className="content bg-[#f3efdf] py-16 lg:px-32 px-4">
+      <div className="content bg-[#fff] py-16 lg:px-32 px-4">
         <h1 className=" outline text-center lg:text-9xl md:text-6xl text-4xl text-[#fff] outline-4 font-semibold">
           Case Study
         </h1>
       </div>
 
-      <div className="flex lg:flex-row flex-col gap-6 p-4 py-5 lg:px-32 px-4 bg-[#f0ebd7]">
+      <div className="flex lg:flex-row flex-col gap-6 p-4 py-5 lg:px-32 px-4 bg-[#fff]">
         <div>
           <Image
             src={About}
@@ -80,7 +80,7 @@ const CaseStudy = () => {
           </p>
         </div>
       </div>
-      <div className="flex lg:flex-row flex-col gap-6 p-4 py-5 lg:px-32 px-4 bg-[#f0ebd7]">
+      <div className="flex lg:flex-row flex-col gap-6 p-4 py-5 lg:px-32 px-4 bg-[#fff]">
         <div>
           <Image
             src={About3}
@@ -132,7 +132,7 @@ const CaseStudy = () => {
           </p>
         </div>
       </div>
-      <div className="flex lg:flex-row flex-col gap-6 p-4 py-5 lg:px-32 px-4 bg-[#f0ebd7]">
+      <div className="flex lg:flex-row flex-col gap-6 p-4 py-5 lg:px-32 px-4 bg-[#fff]">
         <div>
           <Image
             src={About4}
@@ -197,7 +197,7 @@ const CaseStudy = () => {
           </p>
         </div>
       </div>
-      <div className="flex lg:flex-row flex-col gap-6 p-4 py-5 lg:px-32 px-4 bg-[#f0ebd7]">
+      <div className="flex lg:flex-row flex-col gap-6 p-4 py-5 lg:px-32 px-4 bg-[#fff]">
         <div>
           <Image
             src={About2}

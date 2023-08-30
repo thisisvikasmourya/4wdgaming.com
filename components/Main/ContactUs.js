@@ -93,7 +93,7 @@ const ContactUs = () => {
             }}
           ></div>
         </div>
-        <div className="py-5 flex-1 lg:flex lg:justify-center lg:h-screen lg:overflow-auto bg-[#f0ebd7]">
+        <div className="py-5 flex-1 lg:flex lg:justify-center lg:h-screen lg:overflow-auto bg-[#fff]">
           <div className="max-w-lg flex-1 mx-auto px-4 text-[#fff]">
             <div>
               <h3 className=" text-[#4d326b] text-3xl font-semibold sm:text-4xl">

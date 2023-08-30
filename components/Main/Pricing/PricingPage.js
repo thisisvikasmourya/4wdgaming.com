@@ -60,8 +60,8 @@ const PricingPage = () => {
   ];
   return (
     <div>
-      <section className="py-14 bg-[#f3efdf]">
-        <div className="max-w-screen-xl mx-auto px-4 bg-[#f3efdf] md:px-8">
+      <section className="py-14 bg-[#fff]">
+        <div className="max-w-screen-xl mx-auto px-4 bg-[#fff] md:px-8">
           <div className="relative max-w-xl mx-auto text-center">
             <h3 className="text-[#4d326b] text-3xl font-semibold sm:text-4xl">
               Pricing for all sizes

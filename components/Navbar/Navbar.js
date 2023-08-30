@@ -110,7 +110,7 @@ const Navbar = () => {
   return (
     <>
       <nav
-        className=" flex text-[18px] justify-between py-5 lg:px-20 px-4 bg-[#f0ebd7] items-center"
+        className=" flex text-[18px] justify-between py-5 lg:px-20 px-4 bg-[#fff] items-center"
         id="home"
       >
         <Link href={"/"}>
@@ -141,7 +141,7 @@ const Navbar = () => {
       </nav>
 
       {open ? (
-        <div className="bg-[#f0ebd7] h-screen text-[18px] text-[#fff] rounded w-full text-center z-10 pb-5 fixed navv ">
+        <div className="bg-[#fff] h-screen text-[18px] text-[#fff] rounded w-full text-center z-10 pb-5 fixed navv ">
           <ul className=" lg:hidden flex flex-col items-center gap-10  ">
             <li>
               <Link

@@ -19,7 +19,7 @@ import client11 from "../../public/images/trinity.png";
 export default function OurClient() {
   return (
     <>
-      <div className="px-32 py-20 bg-[#f3efdf]">
+      <div className="px-32 py-20 bg-[#fff]">
         <h1 className="text-center text-2xl text-[#4d326b] py-10 font-bold">
           Our Client
         </h1>

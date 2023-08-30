@@ -59,7 +59,7 @@ export default function StarsCanvas() {
     }
 
     function updateStars() {
-      ctx.fillStyle = "#f0ebd7";
+      ctx.fillStyle = "#fff";
       ctx.fillRect(0, 0, canvas.width, canvas.height);
       stars.forEach(function (s) {
         s.show();
@@ -98,7 +98,7 @@ export default function StarsCanvas() {
     return () => clearInterval(timer);
   }, []);
 
-  const phrases = [
+  const Quotes = [
     "Gaming PR Services ",
     "Gaming Content Management",
     "Digital Marketing for Gaming",
@@ -235,65 +235,14 @@ export default function StarsCanvas() {
     "Performance Marketing for RMG",
   ];
 
-  const Quotes = [
-    "Think big, start small.",
-    "Innovate or stagnate.",
-    "Simplify complexity, maximize impact.",
-    "Solving your IT problems.",
-    "Technology that drives results.",
-    "Digital solutions for modern businesses.",
-    "Empowering your digital transformation journey.",
-    "Transforming ideas into digital reality.",
-    "Experience the power of technology.",
-    "IT solutions for every business.",
-    "Innovate. Disrupt. Succeed. Repeat.",
-    "Technology that drives your business.",
-    "Where creativity meets technology.",
-    "Innovative solutions for modern problems.",
-    "Transform your business with technology.",
-    "Custom IT solutions, exceptional results.",
-    "Innovative ideas, smart solutions.",
-    "We make technology work better.",
-    "Design. Develop. Deliver. Succeed.",
-    "Innovative solutions for dynamic businesses.",
-    "Transforming businesses with technology.",
-    "Expertise in every IT solution.",
-    "Empowering your business through technology.",
-    "Technology-driven solutions for every industry.",
-    "Innovative solutions for the future.",
-    "Leading your business to success.",
-    "Creative IT solutions for businesses.",
-    "Custom IT solutions, measurable results.",
-    "Empowering businesses with innovative technology.",
-    "Innovating to drive your success.",
-    "Innovation is our driving force.",
-    "Empower your business with technology.",
-    "Transform your ideas into reality.",
-    "We create digital experiences.",
-    "Your vision, our technology solutions.",
-    "IT solutions for every business.",
-    "Partner with us for success.",
-    "Excellence in every solution delivered.",
-    "Think technology, think us.",
-    "Your growth is our priority.",
-    "Unlock your business potential today.",
-    "Empowering businesses with IT solutions.",
-    "Your success is our goal.",
-    "Unlocking new possibilities with technology.",
-    "Customized solutions for your business.",
-    "IT solutions that deliver results.",
-    "Enabling growth through technology.",
-    "Your satisfaction is our guarantee.",
-    "We innovate to elevate businesses.",
-    "Driving digital transformation for business.",
-  ];
+  const phrases = ["GAMING PR", "WEB3 GAMING", "    RMG   ", "ESPORTS"];
 
   return (
     <>
       <canvas ref={canvasRef} id="stars" />
       <div className="center-text ">
         <div className="text-center ">
-          <h1 className="lg:text-2xl border max-w-[200px] mx-auto border-black text-black md:text-xl text-xl font-bold hover:text-[#48b4e8] mb-4 rounded-lg">
+          <h1 className="lg:text-2xl border max-w-[200px] mx-auto border-black text-[#4d326b] md:text-xl text-xl font-bold hover:text-[#48b4e8]  rounded-lg">
             Moram Napu
           </h1>
           {/* <h1 className="lg:text-4xl md:text-3xl text-5xl font-bold hover:text-[#]"></h1> */}
@@ -331,11 +280,14 @@ export default function StarsCanvas() {
           <h2 className="text-2xl text-black py-8 hover:text-[#4d326b]">
             Your All-Access Pass to Gaming Superstardom!
           </h2> */}
-          <h1 className="lg:text-7xl font-sans xs:px-4 sm:px-3 xs:text-4xl   text-5xl font-semibold break-normal text- py-6 text-[#4d326b] 	">
-            <span className="">{text}</span>
+          <h1 className="text-3xl  font-semibold  text- py-6 text-[#4d326b] 	">
+            Making Brands famous
           </h1>
-        
-          <h2 className=" text-2xl xs:px-4 sm:px-3   break-normal text-black py-4	">
+          <span className="lg:text-7xl     text-5xl font-semibold break-normal text- py-6 text-[#4d326b] ">
+            {text}
+          </span>
+
+          <h2 className=" text-xl xs:px-4 sm:px-3   break-normal text-black py-4	">
             {randomPhrase}
           </h2>
           <button>

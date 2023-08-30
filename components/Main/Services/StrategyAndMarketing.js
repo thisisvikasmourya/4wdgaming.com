@@ -85,18 +85,18 @@ const StrategyAndMarketing = () => {
   ];
   return (
     <div>
-      <div className="bg-[#f3efdf]" data-aos="zoom-in">
+      <div className="bg-[#fff]" data-aos="zoom-in">
         <div className="max-w-screen-xl mx-auto md:px-8">
-          <div className="content bg-[#f3efdf] py-16  px-4">
+          <div className="content bg-[#fff] py-16  px-4">
             <h1 className=" outline text-center lg:text-9xl md:text-6xl text-4xl text-[#fff] outline-4 font-semibold">
               Strategy & Marketing
             </h1>
           </div>
         </div>
       </div>
-      <div className="bg-[#f0ebd7]" data-aos="zoom-in">
+      <div className="bg-[#fff]" data-aos="zoom-in">
         <div className="max-w-screen-xl mx-auto md:px-8">
-          <div className="grid lg:grid-cols-2 grid-cols-1 gap-6  pt-10  px-4 bg-[#f0ebd7]">
+          <div className="grid lg:grid-cols-2 grid-cols-1 gap-6  pt-10  px-4 bg-[#fff]">
             <div>
               <Image
                 src={About}
@@ -119,7 +119,7 @@ const StrategyAndMarketing = () => {
               ))}
             </div>
           </div>
-          <div className="p-4 grid lg:grid-cols-2 grid-cols-1 gap-2  px-4 bg-[#f0ebd7]">
+          <div className="p-4 grid lg:grid-cols-2 grid-cols-1 gap-2  px-4 bg-[#fff]">
             {data2.map((items, key) => (
               <div key={key}>
                 <p className="text-[#4d326b] text-[20px]">{items.title}</p>

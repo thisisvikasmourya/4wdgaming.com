@@ -161,7 +161,7 @@ const Testimonials = () => {
       <div
         className="absolute top-0 w-full h-[350px]"
         style={{
-          backgroundColor: "#f3efdf",
+          backgroundColor: "#fff",
         }}
       ></div>
     </section>

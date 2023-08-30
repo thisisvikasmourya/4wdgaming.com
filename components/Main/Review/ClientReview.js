@@ -14,9 +14,9 @@ import client11 from "../../../public/images/news/news24.png";
 
 const ClientReview = () => {
   return (
-    <div className="bg-[#f3efdf]">
+    <div className="bg-[#fff]">
       <div
-        className="py-20 bg-[#f3efdf] max-w-screen-xl mx-auto md:px-8"
+        className="py-20 bg-[#fff] max-w-screen-xl mx-auto md:px-8"
         id="client"
         data-aos="zoom-in"
       >

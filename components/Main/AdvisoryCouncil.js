@@ -7,17 +7,17 @@ import Link from "next/link";
 const AdvisoryCouncil = () => {
   return (
     <div id="advisory">
-      <div className="bg-[#f3efdf]" data-aos="zoom-in">
+      <div className="bg-[#fff]" data-aos="zoom-in">
         <div className="max-w-screen-xl mx-auto md:px-8">
-          <div className="bg-[#f3efdf]">
-            <div className="content bg-[#f3efdf] py-16  px-4">
+          <div className="bg-[#fff]">
+            <div className="content bg-[#fff] py-16  px-4">
               <h1 className=" outline text-center lg:text-9xl md:text-6xl text-4xl text-[#fff] outline-4 font-semibold">
                 Advisory Council Members
               </h1>
             </div>
           </div>
         </div>
-        <div className="bg-[#f0ebd7]">
+        <div className="bg-[#fff]">
           <div className="max-w-screen-xl mx-auto md:px-8">
             <div className="flex lg:flex-row justify-center flex-col  space-between gap-6 p-4 py-10  px-4 ">
               <div className="text-center">

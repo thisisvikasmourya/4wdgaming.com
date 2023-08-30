@@ -40,7 +40,7 @@ export default function Blog() {
 
   return (
     <div>
-      <div className="bg-[#f0ebd7] text-[18px]">
+      <div className="bg-[#fff] text-[18px]">
         <div className="max-w-screen-xl mx-auto md:px-8">
           <section className="   " data-aos="zoom-in">
             <div className=" px-4">
@@ -55,7 +55,7 @@ export default function Blog() {
               <div className="mt-12 grid gap-8 sm:grid-cols-2 lg:grid-cols-3 py-10">
                 {posts.map((items, key) => (
                   <article
-                    className="max-w-md mx-auto mt-4 shadow-lg border rounded-md duration-300 hover:shadow-sm bg-[#f0ebd7] "
+                    className="max-w-md mx-auto mt-4 shadow-lg border rounded-md duration-300 hover:shadow-sm bg-[#fff] "
                     key={key}
                   >
                     <a href={items.href}>

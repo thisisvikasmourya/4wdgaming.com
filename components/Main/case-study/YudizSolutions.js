@@ -20,7 +20,7 @@ const YudizSolutions = () => {
   ];
   return (
     <div>
-      <div className="bg-[#f3efdf]" data-aos="zoom-in">
+      <div className="bg-[#fff]" data-aos="zoom-in">
         <div className="max-w-screen-xl mx-auto md:px-8">
           <div className="content  py-16  px-4 max-w-screen-xl mx-auto md:px-8">
             <h1 className=" outline text-center lg:text-9xl md:text-6xl text-4xl text-[#fff] outline-4 font-semibold">
@@ -29,9 +29,9 @@ const YudizSolutions = () => {
           </div>
         </div>
       </div>
-      <div className="bg-[#f0ebd7]" data-aos="zoom-in">
+      <div className="bg-[#fff]" data-aos="zoom-in">
         <div className="max-w-screen-xl mx-auto md:px-8">
-          <div className="flex lg:flex-row flex-col gap-6 p-4 py-5  px-4 bg-[#f0ebd7] ">
+          <div className="flex lg:flex-row flex-col gap-6 p-4 py-5  px-4 bg-[#fff] ">
             <div>
               <Image
                 src={About3}

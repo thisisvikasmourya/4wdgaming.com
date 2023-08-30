@@ -88,10 +88,10 @@ const ContentandCopywriting = () => {
     },
   ];
   return (
-    <div className="bg-[#f0ebd7]">
-      <div className="bg-[#f3efdf]" data-aos="zoom-in">
+    <div className="bg-[#fff]">
+      <div className="bg-[#fff]" data-aos="zoom-in">
         <div className="max-w-screen-xl mx-auto md:px-8">
-          <div className="content bg-[#f3efdf] py-16  px-4 ">
+          <div className="content bg-[#fff] py-16  px-4 ">
             <h1 className=" outline text-center lg:text-9xl md:text-6xl text-4xl text-[#fff] outline-4 font-semibold">
               Content & Copywriting
             </h1>
@@ -99,7 +99,7 @@ const ContentandCopywriting = () => {
         </div>
       </div>
       <div className="max-w-screen-xl mx-auto md:px-8" data-aos="zoom-in">
-        <div className="grid lg:grid-cols-2 grid-cols-1 gap-6 p-4   px-4 pt-10 bg-[#f0ebd7]">
+        <div className="grid lg:grid-cols-2 grid-cols-1 gap-6 p-4   px-4 pt-10 bg-[#fff]">
           <div>
             <Image src={About} alt="hello" layout="" className="rounded-lg" />
           </div>
@@ -120,7 +120,7 @@ const ContentandCopywriting = () => {
             ))}
           </div>
         </div>
-        <div className=" grid lg:grid-cols-2 grid-cols-1 gap-2  px-4 bg-[#f0ebd7]">
+        <div className=" grid lg:grid-cols-2 grid-cols-1 gap-2  px-4 bg-[#fff]">
           {data2.map((items, key) => (
             <div key={key}>
               <p className="text-[#4d326b] font-bold text-xl text-[20px]">

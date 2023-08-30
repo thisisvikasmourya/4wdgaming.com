@@ -5,7 +5,7 @@ import BackgroundImage from "../../public/images/bgscr.png";
 const Page2 = () => {
   return (
     <div
-      className="bg-[#f0ebd7]  "
+      className="bg-[#fff]  "
       data-aos="zoom-in"
       // style={{
       //   backgroundImage: `url(${BackgroundImage.src})`,
@@ -16,7 +16,7 @@ const Page2 = () => {
       // }}
     >
       <div className="px-4  max-w-screen-xl mx-auto md:px-8 " id="page2">
-        {/* bg-[#f0ebd7] */}
+        {/* bg-[#fff] */}
         <div className="  rounded-lg py-10   ">
           <p className="lg:text-6xl text-[#4d326b]  text-3xl font-bold text-center py-3 ">
             Welcome to Moram Napu:

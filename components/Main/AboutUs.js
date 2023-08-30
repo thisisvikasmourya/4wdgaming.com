@@ -10,18 +10,18 @@ import WhatWeDo from "./WhatWeDo";
 const AboutUs = () => {
   return (
     <div>
-      <div className="bg-[#f3efdf]" data-aos="zoom-in">
+      <div className="bg-[#fff]" data-aos="zoom-in">
         <div className="max-w-screen-xl mx-auto md:px-8">
-          <div className="content bg-[#f3efdf] py-20  px-4" data-aos="zoom-in">
+          <div className="content bg-[#fff] py-20  px-4" data-aos="zoom-in">
             <h1 className=" outline text-center lg:text-9xl md:text-6xl text-4xl text-[#fff] outline-4 font-semibold">
               About Moram Napu
             </h1>
           </div>
         </div>
       </div>
-      <div className="bg-[#f0ebd7]" data-aos="zoom-in">
+      <div className="bg-[#fff]" data-aos="zoom-in">
         <div className="max-w-screen-xl mx-auto md:px-8">
-          {/* <div className="grid lg:grid-cols-2 grid-cols-1 gap-6 p-4  bg-[#f0ebd7] py-10  px-4">
+          {/* <div className="grid lg:grid-cols-2 grid-cols-1 gap-6 p-4  bg-[#fff] py-10  px-4">
             <div>
               <p className="text-[#4d326b] font-semibold text-[20px]">
                 We’re brand builders
@@ -112,7 +112,7 @@ const AboutUs = () => {
               </p>
             </div>
           </div> */}
-          <div className="p-4 text-[18px] text-black  bg-[#f0ebd7] py-10  px-4">
+          <div className="p-4 text-[18px] text-black  bg-[#fff] py-10  px-4">
             About MORAM NAPU: At MORAM NAPU, we&apos;re the ones who make games
             stand out and get all the attention they deserve. Think of us as the
             boosters that help game companies reach players who can&apos;t wait
@@ -123,10 +123,10 @@ const AboutUs = () => {
       </div>
       {/* <div id="founder">
         <div>
-          <div className="bg-[#f3efdf] py-18" data-aos="zoom-in">
+          <div className="bg-[#fff] py-18" data-aos="zoom-in">
             <div className="max-w-screen-xl mx-auto md:px-8 ">
               <div data-aos="zoom-in">
-                <div className="content bg-[#f3efdf] py-20  px-4">
+                <div className="content bg-[#fff] py-20  px-4">
                   <h1 className=" outline text-center lg:text-9xl md:text-6xl text-4xl text-[#fff] outline-4 font-semibold">
                     About the Founder
                   </h1>
@@ -135,9 +135,9 @@ const AboutUs = () => {
             </div>
           </div>
 
-          <div className="bg-[#f0ebd7]" data-aos="zoom-in">
+          <div className="bg-[#fff]" data-aos="zoom-in">
             <div className="max-w-screen-xl mx-auto md:px-8 py-10">
-              <div className="grid lg:grid-cols-2 grid-cols-1 gap-6 p-4 py-10 items-center px-4 bg-[#f0ebd7]">
+              <div className="grid lg:grid-cols-2 grid-cols-1 gap-6 p-4 py-10 items-center px-4 bg-[#fff]">
                 <div>
                   <Image
                     src={About2}
@@ -209,7 +209,7 @@ const AboutUs = () => {
                 When she is not working, she loves to spend her time horse
                 riding, swimming or simply at the gym.
               </p>
-              <div className="  px-4 bg-[#f0ebd7] text-black"></div>
+              <div className="  px-4 bg-[#fff] text-black"></div>
             </div>
           </div>
         </div>
