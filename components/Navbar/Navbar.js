@@ -127,7 +127,7 @@ const Navbar = () => {
           <Button
             href={"/contactUs"}
             buttonText={"Contact Us"}
-            className={"hidden lg:block"}
+            className={"hidden lg:block text-white"}
           />
           &nbsp;
           <button onClick={() => setOpen(!open)} className="block lg:hidden ">

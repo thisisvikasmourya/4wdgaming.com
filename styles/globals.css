@@ -57,7 +57,7 @@ body {
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #f1f1f1;
+  background-color: #bab2b5;
   min-width: 250px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
@@ -244,38 +244,4 @@ body {
 .indi:hover {
   transform: scale(0.9);
   /* rotate: -5deg; */
-}
-
-.metoo {
-  font-size: 3rem;
-  > span {
-    position: relative;
-    display: inline-block;
-    color: #ff3c41;
-    height: 1.25em;
-    vertical-align: bottom;
-    overflow: hidden;
-    span {
-      display: block;
-      animation: animateWords 5s infinite ease;
-    }
-  }
-}
-
-@keyframes animateWords {
-  0% {
-    transform: translateY(0%);
-  }
-  25% {
-    transform: translateY(-100%);
-  }
-  50% {
-    transform: translateY(-200%);
-  }
-  75% {
-    transform: translateY(-300%);
-  }
-  100% {
-    transform: translateY(-400%);
-  }
 }

@@ -3,60 +3,47 @@ import React from "react";
 const PricingPage = () => {
   const plans = [
     {
-      name: "Silver Package",
+      name: "Gaming Buzz Builder",
       desc: "Ideal for startups and small businesses looking to establish their presence:",
-      price: "$500",
+      price: "45,000/- + GST",
       isMostPop: false,
       features: [
-        "4 Press Release Drafting, Dissemination, and Coverage",
-        "2 Interviews / Spokesperson Quotes",
-        "Daily Industry Updates and Reporting",
+        "Brand Messaging",
+        "Ensure consistent and compelling brand messaging",
+        "Social and Digital Marketing",
         "Social Media Content Creation ",
-        "Management for Brand Visibility",
-        "Media Monitoring and Coverage Analysis",
+        "Manage social media presence",
+        "Social Media handling & Management",
+        "Outreach",
         // "Duis non diam vel tortor",
       ],
     },
     {
-      name: "Gold Package",
+      name: "Player connection Pro",
       desc: "Designed for companies aiming for broader exposure and brand recognition:",
-      price: "$1000",
+      price: "129,000/- + GST",
       isMostPop: true,
       features: [
-        "All features of the silver Package",
-        "2 Stand-alone Interviews for Brand Stories",
-        "2 Thought Leadership or Authored Articles",
-        "Dissemination of Press Releases / Info Notes around Announcements",
-        "Relationship Building Meetings with Key Media",
+        "All feature of the Gaming Buzz Builder",
+        "Growth Marketing",
+        "Performance Marketing",
+        "Paid Media Solutions",
+        "Targeted online advertising",
       ],
     },
     {
-      name: "Platinum Package",
+      name: "Trusted Game Partner",
       desc: "Tailored to meet the specific needs of established brands and ambitious campaigns:.",
-      price: "$2000",
+      price: "189,000/- + GST",
       isMostPop: false,
       features: [
-        "All features of the Gold Package",
-        "2 Speakership Opportunities or Award Nominations",
-        "Comprehensive Quarterly Reports with In-depth Analysis",
-        "Influencer Marketing Campaign Planning and Execution",
-        "Crisis Management and Reputation Repair Advisory",
-        "Customized PR Strategies Aligned with Brand Goals",
-        "Inclusion in Industry-Specific Articles and Features",
+        "All features of the Gaming Buzz Builder",
+        "All features of the Player connection Pro",
+        "Search Engine Optimization (SEO)",
+        "Community building & Management",
       ],
     },
-    // {
-    //   name: " Package",
-    //   desc: "Tailored to meet the specific needs of established brands and ambitious campaigns:.",
-    //   price: "Customized Pricing",
-    //   isMostPop: false,
-    //   features: [
-    //     "Event Planning and Coverage for Game Launches or Esports Tournaments",
-    //     "Web3 Gaming Integration and PR for Blockchain-Based Projects",
-    //     // "Praesent quis venenatis ipsum",
-    //     // "Duis non diam vel tortor",
-    //   ],
-    // },
+    
   ];
   return (
     <div>
@@ -78,7 +65,7 @@ const PricingPage = () => {
             {plans.map((item, idx) => (
               <div
                 key={idx}
-                className={`relative flex-1 flex items-stretch flex-col rounded-xl border-2 mt-6 sm:mt-0 ${
+                className={`relative flex-1 flex items-stretch flex-col rounded-xl border-2 border-[#a32b61] mt-6 sm:mt-0 ${
                   item.isMostPop ? "mt-10" : ""
                 }`}
               >
@@ -100,7 +87,7 @@ const PricingPage = () => {
                     </span>
                   </div>
                   <p className="text-[#123c69]">{item.desc}</p>
-                  <button className="px-3 py-3 rounded-lg w-full  text-sm duration-150 text-[#123c69] bg-[#ac3b61] hover:bg-[#c52426] active:bg-[#ac3b61]">
+                  <button className="px-3 py-3 rounded-lg w-full  text-sm duration-150 text-[#eee2dc] bg-[#ac3b61] hover:bg-[#edc7b7] hover:text-[#ac3b61] active:bg-[#ac3b61]">
                     <a href={"/contactUs"}>Get Started</a>
                   </button>
                 </div>

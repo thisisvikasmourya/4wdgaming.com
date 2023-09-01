@@ -126,7 +126,7 @@ export default function Services() {
               />
               <div className="p-4">
                 <Link
-                  className="   font-semibold text-[20px] text-[#ac3b61]"
+                  className="   font-bold text-[20px] text-[#ac3b61]"
                   href={items.link}
                 >
                   {items.title}
