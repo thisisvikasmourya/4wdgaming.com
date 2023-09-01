@@ -32,13 +32,11 @@ const Banner = () => {
   }, []);
 
   useEffect(() => {
-    
-    const timer = setInterval( () =>
-    {
-      const randomIndex = Math.floor( Math.random() * Quotes.length );
-      setRandomPhrase( Quotes[ randomIndex ] );
-    }, 2000 )
-     return () => clearInterval(timer);
+    const timer = setInterval(() => {
+      const randomIndex = Math.floor(Math.random() * Quotes.length);
+      setRandomPhrase(Quotes[randomIndex]);
+    }, 2000);
+    return () => clearInterval(timer);
   }, []);
 
   useEffect(() => {
@@ -59,7 +57,7 @@ const Banner = () => {
     "Performance Marketing for RMG",
   ];
 
-  const phrases = ["GAMING PR", "WEB3 GAMING", "    RMG   ", "ESPORTS"];
+  const phrases = ["GAMING", "WEB3 GAMING", "    RMG   ", "ESPORTS"];
 
   const features = [
     {

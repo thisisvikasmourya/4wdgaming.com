@@ -21,21 +21,21 @@ export default function Services() {
       img: str,
       content:
         "We create a lot of buzz around games. It's like when a secret gets out and everyone wants to know more. We use social media, cool content, and smart marketing to get people talking about games.",
-      link: "/services/public-relations",
+      link: "/pricing-page",
     },
     {
       title: "Player Connection Pro",
       img: Pr,
       content:
         "We help game companies become friends with players. Imagine having a big party where everyone talks about games and has a blast. That's what we do online – connect players and make games more fun",
-      link: "/services/public-relations",
+      link: "/pricing-page",
     },
     {
       title: "Trusted Game Partner",
       img: cont,
       content:
         " We make sure game companies look really good. We team up with famous people and use clever tricks to show everyone that the games are super trustworthy and awesome.",
-      link: "/services/public-relations",
+      link: "/pricing-page",
     },
     // {
     //   title: "Creators and Influencers",
