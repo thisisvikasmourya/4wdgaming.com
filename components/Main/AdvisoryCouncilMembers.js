@@ -6,23 +6,23 @@ const AdvisoryCouncilMembers = () => {
   return (
     <>
       <div>
-        <div className="content bg-[#fff] py-16 lg:px-32 px-4">
+        <div className="content bg-[#eee2dc] py-16 lg:px-32 px-4">
           <h1 className=" outline text-center lg:text-9xl md:text-6xl text-4xl text-[#fff] outline-4 font-semibold">
             Advisory Council Members
           </h1>
         </div>
 
-        <div className="grid lg:grid-cols-2 grid-cols-1 gap-6 p-4 py-10 lg:px-32 px-4 bg-[#fff] justify-center">
+        <div className="grid lg:grid-cols-2 grid-cols-1 gap-6 p-4 py-10 lg:px-32 px-4 bg-[#eee2dc] justify-center">
           <div>
             <Image src={jay} alt="hello" className="rounded-lg" />
           </div>
 
           <div>
-            <p className="text-[#4d326b] text-xl "> Jay Sayta</p>
-            <p className="text-[#4d326b] text-xl ">
+            <p className="text-[#ac3b61] text-xl "> Jay Sayta</p>
+            <p className="text-[#ac3b61] text-xl ">
               Technology and gaming lawyer in India
             </p>
-            <p className="text-black">
+            <p className="text-[#123c69]">
               Jay Sayta is a technology and gaming lawyer in India. He is well
               known in the media fraternity and is an expert on gaming laws. He
               has contributed through research and written extensively on
@@ -35,14 +35,14 @@ const AdvisoryCouncilMembers = () => {
             </p>
           </div>
         </div>
-        <div className="grid lg:grid-cols-2 grid-cols-1 gap-4 p-4 py-10 lg:px-32 px-4 bg-[#fff] ">
+        <div className="grid lg:grid-cols-2 grid-cols-1 gap-4 p-4 py-10 lg:px-32 px-4 bg-[#eee2dc] ">
           <div>
             <Image src={vamsi} alt="hello" className="rounded-lg" />
           </div>
 
-          <div className="text-black">
-            <p className="text-[#4d326b] text-xl ">Vamsi Talasila</p>
-            <p className="text-[#4d326b] text-xl">
+          <div className="text-[#123c69]">
+            <p className="text-[#ac3b61] text-xl ">Vamsi Talasila</p>
+            <p className="text-[#ac3b61] text-xl">
               Gaming Technology and Digital Marketing
             </p>
             <p>

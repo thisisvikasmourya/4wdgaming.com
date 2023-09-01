@@ -6,46 +6,46 @@ import Navigationbar from "@/components/Navbar/Navigationbar";
 const CreatorsandInfluencers = () => {
   const data2 = [
     {
-      title: "Expanding Your Audience Reach:",
-      cont: "Our strategic partnerships with top gaming influencers allow your brand to tap into a wider audience. Reach out to potential gamers who may not have discovered your brand otherwise.",
+      title: "Getting More Friends:",
+      cont: "Meet the friends of our friends – top gaming influencers. They know how to get more people to notice your brand. Imagine reaching new gamers who didn't know you existed!",
     },
     {
-      title: "Engaging and Authentic Content:",
-      cont: "Authenticity is key in the gaming world. Our collaborations with gaming influencers ensure that your brand is promoted in an engaging and genuine manner, resonating with their audience on a personal level.",
+      title: "Real Talk and Real Fans:",
+      cont: "In the gaming world, being real is everything. Our teamwork with influencers means your brand gets talked about in a way that feels genuine. Their fans totally get what you're all about.",
     },
     {
-      title: "Connecting with Your Community:",
-      cont: "Creators and influencers are an essential link between your brand and the gaming community. Through their content, they foster a sense of belonging and connection, drawing gamers closer to your brand.",
+      title: "Getting Friendly with Your Gang:",
+      cont: "Creators and influencers are like bridges between you and gamers. They make gamers feel at home with your brand. You'll be closer to gamers than ever before.",
     },
     {
-      title: "Tailored Partnerships for Your Brand:",
-      cont: "We understand that each gaming brand is unique. Our team crafts tailored partnerships that align with your brand's values, voice, and target audience, ensuring maximum impact and relevance.",
+      title: "Partnerships That Fit You:",
+      cont: "Your gaming brand is one of a kind, and so are our partnerships. We create collabs that match your style, values, and the gamers you want to connect with.",
     },
     {
-      title: "Measuring Impact and ROI:",
-      cont: "We believe in results-driven partnerships. Our team tracks and measures the impact of influencer collaborations, providing you with valuable insights on ROI and engagement metrics.",
+      title: "Seeing Results in Numbers:",
+      cont: "We're all about results, not just cool collabs. Our team keeps an eye on how these partnerships help your brand. You'll know exactly what's working and what's not.",
     },
     {
-      title: "Navigating the Gaming Influencer Landscape:",
-      cont: "Navigating the gaming influencer landscape can be overwhelming. We simplify the process, identifying the right influencers for your brand and managing the collaboration from start to finish.",
+      title: "Nailing the Right Influencers:",
+      cont: "Finding the right influencers in the gaming world can be a puzzle. But relax, we got this. We find the perfect players for your brand and make the whole thing smooth.",
     },
     {
-      title: "Building Long-Term Relationships:",
-      cont: "We focus on building lasting relationships with gaming content creators and influencers. These long-term partnerships foster continuous growth and sustained engagement for your gaming brand.",
+      title: "Friends for the Long Run:",
+      cont: "We're not just in it for the moment. We're here to build friendships with gaming creators and influencers. These friendships keep growing and keep your brand shining.",
     },
     {
-      title: "Embrace the Power of Influence:",
-      cont: "The influence of creators and influencers extends far beyond the gaming community. Let Moram Napu help you harness this power to amplify your gaming brand's reach, foster credibility, and create meaningful connections with gamers worldwide.",
+      title: "Tapping into Influencer Magic:",
+      cont: "Influencers aren't just big in gaming; they're stars everywhere. Moram Napu can help you use this magic to make your gaming brand huge, trusted, and loved by gamers all around.",
     },
   ];
   const data = [
     {
-      title: "Amplify Your Gaming Brand:",
-      cont: "Creators and influencers are the heartbeat of the gaming community. At Moram Napu, we understand the value they bring to your brand. Through strategic partnerships, we amplify your gaming brand's reach and impact.",
+      title: "Boosting Your Gaming Brand:",
+      cont: "Guess what? Creators and influencers are the cool kids of the gaming gang. We get that at Moram Napu. We team up with these awesome players to make your gaming brand super popular.",
     },
     {
-      title: "Building Credibility and Trust:",
-      cont: "Gaming content creators and influencers have a dedicated following that trusts their recommendations. By partnering with influential figures, your brand gains credibility and establishes a strong presence within the gaming community.",
+      title: "Making Trust and Fame:",
+      cont: "Those gaming content creators and influencers? They've got fans who trust them. When we team up with them, your brand gets a trust badge. Plus, you become the cool topic in the gaming world.",
     },
   ];
   const navData = [
@@ -88,44 +88,47 @@ const CreatorsandInfluencers = () => {
   ];
   return (
     <div>
-      <div className="bg-[#fff]" data-aos="zoom-in">
+      <div className="bg-[#eee2dc]" data-aos="zoom-in">
         <div className="max-w-screen-xl mx-auto md:px-8">
-          <div className="content bg-[#fff] py-16  px-4">
+          <div className="content bg-[#eee2dc] py-16  px-4">
             <h1 className=" outline text-center lg:text-9xl md:text-6xl text-4xl text-[#fff] outline-4 font-semibold">
               Creators & Influencers
             </h1>
           </div>
         </div>
       </div>
-      <div className="bg-[#fff]" data-aos="zoom-in">
+      <div className="bg-[#eee2dc]" data-aos="zoom-in">
         <div className="max-w-screen-xl mx-auto md:px-8">
-          <div className="grid lg:grid-cols-2 grid-cols-1 gap-6  pt-10  px-4 bg-[#fff]">
+          <div className="grid lg:grid-cols-2 grid-cols-1 gap-6  pt-10  px-4 bg-[#eee2dc]">
             <div>
               <Image src={About} alt="hello" layout="" className="rounded-lg" />
             </div>
             <div>
-              <p className="py-1 text-black text-[20px]">
-                Are you ready to take your gaming brand to the next level? At
-                Moram Napu, we are not just any PR agency; we are brand builders
-                who understand the immense power of a strong brand in attracting
-                organic media and PR.
+              <p className="py-1 text-[#123c69] text-[20px]">
+                Ready to kick your gaming brand up a notch? Well, at Moram Napu,
+                we&apos;re not your typical PR folks. We&apos;re more like brand
+                builders who know how to make your gaming brand shine in the
+                media and PR world.
               </p>
 
               {data.map((items, key) => (
                 <div key={key}>
-                  <p className="text-[#4d326b] text-[18px]">{items.title}</p>
-                  <p className="pb-3 text-black text-[18px]"> {items.cont}</p>
+                  <p className="text-[#ac3b61] text-[18px]">{items.title}</p>
+                  <p className="pb-3 text-[#123c69] text-[18px]">
+                    {" "}
+                    {items.cont}
+                  </p>
                 </div>
               ))}
             </div>
           </div>
-          <div className="p-4  grid lg:grid-cols-2 grid-cols-1 gap-2 px-4 bg-[#fff]">
+          <div className="p-4  grid lg:grid-cols-2 grid-cols-1 gap-2 px-4 bg-[#eee2dc]">
             {data2.map((items, key) => (
               <div key={key}>
-                <p className="text-[#4d326b] text-xl text-[18px]">
+                <p className="text-[#ac3b61] text-xl text-[18px]">
                   {items.title}
                 </p>
-                <p className="pb-3 text-black text-[18px]"> {items.cont}</p>
+                <p className="pb-3 text-[#123c69] text-[18px]"> {items.cont}</p>
               </div>
             ))}
           </div>

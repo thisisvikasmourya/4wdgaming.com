@@ -8,6 +8,7 @@ import Testimonial from "@/components/Main/Review/Testimonial";
 import WhyChooseUs from "@/components/Main/WhyChooseUs";
 import ClientReview from "@/components/Main/Review/ClientReview";
 import ScrollButton from "@/components/Main/ScrollButton";
+import Banner from "@/components/Main/Banner";
 // import BubbleEffect from "@/components/Main/BubbleEffect";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -22,7 +23,8 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <StarsCanvas />
+        {/* <StarsCanvas /> */ }
+        <Banner/>
         <Page2 />
         <Services />
         <ClientReview />

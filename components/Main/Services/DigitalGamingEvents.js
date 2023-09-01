@@ -6,54 +6,54 @@ import Navigationbar from "@/components/Navbar/Navigationbar";
 const DigitalGamingEvents = () => {
   const data2 = [
     {
-      title: "Tailored to Your Brand:",
-      cont: "We understand that each gaming brand has a unique identity. Our team tailors gaming events to align with your brand's values and image, creating a cohesive and impactful experience for your audience.",
+      title: "Fun and Games:",
+      cont: "It's not just about winning – it's about the journey. We put together games and contests that add that extra thrill to your events. From friendly face-offs to intense showdowns, we keep everyone entertained.",
     },
     {
-      title: "Engaging Activities and Contests:",
-      cont: "We curate engaging activities and contests that add an element of excitement to your gaming events. From friendly matches to high-stakes competitions, we keep participants and viewers enthralled.",
+      title: "Fans in the Spotlight:",
+      cont: "Fans aren't just watching; they're part of the action. We make sure your events include interactive sessions and live streams, keeping the energy high and the excitement real.",
     },
     {
-      title: "Spectator Engagement:",
-      cont: "We believe in involving spectators in the gaming experience. Our spectator engagement initiatives, such as live streams and interactive sessions, enhance the overall event appeal.",
+      title: "Game Titles Take Center Stage:",
+      cont: "Your games deserve the spotlight, and that's exactly where we put them. Our events are the perfect showcase for your game titles, making sure players are curious and excited to dive in.",
     },
     {
-      title: "Showcasing Your Game Titles:",
-      cont: "Gaming events are the perfect platform to showcase your game titles to a captivated audience. We ensure your games take center stage, sparking curiosity and interest among players.",
+      title: "Gaming Community Vibes:",
+      cont: "Events aren't just about playing; they're about belonging. We make sure your events bring gamers together, creating a strong sense of community around your brand.",
     },
     {
-      title: "Community Building:",
-      cont: "Gaming events foster a sense of community among gamers. We emphasize community-building aspects in our event planning, bringing players together for a shared passion.",
+      title: "Connect and Collaborate:",
+      cont: "Our events are networking goldmines. Gamers, developers, and industry experts get to meet, mingle, and form connections that could lead to epic collaborations.",
     },
     {
-      title: "Networking Opportunities:",
-      cont: "Our gaming events provide valuable networking opportunities for gamers, developers, and industry stakeholders, facilitating collaborations and connections within the gaming ecosystem.",
+      title: "Unforgettable Memories:",
+      cont: "We're not just about events; we're about memories that stick around. With our careful planning and attention to detail, we make sure everyone leaves with stories to tell and memories to cherish.",
     },
     {
       title: "Memories that Last:",
       cont: "With meticulous planning and execution, we create memories that last a lifetime for participants and gaming enthusiasts, establishing your brand as a leader in the gaming events space.",
     },
     {
-      title: "Create Unforgettable Moments.",
-      cont: "Elevate your gaming events to new heights with Moram Napu. Let us craft unforgettable gaming experiences that resonate with your audience, driving engagement and loyalty to your gaming brand.",
+      title: "Ready for Legendary Moments?",
+      cont: "Moram Napu is here to take your gaming events to a whole new level. Let's create experiences that players will talk about for years. Get in touch, and let the gaming magic begin.",
     },
   ];
   const data = [
     {
-      title: "Unforgettable Gaming Experiences:",
-      cont: "Moram Napu specializes in crafting unforgettable gaming events that leave a lasting impression on participants and spectators alike.",
+      title: "Gaming Tournaments Gone Virtual:",
+      cont: "Virtual gaming is the name of the game, and we're experts at hosting online tournaments that connect players worldwide. No more borders – just epic virtual battles that bring the gaming community together.",
     },
     {
-      title: "Virtual Gaming Tournaments:",
-      cont: "With the rise of virtual gaming, we excel in organizing online tournaments that transcend geographical boundaries. Engage players from around the world in immersive virtual competitions that unite the gaming community.",
+      title: "Live Gaming Extravaganza:",
+      cont: "We're all about that real-life thrill too! Our live gaming events are a blast, bringing gamers under one roof for an unforgettable experience. From LAN parties to massive championships, weve got the excitement covered.",
     },
     {
-      title: "Live Gaming Extravaganzas:",
-      cont: "For an electrifying experience, we orchestrate live gaming events that bring enthusiasts together under one roof. From LAN parties to grand championships, we ensure seamless event management and an exhilarating atmosphere.",
+      title: "Pros Behind the Scenes::",
+      cont: "We've got a team that's seen it all. From planning and organizing to spreading the word and making sure everything runs like clockwork, we've got you covered from A to Z.",
     },
     {
-      title: "Professional Event Execution:",
-      cont: "Our experienced team handles every aspect of event execution, from planning and logistics to promotion and coordination, ensuring a seamless and memorable experience for all attendees.",
+      title: "Events That Speak Your Brand:",
+      cont: "Every gaming brand is unique, and we get that. Our events match your style and values, giving your brand a spotlight like no other. It's all about keeping things real and relevant to you.",
     },
   ];
   const navData = [
@@ -96,35 +96,38 @@ const DigitalGamingEvents = () => {
   ];
   return (
     <div>
-      <div className="bg-[#fff]" data-aos="zoom-in">
+      <div className="bg-[#eee2dc]" data-aos="zoom-in">
         <div className="max-w-screen-xl mx-auto md:px-8">
-          <div className="content bg-[#fff] py-16  px-4">
+          <div className="content bg-[#eee2dc] py-16  px-4">
             <h1 className=" outline text-center lg:text-9xl md:text-6xl text-4xl text-[#fff] outline-4 font-semibold">
               Digital Gaming Events
             </h1>
           </div>
         </div>
       </div>
-      <div className="bg-[#fff]" data-aos="zoom-in">
+      <div className="bg-[#eee2dc]" data-aos="zoom-in">
         <div className="max-w-screen-xl mx-auto md:px-8">
-          <div className="grid lg:grid-cols-2 grid-cols-1 gap-6  pt-10  px-4 bg-[#fff]">
+          <div className="grid lg:grid-cols-2 grid-cols-1 gap-6  pt-10  px-4 bg-[#eee2dc]">
             <div>
               <Image src={About} alt="hello" layout="" className="rounded-lg" />
             </div>
             <div>
               {data.map((items, key) => (
                 <div key={key}>
-                  <p className="text-[#4d326b] text-[20px]">{items.title}</p>
-                  <p className="pb-3 text-black text-[18px]"> {items.cont}</p>
+                  <p className="text-[#ac3b61] text-[20px]">{items.title}</p>
+                  <p className="pb-3 text-[#123c69] text-[18px]">
+                    {" "}
+                    {items.cont}
+                  </p>
                 </div>
               ))}
             </div>
           </div>
-          <div className="p-4 grid lg:grid-cols-2 grid-cols-1 gap-2  px-4 bg-[#fff]">
+          <div className="p-4 grid lg:grid-cols-2 grid-cols-1 gap-2  px-4 bg-[#eee2dc]">
             {data2.map((items, key) => (
               <div key={key}>
-                <p className="text-[#4d326b] text-[20px]">{items.title}</p>
-                <p className="pb-3 text-black text-[18px]"> {items.cont}</p>
+                <p className="text-[#ac3b61] text-[20px]">{items.title}</p>
+                <p className="pb-3 text-[#123c69] text-[18px]"> {items.cont}</p>
               </div>
             ))}
           </div>

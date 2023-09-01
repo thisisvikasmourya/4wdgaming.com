@@ -4,48 +4,48 @@ import About from "../../../public/images/ddd.png";
 import Navigationbar from "@/components/Navbar/Navigationbar";
 
 const ContentandCopywriting = () => {
-  const data2 = [
-    {
-      title: "Showcasing Your Gaming Venture:",
-      cont: "Whether you're launching a new game or promoting an esports event, our content and copywriting services showcase the uniqueness of your gaming venture, setting it apart from the competition.",
-    },
-    {
-      title: "Driving Community Engagement:",
-      cont: "Engagement is the heartbeat of any gaming community. Our content and copywriting strategies are designed to ignite conversations, spark interest, and drive active participation.",
-    },
-    {
-      title: "Optimized for Search Engines:",
-      cont: "Our content and copywriting approach incorporates SEO best practices, ensuring that your gaming content ranks high in search engine results and reaches a wider audience.",
-    },
-    {
-      title: "From Concept to Completion:",
-      cont: "We take care of every aspect of content creation, from conceptualizing ideas to delivering the final polished product. Our attention to detail ensures that every piece of content aligns with your brand's vision.",
-    },
-    {
-      title: "Leveraging Gaming Trends:",
-      cont: "As gaming specialists, we stay updated with the latest gaming trends and industry insights. We leverage these trends to create content that resonates with the gaming community's current interests.",
-    },
-    {
-      title: "Powerful Call-to-Actions:",
-      cont: "Our content and copywriting services include powerful call-to-actions that prompt your audience to take action, whether it's signing up for a tournament, downloading a game, or joining your gaming community.",
-    },
-    {
-      title: "Elevate Your Gaming Narrative:",
-      cont: "The right words have the power to elevate your gaming narrative to new heights. Let Moram Napu be your storytelling partner, crafting compelling content that engages your audience and leaves a lasting impact.",
-    },
-  ];
   const data = [
     {
-      title: "Crafting Compelling Narratives:",
-      cont: "Our skilled copywriters and content creators are masters of their craft. They have the expertise to weave captivating narratives that not only entertain but also resonate with your gaming community.",
+      title: "Getting You Moving:",
+      cont: "Our words are like cheerleaders – they make players join, play, and have fun.",
     },
     {
-      title: "Engaging Content for Every Platform:",
-      cont: "From blog posts and social media content to in-game dialogues and press releases, we provide engaging content tailored to each platform. We ensure that your brand's voice is consistent across all channels.",
+      title: "Take Your Game Up a Notch:",
+      cont: "Words have power, and we know how to use it. Moram Napu's here to make your game's story super awesome.",
     },
     {
       title: "Creating Brand Loyalty:",
       cont: "Effective content and copywriting go beyond words; they create emotional connections with your audience. We craft content that fosters brand loyalty, turning gamers into devoted fans.",
+    },
+  ];
+  const data2 = [
+    {
+      title: "Telling Stories That Stick:",
+      cont: "Meet our word wizards – they're pros at making stories that stick. It's like reading a cool game plot that also clicks with your gaming crew.",
+    },
+    {
+      title: "Cool Stuff for Every Place:",
+      cont: "Whether it's game blogs, social posts, in-game chats, or news blurbs, we're on it. We make words that fit each spot, so your gaming vibe is everywhere.",
+    },
+    {
+      title: "Making Friends and Fans:",
+      cont: "Words can make hearts connect, and that's our game. We write stuff that makes your fans super loyal, like they're in your gaming fan club.",
+    },
+    {
+      title: "Put Your Game in the Spotlight.",
+      cont: "Launching a game or talking about a gaming event? We've got the spotlight for that. We make sure your game shines bright, even brighter than other games out there.",
+    },
+    {
+      title: "Friends with Search Engines Too:",
+      cont: "We're not just word lovers; we're search engine buddies too. Our words are smart so your game pops up when players search.",
+    },
+    {
+      title: "From Idea to Done:",
+      cont: "We handle everything – from coming up with ideas to getting the final words in place. We make sure everything fits your game's style.",
+    },
+    {
+      title: "Rocking the Latest Game Trends:",
+      cont: "We know what's cool in gaming. We use the latest trends to make words that gamers love.",
     },
   ];
 
@@ -88,45 +88,47 @@ const ContentandCopywriting = () => {
     },
   ];
   return (
-    <div className="bg-[#fff]">
-      <div className="bg-[#fff]" data-aos="zoom-in">
+    <div className="bg-[#eee2dc]">
+      <div className="bg-[#eee2dc]" data-aos="zoom-in">
         <div className="max-w-screen-xl mx-auto md:px-8">
-          <div className="content bg-[#fff] py-16  px-4 ">
+          <div className="content bg-[#eee2dc] py-16  px-4 ">
             <h1 className=" outline text-center lg:text-9xl md:text-6xl text-4xl text-[#fff] outline-4 font-semibold">
-              Content & Copywriting
+              Content And Copywriting
             </h1>
           </div>
         </div>
       </div>
       <div className="max-w-screen-xl mx-auto md:px-8" data-aos="zoom-in">
-        <div className="grid lg:grid-cols-2 grid-cols-1 gap-6 p-4   px-4 pt-10 bg-[#fff]">
+        <div className="grid lg:grid-cols-2 grid-cols-1 gap-6 p-4   px-4 pt-10 bg-[#eee2dc]">
           <div>
             <Image src={About} alt="hello" layout="" className="rounded-lg" />
           </div>
           <div>
-            <p className="py-1 text-black text-[20px]">
-              Captivate your gaming community with powerful storytelling. At 4WD
-              Gaming, we understand the significance of content and copywriting
-              in creating meaningful connections with your audience.
+            <p className="py-1 text-[#123c69] text-[20px]">
+              Ever thought about how to grab your gaming crew&apos;s attention?
+              Well, Moram Napu&apos;s got your back. We know that cool content
+              and catchy words are like magnets for your gaming gang.
             </p>
-
             {data.map((items, key) => (
               <div key={key}>
-                <p className="text-[#4d326b] font-bold text-xl text-[20px]">
+                <p className="text-[#ac3b61] font-bold text-xl text-[20px]">
                   {items.title}
                 </p>
-                <p className=" pb-3 text-black text-[18px]"> {items.cont}</p>
+                <p className=" pb-3 text-[#123c69] text-[18px]">
+                  {" "}
+                  {items.cont}
+                </p>
               </div>
             ))}
           </div>
         </div>
-        <div className=" grid lg:grid-cols-2 grid-cols-1 gap-2  px-4 bg-[#fff]">
+        <div className=" grid lg:grid-cols-2 grid-cols-1 gap-2  px-4 bg-[#eee2dc]">
           {data2.map((items, key) => (
             <div key={key}>
-              <p className="text-[#4d326b] font-bold text-xl text-[20px]">
+              <p className="text-[#ac3b61] font-bold text-xl text-[20px]">
                 {items.title}
               </p>
-              <p className=" pb-3 text-black text-[18px]"> {items.cont}</p>
+              <p className=" pb-3 text-[#123c69] text-[18px]"> {items.cont}</p>
             </div>
           ))}
         </div>

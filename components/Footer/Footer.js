@@ -49,13 +49,13 @@ const Footer = () => {
   ];
 
   return (
-    <div className="bg-[#fff]">
-      <footer className="text-black  px-4 py-10 max-w-screen-xl mx-auto md:px-8">
+    <div className="bg-[#eee2dc]">
+      <footer className="text-[#123c69]  px-4 py-10 max-w-screen-xl mx-auto md:px-8">
         <div className="gap-20 justify-between md:flex lg:flex-row">
           <div className="flex">
             <div className="max-w-xs py-3">
               <Image src={logo} alt="Logo" className="w-32" />
-              <p className="leading-relaxed mt-2 text-[20px] text-black">
+              <p className="leading-relaxed mt-2 text-[20px] text-[#123c69]">
                 Elevating Gaming PR & Marketing
               </p>
             </div>
@@ -63,14 +63,14 @@ const Footer = () => {
           <div className="flex flex-col lg:flex-row  space-y-3 lg:gap-10  gap-3 justify-between sm:flex md:space-y-0 md:mt-0">
             {footerNavs.map((item, idx) => (
               <ul className="" key={idx}>
-                <h2 className="flex-1 text-[#4d326b] text-[20px] font-bold">
+                <h2 className="flex-1 text-[#ac3b61] text-[20px] font-bold">
                   {item.label}
                 </h2>
                 {item.items.map((el, idx) => (
                   <li key={idx}>
                     <Link
                       href={el.href}
-                      className="hover:underline text-black text-[18px] hover:text-[#4d326b] "
+                      className="hover:underline text-[#123c69] text-[18px] hover:text-[#ac3b61] "
                     >
                       {el.name}
                     </Link>

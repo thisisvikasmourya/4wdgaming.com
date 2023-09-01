@@ -242,11 +242,11 @@ export default function StarsCanvas() {
       <canvas ref={canvasRef} id="stars" />
       <div className="center-text ">
         <div className="text-center ">
-          <h1 className="lg:text-2xl border max-w-[200px] mx-auto border-[#4d326b] text-[#4d326b] md:text-xl text-xl font-bold hover:text-[#48b4e8]  rounded-lg">
+          <h1 className="lg:text-2xl border max-w-[200px] mx-auto border-[#ac3b61] text-[#ac3b61] md:text-xl text-xl font-bold hover:text-[#48b4e8]  rounded-lg">
             Moram Napu
           </h1>
           {/* <h1 className="lg:text-4xl md:text-3xl text-5xl font-bold hover:text-[#]"></h1> */}
-          {/* <h1 className="lg:text-7xl md:text-6xl text-4xl font-bold text-[#4d326b] py-4">
+          {/* <h1 className="lg:text-7xl md:text-6xl text-4xl font-bold text-[#ac3b61] py-4">
             <Typewriter
               options={{
                 strings: [
@@ -277,21 +277,21 @@ export default function StarsCanvas() {
               }}
             />
           </h1>
-          <h2 className="text-2xl text-black py-8 hover:text-[#4d326b]">
+          <h2 className="text-2xl text-[#123c69] py-8 hover:text-[#ac3b61]">
             Your All-Access Pass to Gaming Superstardom!
           </h2> */}
-          <h1 className="text-3xl  font-semibold  text- py-6 text-[#4d326b] 	">
+          <h1 className="text-3xl  font-semibold  text- py-6 text-[#ac3b61] 	">
             Making Brands famous
           </h1>
-          <span className="lg:text-7xl     text-5xl font-semibold break-normal text- py-6 text-[#4d326b] ">
+          <span className="lg:text-7xl     text-5xl font-semibold break-normal text- py-6 text-[#ac3b61] ">
             {text}
           </span>
 
-          <h2 className=" text-xl xs:px-4 sm:px-3   break-normal text-black py-4	">
+          <h2 className=" text-xl xs:px-4 sm:px-3   break-normal text-[#123c69] py-4	">
             {randomPhrase}
           </h2>
           <button>
-            <a className="text-5xl text-black animatedd " href="#page2">
+            <a className="text-5xl text-[#123c69] animatedd " href="#page2">
               <BsArrowDownCircle />
             </a>
           </button>

@@ -15,7 +15,7 @@ import client12 from "../../../public/images/gl.png";
 
 const ClientScroll = () => {
   return (
-    <div className=" py-5 bg-[#fff]">
+    <div className=" py-5 bg-[#eee2dc]">
       <div className="marquee max-w-screen-xl mx-auto md:px-8">
         <ul className="marquee-content">
           <li className="marquee-item indi">

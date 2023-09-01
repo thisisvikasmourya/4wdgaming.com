@@ -25,7 +25,7 @@ body {
 }
 
 ::selection {
-  background-color: #4d326b; /* Change this to your desired background color */
+  background-color: #ac3b61; /* Change this to your desired background color */
   color: #fff; /* Change this to your desired text color */
 }
 
@@ -75,7 +75,7 @@ body {
 
 /* Change color of dropdown links on hover */
 .dropdown-content a:hover {
-  background-color: #4d326b;
+  background-color: #ac3b61;
   color: white;
 }
 
@@ -86,7 +86,7 @@ body {
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {
-  background-color: #4d326b;
+  background-color: #ac3b61;
 }
 
 /* Faux outline for older browsers */
@@ -97,10 +97,10 @@ body {
 }
 
 /* Real outline for modern browsers */
-@supports ((text-stroke: 2px #4d326b) or (-webkit-text-stroke: 2px #4d326b)) {
+@supports ((text-stroke: 2px #ac3b61) or (-webkit-text-stroke: 2px #ac3b61)) {
   .outline {
     color: transparent;
-    -webkit-text-stroke: 2px #4d326b;
+    -webkit-text-stroke: 2px #ac3b61;
     text-stroke: 2px black;
     text-shadow: none;
   }
@@ -118,7 +118,7 @@ body {
   animation-iteration-count: infinite;
 }
 .animatedd:hover {
-  color: #4d326b;
+  color: #ac3b61;
 }
 @keyframes example {
   0% {

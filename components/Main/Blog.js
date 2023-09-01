@@ -40,22 +40,22 @@ export default function Blog() {
 
   return (
     <div>
-      <div className="bg-[#fff] text-[18px]">
+      <div className="bg-[#eee2dc] text-[18px]">
         <div className="max-w-screen-xl mx-auto md:px-8">
           <section className="   " data-aos="zoom-in">
             <div className=" px-4">
               <div className="text-center">
-                <h1 className="text-3xl text-[#4d326b] font-semibold py-3">
+                <h1 className="text-3xl text-[#ac3b61] font-semibold py-3">
                   Blog
                 </h1>
-                <p className="mt-3 text-black">
+                <p className="mt-3 text-[#123c69]">
                   Blogs that are loved by the community. Updated every hour.
                 </p>
               </div>
               <div className="mt-12 grid gap-8 sm:grid-cols-2 lg:grid-cols-3 py-10">
                 {posts.map((items, key) => (
                   <article
-                    className="max-w-md mx-auto mt-4 shadow-lg border rounded-md duration-300 hover:shadow-sm bg-[#fff] "
+                    className="max-w-md mx-auto mt-4 shadow-lg border rounded-md duration-300 hover:shadow-sm bg-[#eee2dc] "
                     key={key}
                   >
                     <a href={items.href}>
@@ -74,7 +74,7 @@ export default function Blog() {
                           />
                         </div>
                         <div className="ml-3">
-                          <span className="block text-black">
+                          <span className="block text-[#123c69]">
                             {items.authorName}
                           </span>
                           <span className="block text-gray-400 text-sm">
@@ -83,10 +83,12 @@ export default function Blog() {
                         </div>
                       </div>
                       <div className="pt-3 ml-4 mr-2 mb-3">
-                        <h3 className="text-xl text-[#4d326b]">
+                        <h3 className="text-xl text-[#ac3b61]">
                           {items.title}
                         </h3>
-                        <p className="text-black text-lg mt-1">{items.desc}</p>
+                        <p className="text-[#123c69] text-lg mt-1">
+                          {items.desc}
+                        </p>
                       </div>
                     </a>
                   </article>

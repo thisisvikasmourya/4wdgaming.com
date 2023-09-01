@@ -49,7 +49,7 @@ const ContactUs = () => {
         <div className="relative flex-1 hidden items-center justify-center h-screen bg-[#121416] lg:flex">
           <div className="relative z-10 w-full max-w-md">
             <div className=" space-y-3">
-              <h3 className="text-black text-3xl font-bold">
+              <h3 className="text-[#123c69] text-3xl font-bold">
                 Our customers positive feedback keeps us inspired and driven to
                 excel. Thank you for being a part of our journey!{" "}
               </h3>
@@ -93,13 +93,13 @@ const ContactUs = () => {
             }}
           ></div>
         </div>
-        <div className="py-5 flex-1 lg:flex lg:justify-center lg:h-screen lg:overflow-auto bg-[#fff]">
+        <div className="py-5 flex-1 lg:flex lg:justify-center lg:h-screen lg:overflow-auto bg-[#eee2dc]">
           <div className="max-w-lg flex-1 mx-auto px-4 text-[#fff]">
             <div>
-              <h3 className=" text-[#4d326b] text-3xl font-semibold sm:text-4xl">
+              <h3 className=" text-[#ac3b61] text-3xl font-semibold sm:text-4xl">
                 Get in touch
               </h3>
-              <p className="mt-3 text-black">
+              <p className="mt-3 text-[#123c69]">
                 We’d love to hear from you! Please fill out the form bellow.
               </p>
             </div>
@@ -108,31 +108,33 @@ const ContactUs = () => {
               className="space-y-5 mt-12 lg:pb-12"
             >
               <div>
-                <label className="font-medium text-black">Full name</label>
+                <label className="font-medium text-[#123c69]">Full name</label>
                 <input
                   type="text"
                   required
                   placeholder="Full Name"
-                  className="w-full mt-2 px-3 py-2 text-black bg-transparent outline-none border focus:border-[#4d326b] shadow-sm rounded-lg"
+                  className="w-full mt-2 px-3 py-2 text-[#123c69] bg-transparent outline-none border focus:border-[#ac3b61] shadow-sm rounded-lg"
                   onChange={(e) => {
                     setName(e.target.value);
                   }}
                 />
               </div>
               <div>
-                <label className="font-medium text-black">Email</label>
+                <label className="font-medium text-[#123c69]">Email</label>
                 <input
                   type="email"
                   placeholder="Email"
                   required
-                  className="w-full mt-2 px-3 py-2 text-black bg-transparent outline-none border focus:border-[#4d326b] shadow-sm rounded-lg"
+                  className="w-full mt-2 px-3 py-2 text-[#123c69] bg-transparent outline-none border focus:border-[#ac3b61] shadow-sm rounded-lg"
                   onChange={(e) => {
                     setEmail(e.target.value);
                   }}
                 />
               </div>
               <div>
-                <label className="font-medium text-black">Phone number</label>
+                <label className="font-medium text-[#123c69]">
+                  Phone number
+                </label>
 
                 <input
                   type="number"
@@ -141,19 +143,19 @@ const ContactUs = () => {
                   onChange={(e) => {
                     setPhone(e.target.value);
                   }}
-                  className="w-full pl-2 pr-3 py-2 appearance-none bg-transparent outline-none border focus:border-[#4d326b] shadow-sm rounded-lg"
+                  className="w-full pl-2 pr-3 py-2 appearance-none bg-transparent outline-none border focus:border-[#ac3b61] shadow-sm rounded-lg"
                 />
               </div>
 
               <div>
-                <label className="font-medium text-black">Message</label>
+                <label className="font-medium text-[#123c69]">Message</label>
                 <textarea
                   required
                   placeholder="Message"
                   onChange={(e) => {
                     setMessage(e.target.value);
                   }}
-                  className="w-full mt-2 h-36 px-3 py-2 resize-none appearance-none bg-transparent outline-none border focus:border-[#4d326b] shadow-sm rounded-lg"
+                  className="w-full mt-2 h-36 px-3 py-2 resize-none appearance-none bg-transparent outline-none border focus:border-[#ac3b61] shadow-sm rounded-lg"
                 ></textarea>
               </div>
 
@@ -161,7 +163,7 @@ const ContactUs = () => {
                 onClick={(e) => {
                   handleSubmit(e);
                 }}
-                className="w-full px-4 py-2 text-black font-medium bg-[#4d326b] hover:bg-gray-700 active:bg-gray-900 rounded-lg duration-150"
+                className="w-full px-4 py-2 text-[#123c69] font-medium bg-[#ac3b61] hover:bg-gray-700 active:bg-gray-900 rounded-lg duration-150"
               >
                 Submit
               </button>

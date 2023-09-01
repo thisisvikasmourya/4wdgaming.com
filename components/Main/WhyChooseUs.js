@@ -27,7 +27,7 @@ const WhyChooseUs = () => {
   ];
   return (
     <div
-      className="bg-[#fff]"
+      className="bg-[#eee2dc]"
       data-aos="zoom-in"
 
       // style={{
@@ -44,12 +44,12 @@ const WhyChooseUs = () => {
       >
         <div className="max-w-xl sm:text-center py-1 md:mx-auto">
           <h3
-            className="text-[#4d326b] text-3xl font-semibold sm:text-4xl text-center "
+            className="text-[#ac3b61] text-3xl font-semibold sm:text-4xl text-center "
             data-aos="flip-up"
           >
             Why You&apos;ll Like Us:
           </h3>
-          <p className="mt-3 mb-4 text-[20px] text-black text-center">
+          <p className="mt-3 mb-4 text-[20px] text-[#123c69] text-center">
             Gaming Enthusiasts, Gaming Experts
           </p>
         </div>
@@ -59,7 +59,10 @@ const WhyChooseUs = () => {
           </div>
           <div>
             {data.map((items, key) => (
-              <p className="py-1 text-[20px] text-black text-center" key={key}>
+              <p
+                className="py-1 text-[20px] text-[#123c69] text-center"
+                key={key}
+              >
                 {items.text}
               </p>
             ))}

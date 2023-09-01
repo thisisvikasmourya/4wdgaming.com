@@ -60,14 +60,14 @@ const PricingPage = () => {
   ];
   return (
     <div>
-      <section className="py-14 bg-[#fff]">
-        <div className="max-w-screen-xl mx-auto px-4 bg-[#fff] md:px-8">
+      <section className="py-14 bg-[#eee2dc]">
+        <div className="max-w-screen-xl mx-auto px-4 bg-[#eee2dc] md:px-8">
           <div className="relative max-w-xl mx-auto text-center">
-            <h3 className="text-[#4d326b] text-3xl font-semibold sm:text-4xl">
+            <h3 className="text-[#ac3b61] text-3xl font-semibold sm:text-4xl">
               Pricing for all sizes
             </h3>
-            <div className="mt-3 max-w-xl text-black">
-              <p className="text-black text-[20px]">
+            <div className="mt-3 max-w-xl text-[#123c69]">
+              <p className="text-[#123c69] text-[20px]">
                 We believe in fairness and giving game companies choices that
                 suit them. Our pricing strategy is designed to offer flexibility
                 and value for every budget:
@@ -90,30 +90,32 @@ const PricingPage = () => {
                   ""
                 )}
                 <div className="p-8 space-y-4 border-b">
-                  <span className="text-[#4d326b] font-medium">
+                  <span className="text-[#ac3b61] font-medium">
                     {item.name}
                   </span>
-                  <div className="text-[#4d326b] text-3xl font-semibold">
+                  <div className="text-[#ac3b61] text-3xl font-semibold">
                     {item.price}{" "}
-                    <span className="text-xl text-black font-normal">/mo</span>
+                    <span className="text-xl text-[#123c69] font-normal">
+                      /mo
+                    </span>
                   </div>
-                  <p className="text-black">{item.desc}</p>
-                  <button className="px-3 py-3 rounded-lg w-full  text-sm duration-150 text-black bg-[#4d326b] hover:bg-[#c52426] active:bg-[#4d326b]">
+                  <p className="text-[#123c69]">{item.desc}</p>
+                  <button className="px-3 py-3 rounded-lg w-full  text-sm duration-150 text-[#123c69] bg-[#ac3b61] hover:bg-[#c52426] active:bg-[#ac3b61]">
                     <a href={"/contactUs"}>Get Started</a>
                   </button>
                 </div>
                 <ul className="p-8 space-y-3">
-                  <li className="pb-2 text-[#4d326b] font-medium">
+                  <li className="pb-2 text-[#ac3b61] font-medium">
                     <p>Features</p>
                   </li>
                   {item.features.map((featureItem, idx) => (
                     <li
                       key={idx}
-                      className="flex text-black items-center gap-5"
+                      className="flex text-[#123c69] items-center gap-5"
                     >
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
-                        className="h-5 w-5 text-[#4d326b]"
+                        className="h-5 w-5 text-[#ac3b61]"
                         viewBox="0 0 20 20"
                         fill="currentColor"
                       >
@@ -131,13 +133,13 @@ const PricingPage = () => {
             ))}
           </div>
           <div className="pt-10 text-[18px] ">
-            <p className="text-[#4d326b] text-xl">
+            <p className="text-[#ac3b61] text-xl">
               Why Choose Our Enhanced Pricing Strategy:
             </p>
-            <p className="text-black flex py-1">
+            <p className="text-[#123c69] flex py-1">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                className="h-5 w-5 text-[#4d326b]"
+                className="h-5 w-5 text-[#ac3b61]"
                 viewBox="0 0 20 20"
                 fill="currentColor"
               >
@@ -151,10 +153,10 @@ const PricingPage = () => {
               range of PR services, ensuring a 360-degree approach to brand
               visibility and reputation management.
             </p>
-            <p className="text-black flex py-1">
+            <p className="text-[#123c69] flex py-1">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                className="h-5 w-5 text-[#4d326b]"
+                className="h-5 w-5 text-[#ac3b61]"
                 viewBox="0 0 20 20"
                 fill="currentColor"
               >
@@ -168,10 +170,10 @@ const PricingPage = () => {
               about gaming, web3 gaming, and esports, giving you a competitive
               edge in these specialized fields.
             </p>
-            <p className="text-black flex py-1">
+            <p className="text-[#123c69] flex py-1">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                className="h-5 w-5 text-[#4d326b]"
+                className="h-5 w-5 text-[#ac3b61]"
                 viewBox="0 0 20 20"
                 fill="currentColor"
               >
@@ -185,10 +187,10 @@ const PricingPage = () => {
               brand will receive the right exposure to target audiences,
               influencers, and key industry players.
             </p>
-            <p className="text-black flex py-1 ">
+            <p className="text-[#123c69] flex py-1 ">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                className="h-5 w-5 text-[#4d326b]"
+                className="h-5 w-5 text-[#ac3b61]"
                 viewBox="0 0 20 20"
                 fill="currentColor"
               >
@@ -201,10 +203,10 @@ const PricingPage = () => {
               &nbsp; Proven Results: Our track record in driving brand success
               within the gaming landscape speaks for itself.
             </p>
-            <p className="text-black flex py-1">
+            <p className="text-[#123c69] flex py-1">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                className="h-5 w-5 text-[#4d326b]"
+                className="h-5 w-5 text-[#ac3b61]"
                 viewBox="0 0 20 20"
                 fill="currentColor"
               >

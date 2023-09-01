@@ -6,55 +6,55 @@ import Navigationbar from "@/components/Navbar/Navigationbar";
 const EsportsTournament = () => {
   const data2 = [
     {
-      title: "Thrilling Live Tournaments:",
-      cont: "For live events, we orchestrate thrilling esports tournaments that captivate participants and spectators alike. From venue selection to event logistics, we handle every detail to create unforgettable experiences.",
+      title: "Live Action Thrills:",
+      cont: "Live events are where the excitement hits its peak. We pull off electrifying esports tournaments that keep players and fans at the edge of their seats. From picking the perfect venue to handling the nitty-gritty details, we've got it all covered.",
     },
 
     {
-      title: "Tailored Tournament Formats:",
-      cont: "Every gaming community is unique, and we understand the importance of tailoring tournament formats to suit the preferences and skill levels of players. Our flexible approach ensures maximum participation and excitement.",
+      title: "Tournaments Your Way:",
+      cont: "We know every gaming community is unique. That's why our tournaments are tailor-made to suit the preferences and skills of players. It's all about making sure everyone gets a chance to shine.",
     },
     {
-      title: "Top-notch Production Value:",
-      cont: "Spectators crave excitement, and we deliver it through high-quality production value. Our esports tournament organization includes professional broadcasting, engaging commentary, and captivating visuals.",
+      title: "Production Like No Other:",
+      cont: "We're not just about the game – we're about the show. Our tournaments come with high-quality production that includes top-notch broadcasting, awesome commentary, and visuals that amp up the excitement.",
     },
     {
-      title: "Community Engagement:",
-      cont: "Our tournaments go beyond the game itself. We foster community engagement through interactive elements, fan zones, and opportunities to meet gaming influencers and esports stars.",
+      title: "More Than a Game:",
+      cont: "Our tournaments are a whole experience. We create engagement through interactive zones, fan activities, and chances to connect with gaming stars and influencers.",
     },
     {
-      title: "Safeguarding Fair Play:",
-      cont: "Fair play is at the core of our esports tournament organization. We implement stringent measures to prevent cheating, ensuring a level playing field for all participants.",
+      title: "Playing Fair:",
+      cont: "Fairness is non-negotiable. We put strict measures in place to keep things clean and competitive, making sure everyone plays on a level field.",
     },
     {
-      title: "Comprehensive Event Management:",
-      cont: "From pre-event planning to post-event analysis, we provide comprehensive event management solutions to ensure the success of your esports tournaments.",
+      title: "From Start to Finish:",
+      cont: "We've got your back every step of the way. From planning before the event to analyzing after it's done, our comprehensive event management ensures everything runs like clockwork.",
     },
     {
-      title: "Collaboration with Partners:",
-      cont: "We collaborate with industry partners, sponsors, and gaming brands to elevate the profile of your esports tournaments and attract a wider audience.",
+      title: "Partnerships that Shine:",
+      cont: "We team up with industry players, sponsors, and gaming brands to give your tournaments that extra shine. This way, we attract a bigger and more diverse audience.",
     },
     {
-      title: "International Reach:",
-      cont: "Our expertise extends globally, allowing us to organize esports tournaments that reach a diverse international audience.",
+      title: "Going Global:",
+      cont: "Our reach knows no boundaries. We're here to organize tournaments that span the globe, bringing gamers from all walks of life together.",
     },
     {
-      title: "Unforgettable Experiences:",
-      cont: "With Moram Napu at the helm, your esports tournaments are guaranteed to leave a lasting impression, turning participants into loyal fans and spectators into enthusiastic supporters.",
+      title: "Unforgettable Moments:",
+      cont: "With Moram Napu in charge, your esports tournaments aren't just events – they're memories that stick. We turn participants into die-hard fans and spectators into your biggest supporters.",
     },
     {
-      title: "Contact Us Today:",
-      cont: "Ready to level up your gaming events? Contact Moram Napu today and let our esports tournament organization services elevate your gaming experiences to new heights.",
+      title: "Let's Level Up:",
+      cont: "Ready to elevate your gaming scene? Get in touch with Moram Napu today and let's make your esports tournaments the stuff of legends.",
     },
   ];
   const data = [
     {
-      title: "Experience Gaming at Its Best:",
-      cont: "At Moram Napu, we take esports tournament organization to a whole new level. Our team of seasoned experts is passionate about delivering top-notch gaming experiences that resonate with both players and fans.",
+      title: "Esports Excellence:",
+      cont: "At Moram Napu, we're not just about organizing tournaments – we're about crafting gaming journeys. Our team is made up of gaming fanatics who are all about creating epic experiences for players and fans alike.",
     },
     {
-      title: "Seamless Virtual Tournaments:",
-      cont: "In the virtual realm, we excel at organizing seamless esports tournaments that bring together players from across the globe. Our sophisticated online platforms ensure smooth operations and fair competition.",
+      title: "Virtual Showdowns:",
+      cont: "When it comes to virtual tournaments, we're on top of our game. We set up online tournaments that connect players from all corners of the world. Our tech makes sure everything runs smoothly and fairly.",
     },
   ];
   const navData = [
@@ -97,42 +97,44 @@ const EsportsTournament = () => {
   ];
   return (
     <div>
-      <div className="bg-[#fff]" data-aos="zoom-in">
+      <div className="bg-[#eee2dc]" data-aos="zoom-in">
         <div className="max-w-screen-xl mx-auto md:px-8">
-          <div className="content bg-[#fff] py-16  px-4">
+          <div className="content bg-[#eee2dc] py-16  px-4">
             <h1 className=" outline text-center lg:text-9xl md:text-6xl text-4xl text-[#fff] outline-4 font-semibold">
               Esports Tournament Organizations
             </h1>
           </div>
         </div>
       </div>
-      <div className="bg-[#fff]" data-aos="zoom-in">
+      <div className="bg-[#eee2dc]" data-aos="zoom-in">
         <div className="max-w-screen-xl mx-auto md:px-8">
-          <div className="grid lg:grid-cols-2 grid-cols-1 gap-6 pt-10  px-4 bg-[#fff]">
+          <div className="grid lg:grid-cols-2 grid-cols-1 gap-6 pt-10  px-4 bg-[#eee2dc]">
             <div>
               <Image src={About} alt="hello" layout="" className="rounded-lg" />
             </div>
             <div>
-              <p className="py-1 text-black text-[20px]">
-                Captivate your gaming community with powerful storytelling. At
-                Moram Napu, we understand the significance of content and
-                copywriting in creating meaningful connections with your
-                audience.
+              <p className="py-1 text-[#123c69] text-[20px]">
+                Esports tournaments? Moram Napu is here to make sure your gaming
+                community gets an unforgettable gaming experience that&apos;s
+                second to none.
               </p>
 
               {data.map((items, key) => (
                 <div key={key}>
-                  <p className="text-[#4d326b] text-[20px]">{items.title}</p>
-                  <p className="pb-3 text-black text-[18px]"> {items.cont}</p>
+                  <p className="text-[#ac3b61] text-[20px]">{items.title}</p>
+                  <p className="pb-3 text-[#123c69] text-[18px]">
+                    {" "}
+                    {items.cont}
+                  </p>
                 </div>
               ))}
             </div>
           </div>
-          <div className="p-4 grid lg:grid-cols-2 grid-cols-1 gap-1  px-4 bg-[#fff]">
+          <div className="p-4 grid lg:grid-cols-2 grid-cols-1 gap-1  px-4 bg-[#eee2dc]">
             {data2.map((items, key) => (
               <div key={key}>
-                <p className="text-[#4d326b] text-[20px]">{items.title}</p>
-                <p className="pb-3 text-black text-[18px]"> {items.cont}</p>
+                <p className="text-[#ac3b61] text-[20px]">{items.title}</p>
+                <p className="pb-3 text-[#123c69] text-[18px]"> {items.cont}</p>
               </div>
             ))}
           </div>

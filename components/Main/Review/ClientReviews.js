@@ -92,10 +92,10 @@ const Testimonials = () => {
     <section className="relative py-20 bg-[#14161a]" data-aos="zoom-in-up">
       <div className="relative z-10 max-w-screen-xl mx-auto px-4 md:px-8">
         <div className="max-w-xl sm:text-center md:mx-auto">
-          <h3 className="text-black text-3xl font-semibold sm:text-4xl">
+          <h3 className="text-[#123c69] text-3xl font-semibold sm:text-4xl">
             Hear from our Clients
           </h3>
-          <p className="mt-3 text-[20px] text-black">
+          <p className="mt-3 text-[20px] text-[#123c69]">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et est
             hendrerit, porta nunc vitae, gravida justo. Nunc fermentum magna
             lorem, euismod volutpat arcu volutpat et.
@@ -126,11 +126,11 @@ const Testimonials = () => {
                 </div>
                 <figure>
                   <blockquote>
-                    <p className="text-black text-lg  px-4 py-1">
+                    <p className="text-[#123c69] text-lg  px-4 py-1">
                       {item.quote}
                     </p>
                   </blockquote>
-                  <div className="flex items-center gap-x-4 p-4 mt-6  bg-[#4d326b] rounded-xl">
+                  <div className="flex items-center gap-x-4 p-4 mt-6  bg-[#ac3b61] rounded-xl">
                     <Image
                       src={item.avatar}
                       className="w-16 h-16 rounded-full border-2 border-indigo-500"
@@ -139,10 +139,10 @@ const Testimonials = () => {
                       height={100}
                     />
                     <div>
-                      <span className="block text-black text-[18px] ">
+                      <span className="block text-[#123c69] text-[18px] ">
                         {item.name}
                       </span>
-                      <span className="block text-black text-xl mt-0.5">
+                      <span className="block text-[#123c69] text-xl mt-0.5">
                         {item.title}
                       </span>
                     </div>
@@ -153,7 +153,7 @@ const Testimonials = () => {
           </ul>
         </div>
         <div className="text-center">
-          {/* <button className="text-[#fff] bg-[#4d326b] rounded-lg px-4 py-3 mt-10">
+          {/* <button className="text-[#fff] bg-[#ac3b61] rounded-lg px-4 py-3 mt-10">
             Readmore Review
           </button> */}
         </div>

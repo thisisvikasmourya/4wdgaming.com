@@ -89,20 +89,21 @@ export default function Services() {
     },
   ];
   return (
-    <div className="bg-[#fff]" data-aos="zoom-in">
-      <div className=" px-4  py-20 bg-[#fff] max-w-screen-xl mx-auto md:px-8">
+    <div className="bg-[#eee2dc]" data-aos="zoom-in">
+      <div className=" px-4  py-20 bg-[#eee2dc] max-w-screen-xl mx-auto md:px-8">
         {/* <h1>Our Service</h1> */}
         <div className="max-w-xl sm:text-center py-10 md:mx-auto">
-          <h3 className="text-[#4d326b] text-4xl font-semibold sm:text-4xl text-center ">
-            Our Services
+          <h3 className="text-[#ac3b61] text-4xl font-semibold sm:text-4xl text-center ">
+            Pricing for all sizes
           </h3>
-          <p className="mt-3 text-black text-[20px] text-center">
-            We offer three amazing services that work like magic for game
-            companies:
+          <p className="mt-3 text-[#123c69] text-[20px] text-center">
+            We believe in fairness and giving game companies choices that suit
+            them. Our pricing strategy is designed to offer flexibility and
+            value for every budget:
           </p>
         </div>
 
-        {/* <p className="lg:text-3xl text-[#4d326b] text-2xl font-bold text-center py-1 ">
+        {/* <p className="lg:text-3xl text-[#ac3b61] text-2xl font-bold text-center py-1 ">
           OUR SERVICES
         </p>
         <p className="lg:text-2xl text-2xl border-b  text-center pb-3">
@@ -114,7 +115,7 @@ export default function Services() {
         >
           {posts.map((items, key) => (
             <div
-              className="w-full rounded-lg shadow-md border  lg:max-w-sm bg-[#4d326b] indi"
+              className="w-full rounded-lg shadow-md border  lg:max-w-sm bg-[#bab2b5] indi"
               data-aos-duration="2000"
               key={key}
             >
@@ -125,14 +126,14 @@ export default function Services() {
               />
               <div className="p-4">
                 <Link
-                  className="   font-semibold text-[20px] text-[#fff]"
+                  className="   font-semibold text-[20px] text-[#ac3b61]"
                   href={items.link}
                 >
                   {items.title}
                 </Link>
                 <br />
                 <Link
-                  className=" text-[18px]  text-gray-100  rounded "
+                  className=" text-[18px]  text-[#123c69]  rounded "
                   href={items.link}
                 >
                   {items.content}
@@ -158,7 +159,7 @@ export default function Services() {
               />
               <div className="p-4">
                 <Link
-                  className=" text-[20px] font-semibold text-[#4d326b]"
+                  className=" text-[20px] font-semibold text-[#ac3b61]"
                   href={items.link}
                 >
                   {items.title}

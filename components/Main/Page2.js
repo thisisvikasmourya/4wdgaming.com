@@ -5,7 +5,7 @@ import BackgroundImage from "../../public/images/bgscr.png";
 const Page2 = () => {
   return (
     <div
-      className="bg-[#fff]  "
+      className="bg-[#eee2dc]  "
       data-aos="zoom-in"
       // style={{
       //   backgroundImage: `url(${BackgroundImage.src})`,
@@ -16,16 +16,16 @@ const Page2 = () => {
       // }}
     >
       <div className="px-4  max-w-screen-xl mx-auto md:px-8 " id="page2">
-        {/* bg-[#fff] */}
+        {/* bg-[#eee2dc] */}
         <div className="  rounded-lg py-10   ">
-          <p className="lg:text-6xl text-[#4d326b]  text-3xl font-bold text-center py-3 ">
+          <p className="lg:text-6xl text-[#ac3b61]  text-3xl font-bold text-center py-3 ">
             Welcome to Moram Napu:
           </p>
-          <p className="lg:text-5xl text-3xl font-semibold text-black  text-center pb-1">
+          <p className="lg:text-5xl text-3xl font-semibold text-[#123c69]  text-center pb-1">
             Redefining Gaming PR & Marketing Strategies
           </p>
           <p className="lg:text-3xl text-2xl font-semibold text-center border-b border-gray-300 pb-5 "></p>
-          <div className="max-w-3xl mx-auto text-center py-8 text-[20px] text-black">
+          <div className="max-w-3xl mx-auto text-center py-8 text-[20px] text-[#123c69]">
             Guiding gaming companies to their ideal audience using
             Marketing,Digital Marketing, Content Marketing, Social Media
             Management, Growth and Performance Marketing,Public Relations,

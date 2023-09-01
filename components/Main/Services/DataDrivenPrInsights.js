@@ -6,47 +6,47 @@ import Navigationbar from "@/components/Navbar/Navigationbar";
 const DataDrivenPrInsights = () => {
   const data2 = [
     {
-      title: "Measure PR Campaign Success:",
-      cont: "With data-driven PR insights, you can precisely measure the success of your PR campaigns. We track key performance indicators (KPIs) to evaluate the effectiveness of each campaign, providing you with real-time data to gauge performance.",
+      title: "Checking If It's a Win:",
+      cont: "With our data-driven smarts, you can see exactly how well your plans are doing. We use important numbers to check if things are working, giving you real-time info on how you're doing.",
     },
 
     {
-      title: "Competitor Benchmarking:",
-      cont: "Knowing your competition is vital in the gaming industry. We perform competitor benchmarking to compare your PR efforts with industry peers, enabling you to stay ahead in the competitive gaming landscape.",
+      title: "Seeing What Others Are Up To:",
+      cont: "Knowing what the competition is doing is like secret info in the gaming world. We check out what others are up to and see how your efforts are doing compared to theirs, so you can stay ahead in the gaming world.",
     },
     {
-      title: "Audience Segmentation:",
-      cont: "Understanding your target audience is fundamental to PR success. Our data-driven insights help in audience segmentation, allowing you to tailor your messages and engagements to resonate with different player segments.",
+      title: "Talking to the Right Folks:",
+      cont: "To get it right, you need to know who's listening. Our data insights help us figure out who's who, so we can talk to different types of players in a way that makes them excited.",
     },
     {
-      title: "Data-backed PR Strategies:",
-      cont: "With data as our foundation, we craft data-backed PR strategies that align with your gaming brand's objectives. Our insights empower you to make decisions that resonate with players and elevate your brand in the gaming community.",
+      title: "Using Data to Make Magic:",
+      cont: "We're all about using data to make our magic. With the numbers to back us up, we make plans that match what you want for your gaming brand. This helps your brand look amazing and gets players talking.",
     },
     {
-      title: "Real-time Monitoring:",
-      cont: "The gaming industry is dynamic, and real-time monitoring is essential. We provide continuous data analysis, enabling you to adapt your PR approach promptly and seize emerging opportunities.",
+      title: "Always Watching the Game:",
+      cont: "The gaming world never stops moving, so we're always keeping an eye out. We look at data all the time to help you change your game plan when something cool is happening.",
     },
     {
-      title: "Data Visualization:",
-      cont: "We understand the power of visual storytelling. Our data visualization techniques present complex data in easily digestible formats, empowering you to grasp the impact of your PR efforts at a glance.",
+      title: "Seeing Is Believing:",
+      cont: "Numbers can be tricky, but our tricks make them easy to understand. We show you the important stuff in ways that make sense, so you can see how your efforts are making waves.",
     },
     {
-      title: "Optimize Engagement and Reach:",
-      cont: "Data-driven insights guide us in optimizing engagement and reach. We identify the most effective communication channels and PR tactics to connect with players and influencers, amplifying your brand's presence.",
+      title: "Getting More Players Excited:",
+      cont: "Our data smarts help us figure out the best ways to get players interested. We know where to talk and what to say to make sure more people know about your brand and want to be part of it.",
     },
     {
-      title: "Stay Ahead with Moram Napu:",
-      cont: "Embrace the power of data-driven PR insights with Moram Napu and stay ahead in the competitive gaming landscape. Our expertise in data analysis and PR ensures your gaming brand's success and prominence in the gaming community.",
+      title: "Get Ahead with Moram Napu:",
+      cont: "If you want to be a star in the gaming world, you need data to back you up. Moram Napu is your go-to crew for data-based smarts that help your gaming brand shine. We're pros at reading numbers and making your brand the talk of the gaming town.",
     },
   ];
   const data = [
     {
-      title: "Leverage the Power of Data in Gaming PR:",
-      cont: "At Moram Napu, we recognize the significance of data-driven insights in shaping effective PR strategies. Our data-driven PR insights offer a holistic view of your gaming brand's performance, allowing you to make informed decisions for maximum impact.",
+      title: "Getting Smart with Data in Gaming:",
+      cont: "Guess what? At Moram Napu, we totally get how important data is for shaping super effective plans. Our data-based smarts give you the full picture of how your gaming brand is doing, so you can make the best choices for a big impact.",
     },
     {
-      title: "In-depth Data Analysis:",
-      cont: "We delve deep into gaming industry data, social media metrics, player engagement, and media coverage to extract valuable insights. Our comprehensive data analysis reveals trends, identifies opportunities, and highlights potential areas of improvement.",
+      title: "Digging Deep into Data:",
+      cont: "We dive deep into all kinds of gaming info – from social media stuff to how players are hanging out. By doing this, we find super useful stuff that helps you see what's cool, what's hot, and what could be even better.",
     },
   ];
   const navData = [
@@ -89,42 +89,44 @@ const DataDrivenPrInsights = () => {
   ];
   return (
     <div>
-      <div className="bg-[#fff]" data-aos="zoom-in">
+      <div className="bg-[#eee2dc]" data-aos="zoom-in">
         <div className="max-w-screen-xl mx-auto md:px-8">
-          <div className="content bg-[#fff] py-16  px-4">
+          <div className="content bg-[#eee2dc] py-16  px-4">
             <h1 className=" outline text-center lg:text-9xl md:text-6xl text-4xl text-[#fff] outline-4 font-semibold">
               Data Driven Pr-Insights
             </h1>
           </div>
         </div>
       </div>
-      <div className="bg-[#fff]" data-aos="zoom-in">
+      <div className="bg-[#eee2dc]" data-aos="zoom-in">
         <div className="max-w-screen-xl mx-auto md:px-8">
-          <div className="grid lg:grid-cols-2 grid-cols-1 gap-6  pt-10  px-4 bg-[#fff]">
+          <div className="grid lg:grid-cols-2 grid-cols-1 gap-6  pt-10  px-4 bg-[#eee2dc]">
             <div>
               <Image src={About} alt="hello" layout="" className="rounded-lg" />
             </div>
             <div>
-              <p className="py-1 text-black text-[20px]">
-                Captivate your gaming community with powerful storytelling. At
-                Moram Napu, we understand the significance of content and
-                copywriting in creating meaningful connections with your
-                audience.
+              <p className="py-1 text-[#123c69] text-[20px]">
+                Ready to level up your gaming crew&apos;s excitement? Well, at
+                Moram Napu, we know that building a strong bond with your
+                audience is key.
               </p>
 
               {data.map((items, key) => (
                 <div key={key}>
-                  <p className="text-[#4d326b] text-[20px]">{items.title}</p>
-                  <p className="pb-3 text-black text-[18px]"> {items.cont}</p>
+                  <p className="text-[#ac3b61] text-[20px]">{items.title}</p>
+                  <p className="pb-3 text-[#123c69] text-[18px]">
+                    {" "}
+                    {items.cont}
+                  </p>
                 </div>
               ))}
             </div>
           </div>
-          <div className="grid lg:grid-cols-2 grid-cols-1 gap-2 p-4   px-4 bg-[#fff]">
+          <div className="grid lg:grid-cols-2 grid-cols-1 gap-2 p-4   px-4 bg-[#eee2dc]">
             {data2.map((items, key) => (
               <div key={key}>
-                <p className="text-[#4d326b] text-[20px]">{items.title}</p>
-                <p className="pb-3 text-black text-[18px]"> {items.cont}</p>
+                <p className="text-[#ac3b61] text-[20px]">{items.title}</p>
+                <p className="pb-3 text-[#123c69] text-[18px]"> {items.cont}</p>
               </div>
             ))}
           </div>

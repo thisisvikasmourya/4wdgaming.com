@@ -14,18 +14,18 @@ import client11 from "../../../public/images/news/news24.png";
 
 const ClientReview = () => {
   return (
-    <div className="bg-[#fff]">
+    <div className="bg-[#eee2dc]">
       <div
-        className="py-20 bg-[#fff] max-w-screen-xl mx-auto md:px-8"
+        className="py-20 bg-[#eee2dc] max-w-screen-xl mx-auto md:px-8"
         id="client"
         data-aos="zoom-in"
       >
         <div className="max-w-screen-xl mx-auto px-4 md:px-8">
           <div className="max-w-xl mx-auto text-center">
-            <h3 className="text-[#4d326b] text-3xl font-semibold sm:text-4xl">
+            <h3 className="text-[#ac3b61] text-3xl font-semibold sm:text-4xl">
               Moram Napu: Making Media Buzz
             </h3>
-            <p className="text-black text-[20px] mt-3">
+            <p className="text-[#123c69] text-[20px] mt-3">
               We&apos;ll get the media talking about you!
             </p>
           </div>

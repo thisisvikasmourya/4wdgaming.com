@@ -6,19 +6,22 @@ const WhatWeDo = () => {
   return (
     <>
       <div id="whatwedo">
-        <div className="bg-[#fff]">
+        <div className="bg-[#eee2dc]">
           <div className="max-w-screen-xl mx-auto md:px-8">
             <div data-aos="zoom-in">
-              <div className="content bg-[#fff] py-16  px-4" data-aos="zoom-in">
+              <div
+                className="content bg-[#eee2dc] py-16  px-4"
+                data-aos="zoom-in"
+              >
                 <h1 className=" outline text-center lg:text-9xl md:text-6xl text-4xl text-[#fff] outline-4 font-semibold">
                   What We Do
                 </h1>
               </div>
             </div>
           </div>
-          <div className="bg-[#fff]">
+          <div className="bg-[#eee2dc]">
             <div className="max-w-screen-xl mx-auto md:px-8">
-              <div className="flex lg:flex-row  flex-col gap-4 p-4 py-10  px-4 bg-[#fff]">
+              <div className="flex lg:flex-row  flex-col gap-4 p-4 py-10  px-4 bg-[#eee2dc]">
                 <div>
                   <Image
                     src={About1}
@@ -29,7 +32,7 @@ const WhatWeDo = () => {
                   />
                 </div>
 
-                <div className="text-black text-[20px]">
+                <div className="text-[#123c69] text-[20px]">
                   <p className="py-3">
                     Sharing Cool Stories: We create exciting stories about your
                     brand that make people go &quot;wow!&quot; We tell these
@@ -69,19 +72,19 @@ const WhatWeDo = () => {
               </div>
             </div>
             <div>
-              <div className="bg-[#fff]">
+              <div className="bg-[#eee2dc]">
                 <div className="max-w-screen-xl mx-auto md:px-8">
                   <div data-aos="zoom-in">
-                    <div className="content bg-[#fff] py-16  px-4 ">
+                    <div className="content bg-[#eee2dc] py-16  px-4 ">
                       <h1 className=" outline text-center lg:text-9xl md:text-6xl text-4xl text-[#fff] outline-4 font-semibold">
                         How We Do It
                       </h1>
                     </div>
                   </div>
                 </div>
-                <div className="bg-[#fff]">
+                <div className="bg-[#eee2dc]">
                   <div className="max-w-screen-xl mx-auto md:px-8">
-                    <div className="flex lg:flex-row  flex-col gap-4 p-4 py-10  px-4 bg-[#fff]">
+                    <div className="flex lg:flex-row  flex-col gap-4 p-4 py-10  px-4 bg-[#eee2dc]">
                       <div>
                         <Image
                           src={About2}
@@ -92,7 +95,7 @@ const WhatWeDo = () => {
                         />
                       </div>
 
-                      <div className="text-black text-[20px]">
+                      <div className="text-[#123c69] text-[20px]">
                         <p className="py-3">
                           We guide gaming companies to their ideal audience
                           using PR & Marketing, Content Marketing, Social Media

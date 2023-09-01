@@ -15,7 +15,7 @@ const Navbar = () => {
       <li>
         <Link
           href="/"
-          className=" px-5 text-black  cursor-pointer hover:bg-[#4d326b] transition-all duration-500 py-3 rounded-lg hover:text-[#fff] "
+          className=" px-5 text-[#123c69]  cursor-pointer hover:bg-[#ac3b61] transition-all duration-500 py-3 rounded-lg hover:text-[#fff] "
         >
           Home
         </Link>
@@ -24,29 +24,29 @@ const Navbar = () => {
       <li>
         <Link
           href="/about-us"
-          className=" px-5 text-black  cursor-pointer hover:bg-[#4d326b] transition-all duration-500 py-2.5 rounded-lg hover:text-[#fff] "
+          className=" px-5 text-[#123c69]  cursor-pointer hover:bg-[#ac3b61] transition-all duration-500 py-2.5 rounded-lg hover:text-[#fff] "
         >
           About Us
         </Link>
       </li>
       <li>
         <div className="dropdown ">
-          <button className="dropbtn px-5 text-black  cursor-pointer hover:bg-[#4d326b] transition-all duration-500 py-2.5 rounded-lg hover:text-[#fff]">
-            <span className="text-black hover:text-[#fff]">Services</span>
+          <button className="dropbtn px-5 text-[#123c69]  cursor-pointer hover:bg-[#ac3b61] transition-all duration-500 py-2.5 rounded-lg hover:text-[#fff]">
+            <span className="text-[#123c69] hover:text-[#fff]">Services</span>
           </button>
           <div className="dropdown-content ">
             <div>
               <Link href="/services/strategy-and-marketing">
-                Game Buzz Builder
+                Strategy And Marketing
               </Link>
               <Link href="/services/content-and-writing">
-                Player Connection Pro
+                Content And Copywriting
               </Link>
               <Link href="/services/public-relations">
-                Trusted Game Partner
+                Creator and Influencer
               </Link>
             </div>
-            {/* <div>
+            <div>
               <Link href="/services/crisis-communication">
                 Crisis Communication
               </Link>
@@ -62,13 +62,13 @@ const Navbar = () => {
               <Link href="/services/international-pr-expansion">
                 International PR-Expansion
               </Link>
-            </div> */}
+            </div>
           </div>
         </div>
       </li>
       {/* <li>
         <div className="dropdown">
-          <button className="dropbtn px-5 text-black  cursor-pointer hover:bg-[#4d326b] py-3 transition-all duration-500 rounded-lg hover:text-[#fff]">
+          <button className="dropbtn px-5 text-[#123c69]  cursor-pointer hover:bg-[#ac3b61] py-3 transition-all duration-500 rounded-lg hover:text-[#fff]">
             Case Study
           </button>
           <div className="dropdown-content">
@@ -91,7 +91,7 @@ const Navbar = () => {
         <Link
           href="/pricing-page"
           onClick={() => setOpen(false)}
-          className=" px-5 text-black cursor-pointer transition-all duration-500 hover:bg-[#4d326b] py-3 rounded-lg hover:text-[#fff] "
+          className=" px-5 text-[#123c69] cursor-pointer transition-all duration-500 hover:bg-[#ac3b61] py-3 rounded-lg hover:text-[#fff] "
         >
           Pricing
         </Link>
@@ -99,7 +99,7 @@ const Navbar = () => {
       <li>
         <Link
           href="/blog"
-          className=" px-5 text-black  cursor-pointer transition-all duration-500 hover:bg-[#4d326b] py-3 rounded-lg hover:text-[#fff] "
+          className=" px-5 text-[#123c69]  cursor-pointer transition-all duration-500 hover:bg-[#ac3b61] py-3 rounded-lg hover:text-[#fff] "
         >
           Blog
         </Link>
@@ -110,7 +110,7 @@ const Navbar = () => {
   return (
     <>
       <nav
-        className=" flex text-[18px] justify-between py-5 lg:px-20 px-4 bg-[#fff] items-center"
+        className=" flex text-[18px] justify-between py-5 border-gray-300 border-b lg:px-20 px-4 bg-[#eee2dc] items-center"
         id="home"
       >
         <Link href={"/"}>
@@ -132,22 +132,22 @@ const Navbar = () => {
           &nbsp;
           <button onClick={() => setOpen(!open)} className="block lg:hidden ">
             {!open ? (
-              <RiMenu4Line className="text-3xl text-[#4d326b]" />
+              <RiMenu4Line className="text-3xl text-[#ac3b61]" />
             ) : (
-              <AiOutlineClose className="text-3xl text-[#4d326b]" />
+              <AiOutlineClose className="text-3xl text-[#ac3b61]" />
             )}
           </button>
         </div>
       </nav>
 
       {open ? (
-        <div className="bg-[#fff] h-screen text-[18px] text-[#fff] rounded w-full text-center z-10 pb-5 fixed navv ">
+        <div className="bg-[#eee2dc] h-screen text-[18px] text-[#fff] rounded w-full text-center z-10 pb-5 fixed navv ">
           <ul className=" lg:hidden flex flex-col items-center gap-10  ">
             <li>
               <Link
                 href="/"
                 onClick={() => setOpen(false)}
-                className=" px-5 text-black  cursor-pointer hover:bg-[#4d326b] py-3 rounded-lg hover:text-[#fff] "
+                className=" px-5 text-[#123c69]  cursor-pointer hover:bg-[#ac3b61] py-3 rounded-lg hover:text-[#fff] "
               >
                 Home
               </Link>
@@ -157,37 +157,37 @@ const Navbar = () => {
               <Link
                 href="/about-us"
                 onClick={() => setOpen(false)}
-                className=" px-5 text-black  cursor-pointer hover:bg-[#4d326b] py-3 rounded-lg hover:text-[#fff] "
+                className=" px-5 text-[#123c69]  cursor-pointer hover:bg-[#ac3b61] py-3 rounded-lg hover:text-[#fff] "
               >
                 About Us
               </Link>
             </li>
             <li>
               <div className="dropdown ">
-                <button className="dropbtn text-black">
-                  <span className="text-black">Services</span>
+                <button className="dropbtn text-[#123c69]">
+                  <span className="text-[#123c69]">Services</span>
                 </button>
                 <div className="dropdown-content">
                   <Link
                     href="/services/strategy-and-marketing"
                     onClick={() => setOpen(false)}
                   >
-                    Game Buzz Builder
+                    Strategy And Marketing
                   </Link>
                   <Link
                     href="/services/content-and-writing"
                     onClick={() => setOpen(false)}
                   >
-                    Player Connection Pro
+                    Content And Copywriting
                   </Link>
                   <Link
                     href="/services/public-relations"
                     onClick={() => setOpen(false)}
                   >
-                    Trusted Game Partner
+                    Creator and Influencer
                   </Link>
 
-                  {/* <Link
+                  <Link
                     href="/services/crisis-communication"
                     onClick={() => setOpen(false)}
                   >
@@ -216,13 +216,13 @@ const Navbar = () => {
                     onClick={() => setOpen(false)}
                   >
                     International PR-Expansion
-                  </Link> */}
+                  </Link>
                 </div>
               </div>
             </li>
             {/* <li>
               <div className="dropdown">
-                <button className="dropbtn text-black">Case Study</button>
+                <button className="dropbtn text-[#123c69]">Case Study</button>
                 <div className="dropdown-content">
                   <Link
                     href={"/case-study/nazara"}
@@ -249,7 +249,7 @@ const Navbar = () => {
               <Link
                 href="/pricing-page"
                 onClick={() => setOpen(false)}
-                className=" px-5 text-black cursor-pointer hover:bg-[#4d326b] py-3 rounded-lg hover:text-[#fff] "
+                className=" px-5 text-[#123c69] cursor-pointer hover:bg-[#ac3b61] py-3 rounded-lg hover:text-[#fff] "
               >
                 Pricing
               </Link>
@@ -258,7 +258,7 @@ const Navbar = () => {
               <Link
                 href="/blog"
                 onClick={() => setOpen(false)}
-                className=" px-5 text-black cursor-pointer hover:bg-[#4d326b] py-3 rounded-lg hover:text-[#fff] "
+                className=" px-5 text-[#123c69] cursor-pointer hover:bg-[#ac3b61] py-3 rounded-lg hover:text-[#fff] "
               >
                 Blog
               </Link>

@@ -88,35 +88,38 @@ const InternationalPrExpansion = () => {
   ];
   return (
     <div>
-      <div className="bg-[#fff]" data-aos="zoom-in">
+      <div className="bg-[#eee2dc]" data-aos="zoom-in">
         <div className="max-w-screen-xl mx-auto md:px-8">
-          <div className="content bg-[#fff] py-16  px-4">
+          <div className="content bg-[#eee2dc] py-16  px-4">
             <h1 className=" outline text-center lg:text-9xl md:text-6xl text-4xl text-[#fff] outline-4 font-semibold">
               International PR-Expansion
             </h1>
           </div>
         </div>
       </div>
-      <div className="bg-[#fff]" data-aos="zoom-in">
+      <div className="bg-[#eee2dc]" data-aos="zoom-in">
         <div className="max-w-screen-xl mx-auto md:px-8">
-          <div className="grid lg:grid-cols-2 grid-cols-1 gap-6  pt-10  px-4 bg-[#fff]">
+          <div className="grid lg:grid-cols-2 grid-cols-1 gap-6  pt-10  px-4 bg-[#eee2dc]">
             <div>
               <Image src={About} alt="hello" layout="" className="rounded-lg" />
             </div>
             <div>
               {data.map((items, key) => (
                 <div key={key}>
-                  <p className="text-[#4d326b] text-[20px]">{items.title}</p>
-                  <p className="pb-3 text-black text-[18px]"> {items.cont}</p>
+                  <p className="text-[#ac3b61] text-[20px]">{items.title}</p>
+                  <p className="pb-3 text-[#123c69] text-[18px]">
+                    {" "}
+                    {items.cont}
+                  </p>
                 </div>
               ))}
             </div>
           </div>
-          <div className="p-4  grid lg:grid-cols-2 grid-cols-1 gap-2  px-4 bg-[#fff]">
+          <div className="p-4  grid lg:grid-cols-2 grid-cols-1 gap-2  px-4 bg-[#eee2dc]">
             {data2.map((items, key) => (
               <div key={key}>
-                <p className="text-[#4d326b] text-[20px]">{items.title}</p>
-                <p className="pb-3 text-black text-[18px]"> {items.cont}</p>
+                <p className="text-[#ac3b61] text-[20px]">{items.title}</p>
+                <p className="pb-3 text-[#123c69] text-[18px]"> {items.cont}</p>
               </div>
             ))}
           </div>

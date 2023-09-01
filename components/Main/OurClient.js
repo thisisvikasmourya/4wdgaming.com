@@ -19,8 +19,8 @@ import client11 from "../../public/images/trinity.png";
 export default function OurClient() {
   return (
     <>
-      <div className="px-32 py-20 bg-[#fff]">
-        <h1 className="text-center text-2xl text-[#4d326b] py-10 font-bold">
+      <div className="px-32 py-20 bg-[#eee2dc]">
+        <h1 className="text-center text-2xl text-[#ac3b61] py-10 font-bold">
           Our Client
         </h1>
         <Swiper
