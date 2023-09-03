@@ -111,10 +111,10 @@ const Navbar = () => {
   return (
     <>
       {dstate ? (
-        <div className="bg-[#ac3b61]">
+        <div className="bg-[#123c69]">
           <div className="max-w-screen-xl mx-auto px-4 py-3 flex items-start justify-between text-white md:px-8">
             <div className="flex gap-x-4">
-              <div className="w-10 h-10 flex-none rounded-lg bg-[#67233a] flex items-center justify-center">
+              <div className="w-10 h-10 flex-none rounded-lg bg-[#0e3054] flex items-center justify-center">
                 <svg
                   className="w-6 h-6"
                   xmlns="http://www.w3.org/2000/svg"
@@ -140,7 +140,7 @@ const Navbar = () => {
               </p>
             </div>
             <button
-              className="p-2 rounded-lg duration-150 hover:bg-[#ca6510] ring-offset-2 focus:ring"
+              className="p-2 rounded-lg duration-150 hover:bg-[#0e3054] ring-offset-2 focus:ring"
               onClick={() => setDstate(!dstate)}
             >
               <svg

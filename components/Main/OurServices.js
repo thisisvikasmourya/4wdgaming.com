@@ -13,6 +13,7 @@ import esportss2 from "../../public/images/esportss.png";
 import Image from "next/image";
 import Link from "next/link";
 import { HiArrowLongRight } from "react-icons/hi";
+import Card from "./Card";
 
 export default function Services() {
   const posts = [
@@ -92,9 +93,9 @@ export default function Services() {
     <div className="bg-[#eee2dc]" data-aos="zoom-in">
       <div className=" px-4  py-20 bg-[#eee2dc] max-w-screen-xl mx-auto md:px-8">
         {/* <h1>Our Service</h1> */}
-        <div className="max-w-xl sm:text-center py-10 md:mx-auto">
+        <div className="max-w-xl sm:text-center py-1 md:mx-auto">
           <h3 className="text-[#ac3b61] text-4xl font-semibold sm:text-4xl text-center ">
-            Pricing for all sizes
+            Our Services
           </h3>
           <p className="mt-3 text-[#123c69] text-[20px] text-center">
             We believe in fairness and giving game companies choices that suit
@@ -102,6 +103,7 @@ export default function Services() {
             value for every budget:
           </p>
         </div>
+        <Card/>
 
         {/* <p className="lg:text-3xl text-[#ac3b61] text-2xl font-bold text-center py-1 ">
           OUR SERVICES
@@ -109,7 +111,7 @@ export default function Services() {
         <p className="lg:text-2xl text-2xl border-b  text-center pb-3">
           INDIA&apos;S PREMIER GAMING PR & MARKETING CONSULTANCY
         </p> */}
-        <div
+        {/* <div
           className="grid gap-5 lg:grid-cols-3 pt-5"
           data-aos="fade-down-right"
         >
@@ -141,7 +143,7 @@ export default function Services() {
               </div>
             </div>
           ))}
-        </div>
+        </div> */}
         {/* <div
           className="grid gap-5 lg:grid-cols-5 pt-5"
           data-aos="fade-down-right"
