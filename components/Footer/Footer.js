@@ -30,18 +30,18 @@ const Footer = () => {
       ],
     },
     {
-      label: "Services",
+      label: "Pricing",
       items: [
         {
-          href: "/services/public-relations",
+          href: "/pricing-page",
           name: "Game Buzz Builder",
         },
         {
-          href: "/services/strategy-and-marketing",
+          href: "/pricing-page",
           name: " Player Connection Pro",
         },
         {
-          href: "/services/content-and-writing",
+          href: "/pricing-page",
           name: "Trusted Game Partner",
         },
       ],
