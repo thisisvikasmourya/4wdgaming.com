@@ -87,19 +87,19 @@ const Footer = () => {
           <div className="mt-6 sm:mt-0">
             <ul className="flex items-center space-x-4">
               <li className="w-10 h-10 border rounded-xl flex items-center justify-center">
-                <a href="https://www.instagram.com/4wd.gaming/">
+                <a href="#">
                   <BiLogoInstagram />{" "}
                 </a>
               </li>
 
               <li className="w-10 h-10 border rounded-xl flex items-center justify-center">
-                <a href="https://twitter.com/4wdGaming">
+                <a href="#">
                   <BiLogoTwitter />
                 </a>
               </li>
 
               <li className="w-10 h-10 border rounded-xl flex items-center justify-center">
-                <a href="https://www.linkedin.com/company/4wd-gaming/">
+                <a href="#">
                   <BiLogoLinkedin />{" "}
                 </a>
               </li>
