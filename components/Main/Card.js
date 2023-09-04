@@ -41,7 +41,7 @@ export default function Card() {
       link: "/pricing-page",
     },
     {
-      title: "espategy and Marketing",
+      title: "Strategy and Marketing",
       img: cont,
       content:
         " We make sure game companies look really good. We team up with famous people and use clever tricks to show everyone that the games are super trustworthy and awesome.",
@@ -111,8 +111,7 @@ export default function Card() {
         <div className=" px-4  py-20 bg-[#eee2dc] max-w-screen-xl mx-auto md:px-8">
           <Swiper
             slidesPerView={4}
-                      spaceBetween={ 20 }
-                      
+            spaceBetween={20}
             breakpoints={{
               // when window width is >= 320px
               320: {
