@@ -3,9 +3,13 @@ import React from "react";
 import About from "../../public/images/4wdlogo.jpg";
 import vamsi from "../../public/images/Vamsi-Krishna-Talasila-1-1024x936.jpg";
 import jay from "../../public/images/Jay-Sayta-3-1-2.jpg";
-import About2 from "../../public/images/owner.jpg";
+import About1 from "../../public/images/1.png";
 import AdvisoryCouncil from "./AdvisoryCouncil";
 import WhatWeDo from "./WhatWeDo";
+import About2 from "../../public/images/2.png";
+import About3 from "../../public/images/3.png";
+import { BsLinkedin } from "react-icons/bs";
+import Link from "next/link";
 
 const AboutUs = () => {
   return (
@@ -113,22 +117,22 @@ const AboutUs = () => {
             </div>
           </div> */}
           <div className="p-4 text-[18px] text-[#123c69]  bg-[#eee2dc] py-10  px-4">
-            About MORAM NAPU: At MORAM NAPU, we&apos;re the ones who make games
-            stand out and get all the attention they deserve. Think of us as the
-            boosters that help game companies reach players who can&apos;t wait
-            to dive into their games. Our secret recipe includes creative ideas
-            and smart strategies that make games famous and loved.
+            At MORAM NAPU, we&apos;re the ones who make games stand out and get
+            all the attention they deserve. Think of us as the boosters that
+            help game companies reach players who can&apos;t wait to dive into
+            their games. Our secret recipe includes creative ideas and smart
+            strategies that make games famous and loved.
           </div>
         </div>
       </div>
-      {/* <div id="founder">
+      <div id="founder">
         <div>
           <div className="bg-[#eee2dc] py-18" data-aos="zoom-in">
             <div className="max-w-screen-xl mx-auto md:px-8 ">
               <div data-aos="zoom-in">
                 <div className="content bg-[#eee2dc] py-20  px-4">
                   <h1 className=" outline text-center lg:text-9xl md:text-6xl text-4xl text-[#fff] outline-4 font-semibold">
-                    About the Founder
+                    About the Team
                   </h1>
                 </div>
               </div>
@@ -137,7 +141,53 @@ const AboutUs = () => {
 
           <div className="bg-[#eee2dc]" data-aos="zoom-in">
             <div className="max-w-screen-xl mx-auto md:px-8 py-10">
-              <div className="grid lg:grid-cols-2 grid-cols-1 gap-6 p-4 py-10 items-center px-4 bg-[#eee2dc]">
+              <div className="grid lg:grid-cols-3 grid-cols-1 gap-6 p-4 py-10 items-center px-4 bg-[#eee2dc]">
+                <div>
+                  <Image
+                    src={About1}
+                    alt="hello"
+                    layout="responsive"
+                    className="rounded-lg"
+                  />
+                  <div className="flex items-center justify-between">
+                    <div>
+                      <p className="text-xl text-[#ac3b61] mt-2">
+                        Mallikarjun Reddy
+                      </p>
+                      <p className="text-lg text-[#123c69]">Founder CEO</p>
+                    </div>
+                    <Link
+                      href={
+                        "https://www.linkedin.com/in/mallikarjun-reddy-195676144/"
+                      }
+                    >
+                      <BsLinkedin className="text-[50px] text-[#0072b1]" />
+                    </Link>{" "}
+                  </div>
+                </div>
+                <div>
+                  <Image
+                    src={About3}
+                    alt="hello"
+                    layout="responsive"
+                    className="rounded-lg"
+                  />
+                  <div className="flex items-center justify-between">
+                    <div>
+                      <p className="text-xl text-[#ac3b61] mt-2">
+                        Claris Micheal
+                      </p>
+                      <p className="text-lg text-[#123c69]">Advisor (Web3)</p>
+                    </div>
+                    <Link
+                      href={
+                        "https://www.linkedin.com/in/claris-michael-a3942119b"
+                      }
+                    >
+                      <BsLinkedin className="text-[50px] text-[#0072b1]" />
+                    </Link>{" "}
+                  </div>
+                </div>
                 <div>
                   <Image
                     src={About2}
@@ -145,15 +195,21 @@ const AboutUs = () => {
                     layout="responsive"
                     className="rounded-lg"
                   />
+                  <div className="flex items-center justify-between">
+                    <div>
+                      <p className="text-xl text-[#ac3b61] mt-2">Luis Ruiz</p>
+                      <p className="text-lg text-[#123c69]">
+                        Advisor (Gaming, Esport, RMG)
+                      </p>
+                    </div>
+                    <Link href={"https://www.linkedin.com/in/luiseruiz/"}>
+                      <BsLinkedin className="text-[50px] text-[#0072b1]" />
+                    </Link>
+                  </div>
                 </div>
+
                 <div>
-                  <p className="text-[22px] text-[#ac3b61] font-bold">
-                    Sharmilee Daru
-                  </p>
-                  <p className="text-[22px] font-bold text-[#ac3b61]">
-                    Founder, Moram Napu
-                  </p>
-                  <p className="py-2 text-[#123c69] text-[18px]">
+                  {/* <p className="py-2 text-[#123c69] text-[18px]">
                     An alumnus of St. Xaviers’ College, Mumbai and a post
                     graduate from the Xavier’s Institute of Communication,
                     Mumbai, Sharmilee Daru is one of the pioneers of focused and
@@ -169,11 +225,11 @@ const AboutUs = () => {
                     international brands. She believes in the seamless merger of
                     gaming into the Indian mainstream ecosystem while enabling
                     sectoral growth.
-                  </p>
+                  </p> */}
                 </div>
               </div>
 
-              <p className="py-2 text-[#123c69] text-[18px]">
+              {/* <p className="py-2 text-[#123c69] text-[18px]">
                 Managing the communication mandate for Nazara Technologies Ltd.
                 somehow, allowed Sharmilee Daru to set the path for the gaming
                 PR ecosystem in the country. She has been instrumental to
@@ -208,14 +264,14 @@ const AboutUs = () => {
               <p className=" text-[#123c69] text-[18px]">
                 When she is not working, she loves to spend her time horse
                 riding, swimming or simply at the gym.
-              </p>
+              </p> */}
               <div className="  px-4 bg-[#eee2dc] text-[#123c69]"></div>
             </div>
           </div>
         </div>
-      </div> */}
+      </div>
       <WhatWeDo />
-      <AdvisoryCouncil />
+      {/* <AdvisoryCouncil /> */}
     </div>
   );
 };

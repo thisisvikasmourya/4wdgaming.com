@@ -98,12 +98,11 @@ export default function Services() {
             Our Services
           </h3>
           <p className="mt-3 text-[#123c69] text-[20px] text-center">
-            We believe in fairness and giving game companies choices that suit
-            them. Our pricing strategy is designed to offer flexibility and
-            value for every budget:
+            One Stop shop for Digital,media & Marketing solution in gaming,web3
+            gaming & Esports
           </p>
         </div>
-        <Card/>
+        <Card />
 
         {/* <p className="lg:text-3xl text-[#ac3b61] text-2xl font-bold text-center py-1 ">
           OUR SERVICES

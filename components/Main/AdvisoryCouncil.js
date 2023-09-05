@@ -1,6 +1,7 @@
 import Image from "next/image";
 import React from "react";
-import About from "../../public/pro.png";
+import About2 from "../../public/images/2.png";
+import About3 from "../../public/images/3.png";
 // import About2 from "../../public/images/vami.jpg";
 import Link from "next/link";
 
@@ -22,7 +23,7 @@ const AdvisoryCouncil = () => {
             <div className="flex lg:flex-row justify-center flex-col  space-between gap-6 p-4 py-10  px-4 ">
               <div className="text-center">
                 <Image
-                  src={About}
+                  src={About2}
                   data-aos="zoom-in"
                   alt="hello"
                   className="rounded-xl"
@@ -31,10 +32,10 @@ const AdvisoryCouncil = () => {
                 />
               </div>
               <div className="py-3 text-[20px]">
-                <p className="text-lg text-[#ac3b61] mt-2">Lorem ipsum</p>
+                <p className="text-lg text-[#ac3b61] mt-2">Luis Ruiz </p>
                 <p className="text-lg text-[#123c69]">
                   {" "}
-                  dummy text of the printing and typesetting
+                  Advisor (Gaming, Esport, RMG) Mexico
                 </p>
                 <p className="text-[#123c69]">
                   Lorem Ipsum is simply dummy text of the printing and
@@ -66,7 +67,7 @@ const AdvisoryCouncil = () => {
             <div className="flex lg:flex-row justify-center flex-col  space-between gap-6 p-4 py-10  px-4 ">
               <div className="text-center">
                 <Image
-                  src={About}
+                  src={About3}
                   data-aos="zoom-in"
                   alt="hello"
                   className="rounded-xl"
@@ -75,9 +76,9 @@ const AdvisoryCouncil = () => {
                 />
               </div>
               <div className="py-3 text-[20px]">
-                <p className="text-xl text-[#ac3b61] mt-2">Lorem ipsum</p>
+                <p className="text-xl text-[#ac3b61] mt-2">Claris Micheal</p>
                 <p className="text-lg text-[#123c69]">
-                  dummy text of the printing and typesetting
+                  Advisor (Web3) Dubai - UAE
                 </p>
                 <p className="text-[#123c69]">
                   Lorem Ipsum is simply dummy text of the printing and

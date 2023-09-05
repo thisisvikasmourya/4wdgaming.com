@@ -131,8 +131,8 @@ const Navbar = () => {
                 </svg>
               </div>
               <p className="py-2 font-medium">
-                Launch offer prices will increase by 25% after the first 10
-                clients.
+                Get in early and save big! For the first 5 clients, enjoy a
+                whopping 55% off our regular prices.{" "}
                 <a
                   href="javascript:(0)"
                   className="font-semibold underline duration-150 hover:text-indigo-100"

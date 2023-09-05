@@ -43,20 +43,23 @@ const ContactUs = () => {
     });
   };
 
+  // Social media Links update 
+
+//Contact us
+//9833196480
+//arjun@moramnapu.com
   return (
     <div>
       <main className="w-full flex" data-aos="zoom-in">
-        <div className="relative flex-1 hidden items-center justify-center h-screen bg-[#121416] lg:flex">
+        <div className="relative flex-1 hidden items-center justify-center h-screen bg-[#ac3b61] lg:flex">
           <div className="relative z-10 w-full max-w-md">
             <div className=" space-y-3">
               <h3 className="text-[#123c69] text-3xl font-bold">
                 Our customers positive feedback keeps us inspired and driven to
                 excel. Thank you for being a part of our journey!{" "}
               </h3>
-              <p className="text-gray-300">
-                Create an account and get access to all features for 30-days, No
-                credit card required.
-              </p>
+              <p className="text-gray-300">Phone No: - 9833196480</p>
+              <p className="text-gray-300">Email Id: - arjun@moramnapu.com </p>
               {/* <div className="flex items-center -space-x-2 overflow-hidden">
                 <img
                   src="https://randomuser.me/api/portraits/women/79.jpg"

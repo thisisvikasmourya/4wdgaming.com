@@ -82,7 +82,7 @@ const Footer = () => {
         </div>
         <div className=" py-6 border-t items-center justify-between sm:flex">
           <div className="mt-4 sm:mt-0">
-            &copy; MoramNapu 2023. All Rights Reserved .
+            &copy; A unit of Digital Aided School Pvt ltd
           </div>
           <div className="mt-6 sm:mt-0">
             <ul className="flex items-center space-x-4">
@@ -104,11 +104,11 @@ const Footer = () => {
                 </a>
               </li>
 
-              {/* <li className="w-10 h-10 border rounded-full flex items-center justify-center">
-                <a href="javascript:void()">
+              <li className="w-10 h-10 border rounded-full flex items-center justify-center">
+                <a href="https://www.facebook.com/profile.php?id=61550776627153">
                   <BiLogoFacebook />{" "}
                 </a>
-              </li> */}
+              </li>
             </ul>
           </div>
         </div>

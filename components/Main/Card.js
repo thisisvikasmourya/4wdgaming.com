@@ -27,80 +27,95 @@ import { Pagination, Navigation } from "swiper/modules";
 export default function Card() {
   const posts = [
     {
-      title: "Public Relation",
+      title: "Digital Brand Communication",
       img: esp,
       content:
-        "We create a lot of buzz around games. It's like when a secret gets out and everyone wants to know more. We use social media, cool content, and smart marketing to get people talking about games.",
+        "We make sure your gaming brand talks to the right people online, telling exciting stories that gamers love.",
       link: "/pricing-page",
     },
     {
-      title: "Gaming Product Launch",
+      title: "Public Relation & Outreach",
       img: Pr,
       content:
-        "We help game companies become friends with players. Imagine having a big party where everyone talks about games and has a blast. That's what we do online – connect players and make games more fun",
+        " Like gaming gossip, we create buzz around your brand using smart strategies and social media to get people talking.",
       link: "/pricing-page",
     },
     {
-      title: "Strategy and Marketing",
+      title: "Content And Copywriting",
       img: cont,
       content:
-        " We make sure game companies look really good. We team up with famous people and use clever tricks to show everyone that the games are super trustworthy and awesome.",
+        "  We craft cool stories and write awesome content that speaks to gamers and keeps them engaged.",
       link: "/pricing-page",
     },
     {
-      title: "Digital Communication",
+      title: "Strategy And Digital Marketing",
       img: esp,
       content:
-        "We create a lot of buzz around games. It's like when a secret gets out and everyone wants to know more. We use social media, cool content, and smart marketing to get people talking about games.",
+        "Strategy And Digital Marketing We're the game planners who ensure your brand looks good and gets noticed with clever marketing tactics.",
       link: "/pricing-page",
     },
     {
-      title: "Esport Tournament",
+      title: "Social Media Management & Marketing",
       img: Pr,
       content:
-        "We help game companies become friends with players. Imagine having a big party where everyone talks about games and has a blast. That's what we do online – connect players and make games more fun",
+        " Just like your favorite gaming platforms, we make sure your brand rocks on Facebook, Instagram, Twitter, and more.",
       link: "/pricing-page",
     },
     {
-      title: "Data Driven PR-insight",
+      title: "Growth Marketing",
       img: cont,
       content:
-        " We make sure game companies look really good. We team up with famous people and use clever tricks to show everyone that the games are super trustworthy and awesome.",
+        " We're the growth hackers who help your gaming brand get bigger and better using smart tricks.",
       link: "/pricing-page",
     },
     {
-      title: "International PR-insight",
+      title: "Performance Marketing",
       img: esp,
       content:
-        "We create a lot of buzz around games. It's like when a secret gets out and everyone wants to know more. We use social media, cool content, and smart marketing to get people talking about games.",
+        " We make sure your brand's marketing is like a top-tier gaming performance, getting results that matter.",
       link: "/pricing-page",
     },
     {
-      title: "Creator and Influencers",
+      title: "Data Driven Gaming - Insights",
       img: Pr,
       content:
-        "We help game companies become friends with players. Imagine having a big party where everyone talks about games and has a blast. That's what we do online – connect players and make games more fun",
+        "We dig into the numbers to find out what's working and what's not, helping your gaming brand make smart decisions.",
       link: "/pricing-page",
     },
     {
-      title: "Content and CopyWriting",
+      title: "Gaming Product Launches",
       img: cont,
       content:
-        " We make sure game companies look really good. We team up with famous people and use clever tricks to show everyone that the games are super trustworthy and awesome.",
+        "  We throw epic launch parties for your gaming products, making sure they're the talk of the gaming world.",
       link: "/pricing-page",
     },
-    // {
-    //   title: "Creators and Influencers",
-    //   img: web,
-    //   content: "We work with some of the top gaming content creators",
-    //   link: "/services/public-relations",
-    // },
+    {
+      title: "Gaming Event and Expo",
+      img: web,
+      content:
+        " We're the event planners who make sure your gaming, Web3, and esports events shine like never before.",
+      link: "/services/public-relations",
+    },
 
     {
-      title: "Digital Gaming Events",
+      title: "Creators & Influencers",
       img: esp,
       content:
-        "We help game companies become friends with players. Imagine having a big party where everyone talks about games and has a blast. That's what we do online – connect players and make games more fun",
+        " We connect you with gaming stars and influencers who can boost your brand's popularity.",
+      link: "/services/public-relations",
+    },
+    {
+      title: "Community Building and Management",
+      img: esp,
+      content:
+        " We're the architects of strong gaming communities, making sure gamers love your brand.",
+      link: "/services/public-relations",
+    },
+    {
+      title: "Go Global",
+      img: esp,
+      content:
+        "We help your gaming brand conquer the world, expanding your reach to gamers everywhere.",
       link: "/services/public-relations",
     },
   ];

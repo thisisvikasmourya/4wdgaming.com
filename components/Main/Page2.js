@@ -22,15 +22,16 @@ const Page2 = () => {
             Welcome to Moram Napu:
           </p>
           <p className="lg:text-5xl text-3xl font-semibold text-[#123c69]  text-center pb-1">
-            Redefining Gaming PR & Marketing Strategies
+            Turning Gaming PR media and Digital Marketing for Gaming Upside Down
           </p>
           <p className="lg:text-3xl text-2xl font-semibold text-center border-b border-gray-300 pb-5 "></p>
           <div className="max-w-3xl mx-auto text-center py-8 text-[20px] text-[#123c69]">
-            Guiding gaming companies to their ideal audience using
-            Marketing,Digital Marketing, Content Marketing, Social Media
-            Management, Growth and Performance Marketing,Public Relations,
-            Community Building & Management. We also cultivate Brand Awareness
-            and Trust in the audience
+            +1UP your gaming brand with Moram Napu, Gaming PR and Fullstack
+            Digital Marketing. We specialize in Gaming PR Services, Content
+            Management, Digital Marketing, Social Media Engagement, community
+            building,growth marketing and performance marketing. We connect
+            gaming companies with their ideal audience and build trust in the
+            gaming community.
             <div className="    text-[20px] py-5" data-aos="zoom-in">
               We have Secret tricks to win in the gaming industries? CHEAT CODE
               - MORAM NAPU, Our special marketing powers are like cheat codes

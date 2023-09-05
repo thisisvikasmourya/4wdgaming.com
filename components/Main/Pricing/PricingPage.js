@@ -4,12 +4,12 @@ const PricingPage = () => {
   const plans = [
     {
       name: "Gaming Buzz Builder",
-      desc: "Ideal for startups and small businesses looking to establish their presence:",
+      desc: "We create a lot of buzz around games. It's like when a secret gets out and everyone wants to know more. We use social media, cool content, and smart marketing to get people talking about games.",
       price: "45,000/- + GST",
       isMostPop: false,
       features: [
         "Brand Messaging",
-        "Ensure consistent and compelling brand messaging",
+        "Consistent and compelling messaging",
         "Social and Digital Marketing",
         "Social Media Content Creation ",
         "Manage social media presence",
@@ -20,7 +20,7 @@ const PricingPage = () => {
     },
     {
       name: "Player connection Pro",
-      desc: "Designed for companies aiming for broader exposure and brand recognition:",
+      desc: "We help game companies become friends with players. Imagine having a big party where everyone talks about games and has a blast. That's what we do online – connect players and make games more fun",
       price: "129,000/- + GST",
       isMostPop: true,
       features: [
@@ -33,7 +33,7 @@ const PricingPage = () => {
     },
     {
       name: "Trusted Game Partner",
-      desc: "Tailored to meet the specific needs of established brands and ambitious campaigns:.",
+      desc: "We make sure game companies look really good. We team up with famous people and use clever tricks to show everyone that the games are super trustworthy and awesome.",
       price: "189,000/- + GST",
       isMostPop: false,
       features: [
@@ -43,7 +43,6 @@ const PricingPage = () => {
         "Community building & Management",
       ],
     },
-    
   ];
   return (
     <div>
