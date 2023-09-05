@@ -37,6 +37,9 @@ const Navbar = () => {
           </button>
           <div className="dropdown-content ">
             <div>
+              <Link href="/services/public-relations">
+                Public Relation and Outreach
+              </Link>
               <Link href="/services/strategy-and-marketing">
                 Strategy And Marketing
               </Link>
@@ -49,10 +52,10 @@ const Navbar = () => {
             </div>
             <div>
               <Link href="/services/crisis-communication">
-                Crisis Communication
+                Digital Brand Communication
               </Link>
               <Link href="/services/data-driven-pr-insight">
-                Data Driven PR-Insights
+                Data Driven Gaming - Insights
               </Link>
               <Link href="/services/esports-tournament-organization">
                 Esports Tournament Organization

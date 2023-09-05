@@ -87,19 +87,19 @@ const Footer = () => {
           <div className="mt-6 sm:mt-0">
             <ul className="flex items-center space-x-4">
               <li className="w-10 h-10 border rounded-xl flex items-center justify-center">
-                <a href="#">
+                <a href="https://www.instagram.com/MORAMNAPU/">
                   <BiLogoInstagram />{" "}
                 </a>
               </li>
 
               <li className="w-10 h-10 border rounded-xl flex items-center justify-center">
-                <a href="#">
+                <a href="https://twitter.com/MoramNapu">
                   <BiLogoTwitter />
                 </a>
               </li>
 
               <li className="w-10 h-10 border rounded-xl flex items-center justify-center">
-                <a href="#">
+                <a href="https://www.linkedin.com/company/moram-napu/">
                   <BiLogoLinkedin />{" "}
                 </a>
               </li>

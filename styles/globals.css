@@ -59,7 +59,7 @@ body {
   display: none;
   position: absolute;
   background-color: #bab2b5;
-  min-width: 250px;
+  min-width: 350px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
   border-radius: 10px;

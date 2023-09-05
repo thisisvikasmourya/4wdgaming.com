@@ -1,7 +1,97 @@
 import React from "react";
 
 const PricingPage = () => {
+  const pricing = [
+    {
+      title: "Fits Your Budget",
+      desc: "Our pricing strategy is like a tailor-made suit, designed to fit your budget perfectly, whether you're a small gaming startup or a big esports giant.",
+    },
+    {
+      title: "Proven Success",
+      desc: "We've got a track record of delivering results for gaming, Web3 gaming, and esports brands, making our pricing strategy a reliable choice.",
+    },
+    {
+      title: "All-in-One Package",
+      desc: " Our pricing strategy covers everything you need, from marketing to branding, making it easy-peasy for you to get all the tools in one go.",
+    },
+    {
+      title: "Clear and Simple",
+      desc: "We believe in keeping it crystal clear. With our pricing, you'll always know what you're paying for and can make wise decisions for your gaming brand.",
+    },
+    {
+      title: "Gaming Gurus:",
+      desc: "With over 10 years of gaming industry experience, our pricing strategy knows the ins and outs of gaming, Web3 gaming, and esports.",
+    },
+    {
+      title: "Always Fresh",
+      desc: "We keep our pricing strategy updated to match the latest trends and changes in the gaming world, keeping your brand in the game.",
+    },
+    {
+      title: "All About You",
+      desc: "Our pricing strategy is all about you. We work closely with you to make sure it's just what you need for your gaming success.",
+    },
+    {
+      title: "Bang for Your Buck",
+      desc: "We're all about giving you more value for your money. Our pricing strategy is designed to make every penny count.",
+    },
+    {
+      title: "Happy Clients: ",
+      desc: "Our clients love what we do. Our pricing strategy has made many gamers smile, and we're here to make you the next happy client.",
+    },
+    {
+      title: "Go Global:",
+      desc: "Our pricing strategy is like a passport for your brand. It'll help you explore new horizons and connect with gamers around the world.",
+    },
+  ];
   const plans = [
+    {
+      name: "Gaming Buzz Builder",
+      desc: "We create a lot of buzz around games. It's like when a secret gets out and everyone wants to know more. We use social media, cool content, and smart marketing to get people talking about games.",
+      price: "$999",
+      isMostPop: false,
+      features: [
+        "Brand Messaging",
+        "Poster, Carousel, and Video Designing",
+        "Social and Digital Marketing",
+        // "Social Media Content Creation ",
+        // "Manage social media presence",
+        "Social Media handling & Management",
+        // "Outreach",
+        // "Duis non diam vel tortor",
+      ],
+    },
+    {
+      name: "Player connection Pro",
+      desc: "We help game companies become friends with players. Imagine having a big party where everyone talks about games and has a blast. That's what we do online – connect players and make games more fun",
+      price: "$2,999",
+      isMostPop: true,
+      features: [
+        "All feature of the Gaming Buzz Builder",
+        "Digital Strategic Content Creation and Copywriting",
+        "Growth Marketing",
+        "Performance Marketing",
+        "Paid Media Solutions",
+        "Targeted online advertising",
+        "$500 in Ads Credit",
+      ],
+    },
+    {
+      name: "Trusted Game Partner",
+      desc: "We make sure game companies look really good. We team up with famous people and use clever tricks to show everyone that the games are super trustworthy and awesome.",
+      price: "$3,999",
+      isMostPop: false,
+      features: [
+        "All features of the Gaming Buzz Builder",
+        "All features of the Player connection Pro",
+        "Digital Profile Optimization",
+        "Community Building & Management",
+        "PR - Marketing",
+        "Outreach",
+        "$1,000 in Ads Credit",
+      ],
+    },
+  ];
+  const plans2 = [
     {
       name: "Gaming Buzz Builder",
       desc: "We create a lot of buzz around games. It's like when a secret gets out and everyone wants to know more. We use social media, cool content, and smart marketing to get people talking about games.",
@@ -121,170 +211,30 @@ const PricingPage = () => {
           <div className="pt-10 text-[18px] ">
             <p className="text-[#ac3b61] text-xl">Project-Based :</p>
             <p className="text-[#123c69] flex py-1">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="h-5 w-5 text-[#ac3b61]"
-                viewBox="0 0 20 20"
-                fill="currentColor"
-              >
-                <path
-                  fill-rule="evenodd"
-                  d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                  clip-rule="evenodd"
-                ></path>
-              </svg>
-              &nbsp; Pricing Specific campaigns or short-term projects
+              Pricing Specific campaigns or short-term projects
             </p>
             <p className="text-[#123c69] flex py-1">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="h-5 w-5 text-[#ac3b61]"
-                viewBox="0 0 20 20"
-                fill="currentColor"
-              >
-                <path
-                  fill-rule="evenodd"
-                  d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                  clip-rule="evenodd"
-                ></path>
-              </svg>
-              &nbsp; Digital Communication Create website content - social media
-              - 90,000/-
+              Digital Communication Create website content - social media -
+              90,000/-
             </p>
             <p className="text-[#123c69] flex py-1">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="h-5 w-5 text-[#ac3b61]"
-                viewBox="0 0 20 20"
-                fill="currentColor"
-              >
-                <path
-                  fill-rule="evenodd"
-                  d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                  clip-rule="evenodd"
-                ></path>
-              </svg>
-              &nbsp; Traditional PR Craft press releases and secure media
-              coverage - 99,000/-
+              Traditional PR Craft press releases and secure media coverage -
+              99,000/-
             </p>
             <p className="text-[#123c69] flex py-1 ">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="h-5 w-5 text-[#ac3b61]"
-                viewBox="0 0 20 20"
-                fill="currentColor"
-              >
-                <path
-                  fill-rule="evenodd"
-                  d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                  clip-rule="evenodd"
-                ></path>
-              </svg>
-              &nbsp; Digital Events Management - 99,000/-
+              Digital Events Management - 99,000/-
             </p>
             <p className="text-[#123c69] flex py-1">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="h-5 w-5 text-[#ac3b61]"
-                viewBox="0 0 20 20"
-                fill="currentColor"
-              >
-                <path
-                  fill-rule="evenodd"
-                  d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                  clip-rule="evenodd"
-                ></path>
-              </svg>
-              &nbsp; Influencer Marketing - Customised{" "}
+              Influencer Marketing - Customised{" "}
             </p>
           </div>
           <div className="pt-10 text-[18px] ">
-            <p className="text-[#ac3b61] text-xl">
-              Why Choose Our Enhanced Pricing Strategy:
-            </p>
-            <p className="text-[#123c69] flex py-1">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="h-5 w-5 text-[#ac3b61]"
-                viewBox="0 0 20 20"
-                fill="currentColor"
-              >
-                <path
-                  fill-rule="evenodd"
-                  d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                  clip-rule="evenodd"
-                ></path>
-              </svg>
-              &nbsp; Comprehensive Offerings: Our packages encompass a wide
-              range of PR services, ensuring a 360-degree approach to brand
-              visibility and reputation management.
-            </p>
-            <p className="text-[#123c69] flex py-1">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="h-5 w-5 text-[#ac3b61]"
-                viewBox="0 0 20 20"
-                fill="currentColor"
-              >
-                <path
-                  fill-rule="evenodd"
-                  d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                  clip-rule="evenodd"
-                ></path>
-              </svg>
-              &nbsp; Industry Expertise: Our PR professionals are passionate
-              about gaming, web3 gaming, and esports, giving you a competitive
-              edge in these specialized fields.
-            </p>
-            <p className="text-[#123c69] flex py-1">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="h-5 w-5 text-[#ac3b61]"
-                viewBox="0 0 20 20"
-                fill="currentColor"
-              >
-                <path
-                  fill-rule="evenodd"
-                  d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                  clip-rule="evenodd"
-                ></path>
-              </svg>
-              &nbsp; Strategic Approach: With our tailored strategies, your
-              brand will receive the right exposure to target audiences,
-              influencers, and key industry players.
-            </p>
-            <p className="text-[#123c69] flex py-1 ">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="h-5 w-5 text-[#ac3b61]"
-                viewBox="0 0 20 20"
-                fill="currentColor"
-              >
-                <path
-                  fill-rule="evenodd"
-                  d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                  clip-rule="evenodd"
-                ></path>
-              </svg>
-              &nbsp; Proven Results: Our track record in driving brand success
-              within the gaming landscape speaks for itself.
-            </p>
-            <p className="text-[#123c69] flex py-1">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="h-5 w-5 text-[#ac3b61]"
-                viewBox="0 0 20 20"
-                fill="currentColor"
-              >
-                <path
-                  fill-rule="evenodd"
-                  d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                  clip-rule="evenodd"
-                ></path>
-              </svg>
-              &nbsp; Flexibility: From startups to industry leaders, we have the
-              right package to meet your unique needs and budget.{" "}
-            </p>
+            <p className="text-[#ac3b61] text-xl">Why Our Pricing Strategy:</p>
+            {pricing.map((item, idx) => (
+              <p className="text-[#123c69]  flex lg:py-1 py-3" key={idx}>
+                {item.title}:{item.desc}
+              </p>
+            ))}
           </div>
         </div>
       </section>
