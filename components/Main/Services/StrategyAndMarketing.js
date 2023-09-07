@@ -48,51 +48,64 @@ const StrategyAndMarketing = () => {
       // cont: "Navigating the gaming industry can be challenging, but with Moram Napu as your strategic partner, you can move forward with confidence. Our expertise and experience will guide you every step of the way.",
     },
   ];
-  const navData = [
-    {
-      href: "/services/content-and-writing",
-      name: "Content and Copywriting",
-    },
-    {
-      href: "/services/creator-and-influencers",
-      name: "Creator and Influencer",
-    },
-    {
-      href: "/services/crisis-communication",
-      name: "Crisis Communication",
-    },
-    {
-      href: "/services/data-driven-pr-insight",
-      name: "Data Driven Pr-insight",
-    },
-    {
-      href: "/services/public-relations",
-      name: "Public Relations",
-    },
-    {
-      href: "/services/digital-gaming-events",
-      name: "Digital Gaming Events",
-    },
-    {
-      href: "/services/esports-tournament-organization",
-      name: "Esports Tournaments",
-    },
-    {
-      href: "/services/international-pr-expansion",
-      name: "International PR-Expansion",
-    },
-    {
-      href: "/services/gaming-product-launches",
-      name: "Gaming Product Launches",
-    },
-  ];
+   const navData = [
+    //  {
+    //    href: "/services/strategy-and-digitalmarketing",
+    //    name: "Strategy and Digital Marketing",
+    //  },
+     {
+       href: "/services/creator-and-influencers",
+       name: "Creator and Influencer",
+     },
+     {
+       href: "/services/digital-brand-communication",
+       name: "Digital Brand Communication",
+     },
+     {
+       href: "/services/data-driven-gaming-insight",
+       name: "Data Driven Gaming-Insight",
+     },
+     {
+       href: "/services/public-relations-and-outreach",
+       name: "Public Relations and Outreach",
+     },
+     {
+       href: "/services/digital-gaming-events-and-expo",
+       name: " Gaming Events and Expo",
+     },
+     {
+       href: "/services/growth-marketing",
+       name: "Growth Marketing",
+     },
+     {
+       href: "/services/performance-marketing",
+       name: "Performance Marketing",
+     },
+     {
+       href: "/services/gaming-product-launches",
+       name: "Gaming Product Launches",
+     },
+     {
+       href: "/services/social-media-management-marketing",
+       name: "Social Media Management Marketing",
+     },
+     {
+       href: "/services/community-building-marketing",
+       name: "Community Building Marketing",
+     },
+     {
+       href: "/services/go-global-pr-marketing",
+       name: "Go Global PR Marketing",
+     },
+   ];
+
   return (
     <div>
       <div className="bg-[#eee2dc]" data-aos="zoom-in">
         <div className="max-w-screen-xl mx-auto md:px-8">
           <div className="content bg-[#eee2dc] py-16  px-4">
             <h1 className=" outline text-center lg:text-9xl md:text-6xl text-4xl text-[#fff] outline-4 font-semibold">
-              Strategy And Marketing
+              Strategy And Digital Marketing
             </h1>
           </div>
         </div>

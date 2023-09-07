@@ -101,7 +101,7 @@ const EsportsTournament = () => {
         <div className="max-w-screen-xl mx-auto md:px-8">
           <div className="content bg-[#eee2dc] py-16  px-4">
             <h1 className=" outline text-center lg:text-9xl md:text-6xl text-4xl text-[#fff] outline-4 font-semibold">
-              Esports Tournament Organizations
+              Gaming Event and Expo
             </h1>
           </div>
         </div>

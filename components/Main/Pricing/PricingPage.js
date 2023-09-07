@@ -20,7 +20,7 @@ const PricingPage = () => {
     },
     {
       title: "Gaming Gurus:",
-      desc: "With over 10 years of gaming industry experience, our pricing strategy knows the ins and outs of gaming, Web3 gaming, and esports.",
+      desc: "Years of gaming industry experience, our pricing strategy knows the ins and outs of gaming, Web3 gaming, and esports",
     },
     {
       title: "Always Fresh",
@@ -36,7 +36,7 @@ const PricingPage = () => {
     },
     {
       title: "Happy Clients: ",
-      desc: "Our clients love what we do. Our pricing strategy has made many gamers smile, and we're here to make you the next happy client.",
+      desc: "Our clients love what we do. Our pricing strategy has made many gaming brands smile, and we're here to make you the next happy client",
     },
     {
       title: "Go Global:",

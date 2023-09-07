@@ -49,44 +49,57 @@ const ContentandCopywriting = () => {
     },
   ];
 
-  const navData = [
-    {
-      href: "/services/strategy-and-marketing",
-      name: "Strategy and Marketing",
-    },
-    {
-      href: "/services/creator-and-influencers",
-      name: "Creator and Influencer",
-    },
-    {
-      href: "/services/crisis-communication",
-      name: "Crisis Communication",
-    },
-    {
-      href: "/services/data-driven-pr-insight",
-      name: "Data Driven Pr-insight",
-    },
-    {
-      href: "/services/public-relations",
-      name: "Public Relations",
-    },
-    {
-      href: "/services/digital-gaming-events",
-      name: "Digital Gaming Events",
-    },
-    {
-      href: "/services/esports-tournament-organization",
-      name: "Esports Tournaments",
-    },
-    {
-      href: "/services/international-pr-expansion",
-      name: "International PR-Expansion",
-    },
-    {
-      href: "/services/gaming-product-launches",
-      name: "Gaming Product Launches",
-    },
-  ];
+   const navData = [
+     {
+       href: "/services/strategy-and-digitalmarketing",
+       name: "Strategy and Digital Marketing",
+     },
+     {
+       href: "/services/creator-and-influencers",
+       name: "Creator and Influencer",
+     },
+     {
+       href: "/services/digital-brand-communication",
+       name: "Digital Brand Communication",
+     },
+     {
+       href: "/services/data-driven-gaming-insight",
+       name: "Data Driven Gaming-Insight",
+     },
+     {
+       href: "/services/public-relations-and-outreach",
+       name: "Public Relations and Outreach",
+     },
+     {
+       href: "/services/digital-gaming-events-and-expo",
+       name: " Gaming Events and Expo",
+     },
+     {
+       href: "/services/growth-marketing",
+       name: "Growth Marketing",
+     },
+     {
+       href: "/services/performance-marketing",
+       name: "Performance Marketing",
+     },
+     {
+       href: "/services/gaming-product-launches",
+       name: "Gaming Product Launches",
+     },
+     {
+       href: "/services/social-media-management-marketing",
+       name: "Social Media Management Marketing",
+     },
+     {
+       href: "/services/community-building-marketing",
+       name: "Community Building Marketing",
+     },
+     {
+       href: "/services/go-global-pr-marketing",
+       name: "Go Global PR Marketing",
+     },
+   ];
+
   return (
     <div className="bg-[#eee2dc]">
       <div className="bg-[#eee2dc]" data-aos="zoom-in">

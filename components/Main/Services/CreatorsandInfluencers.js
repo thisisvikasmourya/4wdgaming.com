@@ -50,42 +50,51 @@ const CreatorsandInfluencers = () => {
   ];
   const navData = [
     {
-      href: "/services/strategy-and-marketing",
-      name: "Strategy and Marketing",
+      href: "/services/strategy-and-digitalmarketing",
+      name: "Strategy and Digital Marketing",
     },
     {
-      href: "/services/content-and-writing",
-      name: "Content and Copywriting",
+      href: "/services/digital-brand-communication",
+      name: "Digital Brand Communication",
     },
     {
-      href: "/services/crisis-communication",
-      name: "Crisis Communication",
+      href: "/services/data-driven-gaming-insight",
+      name: "Data Driven Gaming-Insight",
     },
     {
-      href: "/services/data-driven-pr-insight",
-      name: "Data Driven Pr-insight",
+      href: "/services/public-relations-and-outreach",
+      name: "Public Relations and Outreach",
     },
     {
-      href: "/services/public-relations",
-      name: "Public Relations",
+      href: "/services/digital-gaming-events-and-expo",
+      name: " Gaming Events and Expo",
     },
     {
-      href: "/services/digital-gaming-events",
-      name: "Digital Gaming Events",
+      href: "/services/growth-marketing",
+      name: "Growth Marketing",
     },
     {
-      href: "/services/esports-tournament-organization",
-      name: "Esports Tournaments",
-    },
-    {
-      href: "/services/international-pr-expansion",
-      name: "International PR-Expansion",
+      href: "/services/performance-marketing",
+      name: "Performance Marketing",
     },
     {
       href: "/services/gaming-product-launches",
       name: "Gaming Product Launches",
     },
+    {
+      href: "/services/social-media-management-marketing",
+      name: "Social Media Management Marketing",
+    },
+    {
+      href: "/services/community-building-marketing",
+      name: "Community Building Marketing",
+    },
+    {
+      href: "/services/go-global-pr-marketing",
+      name: "Go Global PR Marketing",
+    },
   ];
+
   return (
     <div>
       <div className="bg-[#eee2dc]" data-aos="zoom-in">

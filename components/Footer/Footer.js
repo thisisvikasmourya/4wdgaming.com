@@ -83,6 +83,10 @@ const Footer = () => {
         <div className=" py-6 border-t items-center justify-between sm:flex">
           <div className="mt-4 sm:mt-0">
             &copy; A unit of Digital Aided School Pvt ltd
+            &nbsp;&nbsp;|&nbsp;&nbsp;{" "}
+            <Link href={"/privacy-policy"}>Privacy Policy</Link>
+            &nbsp;&nbsp;|&nbsp;&nbsp;{" "}
+            <Link href={"/frequently-asked-question"}>FAQ</Link>
           </div>
           <div className="mt-6 sm:mt-0">
             <ul className="flex items-center space-x-4">

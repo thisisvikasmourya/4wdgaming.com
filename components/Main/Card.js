@@ -3,120 +3,119 @@ import React, { useRef, useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import Image from "next/image";
 import Link from "next/link";
-import Pr from "../../public/images/pr.jpg";
-import esp from "../../public/images/esport.jpg";
-import web from "../../public/images/cover.jpg";
-import cont from "../../public/images/ddd.png";
-// import esp from "../../public/images/marketing.jpg";
-import crisis from "../../public/images/crisis.png";
-import data from "../../public/images/datadriven.jpeg";
-import game from "../../public/images/game.png";
-import esports from "../../public/images/interpr.jpg";
-import esportss2 from "../../public/images/esportss.png";
-
-// Import Swiper styles
 import "swiper/css";
 import "swiper/css/pagination";
-
 import "swiper/css/navigation";
-// import "./styles.css";
-
-// import required modules
 import { Pagination, Navigation } from "swiper/modules";
+import v1 from "../../public/images/new/1.gif";
+import v2 from "../../public/images/new/2.gif";
+import v3 from "../../public/images/new/3.gif";
+import v4 from "../../public/images/new/4.gif";
+import v5 from "../../public/images/new/5.gif";
+import v6 from "../../public/images/new/6.gif";
+import v7 from "../../public/images/new/7.gif";
+import v8 from "../../public/images/new/8.gif";
+import v9 from "../../public/images/new/9.gif";
+import v10 from "../../public/images/new/10.gif";
+import v11 from "../../public/images/new/11.gif";
+import v12 from "../../public/images/new/12.gif";
+import v13 from "../../public/images/new/13.gif";
+import v14 from "../../public/images/new/14.gif";
+import v15 from "../../public/images/new/15.gif";
 
 export default function Card() {
   const posts = [
     {
       title: "Digital Brand Communication",
-      img: esp,
+      img: v15,
       content:
         "We make sure your gaming brand talks to the right people online, telling exciting stories that gamers love.",
-      link: "/pricing-page",
+      link: "/services/digital-brand-communication",
     },
     {
       title: "Public Relation & Outreach",
-      img: Pr,
+      img: v14,
       content:
-        " Like gaming gossip, we create buzz around your brand using smart strategies and social media to get people talking.",
-      link: "/pricing-page",
+        " Like gaming gossip, we create buzz around your brand using smart strategies and social...",
+      link: "/services/public-relations-and-outreach",
     },
     {
       title: "Content And Copywriting",
-      img: cont,
+      img: v13,
       content:
         "  We craft cool stories and write awesome content that speaks to gamers and keeps them engaged.",
-      link: "/pricing-page",
+      link: "/content-and-writing",
     },
     {
       title: "Strategy And Digital Marketing",
-      img: esp,
+      img: v12,
       content:
-        "Strategy And Digital Marketing We're the game planners who ensure your brand looks good and gets noticed with clever marketing tactics.",
-      link: "/pricing-page",
+        "Strategy And Digital Marketing We're the game planners who ensure your brand looks...",
+      link: "/services/strategy-and-digitalmarketing",
     },
     {
       title: "Social Media Management & Marketing",
-      img: Pr,
+      img: v11,
       content:
-        " Just like your favorite gaming platforms, we make sure your brand rocks on Facebook, Instagram, Twitter, and more.",
-      link: "/pricing-page",
+        " Just like your favorite gaming platforms, we make sure your brand rocks on Facebook,...",
+      link: "/services/social-media-management-marketing",
     },
     {
       title: "Growth Marketing",
-      img: cont,
+      img: v10,
       content:
         " We're the growth hackers who help your gaming brand get bigger and better using smart tricks.",
-      link: "/pricing-page",
+      link: "/services/growth-marketing",
     },
     {
       title: "Performance Marketing",
-      img: esp,
+      img: v9,
       content:
         " We make sure your brand's marketing is like a top-tier gaming performance, getting results that matter.",
-      link: "/pricing-page",
+      link: "/services/performance-marketing",
     },
     {
       title: "Data Driven Gaming - Insights",
-      img: Pr,
+      img: v8,
       content:
-        "We dig into the numbers to find out what's working and what's not, helping your gaming brand make smart decisions.",
-      link: "/pricing-page",
+        "We dig into the numbers to find out what's working and what's not, helping your gaming brand make smart...",
+      link: "/services/data-driven-gaming-insight",
     },
     {
       title: "Gaming Product Launches",
-      img: cont,
+      img: v7,
       content:
         "  We throw epic launch parties for your gaming products, making sure they're the talk of the gaming world.",
-      link: "/pricing-page",
+      link: "/services/gaming-product-launches",
     },
     {
       title: "Gaming Event and Expo",
-      img: web,
+      img: v6,
       content:
-        " We're the event planners who make sure your gaming, Web3, and esports events shine like never before.",
-      link: "/services/public-relations",
+        " We're the event planners who make sure your gaming, Web3, and esports events...",
+      link: "/services/digital-gaming-events-and-expo",
     },
 
     {
       title: "Creators & Influencers",
-      img: esp,
+      img: v5,
       content:
         " We connect you with gaming stars and influencers who can boost your brand's popularity.",
-      link: "/services/public-relations",
+      link: "/services/creator-and-influencers",
     },
     {
       title: "Community Building and Management",
-      img: esp,
+      img: v4,
       content:
         " We're the architects of strong gaming communities, making sure gamers love your brand.",
-      link: "/services/public-relations",
+      link: "/services/community-building-management",
     },
     {
       title: "Go Global",
-      img: esp,
+      img: v3,
       content:
         "We help your gaming brand conquer the world, expanding your reach to gamers everywhere.",
-      link: "/services/public-relations",
+      link: "/services/go-global-pr-marketing",
     },
   ];
 
@@ -127,6 +126,7 @@ export default function Card() {
           <Swiper
             slidesPerView={4}
             spaceBetween={20}
+            navigation={true}
             breakpoints={{
               // when window width is >= 320px
               320: {
@@ -147,7 +147,7 @@ export default function Card() {
             pagination={{
               clickable: true,
             }}
-            modules={[Pagination]}
+            modules={[Pagination, Navigation]}
             className="mySwiper bg-[#eee2dc]"
           >
             {posts.map((items, key) => (
@@ -163,13 +163,6 @@ export default function Card() {
                     alt="image"
                   />
                   <div className="p-4">
-                    <Link
-                      className="   font-bold text-[20px] text-[#ac3b61]"
-                      href={items.link}
-                    >
-                      {items.title}
-                    </Link>
-                    <br />
                     <Link
                       className=" text-[18px]  text-[#123c69]  rounded "
                       href={items.link}

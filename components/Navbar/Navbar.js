@@ -37,35 +37,41 @@ const Navbar = () => {
           </button>
           <div className="dropdown-content ">
             <div>
-              <Link href="/services/public-relations">
+              <Link href="/services/public-relations-and-outreach">
                 Public Relation and Outreach
               </Link>
-              <Link href="/services/strategy-and-marketing">
-                Strategy And Marketing
+              <Link href="/services/strategy-and-digitalmarketing">
+                Strategy And Digital Marketing
               </Link>
               <Link href="/services/content-and-writing">
                 Content And Copywriting
               </Link>
-              <Link href="/services/public-relations">
+              <Link href="/services/creator-and-influencers">
                 Creator and Influencer
               </Link>
-            </div>
-            <div>
-              <Link href="/services/crisis-communication">
+              <Link href="/services/digital-brand-communication">
                 Digital Brand Communication
               </Link>
-              <Link href="/services/data-driven-pr-insight">
+              <Link href="/services/data-driven-gaming-insight">
                 Data Driven Gaming - Insights
               </Link>
-              <Link href="/services/esports-tournament-organization">
-                Esports Tournament Organization
+              <Link href="/services/growth-marketing">Growth Marketing</Link>
+              <Link href="/services/performance-marketing">
+                Performance Marketing
+              </Link>
+              <Link href="/services/digital-gaming-events-and-expo">
+                Gaming Event and Expo
               </Link>
               <Link href="/services/gaming-product-launches">
                 Gaming Product Launches
               </Link>
-              <Link href="/services/international-pr-expansion">
-                International PR-Expansion
+              <Link href="/services/community-building-management">
+                Community building and Management
               </Link>
+              <Link href="/services/social-media-management-marketing">
+                Social Media Management Marketing
+              </Link>
+              <Link href="/services/go-global-pr-marketing">Go Global PR Marketing</Link>
             </div>
           </div>
         </div>
@@ -214,60 +220,45 @@ const Navbar = () => {
               </Link>
             </li>
             <li>
-              <div className="dropdown ">
-                <button className="dropbtn text-[#123c69]">
-                  <span className="text-[#123c69]">Services</span>
-                </button>
-                <div className="dropdown-content">
-                  <Link
-                    href="/services/strategy-and-marketing"
-                    onClick={() => setOpen(false)}
-                  >
-                    Strategy And Marketing
+              <div className="dropdown-content ">
+                <div>
+                  <Link href="/services/public-relations-and-outreach">
+                    Public Relation and Outreach
                   </Link>
-                  <Link
-                    href="/services/content-and-writing"
-                    onClick={() => setOpen(false)}
-                  >
+                  <Link href="/services/strategy-and-digitalmarketing">
+                    Strategy And Digital Marketing
+                  </Link>
+                  <Link href="/services/content-and-writing">
                     Content And Copywriting
                   </Link>
-                  <Link
-                    href="/services/public-relations"
-                    onClick={() => setOpen(false)}
-                  >
+                  <Link href="/services/creator-and-influencers">
                     Creator and Influencer
                   </Link>
-
-                  <Link
-                    href="/services/crisis-communication"
-                    onClick={() => setOpen(false)}
-                  >
-                    Crisis Communication
+                  <Link href="/services/digital-brand-communication">
+                    Digital Brand Communication
                   </Link>
-                  <Link
-                    href="/services/data-driven-pr-insight"
-                    onClick={() => setOpen(false)}
-                  >
-                    Data Driven PR-Insights
+                  <Link href="/services/data-driven-gaming-insight">
+                    Data Driven Gaming - Insights
                   </Link>
-                  <Link
-                    href="/services/esports-tournament-organization"
-                    onClick={() => setOpen(false)}
-                  >
-                    Esports Tournament Organization
+                  <Link href="/services/growth-marketing">
+                    Growth Marketing
                   </Link>
-                  <Link
-                    href="/services/gaming-product-launches"
-                    onClick={() => setOpen(false)}
-                  >
+                  <Link href="/services/performance-marketing">
+                    Performance Marketing
+                  </Link>
+                  <Link href="/services/digital-gaming-events-and-expo">
+                    Gaming Event and Expo
+                  </Link>
+                  <Link href="/services/gaming-product-launches">
                     Gaming Product Launches
                   </Link>
-                  <Link
-                    href="/services/international-pr-expansion"
-                    onClick={() => setOpen(false)}
-                  >
-                    International PR-Expansion
+                  <Link href="/services/community-building-management">
+                    Community building and Management
                   </Link>
+                  <Link href="/services/social-media-management-marketing">
+                    Social Media Management Marketing
+                  </Link>
+                  <Link href="/services/go-global-pr-marketing">Go Global PR marketing</Link>
                 </div>
               </div>
             </li>
