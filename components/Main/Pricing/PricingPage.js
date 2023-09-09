@@ -215,14 +215,14 @@ const PricingPage = () => {
             </p>
             <p className="text-[#123c69] flex py-1">
               Digital Communication Create website content - social media -
-              90,000/-
+              $1200/-
             </p>
             <p className="text-[#123c69] flex py-1">
               Traditional PR Craft press releases and secure media coverage -
-              99,000/-
+              $1500/-
             </p>
             <p className="text-[#123c69] flex py-1 ">
-              Digital Events Management - 99,000/-
+              Digital Events Management - $900/-
             </p>
             <p className="text-[#123c69] flex py-1">
               Influencer Marketing - Customised{" "}

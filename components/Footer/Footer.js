@@ -46,6 +46,19 @@ const Footer = () => {
         },
       ],
     },
+    {
+      label: "Contact Us",
+      items: [
+        {
+          href: "tel:9833196480",
+          name: "9833196480",
+        },
+        {
+          href: "mailto:arjun@moramnapu.com",
+          name: "arjun@moramnapu.com",
+        },
+      ],
+    },
   ];
 
   return (
@@ -56,7 +69,7 @@ const Footer = () => {
             <div className="max-w-xs py-3">
               <Image src={logo} alt="Logo" className="w-32" />
               <p className="leading-relaxed mt-2 text-[20px] text-[#123c69]">
-                Elevating Gaming PR & Marketing
+                Become Gaming Famous
               </p>
             </div>
           </div>

@@ -76,27 +76,7 @@ const Navbar = () => {
           </div>
         </div>
       </li>
-      {/* <li>
-        <div className="dropdown">
-          <button className="dropbtn px-5 text-[#123c69]  cursor-pointer hover:bg-[#ac3b61] py-3 transition-all duration-500 rounded-lg hover:text-[#fff]">
-            Case Study
-          </button>
-          <div className="dropdown-content">
-            <Link href={"/case-study/nazara"} onClick={() => setOpen(false)}>
-              Nazara Technologies
-            </Link>
-            <Link href={"/case-study/yudiz"} onClick={() => setOpen(false)}>
-              Yudiz Solutions
-            </Link>
-            <Link href={"/case-study/tfg"} onClick={() => setOpen(false)}>
-              Trade Fantasy Game
-            </Link>
-            <Link href="/case-study/wcc" onClick={() => setOpen(false)}>
-              World Cricket Championship
-            </Link>
-          </div>
-        </div>
-      </li> */}
+     
       <li>
         <Link
           href="/pricing-page"
@@ -220,45 +200,54 @@ const Navbar = () => {
               </Link>
             </li>
             <li>
-              <div className="dropdown-content ">
-                <div>
-                  <Link href="/services/public-relations-and-outreach">
-                    Public Relation and Outreach
-                  </Link>
-                  <Link href="/services/strategy-and-digitalmarketing">
-                    Strategy And Digital Marketing
-                  </Link>
-                  <Link href="/services/content-and-writing">
-                    Content And Copywriting
-                  </Link>
-                  <Link href="/services/creator-and-influencers">
-                    Creator and Influencer
-                  </Link>
-                  <Link href="/services/digital-brand-communication">
-                    Digital Brand Communication
-                  </Link>
-                  <Link href="/services/data-driven-gaming-insight">
-                    Data Driven Gaming - Insights
-                  </Link>
-                  <Link href="/services/growth-marketing">
-                    Growth Marketing
-                  </Link>
-                  <Link href="/services/performance-marketing">
-                    Performance Marketing
-                  </Link>
-                  <Link href="/services/digital-gaming-events-and-expo">
-                    Gaming Event and Expo
-                  </Link>
-                  <Link href="/services/gaming-product-launches">
-                    Gaming Product Launches
-                  </Link>
-                  <Link href="/services/community-building-management">
-                    Community building and Management
-                  </Link>
-                  <Link href="/services/social-media-management-marketing">
-                    Social Media Management Marketing
-                  </Link>
-                  <Link href="/services/go-global-pr-marketing">Go Global PR marketing</Link>
+              <div className="dropdown ">
+                <button className="dropbtn px-5 text-[#123c69]  cursor-pointer hover:bg-[#ac3b61] transition-all duration-500 py-2.5 rounded-lg hover:text-[#fff]">
+                  <span className="text-[#123c69] hover:text-[#fff]">
+                    Services
+                  </span>
+                </button>
+                <div className="dropdown-content ">
+                  <div>
+                    <Link href="/services/public-relations-and-outreach">
+                      Public Relation and Outreach
+                    </Link>
+                    <Link href="/services/strategy-and-digitalmarketing">
+                      Strategy And Digital Marketing
+                    </Link>
+                    <Link href="/services/content-and-writing">
+                      Content And Copywriting
+                    </Link>
+                    <Link href="/services/creator-and-influencers">
+                      Creator and Influencer
+                    </Link>
+                    <Link href="/services/digital-brand-communication">
+                      Digital Brand Communication
+                    </Link>
+                    <Link href="/services/data-driven-gaming-insight">
+                      Data Driven Gaming - Insights
+                    </Link>
+                    <Link href="/services/growth-marketing">
+                      Growth Marketing
+                    </Link>
+                    <Link href="/services/performance-marketing">
+                      Performance Marketing
+                    </Link>
+                    <Link href="/services/digital-gaming-events-and-expo">
+                      Gaming Event and Expo
+                    </Link>
+                    <Link href="/services/gaming-product-launches">
+                      Gaming Product Launches
+                    </Link>
+                    <Link href="/services/community-building-management">
+                      Community building and Management
+                    </Link>
+                    <Link href="/services/social-media-management-marketing">
+                      Social Media Management Marketing
+                    </Link>
+                    <Link href="/services/go-global-pr-marketing">
+                      Go Global PR Marketing
+                    </Link>
+                  </div>
                 </div>
               </div>
             </li>

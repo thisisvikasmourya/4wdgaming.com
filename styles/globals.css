@@ -237,8 +237,7 @@ body {
 
 .swiper-pagination-bullet-active {
   color: #123c69;
-  background: #ac3b61;
-  padding: 0 10px 0 10px;
+  background-color: #ac3b61 !important;
 }
 
 .indi {
@@ -247,4 +246,14 @@ body {
 .indi:hover {
   transform: scale(0.9);
   /* rotate: -5deg; */
+}
+
+.weimg {
+  aspect-ratio: 4/2;
+  object-fit: contain;
+}
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  color: #ac3b61;
+  padding: 3px;
 }

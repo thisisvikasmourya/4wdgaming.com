@@ -9,6 +9,8 @@ import client6 from "../../../public/images/news/n18.jpg";
 import client7 from "../../../public/images/news/tn.png";
 import client8 from "../../../public/images/news/toi.png";
 import client9 from "../../../public/images/news/ndtv.jpg";
+import client91 from "../../../public/images/news/eco.jpg";
+import client92 from "../../../public/images/news/Mint.png";
 import client10 from "../../../public/images/news/rp.jpg";
 import client11 from "../../../public/images/news/news24.png";
 
@@ -34,9 +36,27 @@ const ClientReview = () => {
               {/* LOGO 1 */}
               <li className="indi">
                 <Image
+                  src={client91}
+                  alt="client1"
+                  className="rounded-lg weimg bg-white"
+                  width={200}
+                  height={100}
+                />
+              </li>
+              <li className="indi">
+                <Image
+                  src={client92}
+                  alt="client1"
+                  className="rounded-lg weimg bg-white"
+                  width={200}
+                  height={100}
+                />
+              </li>
+              <li className="indi">
+                <Image
                   src={client1}
                   alt="client1"
-                  className="rounded-lg bg-white"
+                  className="rounded-lg weimg bg-white"
                   width={200}
                   height={100}
                 />
@@ -46,7 +66,7 @@ const ClientReview = () => {
               <li className="indi">
                 <Image
                   src={client2}
-                  className="rounded-lg"
+                  className="rounded-lg weimg"
                   alt="client1"
                   width={200}
                   height={100}
@@ -54,7 +74,7 @@ const ClientReview = () => {
               </li>
 
               {/* LOGO 3 */}
-              <li className="bg-white rounded-lg indi">
+              <li className="bg-white rounded-lg weimg indi">
                 <Image src={client8} alt="client1" width={200} height={100} />
               </li>
 
@@ -63,7 +83,7 @@ const ClientReview = () => {
                 <Image
                   src={client4}
                   alt="client1"
-                  className="rounded-lg"
+                  className="rounded-lg weimg"
                   width={200}
                   height={100}
                 />
@@ -74,7 +94,7 @@ const ClientReview = () => {
                 <Image
                   src={client9}
                   alt="client1"
-                  className="rounded-lg"
+                  className="rounded-lg weimg"
                   width={200}
                   height={100}
                 />
@@ -85,7 +105,7 @@ const ClientReview = () => {
                 <Image
                   src={client6}
                   alt="client1"
-                  className="rounded-lg"
+                  className="rounded-lg weimg"
                   width={200}
                   height={100}
                 />
@@ -96,7 +116,7 @@ const ClientReview = () => {
                 <Image
                   src={client11}
                   alt="client1"
-                  className="rounded-lg"
+                  className="rounded-lg weimg"
                   width={180}
                   height={100}
                 />
@@ -107,7 +127,7 @@ const ClientReview = () => {
                 <Image
                   src={client7}
                   alt="client1"
-                  className="rounded-lg"
+                  className="rounded-lg weimg"
                   width={200}
                   height={120}
                 />

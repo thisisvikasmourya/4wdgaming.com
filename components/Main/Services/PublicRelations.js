@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import About from "../../../public/images/pr.jpg";
+import About from "../../../public/images/new/14.gif";
 import Navigationbar from "@/components/Navbar/Navigationbar";
 
 const PublicRelations = () => {
@@ -51,52 +51,52 @@ const PublicRelations = () => {
       cont: "We've been around the gaming and esports block, so we know the ins and outs. Our PR pros are experts in the gaming world, so we make sure our plans hit the bullseye with your players.",
     },
   ];
-   const navData = [
-     {
-       href: "/services/strategy-and-digitalmarketing",
-       name: "Strategy and Digital Marketing",
-     },
-     {
-       href: "/services/creator-and-influencers",
-       name: "Creator and Influencer",
-     },
-     {
-       href: "/services/digital-brand-communication",
-       name: "Digital Brand Communication",
-     },
-     {
-       href: "/services/data-driven-gaming-insight",
-       name: "Data Driven Gaming-Insight",
-     },
-     {
-       href: "/services/digital-gaming-events-and-expo",
-       name: " Gaming Events and Expo",
-     },
-     {
-       href: "/services/growth-marketing",
-       name: "Growth Marketing",
-     },
-     {
-       href: "/services/performance-marketing",
-       name: "Performance Marketing",
-     },
-     {
-       href: "/services/gaming-product-launches",
-       name: "Gaming Product Launches",
-     },
-     {
-       href: "/services/social-media-management-marketing",
-       name: "Social Media Management Marketing",
-     },
-     {
-       href: "/services/community-building-marketing",
-       name: "Community Building Marketing",
-     },
-     {
-       href: "/services/go-global-pr-marketing",
-       name: "Go Global PR Marketing",
-     },
-   ];
+  const navData = [
+    {
+      href: "/services/strategy-and-digitalmarketing",
+      name: "Strategy and Digital Marketing",
+    },
+    {
+      href: "/services/creator-and-influencers",
+      name: "Creator and Influencer",
+    },
+    {
+      href: "/services/digital-brand-communication",
+      name: "Digital Brand Communication",
+    },
+    {
+      href: "/services/data-driven-gaming-insight",
+      name: "Data Driven Gaming-Insight",
+    },
+    {
+      href: "/services/digital-gaming-events-and-expo",
+      name: " Gaming Events and Expo",
+    },
+    {
+      href: "/services/growth-marketing",
+      name: "Growth Marketing",
+    },
+    {
+      href: "/services/performance-marketing",
+      name: "Performance Marketing",
+    },
+    {
+      href: "/services/gaming-product-launches",
+      name: "Gaming Product Launches",
+    },
+    {
+      href: "/services/social-media-management-marketing",
+      name: "Social Media Management Marketing",
+    },
+    {
+      href: "/services/community-building-marketing",
+      name: "Community Building Marketing",
+    },
+    {
+      href: "/services/go-global-pr-marketing",
+      name: "Go Global PR Marketing",
+    },
+  ];
 
   return (
     <div>

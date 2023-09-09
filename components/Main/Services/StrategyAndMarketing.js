@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import About from "../../../public/images/marketing.jpg";
+import About from "../../../public/images/new/12.gif";
 import Navigationbar from "@/components/Navbar/Navigationbar";
 
 const StrategyAndMarketing = () => {

@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import About from "../../../public/images/ddd.png";
+import About from "../../../public/images/new/4.gif";
 import Navigationbar from "@/components/Navbar/Navigationbar";
 
 const CommunityBulidingManagement = () => {
@@ -13,10 +13,9 @@ const CommunityBulidingManagement = () => {
       title: "Friendly Community Care: ",
       cont: "Community management isn't just about keeping the peace. We handle it all – from answering questions quickly to keeping the community buzzing with excitement.",
     },
-    {
-      title: "Everyone's Welcome: ",
-      cont: "We believe gaming is for everyone. We make sure your community is open and welcoming to gamers from all walks of life.",
-    },
+   ];
+
+  const data2 = [
     {
       title: "Fun Events Galore:  ",
       cont: "We love throwing gaming parties, virtually speaking. Our team sets up fun events, tournaments, and challenges to keep the excitement alive.",
@@ -25,9 +24,7 @@ const CommunityBulidingManagement = () => {
       title: "Feedback Matters:  ",
       cont: "Your community's opinions are gold. We gather and analyze feedback, helping you make improvements based on what they say.",
     },
-  ];
 
-  const data2 = [
     {
       title: "Everyone's Welcome: ",
       cont: "Building and managing a lively gaming community isn't just about getting likes and shares. It's about creating a loyal following that sticks around. Here's why our Building and Managing Gaming Communities  service is crucial:",
@@ -140,10 +137,7 @@ const CommunityBulidingManagement = () => {
           </div>
         </div>
         <div className=" grid lg:grid-cols-2 grid-cols-1 gap-2  px-4 bg-[#eee2dc]">
-          <h1 className="py-1 text-[#123c69] text-[22px]">
-            Why It&apos;s Important:
-          </h1>
-
+         
           {data2.map((items, key) => (
             <div key={key}>
               <p className="text-[#ac3b61] font-bold text-xl text-[20px]">

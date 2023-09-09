@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import About from "../../../public/images/ddd.png";
+import About from "../../../public/images/new/9.gif";
 import Navigationbar from "@/components/Navbar/Navigationbar";
 
 const PerformanceMarketing = () =>
