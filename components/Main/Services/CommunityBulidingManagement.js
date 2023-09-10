@@ -137,7 +137,6 @@ const CommunityBulidingManagement = () => {
           </div>
         </div>
         <div className=" grid lg:grid-cols-2 grid-cols-1 gap-2  px-4 bg-[#eee2dc]">
-         
           {data2.map((items, key) => (
             <div key={key}>
               <p className="text-[#ac3b61] font-bold text-xl text-[20px]">
@@ -147,6 +146,7 @@ const CommunityBulidingManagement = () => {
             </div>
           ))}
         </div>
+      
       </div>
       <Navigationbar navData={navData} />
     </div>

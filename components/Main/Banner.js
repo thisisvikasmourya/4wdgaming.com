@@ -220,10 +220,10 @@ const Banner = () => {
             Making Brands famous & loved in{" "}
             <span className="text-[#123c69]">{text}</span>
           </h1>
-          <p className="max-w-xl text-2xl mx-auto xl:mx-0 text-[#123c69]">
+          <p className="max-w-xl lg:text-2xl mx-auto xl:mx-0 text-[#123c69]  text-[19px]">
             {randomPhrase}
           </p>
-          <div className="items-center justify-center gap-x-3 space-y-3 sm:flex sm:space-y-0 xl:justify-start">
+          <div className="items-center justify-center gap-x-3 space-y-3 sm:flex sm:space-y-0 xl:justify-start ">
             <a
               href={"/services/public-relations-and-outreach"}
               className="flex items-center justify-center gap-x-2 py-2 px-4 text-white font-medium bg-[#ac3b61] duration-150 hover:bg-gray-700 active:bg-gray-900 rounded-lg md:inline-flex"

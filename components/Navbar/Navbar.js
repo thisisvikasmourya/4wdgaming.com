@@ -37,46 +37,50 @@ const Navbar = () => {
           </button>
           <div className="dropdown-content ">
             <div>
+              <Link href="/services/digital-brand-communication">
+                Digital Brand Communication
+              </Link>
               <Link href="/services/public-relations-and-outreach">
                 Public Relation and Outreach
-              </Link>
-              <Link href="/services/strategy-and-digitalmarketing">
-                Strategy And Digital Marketing
               </Link>
               <Link href="/services/content-and-writing">
                 Content And Copywriting
               </Link>
-              <Link href="/services/creator-and-influencers">
-                Creator and Influencer
+              <Link href="/services/strategy-and-digitalmarketing">
+                Strategy And Digital Marketing
               </Link>
-              <Link href="/services/digital-brand-communication">
-                Digital Brand Communication
-              </Link>
-              <Link href="/services/data-driven-gaming-insight">
-                Data Driven Gaming - Insights
+              <Link href="/services/social-media-management-marketing">
+                Social Media Management Marketing
               </Link>
               <Link href="/services/growth-marketing">Growth Marketing</Link>
               <Link href="/services/performance-marketing">
                 Performance Marketing
               </Link>
-              <Link href="/services/digital-gaming-events-and-expo">
-                Gaming Event and Expo
+              <Link href="/services/data-driven-gaming-insight">
+                Data Driven Gaming - Insights
               </Link>
               <Link href="/services/gaming-product-launches">
                 Gaming Product Launches
               </Link>
+              <Link href="/services/digital-gaming-events-and-expo">
+                Gaming Event and Expo
+              </Link>
+
+              <Link href="/services/creator-and-influencers">
+                Creator and Influencer
+              </Link>
+
               <Link href="/services/community-building-management">
                 Community building and Management
               </Link>
-              <Link href="/services/social-media-management-marketing">
-                Social Media Management Marketing
+              <Link href="/services/go-global-pr-marketing">
+                Go Global PR Marketing
               </Link>
-              <Link href="/services/go-global-pr-marketing">Go Global PR Marketing</Link>
             </div>
           </div>
         </div>
       </li>
-     
+
       <li>
         <Link
           href="/pricing-page"
@@ -208,23 +212,20 @@ const Navbar = () => {
                 </button>
                 <div className="dropdown-content ">
                   <div>
+                    <Link href="/services/digital-brand-communication">
+                      Digital Brand Communication
+                    </Link>
                     <Link href="/services/public-relations-and-outreach">
                       Public Relation and Outreach
-                    </Link>
-                    <Link href="/services/strategy-and-digitalmarketing">
-                      Strategy And Digital Marketing
                     </Link>
                     <Link href="/services/content-and-writing">
                       Content And Copywriting
                     </Link>
-                    <Link href="/services/creator-and-influencers">
-                      Creator and Influencer
+                    <Link href="/services/strategy-and-digitalmarketing">
+                      Strategy And Digital Marketing
                     </Link>
-                    <Link href="/services/digital-brand-communication">
-                      Digital Brand Communication
-                    </Link>
-                    <Link href="/services/data-driven-gaming-insight">
-                      Data Driven Gaming - Insights
+                    <Link href="/services/social-media-management-marketing">
+                      Social Media Management Marketing
                     </Link>
                     <Link href="/services/growth-marketing">
                       Growth Marketing
@@ -232,17 +233,22 @@ const Navbar = () => {
                     <Link href="/services/performance-marketing">
                       Performance Marketing
                     </Link>
-                    <Link href="/services/digital-gaming-events-and-expo">
-                      Gaming Event and Expo
+                    <Link href="/services/data-driven-gaming-insight">
+                      Data Driven Gaming - Insights
                     </Link>
                     <Link href="/services/gaming-product-launches">
                       Gaming Product Launches
                     </Link>
+                    <Link href="/services/digital-gaming-events-and-expo">
+                      Gaming Event and Expo
+                    </Link>
+
+                    <Link href="/services/creator-and-influencers">
+                      Creator and Influencer
+                    </Link>
+
                     <Link href="/services/community-building-management">
                       Community building and Management
-                    </Link>
-                    <Link href="/services/social-media-management-marketing">
-                      Social Media Management Marketing
                     </Link>
                     <Link href="/services/go-global-pr-marketing">
                       Go Global PR Marketing

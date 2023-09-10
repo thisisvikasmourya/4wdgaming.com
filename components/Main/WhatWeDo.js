@@ -1,6 +1,6 @@
 import React from "react";
-import About1 from "../../public/images/whT.jpg";
-import About2 from "../../public/images/HOW.jpg";
+import About2 from "../../public/images/new/18.gif";
+import About1 from "../../public/images/new/17.gif";
 import Image from "next/image";
 const WhatWeDo = () => {
   return (
