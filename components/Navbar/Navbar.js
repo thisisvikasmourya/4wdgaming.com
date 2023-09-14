@@ -35,8 +35,8 @@ const Navbar = () => {
           <button className="dropbtn px-5 text-[#123c69]  cursor-pointer hover:bg-[#ac3b61] transition-all duration-500 py-2.5 rounded-lg hover:text-[#fff]">
             <span className="text-[#123c69] hover:text-[#fff]">Services</span>
           </button>
-          <div className="dropdown-content ">
-            <div>
+          <div className="dropdown-content text-[#123c69] ">
+            <div className="text-[#123c69]">
               <Link href="/services/digital-brand-communication">
                 Digital Brand Communication
               </Link>
@@ -210,8 +210,8 @@ const Navbar = () => {
                     Services
                   </span>
                 </button>
-                <div className="dropdown-content ">
-                  <div>
+                <div className="dropdown-content text-[#123c69] ">
+                  <div className="text-[#123c69]">
                     <Link href="/services/digital-brand-communication">
                       Digital Brand Communication
                     </Link>
