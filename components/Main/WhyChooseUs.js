@@ -7,7 +7,7 @@ import BackgroundImage from "../../public/images/bg123.png";
 const WhyChooseUs = () => {
   const data = [
     {
-      text: "We Know gaming: Our team loves gaming folks and knows all about them. We're like gaming experts!",
+      text: "We Know Gaming: Our team loves gaming folks and knows all about them. We're like gaming experts!",
     },
     {
       text: "We're Super Creative: We make new and exciting ideas just for each gaming brand. No boring stuff here!",
@@ -22,7 +22,7 @@ const WhyChooseUs = () => {
       text: "We're Team Players: We work closely with game companies to make sure we're all on the same page. It's like teamwork!",
     },
     {
-      text: "MORAM NAPU is like the friend who helps games become famous and loved. We use our special tricks to tell everyone how awesome the games are. Our goal is to make games and gamers happy by connecting them in a fun and cool way.",
+      text: "MORAM NAPU is like a friend who helps games become famous and loved. We use our special tricks to tell everyone how awesome the games are. Our goal is to make games and gamers happy by connecting them in a fun and cool way.",
     },
   ];
   return (

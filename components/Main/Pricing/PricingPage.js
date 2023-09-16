@@ -3,19 +3,19 @@ import React from "react";
 const PricingPage = () => {
   const pricing = [
     {
-      title: "Fits Your Budget",
+      title: "Fits Your Budget:",
       desc: "Our pricing strategy is like a tailor-made suit, designed to fit your budget perfectly, whether you're a small gaming startup or a big esports giant.",
     },
     {
-      title: "Proven Success",
+      title: "Proven Success:",
       desc: "We've got a track record of delivering results for gaming, Web3 gaming, and esports brands, making our pricing strategy a reliable choice.",
     },
     {
-      title: "All-in-One Package",
+      title: "All-in-One Package:",
       desc: " Our pricing strategy covers everything you need, from marketing to branding, making it easy-peasy for you to get all the tools in one go.",
     },
     {
-      title: "Clear and Simple",
+      title: "Clear and Simple:",
       desc: "We believe in keeping it crystal clear. With our pricing, you'll always know what you're paying for and can make wise decisions for your gaming brand.",
     },
     {
@@ -23,15 +23,15 @@ const PricingPage = () => {
       desc: "Years of gaming industry experience, our pricing strategy knows the ins and outs of gaming, Web3 gaming, and esports",
     },
     {
-      title: "Always Fresh",
+      title: "Always Fresh:",
       desc: "We keep our pricing strategy updated to match the latest trends and changes in the gaming world, keeping your brand in the game.",
     },
     {
-      title: "All About You",
+      title: "All About You:",
       desc: "Our pricing strategy is all about you. We work closely with you to make sure it's just what you need for your gaming success.",
     },
     {
-      title: "Bang for Your Buck",
+      title: "Bang for Your Buck:",
       desc: "We're all about giving you more value for your money. Our pricing strategy is designed to make every penny count.",
     },
     {
@@ -176,9 +176,11 @@ const PricingPage = () => {
                     </span>
                   </div>
                   <p className="text-[#123c69]">{item.desc}</p>
-                  <button className="px-3 py-3 rounded-lg w-full  text-sm duration-150 text-[#eee2dc] bg-[#ac3b61] hover:bg-[#edc7b7] hover:text-[#ac3b61] active:bg-[#ac3b61]">
-                    <a href={"/contactUs"}>Get Started</a>
-                  </button>
+                  <a href={"/contactUs"}>
+                    <button className="px-3 py-3 rounded-lg w-full  text-sm duration-150 text-[#eee2dc] bg-[#ac3b61] hover:bg-[#edc7b7] hover:text-[#ac3b61] active:bg-[#ac3b61]">
+                      Get Started
+                    </button>
+                  </a>
                 </div>
                 <ul className="p-8 space-y-3">
                   <li className="pb-2 text-[#ac3b61] font-medium">
@@ -225,14 +227,14 @@ const PricingPage = () => {
               Digital Events Management - $900/-
             </p>
             <p className="text-[#123c69] flex py-1">
-              Influencer Marketing - Customised{" "}
+              Influencer Marketing - Customized{" "}
             </p>
           </div>
           <div className="pt-10 text-[18px] ">
             <p className="text-[#ac3b61] text-xl">Why Our Pricing Strategy:</p>
             {pricing.map((item, idx) => (
               <p className="text-[#123c69]  flex lg:py-1 py-3" key={idx}>
-                {item.title}:{item.desc}
+                {item.title}&nbsp;{item.desc}
               </p>
             ))}
           </div>

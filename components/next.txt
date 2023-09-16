@@ -134,3 +134,108 @@
 "RMG Content Strategy Excellence",
 "Social Media Engagement for RMG",
 "Performance Marketing for RMG",
+
+
+<div className="mt-12 flex justify-center">
+            <ul className="inline-grid grid-cols-2 gap-x-10 gap-y-6 md:gap-x-16 md:grid-cols-3 lg:grid-cols-4">
+              {/* LOGO 1 */}
+              <li className="indi">
+                <Image
+                  src={client91}
+                  alt="client1"
+                  className="rounded-lg weimg bg-white"
+                  width={200}
+                  height={100}
+                />
+              </li>
+              <li className="indi">
+                <Image
+                  src={client92}
+                  alt="client1"
+                  className="rounded-lg weimg bg-white"
+                  width={200}
+                  height={100}
+                />
+              </li>
+              <li className="indi">
+                <Image
+                  src={client1}
+                  alt="client1"
+                  className="rounded-lg weimg bg-white"
+                  width={200}
+                  height={100}
+                />
+              </li>
+
+              {/* LOGO 2 */}
+              <li className="indi">
+                <Image
+                  src={client2}
+                  className="rounded-lg weimg"
+                  alt="client1"
+                  width={200}
+                  height={100}
+                />
+              </li>
+
+              {/* LOGO 3 */}
+              <li className="bg-white rounded-lg weimg indi">
+                <Image src={client8} alt="client1" width={200} height={100} />
+              </li>
+
+              {/* LOGO 4 */}
+              <li className="bg-white indi">
+                <Image
+                  src={client4}
+                  alt="client1"
+                  className="rounded-lg weimg"
+                  width={200}
+                  height={100}
+                />
+              </li>
+
+              {/* LOGO 5 */}
+              <li className="indi">
+                <Image
+                  src={client9}
+                  alt="client1"
+                  className="rounded-lg weimg"
+                  width={200}
+                  height={100}
+                />
+              </li>
+
+              {/* LOGO 6 */}
+              <li className="indi">
+                <Image
+                  src={client6}
+                  alt="client1"
+                  className="rounded-lg weimg"
+                  width={200}
+                  height={100}
+                />
+              </li>
+
+              {/* LOGO 7 */}
+              <li className="indi">
+                <Image
+                  src={client11}
+                  alt="client1"
+                  className="rounded-lg weimg"
+                  width={180}
+                  height={100}
+                />
+              </li>
+
+              {/* LOGO 8 */}
+              <li className="indi">
+                <Image
+                  src={client7}
+                  alt="client1"
+                  className="rounded-lg weimg"
+                  width={200}
+                  height={120}
+                />
+              </li>
+            </ul>
+          </div>

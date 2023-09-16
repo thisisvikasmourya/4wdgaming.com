@@ -44,7 +44,7 @@ export default function Card() {
       img: v13,
       content:
         "  We craft cool stories and write awesome content that speaks to gamers and keeps them engaged.",
-      link: "/content-and-writing",
+      link: "/services/content-and-writing",
     },
     {
       title: "Strategy And Digital Marketing",

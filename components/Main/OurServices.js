@@ -98,7 +98,7 @@ export default function Services() {
             Our Services
           </h3>
           <p className="mt-3 text-[#123c69] text-[20px] text-center">
-            One Stop shop for Digital,media & Marketing solution in gaming,web3
+            One Stop shop for Digital,Media & Marketing solution in gaming,web3
             gaming & Esports
           </p>
         </div>

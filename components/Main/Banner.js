@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { useState, useEffect } from "react";
-import bg from "../../public/images/new/main2.gif";
+import bg from "../../public/images/MORAM.png";
 import { ImEnlarge2 } from "react-icons/im";
 
 const Banner = () => {

@@ -7,7 +7,7 @@ export default function Blog() {
       authorLogo: "https://api.uifaces.co/our-content/donated/xZ4wg2Xj.jpg",
       authorName: "Sidi dev",
       date: "Jan 4 2022",
-      href: "javascript:void(0)",
+      href: "https://moramnapu.blogspot.com/",
     },
     {
       title: "A Quick Guide to WordPress Hosting",
@@ -16,7 +16,7 @@ export default function Blog() {
       authorLogo: "https://api.uifaces.co/our-content/donated/FJkauyEa.jpg",
       authorName: "Micheal",
       date: "Jan 4 2022",
-      href: "javascript:void(0)",
+      href: "https://moramnapu.blogspot.com/",
     },
     {
       title: "7 Promising VS Code Extensions Introduced in 2022",
@@ -25,7 +25,7 @@ export default function Blog() {
       authorLogo: "https://randomuser.me/api/portraits/men/46.jpg",
       authorName: "Luis",
       date: "Jan 4 2022",
-      href: "javascript:void(0)",
+      href: "https://moramnapu.blogspot.com/",
     },
     {
       title: "How to Use Root C++ Interpreter Shell to Write C++ Programs",
@@ -34,7 +34,7 @@ export default function Blog() {
       authorLogo: "https://api.uifaces.co/our-content/donated/KtCFjlD4.jpg",
       authorName: "Lourin",
       date: "Jan 4 2022",
-      href: "javascript:void(0)",
+      href: "https://moramnapu.blogspot.com/",
     },
   ];
 

@@ -35,7 +35,7 @@ const WhatWeDo = () => {
                 <div className="text-[#123c69] text-[20px]">
                   <p className="py-3">
                     Sharing Cool Stories: We create exciting stories about your
-                    brand that make people go &quot;wow!&quot; We tell these
+                    brand that make people say &quot;Wow!&quot; We tell these
                     stories to the right people so they can learn about your
                     brand.
                   </p>
@@ -53,16 +53,16 @@ const WhatWeDo = () => {
                   </p>
                   <p className="py-3">
                     Making Fun Stuff: We make fun videos, articles, and things
-                    that gaming indutsry like. This makes game companies look
+                    that gaming indutsry likes. This makes game companies look
                     super smart and cool.
                   </p>
                   <p className="py-3">
                     Being Friends with Gaming folks: We help brands make friends
-                    online and talk about whats cooking. This makes the game
+                    online and talk about what&apos;s cooking. This makes the game
                     community strong and happy.
                   </p>
                   <p className="py-3">
-                    Making gaming brand Famous and Trusted: We work hard so
+                    Making gaming brands Famous and Trusted: We work hard so
                     people think the gaming brands are really good and
                     trustworthy. We do this by working with famous people and
                     making sure everyone hears good things about the gaming
