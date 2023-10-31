@@ -6,8 +6,8 @@ import Navigationbar from "@/components/Navbar/Navigationbar";
 const GoGlobalPrMarketing = () => {
   const data = [
     {
-      title: "Global PR Strategy:",
-      cont: "We craft PR campaigns that reach gaming communities worldwide. We ensure your brand's message resonates in the gaming, Web3, and esports realms.",
+      title: "Global OutreachStrategy:",
+      cont: "We craft Outreachcampaigns that reach gaming communities worldwide. We ensure your brand's message resonates in the gaming, Web3, and esports realms.",
     },
     {
       title: "Web3 Digital Marketing:",
@@ -45,8 +45,8 @@ const GoGlobalPrMarketing = () => {
       name: "Data Driven Gaming-Insight",
     },
     {
-      href: "/services/public-relations-and-outreach",
-      name: "Public Relations and Outreach",
+      href: "/services/outreachs-and-outreach",
+      name: " Outreach",
     },
     {
       href: "/services/digital-gaming-events-and-expo",
@@ -80,7 +80,7 @@ const GoGlobalPrMarketing = () => {
         <div className="max-w-screen-xl mx-auto md:px-8">
           <div className="content bg-[#eee2dc] py-16  px-4 ">
             <h1 className=" outline text-center lg:text-9xl md:text-6xl text-4xl text-[#fff] outline-4 font-semibold">
-              Go Global PR Marketing
+              Go Global OutreachMarketing
             </h1>
           </div>
         </div>

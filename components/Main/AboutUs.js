@@ -31,9 +31,9 @@ const AboutUs = () => {
                 We’re brand builders
               </p>
               <p className="text-[18px] text-[#123c69]">
-                At Moram Napu, we are more than just a gaming PR agency. We are
+                At Moram Napu, we are more than just a gaming Outreachagency. We are
                 brand builders who understand the power of a strong brand in
-                attracting organic media and PR. Our approach is simple but
+                attracting organic media and Outreach. Our approach is simple but
                 effective - we sit with you, plan, consult, and watch the magic
                 happen! Listening to our clients and prioritizing ethics guide
                 our every move. Working with us gives you an undeniable
@@ -48,9 +48,9 @@ const AboutUs = () => {
               </p>
               <p className="text-[18px] text-[#123c69]">
                 We take pride in being pioneers in the gaming space. As the
-                first ones here, we carved the path for the gaming PR ecosystem
+                first ones here, we carved the path for the gaming Outreachecosystem
                 in India. Our journey as early adopters and proponents of gaming
-                PR has witnessed the industry&apos;s evolution, from skill-based
+                Outreachhas witnessed the industry&apos;s evolution, from skill-based
                 real money gaming to Web3 and blockchain gaming. We are part of
                 every conversation that shapes the gaming landscape, fully
                 understanding the niche, dynamic, and continuously evolving
@@ -88,16 +88,16 @@ const AboutUs = () => {
             </div>
             <div>
               <p className="text-[#ac3b61] font-semibold text-[20px]">
-                We don’t just do PR
+                We don’t just do Outreach
               </p>
               <p className="text-[18px] text-[#123c69]">
-                Though PR is our forte, we&apos;re more than that. We&apos;re
+                Though Outreachis our forte, we&apos;re more than that. We&apos;re
                 marketers, brand planners, and reputation managers. From
                 designing to execution, we&apos;ve led Nazara through their
                 public listing process, establishing them as India&apos;s first
                 listed gaming company. Coffee with us is an opportunity to
                 discuss your goals and align your publicity and marketing with
-                your PR objectives. Let us tackle your challenges and provide
+                your Outreachobjectives. Let us tackle your challenges and provide
                 solutions.
               </p>
             </div>
@@ -220,7 +220,7 @@ const AboutUs = () => {
                     With a proven track record in establishing gaming as a
                     formidable niche in the media, Sharmilee Daru, branched out
                     to etch more success stories. She recently launched 4WD
-                    Gaming, the first of its kind specialised gaming PR and
+                    Gaming, the first of its kind specialised gaming Outreachand
                     marketing consultancy in the country for Indian and
                     international brands. She believes in the seamless merger of
                     gaming into the Indian mainstream ecosystem while enabling
@@ -232,7 +232,7 @@ const AboutUs = () => {
               {/* <p className="py-2 text-[#123c69] text-[18px]">
                 Managing the communication mandate for Nazara Technologies Ltd.
                 somehow, allowed Sharmilee Daru to set the path for the gaming
-                PR ecosystem in the country. She has been instrumental to
+                Outreachecosystem in the country. She has been instrumental to
                 Nazara’s growth story. Starting the corporate communication
                 department for a gaming company seemed farfetched at the time in
                 March 2018. Architecting plans and strong execution, while

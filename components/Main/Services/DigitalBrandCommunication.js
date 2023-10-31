@@ -60,52 +60,52 @@ const DigitalBrandCommunication = () => {
       // cont: "We're like media maestros, making sure everyone hears the right story. Even in a crisis, we handle the media like pros.",
     },
   ];
-   const navData = [
-     {
-       href: "/services/strategy-and-digitalmarketing",
-       name: "Strategy and Digital Marketing",
-     },
-     {
-       href: "/services/creator-and-influencers",
-       name: "Creator and Influencer",
-     },
-     {
-       href: "/services/data-driven-gaming-insight",
-       name: "Data Driven Gaming-Insight",
-     },
-     {
-       href: "/services/public-relations-and-outreach",
-       name: "Public Relations and Outreach",
-     },
-     {
-       href: "/services/digital-gaming-events-and-expo",
-       name: " Gaming Events and Expo",
-     },
-     {
-       href: "/services/growth-marketing",
-       name: "Growth Marketing",
-     },
-     {
-       href: "/services/performance-marketing",
-       name: "Performance Marketing",
-     },
-     {
-       href: "/services/gaming-product-launches",
-       name: "Gaming Product Launches",
-     },
-     {
-       href: "/services/social-media-management-marketing",
-       name: "Social Media Management Marketing",
-     },
-     {
-       href: "/services/community-building-marketing",
-       name: "Community Building Marketing",
-     },
-     {
-       href: "/services/go-global-pr-marketing",
-       name: "Go Global PR Marketing",
-     },
-   ];
+  const navData = [
+    {
+      href: "/services/strategy-and-digitalmarketing",
+      name: "Strategy and Digital Marketing",
+    },
+    {
+      href: "/services/creator-and-influencers",
+      name: "Creator and Influencer",
+    },
+    {
+      href: "/services/data-driven-gaming-insight",
+      name: "Data Driven Gaming-Insight",
+    },
+    {
+      href: "/services/outreachs-and-outreach",
+      name: " Outreach",
+    },
+    {
+      href: "/services/digital-gaming-events-and-expo",
+      name: " Gaming Events and Expo",
+    },
+    {
+      href: "/services/growth-marketing",
+      name: "Growth Marketing",
+    },
+    {
+      href: "/services/performance-marketing",
+      name: "Performance Marketing",
+    },
+    {
+      href: "/services/gaming-product-launches",
+      name: "Gaming Product Launches",
+    },
+    {
+      href: "/services/social-media-management-marketing",
+      name: "Social Media Management Marketing",
+    },
+    {
+      href: "/services/community-building-marketing",
+      name: "Community Building Marketing",
+    },
+    {
+      href: "/services/go-global-pr-marketing",
+      name: "Go Global  Marketing",
+    },
+  ];
 
   return (
     <div>

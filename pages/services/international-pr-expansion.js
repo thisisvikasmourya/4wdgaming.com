@@ -8,8 +8,8 @@ const internationalprexpansion = () => {
       <Head>
         <title>
           {" "}
-          International PR Expansion - Unlocking Global Opportunities for Gaming
-          Brands
+          International OutreachExpansion - Unlocking Global Opportunities for
+          Gaming Brands
         </title>
         <meta
           name="description"

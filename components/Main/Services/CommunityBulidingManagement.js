@@ -13,7 +13,7 @@ const CommunityBulidingManagement = () => {
       title: "Friendly Community Care: ",
       cont: "Community management isn't just about keeping the peace. We handle it all – from answering questions quickly to keeping the community buzzing with excitement.",
     },
-   ];
+  ];
 
   const data2 = [
     {
@@ -70,8 +70,8 @@ const CommunityBulidingManagement = () => {
       name: "Data Driven Gaming-Insight",
     },
     {
-      href: "/services/public-relations-and-outreach",
-      name: "Public Relations and Outreach",
+      href: "/services/outreachs-and-outreach",
+      name: " Outreach",
     },
     {
       href: "/services/digital-gaming-events-and-expo",
@@ -95,7 +95,7 @@ const CommunityBulidingManagement = () => {
     },
     {
       href: "/services/go-global-pr-marketing",
-      name: "Go Global PR Marketing",
+      name: "Go Global Marketing",
     },
   ];
 
@@ -146,7 +146,6 @@ const CommunityBulidingManagement = () => {
             </div>
           ))}
         </div>
-      
       </div>
       <Navigationbar navData={navData} />
     </div>

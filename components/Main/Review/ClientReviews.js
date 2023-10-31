@@ -18,14 +18,14 @@ const testimonials = [
     name: "Nitish Mittersain - MD and Founder",
     title: "Nazara Technologies Ltd.",
     quote:
-      "The right communication has been key to Nazara’s continuous success. SD built up Nazara’s PR and communication from ground up. They have helped create the company’s current perception, and hence are instrumental to Nazara’s growth story.",
+      "The right communication has been key to Nazara’s continuous success. SD built up Nazara’s Outreachand communication from ground up. They have helped create the company’s current perception, and hence are instrumental to Nazara’s growth story.",
   },
   {
     avatar: tfg,
     name: "Jaya Chahar - Founder & CEO, JCDC Sports Pvt. Ltd. Deepak Chahar - Co-Founder & Brand Ambassador",
     title: "Trade Fantasy Gaming (TFG)",
     quote:
-      "Our objective for the launch was to create awareness for TFG to be seen as a serious business in the business circles as well as the cricketer community. We successfully achieved this and much more awareness with the right messaging through PR. ",
+      "Our objective for the launch was to create awareness for TFG to be seen as a serious business in the business circles as well as the cricketer community. We successfully achieved this and much more awareness with the right messaging through Outreach. ",
   },
 
   {
@@ -38,7 +38,7 @@ const testimonials = [
 
   {
     avatar: ekaterina,
-    name: "Ekaterina Giganova - Head of PR and Events",
+    name: "Ekaterina Giganova - Head of Outreachand Events",
     title: "EvenBet Gaming",
     quote:
       "We have received an incomparable online media reach promoting our new gaming offer for Asia with the help of Moram Napu. I appreciate prompt communication at every stage, attention to detail, and an eye for the best publishing opportunities that Sharmilee’s team has demonstrated while working on our project. Thanks to their work, we were able to deliver a clear offer message and improve our image as one of the leading gaming software vendors in India.",
@@ -56,14 +56,14 @@ const testimonials = [
     name: "Abhishek Aggarwal - Co-Founder & CEO",
     title: "Trinity Gaming India",
     quote:
-      "As a young agency, we were unfamiliar with PR and the kind of media support we would need for the brand. While it took a little time to navigate the space, we are glad to have managed to gain recognition as key industry players. Moram Napu has provided continuous guidance, coaching and brand direction to our management, enabling Trinity Gaming to emerge as forerunners in the industry through regular features in top media, speakership opportunities, and awards.",
+      "As a young agency, we were unfamiliar with Outreachand the kind of media support we would need for the brand. While it took a little time to navigate the space, we are glad to have managed to gain recognition as key industry players. Moram Napu has provided continuous guidance, coaching and brand direction to our management, enabling Trinity Gaming to emerge as forerunners in the industry through regular features in top media, speakership opportunities, and awards.",
   },
   {
     avatar: nazaraceo,
     name: "Manish Agarwal - CEO",
     title: "Nazara Technologies Ltd.",
     quote:
-      "At Nazara Technologies, we wanted to build our communication and brand messaging at a time when gaming as an industry was at a very nascent stage in terms of media buzz and subsequent coverage. However, drawing from Sharmilee Daru's rich experience, precise communication strategies and execution, they navigated the space with absolute finesse and created the exact perception for a gaming brand we wanted. Their work in the gaming PR space is not only pioneering for Nazara, but the industry as a whole.",
+      "At Nazara Technologies, we wanted to build our communication and brand messaging at a time when gaming as an industry was at a very nascent stage in terms of media buzz and subsequent coverage. However, drawing from Sharmilee Daru's rich experience, precise communication strategies and execution, they navigated the space with absolute finesse and created the exact perception for a gaming brand we wanted. Their work in the gaming Outreachspace is not only pioneering for Nazara, but the industry as a whole.",
   },
   {
     avatar: pontus,
@@ -77,7 +77,7 @@ const testimonials = [
     name: "Manoj Thakur - Managing Partner",
     title: "Hornbill Capital Advisers LLP",
     quote:
-      "I met Sharmilee when we invested in Nazara Technologies in early 2021.found Sharmilee and her team to be very professional and responsive. Theymanaged the entire PR process around the investment extremely efficiently.Not only was the press coverage extensive but also the television coverage on a leading TV channel was impactful. Sharmilee is quite an expert in public relations and handling media effectively. She thinks strategically and helps you position the company or product in the right manner.",
+      "I met Sharmilee when we invested in Nazara Technologies in early 2021.found Sharmilee and her team to be very professional and responsive. Theymanaged the entire Outreachprocess around the investment extremely efficiently.Not only was the press coverage extensive but also the television coverage on a leading TV channel was impactful. Sharmilee is quite an expert in  handling media effectively. She thinks strategically and helps you position the company or product in the right manner.",
   },
   {
     avatar: rajendra,

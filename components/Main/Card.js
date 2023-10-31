@@ -33,11 +33,11 @@ export default function Card() {
       link: "/services/digital-brand-communication",
     },
     {
-      title: "Public Relation & Outreach",
+      title: " Outreach",
       img: v14,
       content:
         " Like gaming gossip, we create buzz around your brand using smart strategies and social...",
-      link: "/services/public-relations-and-outreach",
+      link: "/services/outreachs-and-outreach",
     },
     {
       title: "Content And Copywriting",

@@ -8,11 +8,12 @@ const digitalgamingevents = () => {
       <Head>
         <title>
           {" "}
-          Digital Gaming Events and Expo - Engaging Experiences for Gamers Everywhere
+          Digital Gaming Events and Expo - Engaging Experiences for Gamers
+          Everywhere
         </title>
         <meta
           name="description"
-          content="Elevate your gaming brand to new heights with Moram Napu's top-notch public relations services. As gaming and esports specialists, we craft PR strategies that hit the mark, tailored for gaming companies, esports teams, and developers. Let us be your PR partner and conquer the world of gaming, Web3 gaming, and esports."
+          content="Elevate your gaming brand to new heights with Moram Napu's top-notch  Outreach services. As gaming and esports specialists, we craft Outreachstrategies that hit the mark, tailored for gaming companies, esports teams, and developers. Let us be your Outreachpartner and conquer the world of gaming, Web3 gaming, and esports."
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />

@@ -56,52 +56,52 @@ const DigitalGamingEvents = () => {
       cont: "Every gaming brand is unique, and we get that. Our events match your style and values, giving your brand a spotlight like no other. It's all about keeping things real and relevant to you.",
     },
   ];
-   const navData = [
-     {
-       href: "/services/strategy-and-digitalmarketing",
-       name: "Strategy and Digital Marketing",
-     },
-     {
-       href: "/services/creator-and-influencers",
-       name: "Creator and Influencer",
-     },
-     {
-       href: "/services/digital-brand-communication",
-       name: "Digital Brand Communication",
-     },
-     {
-       href: "/services/data-driven-gaming-insight",
-       name: "Data Driven Gaming-Insight",
-     },
-     {
-       href: "/services/public-relations-and-outreach",
-       name: "Public Relations and Outreach",
-     },
-     {
-       href: "/services/growth-marketing",
-       name: "Growth Marketing",
-     },
-     {
-       href: "/services/performance-marketing",
-       name: "Performance Marketing",
-     },
-     {
-       href: "/services/gaming-product-launches",
-       name: "Gaming Product Launches",
-     },
-     {
-       href: "/services/social-media-management-marketing",
-       name: "Social Media Management Marketing",
-     },
-     {
-       href: "/services/community-building-marketing",
-       name: "Community Building Marketing",
-     },
-     {
-       href: "/services/go-global-pr-marketing",
-       name: "Go Global PR Marketing",
-     },
-   ];
+  const navData = [
+    {
+      href: "/services/strategy-and-digitalmarketing",
+      name: "Strategy and Digital Marketing",
+    },
+    {
+      href: "/services/creator-and-influencers",
+      name: "Creator and Influencer",
+    },
+    {
+      href: "/services/digital-brand-communication",
+      name: "Digital Brand Communication",
+    },
+    {
+      href: "/services/data-driven-gaming-insight",
+      name: "Data Driven Gaming-Insight",
+    },
+    {
+      href: "/services/outreachs-and-outreach",
+      name: " Outreach",
+    },
+    {
+      href: "/services/growth-marketing",
+      name: "Growth Marketing",
+    },
+    {
+      href: "/services/performance-marketing",
+      name: "Performance Marketing",
+    },
+    {
+      href: "/services/gaming-product-launches",
+      name: "Gaming Product Launches",
+    },
+    {
+      href: "/services/social-media-management-marketing",
+      name: "Social Media Management Marketing",
+    },
+    {
+      href: "/services/community-building-marketing",
+      name: "Community Building Marketing",
+    },
+    {
+      href: "/services/go-global-pr-marketing",
+      name: "Go Global OutreachMarketing",
+    },
+  ];
 
   return (
     <div>
@@ -109,7 +109,7 @@ const DigitalGamingEvents = () => {
         <div className="max-w-screen-xl mx-auto md:px-8">
           <div className="content bg-[#eee2dc] py-16  px-4">
             <h1 className=" outline text-center lg:text-9xl md:text-6xl text-4xl text-[#fff] outline-4 font-semibold">
-             Gaming Events and Expo
+              Gaming Events and Expo
             </h1>
           </div>
         </div>

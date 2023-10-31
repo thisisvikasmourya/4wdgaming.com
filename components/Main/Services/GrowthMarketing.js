@@ -28,52 +28,52 @@ const GrowthMarketing = () => {
     },
   ];
 
-   const navData = [
-     {
-       href: "/services/strategy-and-digitalmarketing",
-       name: "Strategy and Digital Marketing",
-     },
-     {
-       href: "/services/creator-and-influencers",
-       name: "Creator and Influencer",
-     },
-     {
-       href: "/services/digital-brand-communication",
-       name: "Digital Brand Communication",
-     },
-     {
-       href: "/services/data-driven-gaming-insight",
-       name: "Data Driven Gaming-Insight",
-     },
-     {
-       href: "/services/public-relations-and-outreach",
-       name: "Public Relations and Outreach",
-     },
-     {
-       href: "/services/digital-gaming-events-and-expo",
-       name: " Gaming Events and Expo",
-     },
-     {
-       href: "/services/performance-marketing",
-       name: "Performance Marketing",
-     },
-     {
-       href: "/services/gaming-product-launches",
-       name: "Gaming Product Launches",
-     },
-     {
-       href: "/services/social-media-management-marketing",
-       name: "Social Media Management Marketing",
-     },
-     {
-       href: "/services/community-building-marketing",
-       name: "Community Building Marketing",
-     },
-     {
-       href: "/services/go-global-pr-marketing",
-       name: "Go Global PR Marketing",
-     },
-   ];
+  const navData = [
+    {
+      href: "/services/strategy-and-digitalmarketing",
+      name: "Strategy and Digital Marketing",
+    },
+    {
+      href: "/services/creator-and-influencers",
+      name: "Creator and Influencer",
+    },
+    {
+      href: "/services/digital-brand-communication",
+      name: "Digital Brand Communication",
+    },
+    {
+      href: "/services/data-driven-gaming-insight",
+      name: "Data Driven Gaming-Insight",
+    },
+    {
+      href: "/services/outreachs-and-outreach",
+      name: " Outreach",
+    },
+    {
+      href: "/services/digital-gaming-events-and-expo",
+      name: " Gaming Events and Expo",
+    },
+    {
+      href: "/services/performance-marketing",
+      name: "Performance Marketing",
+    },
+    {
+      href: "/services/gaming-product-launches",
+      name: "Gaming Product Launches",
+    },
+    {
+      href: "/services/social-media-management-marketing",
+      name: "Social Media Management Marketing",
+    },
+    {
+      href: "/services/community-building-marketing",
+      name: "Community Building Marketing",
+    },
+    {
+      href: "/services/go-global-pr-marketing",
+      name: "Go Global OutreachMarketing",
+    },
+  ];
 
   return (
     <div className="bg-[#eee2dc]">
@@ -93,10 +93,10 @@ const GrowthMarketing = () => {
           </div>
           <div>
             <p className="py-1 text-[#123c69] text-[20px]">
-              Gaming is more than just playing; it&apos;s about making your brand
-              shine. Our Growth Marketing services are like your brand&apos;s
-              mentors, showing it the way through the gaming galaxy with
-              strategies that gamers love.
+              Gaming is more than just playing; it&apos;s about making your
+              brand shine. Our Growth Marketing services are like your
+              brand&apos;s mentors, showing it the way through the gaming galaxy
+              with strategies that gamers love.
             </p>
             {data.map((items, key) => (
               <div key={key}>
@@ -128,4 +128,3 @@ const GrowthMarketing = () => {
 };
 
 export default GrowthMarketing;
-

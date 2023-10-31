@@ -6,8 +6,8 @@ import Navigationbar from "@/components/Navbar/Navigationbar";
 const InternationalPrExpansion = () => {
   const data2 = [
     {
-      title: "Customized PR Strategies:",
-      cont: "We tailor our PR strategies to align with the preferences and interests of international gaming communities. Our customized approach ensures that your brand's messaging and engagement tactics appeal to players worldwide.",
+      title: "Customized OutreachStrategies:",
+      cont: "We tailor our Outreachstrategies to align with the preferences and interests of international gaming communities. Our customized approach ensures that your brand's messaging and engagement tactics appeal to players worldwide.",
     },
     {
       title: "Global Event Promotion:",
@@ -23,17 +23,17 @@ const InternationalPrExpansion = () => {
     },
     {
       title: "Unleash Global Gaming Success:",
-      cont: "With Moram Napu's international PR expansion services, unleash your gaming brand's global success. Our expertise in cultural adaptation, language localization, and global media outreach propels your brand to new heights.",
+      cont: "With Moram Napu's international Outreachexpansion services, unleash your gaming brand's global success. Our expertise in cultural adaptation, language localization, and global media outreach propels your brand to new heights.",
     },
     {
       title: "Contact Us Today:",
-      cont: "Embark on a journey of international gaming success. Contact Moram Napu today and let our international PR experts unlock global opportunities for your gaming brand.",
+      cont: "Embark on a journey of international gaming success. Contact Moram Napu today and let our international Outreachexperts unlock global opportunities for your gaming brand.",
     },
   ];
   const data = [
     {
       title: "Expand Your Gaming Brand Globally:",
-      cont: "At Moram Napu, we understand the significance of expanding your gaming brand to international markets. Our international PR expansion services open the door to global opportunities, connecting your brand with gaming enthusiasts worldwide.",
+      cont: "At Moram Napu, we understand the significance of expanding your gaming brand to international markets. Our international Outreachexpansion services open the door to global opportunities, connecting your brand with gaming enthusiasts worldwide.",
     },
     {
       title: "Cultural Expertise and Nuances:",
@@ -45,7 +45,7 @@ const InternationalPrExpansion = () => {
     },
     {
       title: "Global Media Outreach:",
-      cont: "With a vast network of international media contacts, we facilitate global media outreach for your gaming brand. Our PR experts secure coverage in leading international publications, gaming blogs, and influential media outlets.",
+      cont: "With a vast network of international media contacts, we facilitate global media outreach for your gaming brand. Our Outreachexperts secure coverage in leading international publications, gaming blogs, and influential media outlets.",
     },
   ];
   const navData = [
@@ -70,7 +70,7 @@ const InternationalPrExpansion = () => {
       name: "Data Driven Pr-insight",
     },
     {
-      href: "/services/public-relations",
+      href: "/services/outreachs",
       name: "Public Relations",
     },
     {
@@ -92,7 +92,7 @@ const InternationalPrExpansion = () => {
         <div className="max-w-screen-xl mx-auto md:px-8">
           <div className="content bg-[#eee2dc] py-16  px-4">
             <h1 className=" outline text-center lg:text-9xl md:text-6xl text-4xl text-[#fff] outline-4 font-semibold">
-              International PR-Expansion
+              International Outreach-Expansion
             </h1>
           </div>
         </div>

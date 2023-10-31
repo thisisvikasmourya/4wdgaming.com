@@ -58,8 +58,8 @@ const WhatWeDo = () => {
                   </p>
                   <p className="py-3">
                     Being Friends with Gaming folks: We help brands make friends
-                    online and talk about what&apos;s cooking. This makes the game
-                    community strong and happy.
+                    online and talk about what&apos;s cooking. This makes the
+                    game community strong and happy.
                   </p>
                   <p className="py-3">
                     Making gaming brands Famous and Trusted: We work hard so
@@ -98,10 +98,10 @@ const WhatWeDo = () => {
                       <div className="text-[#123c69] text-[20px]">
                         <p className="py-3">
                           We guide gaming companies to their ideal audience
-                          using PR & Marketing, Content Marketing, Social Media
-                          Management, Digital, Growth and Performance Marketing,
-                          Community Building & Management. We also cultivate
-                          Brand Awareness and Trust.
+                          using Outreach& Marketing, Content Marketing, Social
+                          Media Management, Digital, Growth and Performance
+                          Marketing, Community Building & Management. We also
+                          cultivate Brand Awareness and Trust.
                         </p>
                         {/* <p className="py-3">
                           Aligning company and brand strategies, we create a

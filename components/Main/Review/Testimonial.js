@@ -11,14 +11,14 @@ const testimonials = [
     name: "Nitish Mittersain - MD and Founder",
     title: "Nazara Technologies Ltd.",
     quote:
-      "The right communication has been key to Nazara’s continuous success. SD built up Nazara’s PR and communication from ground up. They have helped create the company’s current perception, and hence are instrumental to Nazara’s growth story.",
+      "The right communication has been key to Nazara’s continuous success. SD built up Nazara’s Outreachand communication from ground up. They have helped create the company’s current perception, and hence are instrumental to Nazara’s growth story.",
   },
   {
     avatar: tfg,
     name: "Jaya Chahar - Founder & CEO, JCDC Sports Pvt. Ltd. Deepak Chahar - Co-Founder & Brand Ambassador",
     title: "Trade Fantasy Gaming (TFG)",
     quote:
-      "Our objective for the launch was to create awareness for TFG to be seen as a serious business in the business circles as well as the cricketer community. We successfully achieved this and much more awareness with the right messaging through PR. ",
+      "Our objective for the launch was to create awareness for TFG to be seen as a serious business in the business circles as well as the cricketer community. We successfully achieved this and much more awareness with the right messaging through Outreach. ",
   },
 
   {

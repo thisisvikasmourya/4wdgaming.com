@@ -85,7 +85,7 @@ const PricingPage = () => {
         "All features of the Player connection Pro",
         "Digital Profile Optimization",
         "Community Building & Management",
-        "PR - Marketing",
+        "Outreach- Marketing",
         "Outreach",
         "$1,000 in Ads Credit",
       ],
@@ -220,8 +220,8 @@ const PricingPage = () => {
               $1200/-
             </p>
             <p className="text-[#123c69] flex py-1">
-              Traditional PR Craft press releases and secure media coverage -
-              $1500/-
+              Traditional OutreachCraft press releases and secure media coverage
+              - $1500/-
             </p>
             <p className="text-[#123c69] flex py-1 ">
               Digital Events Management - $900/-

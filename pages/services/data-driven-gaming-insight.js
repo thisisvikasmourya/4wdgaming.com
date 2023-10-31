@@ -7,8 +7,8 @@ const datadrivenprinsight = () => {
       <Head>
         <title>
           {" "}
-          Data-driven PR Insights - Unlocking the Power of Analytics in Gaming
-          PR{" "}
+          Data-driven OutreachInsights - Unlocking the Power of Analytics in
+          Gaming Outreach{" "}
         </title>
         <meta
           name="description"

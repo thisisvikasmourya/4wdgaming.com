@@ -45,8 +45,8 @@ const SocialMediaManagementMarketing = () => {
       name: "Data Driven Gaming-Insight",
     },
     {
-      href: "/services/public-relations-and-outreach",
-      name: "Public Relations and Outreach",
+      href: "/services/outreachs-and-outreach",
+      name: " Outreach",
     },
     {
       href: "/services/digital-gaming-events-and-expo",
@@ -70,7 +70,7 @@ const SocialMediaManagementMarketing = () => {
     },
     {
       href: "/services/go-global-pr-marketing",
-      name: "Go Global PR Marketing",
+      name: "Go Global OutreachMarketing",
     },
   ];
 
@@ -127,5 +127,3 @@ const SocialMediaManagementMarketing = () => {
 };
 
 export default SocialMediaManagementMarketing;
-
-

@@ -42,14 +42,14 @@ export default function Services() {
     //   title: "Creators and Influencers",
     //   img: web,
     //   content: "We work with some of the top gaming content creators",
-    //   link: "/services/public-relations",
+    //   link: "/services/outreachs",
     // },
 
     // {
     //   title: "Digital Gaming Events",
     //   img: esp,
     //   content: "Your events will be the talk of the gaming community",
-    //   link: "/services/public-relations",
+    //   link: "/services/outreachs",
     // },
   ];
   const posts2 = [
@@ -67,10 +67,10 @@ export default function Services() {
       link: "/services/esports-tournament-organization",
     },
     {
-      title: "Data Driven PR-Insights",
+      title: "Data Driven Outreach-Insights",
       img: data,
       content:
-        " Data-driven PR Insights - Unlocking the Power of Analytics in Gaming",
+        " Data-driven OutreachInsights - Unlocking the Power of Analytics in Gaming",
       link: "/services/data-driven-pr-insight",
     },
     {
@@ -82,10 +82,10 @@ export default function Services() {
     },
 
     {
-      title: "International PR-Expansion",
+      title: "International Outreach-Expansion",
       img: esports,
       content:
-        " International PR Expansion - Unlocking Global Opportunities for Gaming Brands",
+        " International OutreachExpansion - Unlocking Global Opportunities for Gaming Brands",
       link: "/services/international-pr-expansion",
     },
   ];
@@ -108,7 +108,7 @@ export default function Services() {
           OUR SERVICES
         </p>
         <p className="lg:text-2xl text-2xl border-b  text-center pb-3">
-          INDIA&apos;S PREMIER GAMING PR & MARKETING CONSULTANCY
+          INDIA&apos;S OutreachEMIER GAMING Outreach& MARKETING CONSULTANCY
         </p> */}
         {/* <div
           className="grid gap-5 lg:grid-cols-3 pt-5"

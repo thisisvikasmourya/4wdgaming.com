@@ -79,7 +79,7 @@ const EsportsTournament = () => {
       name: "Data Driven Pr-insight",
     },
     {
-      href: "/services/public-relations",
+      href: "/services/outreachs",
       name: "Public Relations",
     },
     {
@@ -88,7 +88,7 @@ const EsportsTournament = () => {
     },
     {
       href: "/services/international-pr-expansion",
-      name: "International PR-Expansion",
+      name: "International Outreach-Expansion",
     },
     {
       href: "/services/gaming-product-launches",

@@ -62,8 +62,8 @@ const CreatorsandInfluencers = () => {
       name: "Data Driven Gaming-Insight",
     },
     {
-      href: "/services/public-relations-and-outreach",
-      name: "Public Relations and Outreach",
+      href: "/services/outreachs-and-outreach",
+      name: " Outreach",
     },
     {
       href: "/services/digital-gaming-events-and-expo",
@@ -91,7 +91,7 @@ const CreatorsandInfluencers = () => {
     },
     {
       href: "/services/go-global-pr-marketing",
-      name: "Go Global PR Marketing",
+      name: "Go Global  Marketing",
     },
   ];
 
@@ -115,9 +115,9 @@ const CreatorsandInfluencers = () => {
             <div>
               <p className="py-1 text-[#123c69] text-[20px]">
                 Ready to kick your gaming brand up a notch? Well, at Moram Napu,
-                we&apos;re not your typical PR folks. We&apos;re more like brand
+                we&apos;re not your typical folks. We&apos;re more like brand
                 builders who know how to make your gaming brand shine in the
-                media and PR world.
+                media and world.
               </p>
 
               {data.map((items, key) => (

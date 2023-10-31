@@ -40,9 +40,7 @@ const Navbar = () => {
               <Link href="/services/digital-brand-communication">
                 Digital Brand Communication
               </Link>
-              <Link href="/services/public-relations-and-outreach">
-                Public Relation and Outreach
-              </Link>
+              <Link href="/services/outreachs-and-outreach">Outreach</Link>
               <Link href="/services/content-and-writing">
                 Content And Copywriting
               </Link>
@@ -74,7 +72,7 @@ const Navbar = () => {
                 Community building and Management
               </Link>
               <Link href="/services/go-global-pr-marketing">
-                Go Global PR Marketing
+                Go Global OutreachMarketing
               </Link>
             </div>
           </div>
@@ -215,8 +213,8 @@ const Navbar = () => {
                     <Link href="/services/digital-brand-communication">
                       Digital Brand Communication
                     </Link>
-                    <Link href="/services/public-relations-and-outreach">
-                      Public Relation and Outreach
+                    <Link href="/services/outreachs-and-outreach">
+                      Outreach
                     </Link>
                     <Link href="/services/content-and-writing">
                       Content And Copywriting
@@ -251,7 +249,7 @@ const Navbar = () => {
                       Community building and Management
                     </Link>
                     <Link href="/services/go-global-pr-marketing">
-                      Go Global PR Marketing
+                      Go Global OutreachMarketing
                     </Link>
                   </div>
                 </div>

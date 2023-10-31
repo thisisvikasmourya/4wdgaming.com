@@ -30,30 +30,32 @@ const CaseStudy = () => {
           </p>
           <p>Hands-on Nazara – India’s first Gaming IPO</p>
           <p className="py-1">
-            When Moram Napu, India&apos;s premier gaming PR, Web3 gaming PR, and
-            Esports PR consultancy, partnered with Nazara Technologies Ltd., a
-            leading gaming company, in 2016, our mission was clear - to
-            establish Nazara as the foremost gaming brand in India and attract
-            investors and funding through strategic PR initiatives.
+            When Moram Napu, India&apos;s premier gaming Outreach, Web3 gaming
+            Outreach, and Esports Outreachconsultancy, partnered with Nazara
+            Technologies Ltd., a leading gaming company, in 2016, our mission
+            was clear - to establish Nazara as the foremost gaming brand in
+            India and attract investors and funding through strategic
+            Outreachinitiatives.
           </p>
           <p className="py-1">
-            Our hands-on approach to PR began with a focused PR program
-            targeting bi-monthly coverage in leading Indian business newspapers
-            and publications, including Economic Times, Mint, YourStory, Inc42,
-            and even the prestigious Times of India. By strategically crafting
-            news features, industry stories, and management profiling, we
-            ensured Nazara&apos;s consistent presence in the media space,
-            captivating the attention of potential investors.
+            Our hands-on approach to Outreachbegan with a focused
+            Outreachprogram targeting bi-monthly coverage in leading Indian
+            business newspapers and publications, including Economic Times,
+            Mint, YourStory, Inc42, and even the prestigious Times of India. By
+            strategically crafting news features, industry stories, and
+            management profiling, we ensured Nazara&apos;s consistent presence
+            in the media space, captivating the attention of potential
+            investors.
           </p>
           <p className="py-1">
-            As pioneers in gaming PR, we were committed to showcasing
+            As pioneers in gaming Outreach, we were committed to showcasing
             Nazara&apos;s potential to the gaming industry. With dedicated
             efforts, we attracted investments from renowned names like IIFL and
             Rakesh Jhunjhunwala within just two years.
           </p>
           <p className="py-1">
-            Our strategic PR initiatives expanded beyond print publications to
-            encompass top online news blogs, TV channels, and interviews,
+            Our strategic Outreachinitiatives expanded beyond print publications
+            to encompass top online news blogs, TV channels, and interviews,
             amplifying Nazara&apos;s brand reach across diverse media platforms.
           </p>
           <p className="py-1">
@@ -111,10 +113,10 @@ const CaseStudy = () => {
             it a landmark event in the tech industry.
           </p>
           <p className="py-1">
-            Our PR strategy began by reworking Yudiz&apos;s brand positioning to
-            create strong brand awareness and garner attention from the media.
-            Our goal was to establish credibility and showcase market readiness
-            for the upcoming IPO.
+            Our Outreachstrategy began by reworking Yudiz&apos;s brand
+            positioning to create strong brand awareness and garner attention
+            from the media. Our goal was to establish credibility and showcase
+            market readiness for the upcoming IPO.
           </p>
           <p className="py-1">
             We strategically shared profiles and established key relationships
@@ -128,7 +130,7 @@ const CaseStudy = () => {
             With a constant presence alongside industry experts, Yudiz Solutions
             Ltd. captured the attention of the media, investors, and tech
             enthusiasts alike. The resounding success of their IPO launch became
-            a testament to our effective PR initiatives.
+            a testament to our effective Outreachinitiatives.
           </p>
         </div>
       </div>
@@ -153,14 +155,15 @@ const CaseStudy = () => {
             a powerful ace up its sleeve - Indian International Cricketer Deepak
             Chahar. Tasked with showcasing Deepak Chahar as the brand ambassador
             and entrepreneur, Moram Napu eagerly embraced the challenge of
-            spearheading the PR campaign for TFG&apos;s grand launch.
+            spearheading the Outreachcampaign for TFG&apos;s grand launch.
           </p>
           <p className="py-1 text-[#123c69]">
             Our primary objective was to create awareness for TFG in the highly
             competitive fantasy gaming space and among cricket enthusiasts.
             Through strategic planning, we emphasized the brand&apos;s vision,
             ambitions, and unique product offerings, ensuring the right
-            messaging reached the target audience through effective PR channels.
+            messaging reached the target audience through effective
+            Outreachchannels.
           </p>
           <p className="py-1 text-[#123c69]">
             The launch had an additional challenge - introducing Jaya Chahar as
@@ -222,15 +225,15 @@ const CaseStudy = () => {
             limited to gaming circles.
           </p>
           <p className="py-1">
-            When Sharmilee Daru PR assumed the mandate for the brand and its
-            intellectual property, a transformational journey commenced. By
+            When Sharmilee Daru Outreachassumed the mandate for the brand and
+            its intellectual property, a transformational journey commenced. By
             crafting repeated and impactful messaging, we steered the
             brand&apos;s perception in the media and beyond, rightfully
             positioning it as The Largest Mobile Cricket Game in the world.
           </p>
           <p className="py-1">
-            Through strategic PR initiatives, the studio, its spokesperson, and
-            the product itself garnered widespread attention, captivating
+            Through strategic Outreachinitiatives, the studio, its spokesperson,
+            and the product itself garnered widespread attention, captivating
             audiences across the globe. The brand&apos;s reputation soared,
             solidifying its place as one of India&apos;s most prominent game
             development studios and an exceptional IP crafted within the
@@ -243,10 +246,10 @@ const CaseStudy = () => {
             gaming aficionados alike.
           </p>
           <p className="py-1">
-            The case study showcases how Moram Napu&apos;s strategic PR efforts
-            successfully elevated World Cricket Championship from a beloved
-            gaming franchise among gamers to a global sensation, recognized as
-            the largest mobile cricket game in the world.
+            The case study showcases how Moram Napu&apos;s strategic
+            Outreachefforts successfully elevated World Cricket Championship
+            from a beloved gaming franchise among gamers to a global sensation,
+            recognized as the largest mobile cricket game in the world.
           </p>
         </div>
       </div>

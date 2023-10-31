@@ -3,9 +3,7 @@ import Image from "next/image";
 import About from "../../../public/images/new/9.gif";
 import Navigationbar from "@/components/Navbar/Navigationbar";
 
-const PerformanceMarketing = () =>
-{
-    
+const PerformanceMarketing = () => {
   const data = [
     {
       title: "Results That Speak:",
@@ -19,9 +17,8 @@ const PerformanceMarketing = () =>
       title: "Esports Promotion Mastery",
       cont: "Esports events are where champions are born. We're experts at promoting your brand during esports tournaments, ensuring it stands out.",
     },
-    
   ];
-    
+
   const data2 = [
     {
       //   title: "Rocking the Latest Game Trends:",
@@ -30,60 +27,60 @@ const PerformanceMarketing = () =>
     },
   ];
 
-   const navData = [
-     {
-       href: "/services/strategy-and-digitalmarketing",
-       name: "Strategy and Digital Marketing",
-     },
-     {
-       href: "/services/creator-and-influencers",
-       name: "Creator and Influencer",
-     },
-     {
-       href: "/services/digital-brand-communication",
-       name: "Digital Brand Communication",
-     },
-     {
-       href: "/services/data-driven-gaming-insight",
-       name: "Data Driven Gaming-Insight",
-     },
-     {
-       href: "/services/public-relations-and-outreach",
-       name: "Public Relations and Outreach",
-     },
-     {
-       href: "/services/digital-gaming-events-and-expo",
-       name: " Gaming Events and Expo",
-     },
-     {
-       href: "/services/growth-marketing",
-       name: "Growth Marketing",
-     },
-     {
-       href: "/services/gaming-product-launches",
-       name: "Gaming Product Launches",
-     },
-     {
-       href: "/services/social-media-management-marketing",
-       name: "Social Media Management Marketing",
-     },
-     {
-       href: "/services/community-building-marketing",
-       name: "Community Building Marketing",
-     },
-     {
-       href: "/services/go-global-pr-marketing",
-       name: "Go Global PR Marketing",
-     },
-   ];
-  
+  const navData = [
+    {
+      href: "/services/strategy-and-digitalmarketing",
+      name: "Strategy and Digital Marketing",
+    },
+    {
+      href: "/services/creator-and-influencers",
+      name: "Creator and Influencer",
+    },
+    {
+      href: "/services/digital-brand-communication",
+      name: "Digital Brand Communication",
+    },
+    {
+      href: "/services/data-driven-gaming-insight",
+      name: "Data Driven Gaming-Insight",
+    },
+    {
+      href: "/services/outreachs-and-outreach",
+      name: " Outreach",
+    },
+    {
+      href: "/services/digital-gaming-events-and-expo",
+      name: " Gaming Events and Expo",
+    },
+    {
+      href: "/services/growth-marketing",
+      name: "Growth Marketing",
+    },
+    {
+      href: "/services/gaming-product-launches",
+      name: "Gaming Product Launches",
+    },
+    {
+      href: "/services/social-media-management-marketing",
+      name: "Social Media Management Marketing",
+    },
+    {
+      href: "/services/community-building-marketing",
+      name: "Community Building Marketing",
+    },
+    {
+      href: "/services/go-global-pr-marketing",
+      name: "Go Global OutreachMarketing",
+    },
+  ];
+
   return (
     <div className="bg-[#eee2dc]">
       <div className="bg-[#eee2dc]" data-aos="zoom-in">
         <div className="max-w-screen-xl mx-auto md:px-8">
           <div className="content bg-[#eee2dc] py-16  px-4 ">
             <h1 className=" outline text-center lg:text-9xl md:text-6xl text-4xl text-[#fff] outline-4 font-semibold">
-               Performance Marketing
+              Performance Marketing
             </h1>
           </div>
         </div>
@@ -130,4 +127,3 @@ const PerformanceMarketing = () =>
 };
 
 export default PerformanceMarketing;
-
