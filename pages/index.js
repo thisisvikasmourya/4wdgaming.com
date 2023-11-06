@@ -1,5 +1,5 @@
 import Head from "next/head";
-import { Inter } from "next/font/google";
+// import { Inter } from "next/font/google";
 import StarsCanvas from "@/components/StarCanvas";
 import Page2 from "@/components/Main/Page2";
 import Services from "@/components/Main/OurServices";
@@ -11,7 +11,7 @@ import ScrollButton from "@/components/Main/ScrollButton";
 import Banner from "@/components/Main/Banner";
 // import BubbleEffect from "@/components/Main/BubbleEffect";
 
-const inter = Inter({ subsets: ["latin"] });
+
 
 export default function Home() {
   return (
